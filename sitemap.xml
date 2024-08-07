@@ -63,8 +63,6 @@
   </url><url>
     <loc>https://example.com/search/</loc>
   </url><url>
-    <loc>https://example.com/categories/testcat/</loc>
-  </url><url>
     <loc>https://example.com/tags/testtag/</loc>
   </url>
 </urlset>
