@@ -17,23 +17,30 @@
 
   
 
+
+
 <style>
      
     :root {
-        --article-font-family: "Merriweather", var(--base-font-family);
+        --article-font-family: "Times New Roman", var(--base-font-family);
+        --article-font-size: 20px;  
+    }
+
+    p {
+        font-family: var(--article-font-family);
+        font-size: var(--article-font-size);
     }
 </style>
 
 <script>
     (function () {
         const customFont = document.createElement('link');
-        customFont.href = "https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap";
-    
+        customFont.href = "https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap";
         customFont.type = "text/css";
         customFont.rel = "stylesheet";
-    
+
         document.head.appendChild(customFont);
-    }());
+    })();
 </script>
     </head>
     <body class="
@@ -289,7 +296,7 @@
     <section class="article-content">
     
     
-    <p><strong>The links below are some of my favorite sites and blogs, which serve as quick access points for me and recommendations for you.</strong></p>
+    <p>The links below are some of my favorite sites and blogs, which serve as quick access points for me and recommendations for you.</p>
 
 </section>
 
