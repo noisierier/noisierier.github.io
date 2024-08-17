@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Haitong Lan</title>
-        <link>https://example.com/categories/</link>
+        <link>http://localhost:1313/categories/</link>
         <description>Recent content in Categories on Haitong Lan</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Sat, 17 Aug 2024 00:21:05 +0800</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 17 Aug 2024 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Math</title>
-        <link>https://example.com/categories/math/</link>
+        <link>http://localhost:1313/categories/math/</link>
         <pubDate>Sat, 17 Aug 2024 00:21:05 +0800</pubDate>
         
-        <guid>https://example.com/categories/math/</guid>
+        <guid>http://localhost:1313/categories/math/</guid>
         <description></description>
         </item>
         <item>
         <title>Note</title>
-        <link>https://example.com/categories/note/</link>
+        <link>http://localhost:1313/categories/note/</link>
         <pubDate>Wed, 14 Aug 2024 20:00:00 +0800</pubDate>
         
-        <guid>https://example.com/categories/note/</guid>
+        <guid>http://localhost:1313/categories/note/</guid>
         <description></description>
         </item>
         <item>
         <title>Machine Learning</title>
-        <link>https://example.com/categories/machine-learning/</link>
+        <link>http://localhost:1313/categories/machine-learning/</link>
         <pubDate>Tue, 06 Aug 2024 16:50:00 +0800</pubDate>
         
-        <guid>https://example.com/categories/machine-learning/</guid>
+        <guid>http://localhost:1313/categories/machine-learning/</guid>
         <description></description>
         </item>
         <item>
         <title>Tutorial</title>
-        <link>https://example.com/categories/tutorial/</link>
+        <link>http://localhost:1313/categories/tutorial/</link>
         <pubDate>Tue, 06 Aug 2024 16:50:00 +0800</pubDate>
         
-        <guid>https://example.com/categories/tutorial/</guid>
+        <guid>http://localhost:1313/categories/tutorial/</guid>
         <description></description>
         </item>
         

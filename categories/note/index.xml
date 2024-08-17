@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Note on Haitong Lan</title>
-        <link>https://example.com/categories/note/</link>
+        <link>http://localhost:1313/categories/note/</link>
         <description>Recent content in Note on Haitong Lan</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Wed, 14 Aug 2024 20:00:00 +0800</lastBuildDate><atom:link href="https://example.com/categories/note/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 14 Aug 2024 20:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/note/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Bayesian signal processing</title>
-        <link>https://example.com/p/bayesian-signal-processing/</link>
+        <link>http://localhost:1313/p/bayesian-signal-processing/</link>
         <pubDate>Wed, 14 Aug 2024 20:00:00 +0800</pubDate>
         
-        <guid>https://example.com/p/bayesian-signal-processing/</guid>
-        <description>&lt;img src="https://example.com/post_file/Bayesian_signal_processing/cover.png" alt="Featured image of post Bayesian signal processing" /&gt;&lt;h1 id=&#34;centerbayesian-signal-processingcenter&#34;&gt;&lt;center&gt;Bayesian signal processing&lt;/center&gt;
+        <guid>http://localhost:1313/p/bayesian-signal-processing/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/Bayesian_signal_processing/cover.png" alt="Featured image of post Bayesian signal processing" /&gt;&lt;h1 id=&#34;centerbayesian-signal-processingcenter&#34;&gt;&lt;center&gt;Bayesian signal processing&lt;/center&gt;
 &lt;/h1&gt;&lt;p&gt;该博客为张颢老师所讲的&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Rm421H7Dc?p=15&amp;amp;vd_source=6cb8982c017348075d81bfccb9a89ae5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;现代信号处理的贝叶斯信号处理部分&lt;/a&gt;的课程个人学习笔记,涵盖贝叶斯公式的含义,贝叶斯学派与频率学派的关系,贝叶斯统计模型的目标函数,蒙特卡洛采样和贝叶斯滤波的内容。&lt;/p&gt;
 &lt;h2 id=&#34;introduce-to-bayes-method&#34;&gt;Introduce to bayes method

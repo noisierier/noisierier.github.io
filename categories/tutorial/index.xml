@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tutorial on Haitong Lan</title>
-        <link>https://example.com/categories/tutorial/</link>
+        <link>http://localhost:1313/categories/tutorial/</link>
         <description>Recent content in Tutorial on Haitong Lan</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Tue, 06 Aug 2024 16:50:00 +0800</lastBuildDate><atom:link href="https://example.com/categories/tutorial/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 06 Aug 2024 16:50:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/tutorial/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>SMLD and SDE</title>
-        <link>https://example.com/p/smld-and-sde/</link>
+        <link>http://localhost:1313/p/smld-and-sde/</link>
         <pubDate>Tue, 06 Aug 2024 16:50:00 +0800</pubDate>
         
-        <guid>https://example.com/p/smld-and-sde/</guid>
-        <description>&lt;img src="https://example.com/post_file/SMLD_and_SDE/cover1.png" alt="Featured image of post SMLD and SDE" /&gt;&lt;h1 id=&#34;centersmld-and-sdecenter&#34;&gt;&lt;center&gt;SMLD and SDE&lt;/center&gt;
-&lt;/h1&gt;&lt;p&gt;Junjie Ma&amp;rsquo;s lab&amp;rsquo;s group meeting on August 1 . I summarized two articles about diffusion model by Song Yang:&lt;em&gt;SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS&lt;/em&gt; and &lt;em&gt;Generative Modeling by Estimating Gradients of the Data Distribution&lt;/em&gt; . For detailed information, see the pdf of this tutprial:&lt;a class=&#34;link&#34; href=&#34;https://example.com/post_file/SMLD_and_SDE/tutorial.pdf&#34; &gt;SMLD and SDE&lt;/a&gt;.&lt;/p&gt;
+        <guid>http://localhost:1313/p/smld-and-sde/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/SMLD_and_SDE/cover1.png" alt="Featured image of post SMLD and SDE" /&gt;&lt;h1 id=&#34;centersmld-and-sdecenter&#34;&gt;&lt;center&gt;SMLD and SDE&lt;/center&gt;
+&lt;/h1&gt;&lt;p&gt;Junjie Ma&amp;rsquo;s lab&amp;rsquo;s group meeting on August 1 . I summarized two articles about diffusion model by Song Yang:&lt;em&gt;SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS&lt;/em&gt; and &lt;em&gt;Generative Modeling by Estimating Gradients of the Data Distribution&lt;/em&gt; . For detailed information, see the pdf of this tutprial:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/SMLD_and_SDE/tutorial.pdf&#34; &gt;SMLD and SDE&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Tutorial of Markdown</title>
-        <link>https://example.com/p/tutorial-of-markdown/</link>
+        <link>http://localhost:1313/p/tutorial-of-markdown/</link>
         <pubDate>Mon, 05 Aug 2024 12:14:10 +0800</pubDate>
         
-        <guid>https://example.com/p/tutorial-of-markdown/</guid>
-        <description>&lt;img src="https://example.com/post_file/Markdown/cover.png" alt="Featured image of post Tutorial of Markdown" /&gt;&lt;h1 id=&#34;centertutorial-of-markdowncenter&#34;&gt;&lt;center&gt;Tutorial of Markdown&lt;/center&gt;
+        <guid>http://localhost:1313/p/tutorial-of-markdown/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/Markdown/cover.png" alt="Featured image of post Tutorial of Markdown" /&gt;&lt;h1 id=&#34;centertutorial-of-markdowncenter&#34;&gt;&lt;center&gt;Tutorial of Markdown&lt;/center&gt;
 &lt;/h1&gt;&lt;h3 id=&#34;basic-grammar&#34;&gt;Basic grammar
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;引用&lt;/p&gt;
