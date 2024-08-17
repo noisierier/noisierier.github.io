@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Math on Haitong Lan</title>
-        <link>https://example.com/categories/math/</link>
-        <description>Recent content in Math on Haitong Lan</description>
+        <title>Note on Haitong Lan</title>
+        <link>https://example.com/categories/note/</link>
+        <description>Recent content in Note on Haitong Lan</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Wed, 14 Aug 2024 20:00:00 +0800</lastBuildDate><atom:link href="https://example.com/categories/math/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 14 Aug 2024 20:00:00 +0800</lastBuildDate><atom:link href="https://example.com/categories/note/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Bayesian signal processing</title>
         <link>https://example.com/p/bayesian-signal-processing/</link>
         <pubDate>Wed, 14 Aug 2024 20:00:00 +0800</pubDate>
@@ -358,27 +358,6 @@ body {
     line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
 }
 &lt;/style&gt;
-</description>
-        </item>
-        <item>
-        <title>Correlation operation and random signal processing</title>
-        <link>https://example.com/p/correlation-operation-and-random-signal-processing/</link>
-        <pubDate>Wed, 07 Aug 2024 23:30:00 +0800</pubDate>
-        
-        <guid>https://example.com/p/correlation-operation-and-random-signal-processing/</guid>
-        <description>&lt;img src="https://example.com/post_file/Correlation_operation_and_random_signal_processing/cover.png" alt="Featured image of post Correlation operation and random signal processing" /&gt;&lt;h1 id=&#34;centercorrelation-operation-and-random-signal-processingcenter&#34;&gt;&lt;center&gt;Correlation operation and random signal processing&lt;/center&gt;
-&lt;/h1&gt;&lt;p&gt;My midterm paper on &lt;em&gt;probability theory and stochastic processes&lt;/em&gt;. This paper describes the concept of &lt;strong&gt;correlation operation&lt;/strong&gt;, mainly introduces the application of correlation operation in &lt;strong&gt;random signal processing&lt;/strong&gt;, including stationary random signal, blind source separation, template matching filter. You can read my course papers in this link:&lt;a class=&#34;link&#34; href=&#34;https://example.com/post_file/Correlation_operation_and_random_signal_processing/paper.pdf&#34; &gt;Correlation operation and random signal processing&lt;/a&gt;.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>A non-uniform node finite difference algorithm</title>
-        <link>https://example.com/p/a-non-uniform-node-finite-difference-algorithm/</link>
-        <pubDate>Wed, 07 Aug 2024 00:22:00 +0800</pubDate>
-        
-        <guid>https://example.com/p/a-non-uniform-node-finite-difference-algorithm/</guid>
-        <description>&lt;img src="https://example.com/post_file/non_uni_ode/cover1.png" alt="Featured image of post A non-uniform node finite difference algorithm" /&gt;&lt;h1 id=&#34;centera-non-uniform-node-finite-difference-algorithmcenter&#34;&gt;&lt;center&gt;A non-uniform node finite difference algorithm&lt;/center&gt;
-&lt;/h1&gt;&lt;p&gt;Final design of &lt;em&gt;calculation method&lt;/em&gt; course in the first semester of sophomore year. Based on the finite difference method , I proposed an ODE algorithm of &lt;strong&gt;non-uniform finite difference&lt;/strong&gt; , and verified by &lt;em&gt;Matlab&lt;/em&gt; simulation, the accuracy of the solution is improved by &lt;em&gt;10%&lt;/em&gt; . You can find this course paper in this pdf : &lt;a class=&#34;link&#34; href=&#34;https://example.com/post_file/non_uni_ode/odepaper.pdf&#34; &gt;A non-uniform node finite difference algorithm&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In addition , I made an academic poster for a simulated academic conference in the college.You can find in this pdf : &lt;a class=&#34;link&#34; href=&#34;https://example.com/post_file/non_uni_ode/Poster.pdf&#34; &gt;Poster&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         

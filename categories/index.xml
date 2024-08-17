@@ -7,12 +7,20 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Wed, 07 Aug 2024 23:30:00 +0800</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 14 Aug 2024 20:00:00 +0800</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Math</title>
         <link>https://example.com/categories/math/</link>
-        <pubDate>Wed, 07 Aug 2024 23:30:00 +0800</pubDate>
+        <pubDate>Wed, 14 Aug 2024 20:00:00 +0800</pubDate>
         
         <guid>https://example.com/categories/math/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Note</title>
+        <link>https://example.com/categories/note/</link>
+        <pubDate>Wed, 14 Aug 2024 20:00:00 +0800</pubDate>
+        
+        <guid>https://example.com/categories/note/</guid>
         <description></description>
         </item>
         <item>

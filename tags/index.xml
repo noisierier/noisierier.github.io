@@ -7,10 +7,18 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Wed, 07 Aug 2024 23:30:00 +0800</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 14 Aug 2024 20:00:00 +0800</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Bayesian Statistics</title>
+        <link>https://example.com/tags/bayesian-statistics/</link>
+        <pubDate>Wed, 14 Aug 2024 20:00:00 +0800</pubDate>
+        
+        <guid>https://example.com/tags/bayesian-statistics/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Signal Processing</title>
         <link>https://example.com/tags/signal-processing/</link>
-        <pubDate>Wed, 07 Aug 2024 23:30:00 +0800</pubDate>
+        <pubDate>Wed, 14 Aug 2024 20:00:00 +0800</pubDate>
         
         <guid>https://example.com/tags/signal-processing/</guid>
         <description></description>
