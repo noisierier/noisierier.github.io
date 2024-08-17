@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Markdown on Haitong Lan</title>
-        <link>http://localhost:1313/tags/markdown/</link>
+        <link>https://example.com/tags/markdown/</link>
         <description>Recent content in Markdown on Haitong Lan</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Mon, 05 Aug 2024 12:14:10 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 05 Aug 2024 12:14:10 +0800</lastBuildDate><atom:link href="https://example.com/tags/markdown/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Tutorial of Markdown</title>
-        <link>http://localhost:1313/p/tutorial-of-markdown/</link>
+        <link>https://example.com/p/tutorial-of-markdown/</link>
         <pubDate>Mon, 05 Aug 2024 12:14:10 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/tutorial-of-markdown/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/Markdown/cover.png" alt="Featured image of post Tutorial of Markdown" /&gt;&lt;h1 id=&#34;centertutorial-of-markdowncenter&#34;&gt;&lt;center&gt;Tutorial of Markdown&lt;/center&gt;
+        <guid>https://example.com/p/tutorial-of-markdown/</guid>
+        <description>&lt;img src="https://example.com/post_file/Markdown/cover.png" alt="Featured image of post Tutorial of Markdown" /&gt;&lt;h1 id=&#34;centertutorial-of-markdowncenter&#34;&gt;&lt;center&gt;Tutorial of Markdown&lt;/center&gt;
 &lt;/h1&gt;&lt;h3 id=&#34;basic-grammar&#34;&gt;Basic grammar
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;引用&lt;/p&gt;
