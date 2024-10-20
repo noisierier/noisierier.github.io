@@ -14,7 +14,8 @@
         
         <guid>http://localhost:1313/p/score-based-variational-inference-for-inverse-problems/</guid>
         <description>&lt;img src="http://localhost:1313/post_file/Score-Based_Variational_Inference_for_Inverse_Problems/cover.png" alt="Featured image of post Score-Based Variational Inference for Inverse Problems" /&gt;&lt;h1 id=&#34;centerscore-based-variational-inference-for-inverse-problemscenter&#34;&gt;&lt;center&gt;Score-Based Variational Inference for Inverse Problems&lt;/center&gt;
-&lt;/h1&gt;</description>
+&lt;/h1&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on September 1.The article &lt;em&gt;Score-Based Variational Inference for Inverse Problems&lt;/em&gt; was shared at the group meeting,see the pdf of this tutorial:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/Score-Based_Variational_Inference_for_Inverse_Problems/Score_VI_for_Inverse_problem.pdf&#34; &gt;Score-Based Variational Inference for Inverse Problems&lt;/a&gt;.&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>SMLD and SDE</title>
@@ -23,7 +24,7 @@
         
         <guid>http://localhost:1313/p/smld-and-sde/</guid>
         <description>&lt;img src="http://localhost:1313/post_file/SMLD_and_SDE/cover1.png" alt="Featured image of post SMLD and SDE" /&gt;&lt;h1 id=&#34;centersmld-and-sdecenter&#34;&gt;&lt;center&gt;SMLD and SDE&lt;/center&gt;
-&lt;/h1&gt;&lt;p&gt;Junjie Ma&amp;rsquo;s lab&amp;rsquo;s group meeting on August 1 . I summarized two articles about diffusion model by Song Yang:&lt;em&gt;SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS&lt;/em&gt; and &lt;em&gt;Generative Modeling by Estimating Gradients of the Data Distribution&lt;/em&gt; . For detailed information, see the pdf of this tutprial:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/SMLD_and_SDE/tutorial.pdf&#34; &gt;SMLD and SDE&lt;/a&gt;.&lt;/p&gt;
+&lt;/h1&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on August 1 . I summarized two articles about diffusion model by Song Yang:&lt;em&gt;SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS&lt;/em&gt; and &lt;em&gt;Generative Modeling by Estimating Gradients of the Data Distribution&lt;/em&gt; . For detailed information, see the pdf of this tutorial:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/SMLD_and_SDE/tutorial.pdf&#34; &gt;SMLD and SDE&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         
