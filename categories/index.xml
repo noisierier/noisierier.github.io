@@ -7,7 +7,23 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Sat, 17 Aug 2024 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 19 Sep 2024 20:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Machine Learning</title>
+        <link>http://localhost:1313/categories/machine-learning/</link>
+        <pubDate>Thu, 19 Sep 2024 20:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/categories/machine-learning/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Tutorial</title>
+        <link>http://localhost:1313/categories/tutorial/</link>
+        <pubDate>Thu, 19 Sep 2024 20:00:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/categories/tutorial/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Math</title>
         <link>http://localhost:1313/categories/math/</link>
         <pubDate>Sat, 17 Aug 2024 00:21:05 +0800</pubDate>
@@ -21,22 +37,6 @@
         <pubDate>Wed, 14 Aug 2024 20:00:00 +0800</pubDate>
         
         <guid>http://localhost:1313/categories/note/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Machine Learning</title>
-        <link>http://localhost:1313/categories/machine-learning/</link>
-        <pubDate>Tue, 06 Aug 2024 16:50:00 +0800</pubDate>
-        
-        <guid>http://localhost:1313/categories/machine-learning/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Tutorial</title>
-        <link>http://localhost:1313/categories/tutorial/</link>
-        <pubDate>Tue, 06 Aug 2024 16:50:00 +0800</pubDate>
-        
-        <guid>http://localhost:1313/categories/tutorial/</guid>
         <description></description>
         </item>
         

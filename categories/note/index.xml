@@ -347,8 +347,48 @@ $$
 依然是某种实验中的均值与先验分布均值的线性凸组合,从我们在上一个章节中的Gauss分布似然到这个章节的伯努利分布似然,最后都得到了线性凸组合的学习形式,这可能并不是一种偶然,这些简单的例子给我们启发：在高维空间中,复杂分布的学习过程也可能是迭代的线性凸组合。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;sampling&#34;&gt;Sampling
-&lt;/h2&gt;&lt;h3 id=&#34;inverse-distribution-function&#34;&gt;Inverse distribution function
-&lt;/h3&gt;&lt;h3 id=&#34;accept-reject-sampling&#34;&gt;Accept-reject sampling
+&lt;/h2&gt;&lt;p&gt;使用Bayes方法的核心在于后验分布的处理，但是后验分布的形式往往是极其复杂的，极大多数的后验分布都是难以去积分甚至不可积的，统计中常用的方法就是&lt;strong&gt;生成&lt;/strong&gt;符合后验分布的样本，从而利用样本代替解析表达的分布进行计算，这种生成样本的方法又被称作&lt;strong&gt;采样&lt;/strong&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;模拟&lt;/strong&gt;是指把某一现实的或抽象的系统的某种特征或部分状态， 用另一系统（称为模拟模型）来代替或近似。 为了解决某问题， 把它变成一个概率模型的求解问题， 然后产生符合模型的大量随机数， 对产生的随机数进行分析从而求解问题， 这种方法叫做&lt;strong&gt;随机模拟&lt;/strong&gt;方法， 又称为&lt;strong&gt;蒙特卡洛&lt;/strong&gt;(Monte Carlo)方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;inverse-distribution-function&#34;&gt;Inverse distribution function
+&lt;/h3&gt;&lt;p&gt;逆分布采样的描述很简单，目标生成随机变量$X\sim F(X)$的样本($F(x)$为累计分布函数)，只需要生成随机样本$Y\sim F^{-1}(U)$即可，$Y$即想要得到的分布，$U$为服从标准正态分布的随机变量。&lt;/p&gt;
+&lt;p&gt;这样来看，生成随机变量的样本的过程就很简单，第一步，生成均匀分布的样本(可以利用线性同余法等方法生成)，第二步，求得目标分布累积分布函数的逆，第三步，代入累积分布函数的逆求得目标样本。&lt;/p&gt;
+&lt;p&gt;现在简单的&lt;strong&gt;证明&lt;/strong&gt;一下随机变量$Y$与随机变量$X$服从同一个分布，求$Y$的累积分布函数：
+$$
+\begin{equation}
+\begin{aligned}
+F_Y(y)&amp;amp; =P(y\leq Y)\
+&amp;amp; =P(F^{-1}(u)\leq Y)\
+&amp;amp; =P(u\leq F(Y))\
+&amp;amp; =F(Y)
+\end{aligned}
+\end{equation}
+$$
+可见，$Y$的累积分布函数实际上就是$X$的累积分布函数，所以它们两个是同一个随机变量，如此，对于易于求得逆累积分布的随机变量，我们便可以通过这种方法求得符合该分布的样本，例如指数分布、泊松分布。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Example:Sampling for Gaussian Distribution&lt;/strong&gt;
+Guassian分布的逆分布函数并不好求，虽然我们可以通过中心极限定理生成Gaussian分布，但那种方法并不属于逆分布生成，Box-Muller算法是一种经典的Gaussian分布生成算法，使用了极坐标变换来处理Gaussian分布难以求逆的问题，接下来我们介绍这种方法。&lt;/p&gt;
+&lt;p&gt;假设我们目标求得两个独立同分布的标准高斯随机变量，$X_1,X_2\overset{\mathrm{iid}}{\sim} N(0,1)$，则它们的联合概率密度为
+$$
+\begin{equation}
+\begin{aligned}
+f_{X Y}(x, y) &amp;amp; =\frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{x^2}{2 \sigma^2}\right) \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{y^2}{2 \sigma^2}\right) \
+&amp;amp; =\frac{1}{2 \pi } \exp \left(-\frac{x^2+y^2}{2 }\right)
+\end{aligned}
+\end{equation}
+$$
+对该联合概率密度进行极坐标变换，有
+$$
+\begin{equation}
+\begin{aligned}
+f_{X Y}(x, y) &amp;amp;=f_{XY}(\rho \cos\theta,\rho \sin\theta)\
+&amp;amp;=\frac{1}{2 \pi } \exp \left(-\frac{\rho^2}{2 }\right)\rho
+\end{aligned}
+\end{equation}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;accept-reject-sampling&#34;&gt;Accept-reject sampling
 &lt;/h3&gt;&lt;h3 id=&#34;importance-sampling&#34;&gt;Importance sampling
 &lt;/h3&gt;&lt;h3 id=&#34;markov-chain-monte-carlomcmc&#34;&gt;Markov chain Monte Carlo(MCMC)
 &lt;/h3&gt;&lt;style&gt;
