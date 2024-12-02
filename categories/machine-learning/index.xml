@@ -7,14 +7,24 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Thu, 19 Sep 2024 20:00:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 02 Dec 2024 16:50:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions</title>
+        <link>http://localhost:1313/p/sampling-is-as-easy-as-learning-the-score-theory-for-diffusion-models-with-minimal-data-assumptions/</link>
+        <pubDate>Mon, 02 Dec 2024 16:50:00 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/sampling-is-as-easy-as-learning-the-score-theory-for-diffusion-models-with-minimal-data-assumptions/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/sampling_theory/cover.png" alt="Featured image of post Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions" /&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on December 2.The article &lt;em&gt;Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions&lt;/em&gt; was shared at the group meeting, see the pdf of this slide:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_filesampling_theory/Diffusion.pdf&#34; &gt;Slide&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Score-Based Variational Inference for Inverse Problems</title>
         <link>http://localhost:1313/p/score-based-variational-inference-for-inverse-problems/</link>
         <pubDate>Thu, 19 Sep 2024 20:00:00 +0800</pubDate>
         
         <guid>http://localhost:1313/p/score-based-variational-inference-for-inverse-problems/</guid>
         <description>&lt;img src="http://localhost:1313/post_file/Score-Based_Variational_Inference_for_Inverse_Problems/cover.png" alt="Featured image of post Score-Based Variational Inference for Inverse Problems" /&gt;&lt;h1 id=&#34;centerscore-based-variational-inference-for-inverse-problemscenter&#34;&gt;&lt;center&gt;Score-Based Variational Inference for Inverse Problems&lt;/center&gt;
-&lt;/h1&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on September 1.The article &lt;em&gt;Score-Based Variational Inference for Inverse Problems&lt;/em&gt; was shared at the group meeting,see the pdf of this tutorial:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/Score-Based_Variational_Inference_for_Inverse_Problems/Score_VI_for_Inverse_problem.pdf&#34; &gt;Score-Based Variational Inference for Inverse Problems&lt;/a&gt;.&lt;/p&gt;
+&lt;/h1&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on September 1.The article &lt;em&gt;Score-Based Variational Inference for Inverse Problems&lt;/em&gt; was shared at the group meeting,
+see the pdf of this tutorial:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/Score-Based_Variational_Inference_for_Inverse_Problems/Score_VI_for_Inverse_problem.pdf&#34; &gt;Score-Based Variational Inference for Inverse Problems&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         <item>

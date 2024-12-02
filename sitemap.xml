@@ -3,27 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-09-19T20:00:00+08:00</lastmod>
+    <lastmod>2024-12-02T16:50:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-09-19T20:00:00+08:00</lastmod>
+    <lastmod>2024-12-02T16:50:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/diffusion/</loc>
-    <lastmod>2024-09-19T20:00:00+08:00</lastmod>
+    <lastmod>2024-12-02T16:50:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/machine-learning/</loc>
-    <lastmod>2024-09-19T20:00:00+08:00</lastmod>
+    <lastmod>2024-12-02T16:50:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2024-09-19T20:00:00+08:00</lastmod>
+    <lastmod>2024-12-02T16:50:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/score-based-variational-inference-for-inverse-problems/</loc>
-    <lastmod>2024-09-19T20:00:00+08:00</lastmod>
+    <loc>http://localhost:1313/p/sampling-is-as-easy-as-learning-the-score-theory-for-diffusion-models-with-minimal-data-assumptions/</loc>
+    <lastmod>2024-12-02T16:50:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-09-19T20:00:00+08:00</lastmod>
+    <lastmod>2024-12-02T16:50:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/tutorial/</loc>
+    <lastmod>2024-12-02T16:50:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/score-based-variational-inference-for-inverse-problems/</loc>
     <lastmod>2024-09-19T20:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/math/</loc>
