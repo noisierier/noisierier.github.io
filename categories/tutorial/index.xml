@@ -13,7 +13,7 @@
         <pubDate>Mon, 02 Dec 2024 16:50:00 +0800</pubDate>
         
         <guid>http://localhost:1313/p/sampling-is-as-easy-as-learning-the-score-theory-for-diffusion-models-with-minimal-data-assumptions/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/sampling_theory/cover.png" alt="Featured image of post Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions" /&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on December 2.The article &lt;em&gt;Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions&lt;/em&gt; was shared at the group meeting, see the pdf of this slide:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_filesampling_theory/Diffusion.pdf&#34; &gt;Slide&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/post_file/sampling_theory/cover.png" alt="Featured image of post Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions" /&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on December 2.The article &lt;em&gt;Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions&lt;/em&gt; was shared at the group meeting, see the pdf of this slide:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/sampling_theory/Diffusion.pdf&#34; &gt;Slide&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -28,12 +28,12 @@ see the pdf of this tutorial:&lt;a class=&#34;link&#34; href=&#34;http://localho
 </description>
         </item>
         <item>
-        <title>SMLD and SDE</title>
-        <link>http://localhost:1313/p/smld-and-sde/</link>
+        <title>SMLD and SDE for diffusion model</title>
+        <link>http://localhost:1313/p/smld-and-sde-for-diffusion-model/</link>
         <pubDate>Tue, 06 Aug 2024 16:50:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/smld-and-sde/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/SMLD_and_SDE/cover1.png" alt="Featured image of post SMLD and SDE" /&gt;&lt;h1 id=&#34;centersmld-and-sdecenter&#34;&gt;&lt;center&gt;SMLD and SDE&lt;/center&gt;
+        <guid>http://localhost:1313/p/smld-and-sde-for-diffusion-model/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/SMLD_and_SDE/cover1.png" alt="Featured image of post SMLD and SDE for diffusion model" /&gt;&lt;h1 id=&#34;centersmld-and-sde-for-diffusion-modelcenter&#34;&gt;&lt;center&gt;SMLD and SDE for diffusion model&lt;/center&gt;
 &lt;/h1&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on August 1 . I summarized two articles about diffusion model by Song Yang:&lt;em&gt;SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS&lt;/em&gt; and &lt;em&gt;Generative Modeling by Estimating Gradients of the Data Distribution&lt;/em&gt; . For detailed information, see the pdf of this tutorial:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/SMLD_and_SDE/tutorial.pdf&#34; &gt;SMLD and SDE&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>

@@ -7,7 +7,140 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Mon, 02 Dec 2024 16:50:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 11 Jan 2025 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Course notes</title>
+        <link>http://localhost:1313/p/course-notes/</link>
+        <pubDate>Sat, 11 Jan 2025 00:21:05 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/course-notes/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/cover.png" alt="Featured image of post Course notes" /&gt;&lt;h1 id=&#34;centercourse-notescenter&#34;&gt;&lt;center&gt;Course notes&lt;/center&gt;
+&lt;/h1&gt;&lt;p&gt;这篇blog用于记录和整理北京邮电大学&amp;amp;QMUL合办专业——电信工程及管理(Telecommunications engineering and management)专业学习笔记，以及一些课程教材推荐。&lt;/p&gt;
+&lt;h2 id=&#34;大一&#34;&gt;大一
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;高等数学&lt;/p&gt;
+&lt;p&gt;参考书目：1) Advanced Mathematics，By Jianhua Yuan,et al&lt;br&gt;
+                 2) Calculus, 13th Edition,by George B. Thomas, et al&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;线性代数&lt;/p&gt;
+&lt;p&gt;参考书目：1) linear algebra，by Wenbo Zhang,et al&lt;br&gt;
+                 2) Linear Algebra and its Applications,David C.Lay,et al&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;大学物理&lt;/p&gt;
+&lt;p&gt;参考书目：1) Physics for Scientists and Engineers with Modern
+Physics: D. C. Giancoli.&lt;br&gt;
+                 2) Berkeley Physics Course&lt;br&gt;
+                 3) 电磁学（第三版）,作者：贾起民、郑永令、陈暨耀&lt;br&gt;
+                 4) 新概念物理学教程 光学，作者：赵凯华&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;电路分析&lt;/p&gt;
+&lt;p&gt;参考书目：电路分析基础（第二版）（英文版）作者：王宏祥；James W. Nilsson, Susan A. Riedel&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;C语言程序设计基础&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;大二&#34;&gt;大二
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;数字电路设计&lt;/p&gt;
+&lt;p&gt;课程笔记:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e7%94%b5%e8%b7%af%e8%ae%be%e8%ae%a1/note.pdf&#34; &gt;note&lt;/a&gt;
+&lt;br&gt;
+参考书目:Digital Design: Principles and Practices, 5th edition by John F. Wakerly&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;JAVA&lt;/p&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/JAVA/note.pdf&#34; &gt;note&lt;/a&gt;
+&lt;br&gt;
+参考书目：Head First Java, 3rd Edition by Kathy Sierra, Bert Bates, Trisha Gee&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;概率论与随机过程&lt;/p&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%a6%82%e7%8e%87%e8%ae%ba%e4%b8%8e%e9%9a%8f%e6%9c%ba%e8%bf%87%e7%a8%8b/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+参考书目：概率论与随机过程,作者:周清 张丽华&lt;br&gt;
+参考课程：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Rz42127xT/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;随机过程 张颢 2024年春&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;计算机网络&lt;/p&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%bd%91%e7%bb%9c/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+参考书目：Computer Networking: A Top-Down Approach,Authors:PictureJames F. Kurose,PictureKeith W. Ross&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数字信号处理&lt;/p&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e4%bf%a1%e5%8f%b7%e5%a4%84%e7%90%86/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+参考书目：Discrete Time Signal Processing by Alan V. Oppenheim and Ronald W. Schafer.&lt;br&gt;
+参考课程：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1vQ4y1p79b/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;数字信号处理 张颢 2023年秋&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;工程数学&lt;/p&gt;
+&lt;p&gt;参考书目：Engineering Mathematics，By Xia Shi&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;信号与系统&lt;/p&gt;
+&lt;p&gt;参考书目：Signals and Systems 2nd Edition，by Alan Oppenheim , Alan Willsky , S. Nawab&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AI导论&lt;/p&gt;
+&lt;p&gt;参考课程：1) &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV16Y4y1M7DX/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;强化学习基础 （本科生课程） 北京邮电大学 鲁鹏&lt;/a&gt;&lt;br&gt;
+                 2) &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV18P4y1a7Fw/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;机器视觉教学课程&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;电子电路基础&lt;/p&gt;
+&lt;p&gt;参考书目：1) 新概念模拟电路，作者：杨建国&lt;br&gt;
+                 2) 模拟电子技术基础（第五版）,作者：童诗白等&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数值计算方法&lt;/p&gt;
+&lt;p&gt;参考书目：沈剑华,数值计算基础（第二版）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据结构&lt;/p&gt;
+&lt;p&gt;参考书目：数据结构，作者：严蔚敏&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;大三&#34;&gt;大三
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;通信原理&lt;/p&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e9%80%9a%e4%bf%a1%e5%8e%9f%e7%90%86/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+参考书目： 1) 通信原理（第4版） 周炯磐 庞沁华 续大我 吴伟陵 杨鸿文&lt;br&gt;
+                   2) Fundamentals of Communication Systems.John G.Proakis;Masoud Salehi&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;电磁场与电磁波&lt;/p&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%94%b5%e7%a3%81%e5%9c%ba%e4%b8%8e%e7%94%b5%e7%a3%81%e6%b3%a2/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+参考书目：Electromagnetic Field Theory Fundamentals,Guru&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;机器学习&lt;/p&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+参考书目：1) Foundations of Machine Learning,second edition,Mehryar Mohri,
+Afshin Rostamizadeh,and Ameet Talwalkar&lt;br&gt;
+                 2) Understanding Machine Learning:From Theory to Algorithms,by Cambridge University Press.&lt;br&gt;
+参考课程：&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/lWGdFeMsjzg?si=zmQMDz-2WF8gwkkg_&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Introduction to Machine Learning&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;网络编程&lt;/p&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%bd%91%e7%bb%9c%e7%bc%96%e7%a8%8b/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+参考书目：An Introduction to Network Programming with Java, by Jan Graba, 3rd Edition&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数字系统设计&lt;/p&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e7%b3%bb%e7%bb%9f%e8%ae%be%e8%ae%a1/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+参考书目：Circuit design with VHDL by Pedroni, Volnei A&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
         <title>Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions</title>
         <link>http://localhost:1313/p/sampling-is-as-easy-as-learning-the-score-theory-for-diffusion-models-with-minimal-data-assumptions/</link>
         <pubDate>Mon, 02 Dec 2024 16:50:00 +0800</pubDate>

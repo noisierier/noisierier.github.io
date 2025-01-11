@@ -7,13 +7,73 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Mon, 02 Dec 2024 16:50:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 11 Jan 2025 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Course notes</title>
+        <link>http://localhost:1313/p/course-notes/</link>
+        <pubDate>Sat, 11 Jan 2025 00:21:05 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/course-notes/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/My_mathematical_modeling/cover.png" alt="Featured image of post Course notes" /&gt;&lt;h1 id=&#34;centercourse-notescenter&#34;&gt;&lt;center&gt;Course notes&lt;/center&gt;
+&lt;/h1&gt;&lt;p&gt;这篇blog用于记录和整理北京邮电大学电信工程及管理(Telecommunications engineering and management)专业学习笔记。&lt;/p&gt;
+&lt;h2 id=&#34;大一&#34;&gt;大一
+&lt;/h2&gt;&lt;h2 id=&#34;大二&#34;&gt;大二
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;数字电路设计&lt;/p&gt;
+&lt;p&gt;课程笔记:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e7%94%b5%e8%b7%af%e8%ae%be%e8%ae%a1/note.pdf&#34; &gt;note&lt;/a&gt;
+&lt;br&gt;
+参考书目:Digital Design: Principles and Practices, 5th edition by John F. Wakerly&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;JAVA&lt;/p&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/JAVA/note.pdf&#34; &gt;note&lt;/a&gt;
+&lt;br&gt;
+参考书目：Head First Java, 3rd Edition by Kathy Sierra, Bert Bates, Trisha Gee&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;概率论与随机过程&lt;/p&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%a6%82%e7%8e%87%e8%ae%ba%e4%b8%8e%e9%9a%8f%e6%9c%ba%e8%bf%87%e7%a8%8b/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+参考书目：概率论与随机过程,作者:周清 张丽华&lt;br&gt;
+参考课程：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Rz42127xT/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;随机过程 张颢 2024年春&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;计算机网络&lt;/p&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%bd%91%e7%bb%9c/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+参考书目：Computer Networking: A Top-Down Approach,Authors:PictureJames F. Kurose,PictureKeith W. Ross&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数字信号处理&lt;/p&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e4%bf%a1%e5%8f%b7%e5%a4%84%e7%90%86/note.pdf&#34; &gt;note&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;大三&#34;&gt;大三
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;通信原理&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;电磁场与电磁波&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;机器学习&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;网络编程&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数字系统设计&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
         <title>Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions</title>
         <link>http://localhost:1313/p/sampling-is-as-easy-as-learning-the-score-theory-for-diffusion-models-with-minimal-data-assumptions/</link>
         <pubDate>Mon, 02 Dec 2024 16:50:00 +0800</pubDate>
         
         <guid>http://localhost:1313/p/sampling-is-as-easy-as-learning-the-score-theory-for-diffusion-models-with-minimal-data-assumptions/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/sampling_theory/cover.png" alt="Featured image of post Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions" /&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on December 2.The article &lt;em&gt;Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions&lt;/em&gt; was shared at the group meeting, see the pdf of this slide:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_filesampling_theory/Diffusion.pdf&#34; &gt;Slide&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/post_file/sampling_theory/cover.png" alt="Featured image of post Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions" /&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on December 2.The article &lt;em&gt;Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions&lt;/em&gt; was shared at the group meeting, see the pdf of this slide:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/sampling_theory/Diffusion.pdf&#34; &gt;Slide&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -458,12 +518,12 @@ body {
 </description>
         </item>
         <item>
-        <title>SMLD and SDE</title>
-        <link>http://localhost:1313/p/smld-and-sde/</link>
+        <title>SMLD and SDE for diffusion model</title>
+        <link>http://localhost:1313/p/smld-and-sde-for-diffusion-model/</link>
         <pubDate>Tue, 06 Aug 2024 16:50:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/smld-and-sde/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/SMLD_and_SDE/cover1.png" alt="Featured image of post SMLD and SDE" /&gt;&lt;h1 id=&#34;centersmld-and-sdecenter&#34;&gt;&lt;center&gt;SMLD and SDE&lt;/center&gt;
+        <guid>http://localhost:1313/p/smld-and-sde-for-diffusion-model/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/SMLD_and_SDE/cover1.png" alt="Featured image of post SMLD and SDE for diffusion model" /&gt;&lt;h1 id=&#34;centersmld-and-sde-for-diffusion-modelcenter&#34;&gt;&lt;center&gt;SMLD and SDE for diffusion model&lt;/center&gt;
 &lt;/h1&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on August 1 . I summarized two articles about diffusion model by Song Yang:&lt;em&gt;SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS&lt;/em&gt; and &lt;em&gt;Generative Modeling by Estimating Gradients of the Data Distribution&lt;/em&gt; . For detailed information, see the pdf of this tutorial:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/SMLD_and_SDE/tutorial.pdf&#34; &gt;SMLD and SDE&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
