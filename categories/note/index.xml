@@ -7,7 +7,87 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Sat, 11 Jan 2025 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/note/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 26 Jan 2025 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/note/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>学习笔记|数理统计</title>
+        <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</link>
+        <pubDate>Sun, 26 Jan 2025 00:21:05 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png" alt="Featured image of post 学习笔记|数理统计" /&gt;&lt;style&gt;
+body {
+    font-family: &#39;微软雅黑&#39;, sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
+    --article-font-size: 3.8
+    line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
+&lt;/h2&gt;&lt;p&gt;统计研究院陳鄰安老师数理统计，参考网站：&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/?post_type=course_page&amp;amp;p=25566&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;统计学1&lt;/a&gt;，&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/?post_type=course_page&amp;amp;p=25439&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;统计学2&lt;/a&gt;;youtube课程：&lt;a class=&#34;link&#34; href=&#34;https://youtube.com/playlist?list=PLRklqGYqFmaLQlgeVi_tyKY12QjqS48N-&amp;amp;si=XVTZSHO2CrYsZoek&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;交大數理統計學&lt;/a&gt;，&lt;a class=&#34;link&#34; href=&#34;https://youtube.com/playlist?list=PLj6E8qlqmkFvneoIIsf3yPr_TVPy6qimA&amp;amp;si=obMWmZkBRTFQJYUo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;陳鄰安老師 - 高等統計學&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;random-variables&#34;&gt;Random variables
+&lt;/h2&gt;&lt;h2 id=&#34;statistical-inference---point-estimation&#34;&gt;Statistical Inference - Point Estimation
+&lt;/h2&gt;&lt;h2 id=&#34;continue-to-point-estimation-umvue&#34;&gt;Continue to Point Estimation-UMVUE
+&lt;/h2&gt;&lt;h2 id=&#34;confidence-interval&#34;&gt;Confidence Interval
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>学习笔记|高等代数</title>
+        <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/</link>
+        <pubDate>Sun, 26 Jan 2025 00:21:05 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/cover.jpg" alt="Featured image of post 学习笔记|高等代数" /&gt;&lt;style&gt;
+body {
+    font-family: &#39;微软雅黑&#39;, sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
+    --article-font-size: 3.5
+    line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
+&lt;/h2&gt;&lt;p&gt;谢启鸿老师高等代数学，参考网站：&lt;a class=&#34;link&#34; href=&#34;https://www.cnblogs.com/torsor&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;谢启鸿高等代数官方博客&lt;/a&gt;,b站课程：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1mJ411r7ZB/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;数学专业 高等代数学-复旦大学-谢启鸿-高清&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;第一章-行列式&#34;&gt;第一章 行列式
+&lt;/h2&gt;&lt;p&gt;可以由递归形式方便的定义n阶行列式，并且定义余子式和代数余子式。下面先介绍行列式的一些性质：&lt;br&gt;
+&lt;strong&gt;性质1&lt;/strong&gt; 上下三角行列式的值等于其对角线元素之积。&lt;br&gt;
+&lt;strong&gt;性质2&lt;/strong&gt; 行列式的某行或某列权威零，则行列式等于零。&lt;br&gt;
+&lt;strong&gt;性质3&lt;/strong&gt; 用常数$c$乘行列式的某一列或某一行，得到的行列式的值等于原行列式的$c$倍。&lt;br&gt;
+&lt;strong&gt;性质4&lt;/strong&gt; 交换行列式不同的两行(列)，行列式的值改变符号。&lt;br&gt;
+&lt;strong&gt;性质5&lt;/strong&gt; 若行列式两行或两列成比例，则行列式的值等于零。特别，若行列式两行或两列相同，则行列式的值等于零。&lt;br&gt;
+&lt;strong&gt;性质6&lt;/strong&gt; 若行列式中某行(列)元素均为两项之和，则行列式可以表示为两个行列式之和。&lt;br&gt;
+&lt;strong&gt;性质7&lt;/strong&gt; 行列式的某一行(列)乘以某个数加到另外一行(列)上，行列式的值不变。&lt;br&gt;
+&lt;strong&gt;性质8&lt;/strong&gt; 行列式和其转置具有相同的值。&lt;br&gt;
+&lt;strong&gt;定理1&lt;/strong&gt; 行列式可以按照任意一行或任意一列的形式进行展开，如果线性组合的行(列)和对应的余子式(代数余子式)不匹配，计算结果等于零。&lt;br&gt;
+&lt;strong&gt;定理2(Cramer法则)&lt;/strong&gt; 设有线性方程组&lt;/p&gt;
+&lt;div&gt;
+$$
+\left\{\begin{array}{c}
+a_{11} x_1+a_{12} x_2+\cdots+a_{1 n} x_n=b_1 \\
+a_{21} x_1+a_{22} x_2+\cdots+a_{2 n} x_n=b_2 \\
+\cdots \cdots \cdots \\
+a_{n 1} x_1+a_{n 2} x_2+\cdots+a_{n n} x_n=b_n
+\end{array}\right.
+$$
+&lt;/div&gt;
+记这个方程组的系数行列式为 $|\boldsymbol{A}|$ ，若 $|\boldsymbol{A}| \neq 0$ ，则方程组有且仅有一组解：
+$$
+x_1=\frac{\left|A_1\right|}{|\boldsymbol{A}|}, x_2=\frac{\left|A_2\right|}{|\boldsymbol{A}|}, \cdots, x_n=\frac{\left|A_n\right|}{|\boldsymbol{A}|}
+$$
+其中 $\left|\boldsymbol{A}_{\boldsymbol{j}}\right|(j=1,2, \cdots, n)$ 是一个 $n$ 阶行列式，它由 $|\boldsymbol{A}|$ 去掉第 $j$ 列换上方程组的常数项 $b_1, b_2, \cdots, b_n$ 组成的列而成．
+&lt;h2 id=&#34;第二章-矩阵&#34;&gt;第二章 矩阵
+&lt;/h2&gt;&lt;h2 id=&#34;第三章-线性空间&#34;&gt;第三章 线性空间
+&lt;/h2&gt;&lt;h2 id=&#34;第四章-线性映射&#34;&gt;第四章 线性映射
+&lt;/h2&gt;&lt;h2 id=&#34;第五章-多项式&#34;&gt;第五章 多项式
+&lt;/h2&gt;&lt;h2 id=&#34;第六章-特征值&#34;&gt;第六章 特征值
+&lt;/h2&gt;&lt;h2 id=&#34;第七章-相似标准型&#34;&gt;第七章 相似标准型
+&lt;/h2&gt;&lt;h2 id=&#34;第八章-二次型&#34;&gt;第八章 二次型
+&lt;/h2&gt;&lt;h2 id=&#34;第九章-内积空间&#34;&gt;第九章 内积空间
+&lt;/h2&gt;&lt;h2 id=&#34;第十章-双线性型&#34;&gt;第十章 双线性型
+&lt;/h2&gt;</description>
+        </item>
+        <item>
         <title>Course notes</title>
         <link>http://localhost:1313/p/course-notes/</link>
         <pubDate>Sat, 11 Jan 2025 00:21:05 +0800</pubDate>
@@ -159,7 +239,7 @@ Afshin Rostamizadeh,and Ameet Talwalkar&lt;br&gt;
         <pubDate>Wed, 14 Aug 2024 20:00:00 +0800</pubDate>
         
         <guid>http://localhost:1313/p/bayesian-signal-processing/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/Bayesian_signal_processing/cover.png" alt="Featured image of post Bayesian signal processing" /&gt;&lt;h1 id=&#34;centerbayesian-signal-processingcenter&#34;&gt;&lt;center&gt;Bayesian signal processing&lt;/center&gt;
+        <description>&lt;img src="http://localhost:1313/post_file/Bayesian_signal_processing/Cover.png" alt="Featured image of post Bayesian signal processing" /&gt;&lt;h1 id=&#34;centerbayesian-signal-processingcenter&#34;&gt;&lt;center&gt;Bayesian signal processing&lt;/center&gt;
 &lt;/h1&gt;&lt;p&gt;该博客为张颢老师所讲的&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Rm421H7Dc?p=15&amp;amp;vd_source=6cb8982c017348075d81bfccb9a89ae5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;现代信号处理的贝叶斯信号处理部分&lt;/a&gt;的课程个人学习笔记,涵盖贝叶斯公式的含义,贝叶斯学派与频率学派的关系,贝叶斯统计模型的目标函数,蒙特卡洛采样和贝叶斯滤波的内容。&lt;/p&gt;
 &lt;h2 id=&#34;introduce-to-bayes-method&#34;&gt;Introduce to bayes method

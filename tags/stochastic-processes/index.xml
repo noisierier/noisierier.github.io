@@ -6,17 +6,6 @@
         <description>Recent content in Stochastic Processes on Haitong Lan</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Wed, 07 Aug 2024 23:30:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/stochastic-processes/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Correlation operation and random signal processing</title>
-        <link>http://localhost:1313/p/correlation-operation-and-random-signal-processing/</link>
-        <pubDate>Wed, 07 Aug 2024 23:30:00 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/correlation-operation-and-random-signal-processing/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/Correlation_operation_and_random_signal_processing/cover.png" alt="Featured image of post Correlation operation and random signal processing" /&gt;&lt;h1 id=&#34;centercorrelation-operation-and-random-signal-processingcenter&#34;&gt;&lt;center&gt;Correlation operation and random signal processing&lt;/center&gt;
-&lt;/h1&gt;&lt;p&gt;My midterm paper on &lt;em&gt;probability theory and stochastic processes&lt;/em&gt;. This paper describes the concept of &lt;strong&gt;correlation operation&lt;/strong&gt;, mainly introduces the application of correlation operation in &lt;strong&gt;random signal processing&lt;/strong&gt;, including stationary random signal, blind source separation, template matching filter. You can read my course papers in this link:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/Correlation_operation_and_random_signal_processing/paper.pdf&#34; &gt;Correlation operation and random signal processing&lt;/a&gt;.&lt;/p&gt;
-</description>
-        </item>
-        
+        <copyright>Haitong&#39;s blog</copyright><atom:link href="http://localhost:1313/tags/stochastic-processes/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
