@@ -226,7 +226,19 @@ body {
     >交大數理統計學</a>，<a class="link" href="https://youtube.com/playlist?list=PLj6E8qlqmkFvneoIIsf3yPr_TVPy6qimA&amp;si=obMWmZkBRTFQJYUo"  target="_blank" rel="noopener"
     >陳鄰安老師 - 高等統計學</a>。</p>
 <h2 id="random-variables">Random variables
-</h2><h2 id="statistical-inference---point-estimation">Statistical Inference - Point Estimation
+</h2><p><strong>Define 1(random variable).</strong> Let $(\Omega, \mathcal{F}, P)$ be a probability space and $(E, \mathcal{E})$ a measurable space. Then an $(E, \mathcal{E})$-valued random variable is a measurable function $X: \Omega \rightarrow E$. <br>
+<strong>Remark.</strong></p>
+<ol>
+<li>随机变量是从样本空间到$\mathbb{R}$的映射，概率测度是从$\sigma$-域到$[0,1]$的映射，并且满足整个样本空间的测度等于1。在实际中我们一般不会考虑原来的样本空间，因为一般考虑由随机变量诱导出来的概率测度，它是由博雷尔集($\mathcal{B}$)到$\mathbb{R}$的映射。</li>
+<li>$\forall B\in \mathcal{B},X^{-1}(B)\in \mathcal{F},\text{where}  X^{-1}(B) = {\omega \in \Omega\mid X(\omega)\in B}$,which means that, for every subset $B \in \mathcal{E}$, its preimage is $\mathcal{F}$-measurable; $X^{-1}(B) \in \mathcal{F}$, where $X^{-1}(B)={\omega: X(\omega) \in B}$. This definition enables us to measure any subset $B \in \mathcal{E}$ in the target space by looking at its preimage, which by assumption is measurable.</li>
+<li>由随机变量很容易定义<strong>累积分布函数(CDF)</strong>：</li>
+</ol>
+   <div>
+    $$
+    F(x) = P(X(\omega) \leq x) = P(\{\omega\in\Omega:X(\omega)\in (-\infty,x]\})
+    $$
+   </div>
+<h2 id="statistical-inference---point-estimation">Statistical Inference - Point Estimation
 </h2><h2 id="continue-to-point-estimation-umvue">Continue to Point Estimation-UMVUE
 </h2><h2 id="confidence-interval">Confidence Interval
 </h2>

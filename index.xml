@@ -27,7 +27,19 @@ body {
     &gt;交大數理統計學&lt;/a&gt;，&lt;a class=&#34;link&#34; href=&#34;https://youtube.com/playlist?list=PLj6E8qlqmkFvneoIIsf3yPr_TVPy6qimA&amp;amp;si=obMWmZkBRTFQJYUo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;陳鄰安老師 - 高等統計學&lt;/a&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;random-variables&#34;&gt;Random variables
-&lt;/h2&gt;&lt;h2 id=&#34;statistical-inference---point-estimation&#34;&gt;Statistical Inference - Point Estimation
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Define 1(random variable).&lt;/strong&gt; Let $(\Omega, \mathcal{F}, P)$ be a probability space and $(E, \mathcal{E})$ a measurable space. Then an $(E, \mathcal{E})$-valued random variable is a measurable function $X: \Omega \rightarrow E$. &lt;br&gt;
+&lt;strong&gt;Remark.&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;随机变量是从样本空间到$\mathbb{R}$的映射，概率测度是从$\sigma$-域到$[0,1]$的映射，并且满足整个样本空间的测度等于1。在实际中我们一般不会考虑原来的样本空间，因为一般考虑由随机变量诱导出来的概率测度，它是由博雷尔集($\mathcal{B}$)到$\mathbb{R}$的映射。&lt;/li&gt;
+&lt;li&gt;$\forall B\in \mathcal{B},X^{-1}(B)\in \mathcal{F},\text{where}  X^{-1}(B) = {\omega \in \Omega\mid X(\omega)\in B}$,which means that, for every subset $B \in \mathcal{E}$, its preimage is $\mathcal{F}$-measurable; $X^{-1}(B) \in \mathcal{F}$, where $X^{-1}(B)={\omega: X(\omega) \in B}$. This definition enables us to measure any subset $B \in \mathcal{E}$ in the target space by looking at its preimage, which by assumption is measurable.&lt;/li&gt;
+&lt;li&gt;由随机变量很容易定义&lt;strong&gt;累积分布函数(CDF)&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+   &lt;div&gt;
+    $$
+    F(x) = P(X(\omega) \leq x) = P(\{\omega\in\Omega:X(\omega)\in (-\infty,x]\})
+    $$
+   &lt;/div&gt;
+&lt;h2 id=&#34;statistical-inference---point-estimation&#34;&gt;Statistical Inference - Point Estimation
 &lt;/h2&gt;&lt;h2 id=&#34;continue-to-point-estimation-umvue&#34;&gt;Continue to Point Estimation-UMVUE
 &lt;/h2&gt;&lt;h2 id=&#34;confidence-interval&#34;&gt;Confidence Interval
 &lt;/h2&gt;</description>
