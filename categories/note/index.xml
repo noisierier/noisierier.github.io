@@ -1,79 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Note on Haitong Lan</title>
-        <link>http://localhost:1313/categories/note/</link>
-        <description>Recent content in Note on Haitong Lan</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en</language>
-        <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Sun, 26 Jan 2025 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/note/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>学习笔记|数理统计</title>
-        <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</link>
-        <pubDate>Sun, 26 Jan 2025 00:21:05 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png" alt="Featured image of post 学习笔记|数理统计" /&gt;&lt;style&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Note on Haitong Lan</title><link>https://example.com/categories/note/</link><description>Recent content in Note on Haitong Lan</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Haitong's blog</copyright><lastBuildDate>Sun, 26 Jan 2025 00:21:05 +0800</lastBuildDate><atom:link href="https://example.com/categories/note/index.xml" rel="self" type="application/rss+xml"/><item><title>学习笔记|数理统计</title><link>https://example.com/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</link><pubDate>Sun, 26 Jan 2025 00:21:05 +0800</pubDate><guid>https://example.com/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</guid><description>&lt;img src="https://example.com/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png" alt="Featured image of post 学习笔记|数理统计" />&lt;style>
 body {
-    font-family: &#39;微软雅黑&#39;, sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
-    --article-font-size: 3.8
-    line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
+font-family: '微软雅黑', sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
+--article-font-size: 3.8
+line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
 }
-&lt;/style&gt;
-&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
-&lt;/h2&gt;&lt;p&gt;统计研究院陳鄰安老师数理统计，参考网站：&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/?post_type=course_page&amp;amp;p=25566&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;统计学1&lt;/a&gt;，&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/?post_type=course_page&amp;amp;p=25439&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;统计学2&lt;/a&gt;;youtube课程：&lt;a class=&#34;link&#34; href=&#34;https://youtube.com/playlist?list=PLRklqGYqFmaLQlgeVi_tyKY12QjqS48N-&amp;amp;si=XVTZSHO2CrYsZoek&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;交大數理統計學&lt;/a&gt;，&lt;a class=&#34;link&#34; href=&#34;https://youtube.com/playlist?list=PLj6E8qlqmkFvneoIIsf3yPr_TVPy6qimA&amp;amp;si=obMWmZkBRTFQJYUo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;陳鄰安老師 - 高等統計學&lt;/a&gt;。&lt;/p&gt;
-&lt;h2 id=&#34;random-variables&#34;&gt;Random variables
-&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Define 1(random variable).&lt;/strong&gt; Let $(\Omega, \mathcal{F}, P)$ be a probability space and $(E, \mathcal{E})$ a measurable space. Then an $(E, \mathcal{E})$-valued random variable is a measurable function $X: \Omega \rightarrow E$. &lt;br&gt;
-&lt;strong&gt;Remark.&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;随机变量是从样本空间到$\mathbb{R}$的映射，概率测度是从$\sigma$-域到$[0,1]$的映射，并且满足整个样本空间的测度等于1。在实际中我们一般不会考虑原来的样本空间，因为一般考虑由随机变量诱导出来的概率测度，它是由博雷尔集($\mathcal{B}$)到$\mathbb{R}$的映射。&lt;/li&gt;
-&lt;li&gt;$\forall B\in \mathcal{B},X^{-1}(B)\in \mathcal{F},\text{where}  X^{-1}(B) = {\omega \in \Omega\mid X(\omega)\in B}$,which means that, for every subset $B \in \mathcal{E}$, its preimage is $\mathcal{F}$-measurable; $X^{-1}(B) \in \mathcal{F}$, where $X^{-1}(B)={\omega: X(\omega) \in B}$. This definition enables us to measure any subset $B \in \mathcal{E}$ in the target space by looking at its preimage, which by assumption is measurable.&lt;/li&gt;
-&lt;li&gt;由随机变量很容易定义&lt;strong&gt;累积分布函数(CDF)&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ol&gt;
-   &lt;div&gt;
-    $$
-    F(x) = P(X(\omega) \leq x) = P(\{\omega\in\Omega:X(\omega)\in (-\infty,x]\})
-    $$
-   &lt;/div&gt;
-&lt;h2 id=&#34;statistical-inference---point-estimation&#34;&gt;Statistical Inference - Point Estimation
-&lt;/h2&gt;&lt;h2 id=&#34;continue-to-point-estimation-umvue&#34;&gt;Continue to Point Estimation-UMVUE
-&lt;/h2&gt;&lt;h2 id=&#34;confidence-interval&#34;&gt;Confidence Interval
-&lt;/h2&gt;</description>
-        </item>
-        <item>
-        <title>学习笔记|高等代数</title>
-        <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/</link>
-        <pubDate>Sun, 26 Jan 2025 00:21:05 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/cover.jpg" alt="Featured image of post 学习笔记|高等代数" /&gt;&lt;style&gt;
+&lt;/style>
+&lt;h2 id="课程介绍">课程介绍
+&lt;/h2>&lt;p>统计研究院陳鄰安老师数理统计，参考网站：&lt;a class="link" href="https://ocw.nycu.edu.tw/?post_type=course_page&amp;amp;p=25566" target="_blank" rel="noopener"
+>统计学1&lt;/a>，&lt;a class="link" href="https://ocw.nycu.edu.tw/?post_type=course_page&amp;amp;p=25439" target="_blank" rel="noopener"
+>统计学2&lt;/a>;youtube课程：&lt;a class="link" href="https://youtube.com/playlist?list=PLRklqGYqFmaLQlgeVi_tyKY12QjqS48N-&amp;amp;si=XVTZSHO2CrYsZoek" target="_blank" rel="noopener"
+>交大數理統計學&lt;/a>，&lt;a class="link" href="https://youtube.com/playlist?list=PLj6E8qlqmkFvneoIIsf3yPr_TVPy6qimA&amp;amp;si=obMWmZkBRTFQJYUo" target="_blank" rel="noopener"
+>陳鄰安老師 - 高等統計學&lt;/a>。&lt;/p>
+&lt;h2 id="random-variables">Random variables
+&lt;/h2>&lt;p>&lt;strong>Define 1(random variable).&lt;/strong> Let $(\Omega, \mathcal{F}, P)$ be a probability space and $(E, \mathcal{E})$ a measurable space. Then an $(E, \mathcal{E})$-valued random variable is a measurable function $X: \Omega \rightarrow E$. &lt;br>
+&lt;strong>Remark.&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>随机变量是从样本空间到$\mathbb{R}$的映射，概率测度是从$\sigma$-域到$[0,1]$的映射，并且满足整个样本空间的测度等于1。在实际中我们一般不会考虑原来的样本空间，因为一般考虑由随机变量诱导出来的概率测度，它是由博雷尔集($\mathcal{B}$)到$\mathbb{R}$的映射。&lt;/li>
+&lt;li>$\forall B\in \mathcal{B},X^{-1}(B)\in \mathcal{F},\text{where} X^{-1}(B) = {\omega \in \Omega\mid X(\omega)\in B}$,which means that, for every subset $B \in \mathcal{E}$, its preimage is $\mathcal{F}$-measurable; $X^{-1}(B) \in \mathcal{F}$, where $X^{-1}(B)={\omega: X(\omega) \in B}$. This definition enables us to measure any subset $B \in \mathcal{E}$ in the target space by looking at its preimage, which by assumption is measurable.&lt;/li>
+&lt;li>由随机变量很容易定义&lt;strong>累积分布函数(CDF)&lt;/strong>：&lt;/li>
+&lt;/ol>
+&lt;div>
+$$
+F(x) = P(X(\omega) \leq x) = P(\{\omega\in\Omega:X(\omega)\in (-\infty,x]\})
+$$
+&lt;/div>
+&lt;h2 id="statistical-inference---point-estimation">Statistical Inference - Point Estimation
+&lt;/h2>&lt;h2 id="continue-to-point-estimation-umvue">Continue to Point Estimation-UMVUE
+&lt;/h2>&lt;h2 id="confidence-interval">Confidence Interval
+&lt;/h2></description></item><item><title>学习笔记|高等代数</title><link>https://example.com/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/</link><pubDate>Sun, 26 Jan 2025 00:21:05 +0800</pubDate><guid>https://example.com/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/</guid><description>&lt;img src="https://example.com/post_file/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/cover.jpg" alt="Featured image of post 学习笔记|高等代数" />&lt;style>
 body {
-    font-family: &#39;微软雅黑&#39;, sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
-    --article-font-size: 3.5
-    line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
+font-family: '微软雅黑', sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
+--article-font-size: 3.5
+line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
 }
-&lt;/style&gt;
-&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
-&lt;/h2&gt;&lt;p&gt;谢启鸿老师高等代数学，参考网站：&lt;a class=&#34;link&#34; href=&#34;https://www.cnblogs.com/torsor&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;谢启鸿高等代数官方博客&lt;/a&gt;,b站课程：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1mJ411r7ZB/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;数学专业 高等代数学-复旦大学-谢启鸿-高清&lt;/a&gt;。&lt;/p&gt;
-&lt;h2 id=&#34;第一章-行列式&#34;&gt;第一章 行列式
-&lt;/h2&gt;&lt;p&gt;可以由递归形式方便的定义n阶行列式，并且定义余子式和代数余子式。下面先介绍行列式的一些性质：&lt;br&gt;
-&lt;strong&gt;性质1&lt;/strong&gt; 上下三角行列式的值等于其对角线元素之积。&lt;br&gt;
-&lt;strong&gt;性质2&lt;/strong&gt; 行列式的某行或某列全为零，则行列式等于零。&lt;br&gt;
-&lt;strong&gt;性质3&lt;/strong&gt; 用常数$c$乘行列式的某一列或某一行，得到的行列式的值等于原行列式的$c$倍。&lt;br&gt;
-&lt;strong&gt;性质4&lt;/strong&gt; 交换行列式不同的两行(列)，行列式的值改变符号。&lt;br&gt;
-&lt;strong&gt;性质5&lt;/strong&gt; 若行列式两行或两列成比例，则行列式的值等于零。特别，若行列式两行或两列相同，则行列式的值等于零。&lt;br&gt;
-&lt;strong&gt;性质6&lt;/strong&gt; 若行列式中某行(列)元素均为两项之和，则行列式可以表示为两个行列式之和。&lt;br&gt;
-&lt;strong&gt;性质7&lt;/strong&gt; 行列式的某一行(列)乘以某个数加到另外一行(列)上，行列式的值不变。&lt;br&gt;
-&lt;strong&gt;性质8&lt;/strong&gt; 行列式和其转置具有相同的值。&lt;br&gt;
-&lt;strong&gt;定理1&lt;/strong&gt; 行列式可以按照任意一行或任意一列的形式进行展开，如果线性组合的行(列)和对应的余子式(代数余子式)不匹配，计算结果等于零。&lt;br&gt;
-&lt;strong&gt;定理2(Cramer法则)&lt;/strong&gt; 设有线性方程组&lt;/p&gt;
-&lt;div&gt;
+&lt;/style>
+&lt;h2 id="课程介绍">课程介绍
+&lt;/h2>&lt;p>谢启鸿老师高等代数学，参考网站：&lt;a class="link" href="https://www.cnblogs.com/torsor" target="_blank" rel="noopener"
+>谢启鸿高等代数官方博客&lt;/a>,b站课程：&lt;a class="link" href="https://www.bilibili.com/video/BV1mJ411r7ZB/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671" target="_blank" rel="noopener"
+>数学专业 高等代数学-复旦大学-谢启鸿-高清&lt;/a>。&lt;/p>
+&lt;h2 id="第一章-行列式">第一章 行列式
+&lt;/h2>&lt;p>可以由递归形式方便的定义n阶行列式，并且定义余子式和代数余子式。下面先介绍行列式的一些性质：&lt;/p>
+&lt;p>&lt;strong>性质1&lt;/strong> 上下三角行列式的值等于其对角线元素之积。&lt;br>
+&lt;strong>性质2&lt;/strong> 行列式的某行或某列全为零，则行列式等于零。&lt;br>
+&lt;strong>性质3&lt;/strong> 用常数$c$乘行列式的某一列或某一行，得到的行列式的值等于原行列式的$c$倍。&lt;br>
+&lt;strong>性质4&lt;/strong> 交换行列式不同的两行(列)，行列式的值改变符号。&lt;br>
+&lt;strong>性质5&lt;/strong> 若行列式两行或两列成比例，则行列式的值等于零。特别，若行列式两行或两列相同，则行列式的值等于零。&lt;br>
+&lt;strong>性质6&lt;/strong> 若行列式中某行(列)元素均为两项之和，则行列式可以表示为两个行列式之和。&lt;br>
+&lt;strong>性质7&lt;/strong> 行列式的某一行(列)乘以某个数加到另外一行(列)上，行列式的值不变。&lt;br>
+&lt;strong>性质8&lt;/strong> 行列式和其转置具有相同的值。&lt;/p>
+&lt;p>&lt;strong>定理1&lt;/strong> 行列式可以按照任意一行或任意一列的形式进行展开，如果线性组合的行(列)和对应的余子式(代数余子式)不匹配，计算结果等于零。&lt;/p>
+&lt;p>&lt;strong>定理2(Cramer法则)&lt;/strong> 设有线性方程组&lt;/p>
+&lt;div>
 $$
 \left\{\begin{array}{c}
 a_{11} x_1+a_{12} x_2+\cdots+a_{1 n} x_n=b_1 \\
@@ -82,219 +59,271 @@ a_{21} x_1+a_{22} x_2+\cdots+a_{2 n} x_n=b_2 \\
 a_{n 1} x_1+a_{n 2} x_2+\cdots+a_{n n} x_n=b_n
 \end{array}\right.
 $$
-&lt;/div&gt;
+&lt;/div>
 记这个方程组的系数行列式为 $|\boldsymbol{A}|$ ，若 $|\boldsymbol{A}| \neq 0$ ，则方程组有且仅有一组解：
 $$
 x_1=\frac{\left|A_1\right|}{|\boldsymbol{A}|}, x_2=\frac{\left|A_2\right|}{|\boldsymbol{A}|}, \cdots, x_n=\frac{\left|A_n\right|}{|\boldsymbol{A}|}
 $$
 其中 $\left|\boldsymbol{A}_{\boldsymbol{j}}\right|(j=1,2, \cdots, n)$ 是一个 $n$ 阶行列式，它由 $|\boldsymbol{A}|$ 去掉第 $j$ 列换上方程组的常数项 $b_1, b_2, \cdots, b_n$ 组成的列而成．
-&lt;h2 id=&#34;第二章-矩阵&#34;&gt;第二章 矩阵
-&lt;/h2&gt;&lt;h2 id=&#34;第三章-线性空间&#34;&gt;第三章 线性空间
-&lt;/h2&gt;&lt;h2 id=&#34;第四章-线性映射&#34;&gt;第四章 线性映射
-&lt;/h2&gt;&lt;h2 id=&#34;第五章-多项式&#34;&gt;第五章 多项式
-&lt;/h2&gt;&lt;h2 id=&#34;第六章-特征值&#34;&gt;第六章 特征值
-&lt;/h2&gt;&lt;h2 id=&#34;第七章-相似标准型&#34;&gt;第七章 相似标准型
-&lt;/h2&gt;&lt;h2 id=&#34;第八章-二次型&#34;&gt;第八章 二次型
-&lt;/h2&gt;&lt;h2 id=&#34;第九章-内积空间&#34;&gt;第九章 内积空间
-&lt;/h2&gt;&lt;h2 id=&#34;第十章-双线性型&#34;&gt;第十章 双线性型
-&lt;/h2&gt;</description>
-        </item>
-        <item>
-        <title>Course notes</title>
-        <link>http://localhost:1313/p/course-notes/</link>
-        <pubDate>Sat, 11 Jan 2025 00:21:05 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/course-notes/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/cover.png" alt="Featured image of post Course notes" /&gt;&lt;h1 id=&#34;centercourse-notescenter&#34;&gt;&lt;center&gt;Course notes&lt;/center&gt;
-&lt;/h1&gt;&lt;p&gt;这篇blog用于记录和整理北京邮电大学&amp;amp;QMUL合办专业——电信工程及管理(Telecommunications engineering and management)专业学习笔记，以及一些课程教材推荐。&lt;/p&gt;
-&lt;h2 id=&#34;大一&#34;&gt;大一
-&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;高等数学&lt;/p&gt;
-&lt;p&gt;参考书目：1) Advanced Mathematics，By Jianhua Yuan,et al&lt;br&gt;
-                 2) Calculus, 13th Edition,by George B. Thomas, et al&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;线性代数&lt;/p&gt;
-&lt;p&gt;参考书目：1) linear algebra，by Wenbo Zhang,et al&lt;br&gt;
-                 2) Linear Algebra and its Applications,David C.Lay,et al&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;大学物理&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e5%a4%a7%e5%ad%a6%e7%89%a9%e7%90%86/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p>&lt;strong>例1&lt;/strong> 对于行列式的计算，优先利用性质将行列式进行降阶，构造出0和1。特殊的，对于Vandermonde行列式：&lt;/p>
+&lt;div>
+$$
+\begin{aligned}
+V_n=\left|\begin{array}{ccccc}
+1 &amp; x_1 &amp; x_1^2 &amp; \cdots &amp; x_1^{n-1} \\
+1 &amp; x_2 &amp; x_2^2 &amp; \cdots &amp; x_2^{n-1} \\
+\vdots &amp; \vdots &amp; \vdots &amp; &amp; \\
+1 &amp; x_n &amp; x_n^2 &amp; \cdots &amp; x_n^{n-1}
+\end{array}\right|=\prod_{1 \leqslant i &lt; j \leqslant n}\left(x_j-x_i\right)
+\end{aligned}
+$$
+&lt;/div>
+&lt;p>计算降次的Vandermonde行列式时，将上式修改为 $(x_i-x_j)$。&lt;/p>
+&lt;p>&lt;strong>定义3(行列式的组合定义)&lt;/strong> 设方阵 $A=\left(a_{i j}\right) \in M_n(\mathbb{F})$ ，则 $A$ 的行列式定义为&lt;/p>
+&lt;p>$$
+|A|=\sum_{\left(i_1, i_2, \cdots, i_n\right) \in S_n}(-1)^{N\left(i_1, i_2, \cdots, i_n\right)} a_{i_1 1} a_{i_2 2} \cdots a_{i_n n}
+$$&lt;/p>
+&lt;p>其中 $S_n$ 是 ${1,2, \cdots, n}$ 的所有全排列构成的集合，
+$N\left(i_1, i_2, \cdots, i_n\right)$ 是全排列
+$\left(i_1, i_2, \cdots, i_n\right)$ 的逆序数
+，$a_{i_1 1} a_{i_2 2} \cdots a_{i_n n}$ 称为行列式
+$|A|$ 中的单项，它从 $A$ 的每行每列各取一个元素相乘得到，
+$(-1)^{N\left(i_1, i_2, \cdots, i_n\right)}$ 称为这个单项的符号．
+容易看出：当 $n \geq 2$ 时，符号为 $\pm 1$ 的单项各为一半，即
+$\frac{1}{2} n!$ 个．&lt;/p>
+&lt;p>&lt;strong>定理4 (Laplace 定理)&lt;/strong> 设 $|\boldsymbol{A}|$ 是 $n$ 阶行列式，在 $|\boldsymbol{A}|$ 中任取 $k$ 行（列），那么含于这 $k$ 行（列）的全部 $k$ 阶子式与它们所对应的代数余子式的乘积之和等于 $|A|$ ．即若取定 $k$ 个行： $1 \leq i_1&amp;lt;i_2&amp;lt;\cdots&amp;lt;i_k \leq n$ ，则&lt;/p>
+&lt;p>$$
+\begin{aligned}
+|\boldsymbol{A}|=\sum_{1 \leq j_1&amp;lt;j_2&amp;lt;\cdots&amp;lt;j_k \leq n} \boldsymbol{A}\left(\begin{array}{cccc}
+i_1 &amp;amp; i_2 &amp;amp; \cdots &amp;amp; i_k;
+j_1 &amp;amp; j_2 &amp;amp; \cdots &amp;amp; j_k
+\end{array}\right) \widehat{\boldsymbol{A}}\left(\begin{array}{cccc}
+i_1 &amp;amp; i_2 &amp;amp; \cdots &amp;amp; i_k ;
+j_1 &amp;amp; j_2 &amp;amp; \cdots &amp;amp; j_k
+\end{array}\right) .
+\end{aligned}
+$$&lt;/p>
+&lt;p>同样若取定 $k$ 个列： $1 \leq j_1&amp;lt;j_2&amp;lt;\cdots&amp;lt;j_k \leq n$ ，则&lt;/p>
+&lt;p>$$
+\begin{aligned}
+|\boldsymbol{A}|=\sum_{1 \leq i_1&amp;lt;i_2&amp;lt;\cdots&amp;lt;i_k \leq n} \boldsymbol{A}\left(
+\begin{array}{cccc}
+i_1 &amp;amp; i_2 &amp;amp; \cdots &amp;amp; i_k ;
+j_1 &amp;amp; j_2 &amp;amp; \cdots &amp;amp; j_k
+\end{array}\right)
+\widehat{\boldsymbol{A}}\left(\begin{array}{cccc}
+i_1 &amp;amp; i_2 &amp;amp; \cdots &amp;amp; i_k ;
+j_1 &amp;amp; j_2 &amp;amp; \cdots &amp;amp; j_k
+\end{array}\right) .
+\end{aligned}
+$$&lt;/p>
+&lt;p>&lt;strong>注&lt;/strong> Laplace定理可以让我们以任意几行或者几列将行列式进行展开，在理论分析中有重要作用，
+可以证明以下推论:&lt;/p>
+&lt;p>&lt;strong>推论5&lt;/strong> 以分块的形式表示行列式，若$|A|$为分块上三角或分块下三角行列式，有&lt;/p>
+&lt;div>
+$$
+\begin{aligned}
+|A| &amp; =\left|\begin{array}{ll}
+B &amp; C \\
+0 &amp; D
+\end{array}\right|=\left|\begin{array}{ll}
+B &amp; 0 \\
+C &amp; D
+\end{array}\right|
+=|B||D|
+\end{aligned}
+$$
+&lt;/div>
+&lt;h2 id="第二章-矩阵">第二章 矩阵
+&lt;/h2>&lt;h2 id="第三章-线性空间">第三章 线性空间
+&lt;/h2>&lt;h2 id="第四章-线性映射">第四章 线性映射
+&lt;/h2>&lt;h2 id="第五章-多项式">第五章 多项式
+&lt;/h2>&lt;h2 id="第六章-特征值">第六章 特征值
+&lt;/h2>&lt;h2 id="第七章-相似标准型">第七章 相似标准型
+&lt;/h2>&lt;h2 id="第八章-二次型">第八章 二次型
+&lt;/h2>&lt;h2 id="第九章-内积空间">第九章 内积空间
+&lt;/h2>&lt;h2 id="第十章-双线性型">第十章 双线性型
+&lt;/h2></description></item><item><title>Course notes</title><link>https://example.com/p/course-notes/</link><pubDate>Sat, 11 Jan 2025 00:21:05 +0800</pubDate><guid>https://example.com/p/course-notes/</guid><description>&lt;img src="https://example.com/post_file/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/cover.png" alt="Featured image of post Course notes" />&lt;h1 id="centercourse-notescenter">&lt;center>Course notes&lt;/center>
+&lt;/h1>&lt;p>这篇blog用于记录和整理北京邮电大学&amp;amp;QMUL合办专业——电信工程及管理(Telecommunications engineering and management)专业学习笔记，以及一些课程教材推荐。&lt;/p>
+&lt;h2 id="大一">大一
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>高等数学&lt;/p>
+&lt;p>参考书目：1) Advanced Mathematics，By Jianhua Yuan,et al&lt;br>
+                 2) Calculus, 13th Edition,by George B. Thomas, et al&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>线性代数&lt;/p>
+&lt;p>参考书目：1) linear algebra，by Wenbo Zhang,et al&lt;br>
+                 2) Linear Algebra and its Applications,David C.Lay,et al&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>大学物理&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e5%a4%a7%e5%ad%a6%e7%89%a9%e7%90%86/note.pdf" >note&lt;/a>&lt;br>
 参考书目：1) Physics for Scientists and Engineers with Modern
-Physics: D. C. Giancoli.&lt;br&gt;
-                 2) Berkeley Physics Course&lt;br&gt;
-                 3) 电磁学（第三版）,作者：贾起民、郑永令、陈暨耀&lt;br&gt;
-                 4) 新概念物理学教程 光学，作者：赵凯华&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;电路分析&lt;/p&gt;
-&lt;p&gt;参考书目：电路分析基础（第二版）（英文版）作者：王宏祥；James W. Nilsson, Susan A. Riedel&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;C语言程序设计基础&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;大二&#34;&gt;大二
-&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;数字电路设计&lt;/p&gt;
-&lt;p&gt;课程笔记:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e7%94%b5%e8%b7%af%e8%ae%be%e8%ae%a1/note.pdf&#34; &gt;note&lt;/a&gt;
-&lt;br&gt;
-参考书目:Digital Design: Principles and Practices, 5th edition by John F. Wakerly&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;JAVA&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/JAVA/note.pdf&#34; &gt;note&lt;/a&gt;
-&lt;br&gt;
-参考书目：Head First Java, 3rd Edition by Kathy Sierra, Bert Bates, Trisha Gee&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;概率论与随机过程&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%a6%82%e7%8e%87%e8%ae%ba%e4%b8%8e%e9%9a%8f%e6%9c%ba%e8%bf%87%e7%a8%8b/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
-参考书目：概率论与随机过程,作者:周清 张丽华&lt;br&gt;
-参考课程：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Rz42127xT/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;随机过程 张颢 2024年春&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;计算机网络&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%bd%91%e7%bb%9c/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
-参考书目：Computer Networking: A Top-Down Approach,Authors:PictureJames F. Kurose,PictureKeith W. Ross&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;数字信号处理&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e4%bf%a1%e5%8f%b7%e5%a4%84%e7%90%86/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
-参考书目：Discrete Time Signal Processing by Alan V. Oppenheim and Ronald W. Schafer.&lt;br&gt;
-参考课程：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1vQ4y1p79b/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;数字信号处理 张颢 2023年秋&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;工程数学&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e5%b7%a5%e7%a8%8b%e6%95%b0%e5%ad%a6/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
-参考书目：Engineering Mathematics，By Xia Shi&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;信号与系统&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e4%bf%a1%e5%8f%b7%e4%b8%8e%e7%b3%bb%e7%bb%9f/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
-参考书目：Signals and Systems 2nd Edition，by Alan Oppenheim , Alan Willsky , S. Nawab&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;AI导论&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/AI%e5%af%bc%e8%ae%ba/note1.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
-强化学习基础：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/AI%e5%af%bc%e8%ae%ba/note2.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
-参考课程：1) &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV16Y4y1M7DX/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;强化学习基础 （本科生课程） 北京邮电大学 鲁鹏&lt;/a&gt;&lt;br&gt;
-                 2) &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV18P4y1a7Fw/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;机器视觉教学课程&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;电子电路基础&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%94%b5%e5%ad%90%e7%94%b5%e8%b7%af%e5%9f%ba%e7%a1%80/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
-参考书目：1) 新概念模拟电路，作者：杨建国&lt;br&gt;
-                 2) 模拟电子技术基础（第五版）,作者：童诗白等&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;数值计算方法&lt;/p&gt;
-&lt;p&gt;参考书目：沈剑华,数值计算基础（第二版）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;数据结构&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
-参考书目：数据结构，作者：严蔚敏&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;企业管理&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e4%bc%81%e4%b8%9a%e7%ae%a1%e7%90%86/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
-参考视频：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Dx411w7Xg/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;【元首的愤怒】北邮国院大二企业管理期末考试&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;大三&#34;&gt;大三
-&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;通信原理&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e9%80%9a%e4%bf%a1%e5%8e%9f%e7%90%86/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
-参考书目： 1) 通信原理（第4版） 周炯磐 庞沁华 续大我 吴伟陵 杨鸿文&lt;br&gt;
-                   2) Fundamentals of Communication Systems.John G.Proakis;Masoud Salehi&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;电磁场与电磁波&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%94%b5%e7%a3%81%e5%9c%ba%e4%b8%8e%e7%94%b5%e7%a3%81%e6%b3%a2/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
-参考书目：Electromagnetic Field Theory Fundamentals,Guru&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;机器学习&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+Physics: D. C. Giancoli.&lt;br>
+                 2) Berkeley Physics Course&lt;br>
+                 3) 电磁学（第三版）,作者：贾起民、郑永令、陈暨耀&lt;br>
+                 4) 新概念物理学教程 光学，作者：赵凯华&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>电路分析&lt;/p>
+&lt;p>参考书目：电路分析基础（第二版）（英文版）作者：王宏祥；James W. Nilsson, Susan A. Riedel&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>C语言程序设计基础&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="大二">大二
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>数字电路设计&lt;/p>
+&lt;p>课程笔记:&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e7%94%b5%e8%b7%af%e8%ae%be%e8%ae%a1/note.pdf" >note&lt;/a>
+&lt;br>
+参考书目:Digital Design: Principles and Practices, 5th edition by John F. Wakerly&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>JAVA&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/JAVA/note.pdf" >note&lt;/a>
+&lt;br>
+参考书目：Head First Java, 3rd Edition by Kathy Sierra, Bert Bates, Trisha Gee&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>概率论与随机过程&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%a6%82%e7%8e%87%e8%ae%ba%e4%b8%8e%e9%9a%8f%e6%9c%ba%e8%bf%87%e7%a8%8b/note.pdf" >note&lt;/a>&lt;br>
+参考书目：概率论与随机过程,作者:周清 张丽华&lt;br>
+参考课程：&lt;a class="link" href="https://www.bilibili.com/video/BV1Rz42127xT/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671" target="_blank" rel="noopener"
+>随机过程 张颢 2024年春&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>计算机网络&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%bd%91%e7%bb%9c/note.pdf" >note&lt;/a>&lt;br>
+参考书目：Computer Networking: A Top-Down Approach,Authors:PictureJames F. Kurose,PictureKeith W. Ross&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>数字信号处理&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e4%bf%a1%e5%8f%b7%e5%a4%84%e7%90%86/note.pdf" >note&lt;/a>&lt;br>
+参考书目：Discrete Time Signal Processing by Alan V. Oppenheim and Ronald W. Schafer.&lt;br>
+参考课程：&lt;a class="link" href="https://www.bilibili.com/video/BV1vQ4y1p79b/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671" target="_blank" rel="noopener"
+>数字信号处理 张颢 2023年秋&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>工程数学&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e5%b7%a5%e7%a8%8b%e6%95%b0%e5%ad%a6/note.pdf" >note&lt;/a>&lt;br>
+参考书目：Engineering Mathematics，By Xia Shi&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>信号与系统&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e4%bf%a1%e5%8f%b7%e4%b8%8e%e7%b3%bb%e7%bb%9f/note.pdf" >note&lt;/a>&lt;br>
+参考书目：Signals and Systems 2nd Edition，by Alan Oppenheim , Alan Willsky , S. Nawab&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>AI导论&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/AI%e5%af%bc%e8%ae%ba/note1.pdf" >note&lt;/a>&lt;br>
+强化学习基础：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/AI%e5%af%bc%e8%ae%ba/note2.pdf" >note&lt;/a>&lt;br>
+参考课程：1) &lt;a class="link" href="https://www.bilibili.com/video/BV16Y4y1M7DX/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671" target="_blank" rel="noopener"
+>强化学习基础 （本科生课程） 北京邮电大学 鲁鹏&lt;/a>&lt;br>
+                 2) &lt;a class="link" href="https://www.bilibili.com/video/BV18P4y1a7Fw/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671" target="_blank" rel="noopener"
+>机器视觉教学课程&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>电子电路基础&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%94%b5%e5%ad%90%e7%94%b5%e8%b7%af%e5%9f%ba%e7%a1%80/note.pdf" >note&lt;/a>&lt;br>
+参考书目：1) 新概念模拟电路，作者：杨建国&lt;br>
+                 2) 模拟电子技术基础（第五版）,作者：童诗白等&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>数值计算方法&lt;/p>
+&lt;p>参考书目：沈剑华,数值计算基础（第二版）&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>数据结构&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84/note.pdf" >note&lt;/a>&lt;br>
+参考书目：数据结构，作者：严蔚敏&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>企业管理&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e4%bc%81%e4%b8%9a%e7%ae%a1%e7%90%86/note.pdf" >note&lt;/a>&lt;br>
+参考视频：&lt;a class="link" href="https://www.bilibili.com/video/BV1Dx411w7Xg/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671" target="_blank" rel="noopener"
+>【元首的愤怒】北邮国院大二企业管理期末考试&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="大三">大三
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>通信原理&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e9%80%9a%e4%bf%a1%e5%8e%9f%e7%90%86/note.pdf" >note&lt;/a>&lt;br>
+参考书目： 1) 通信原理（第4版） 周炯磐 庞沁华 续大我 吴伟陵 杨鸿文&lt;br>
+                  2) Fundamentals of Communication Systems.John G.Proakis;Masoud Salehi&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>电磁场与电磁波&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%94%b5%e7%a3%81%e5%9c%ba%e4%b8%8e%e7%94%b5%e7%a3%81%e6%b3%a2/note.pdf" >note&lt;/a>&lt;br>
+参考书目：Electromagnetic Field Theory Fundamentals,Guru&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>机器学习&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0/note.pdf" >note&lt;/a>&lt;br>
 参考书目：1) Foundations of Machine Learning,second edition,Mehryar Mohri,
-Afshin Rostamizadeh,and Ameet Talwalkar&lt;br&gt;
-                 2) Understanding Machine Learning:From Theory to Algorithms,by Cambridge University Press.&lt;br&gt;
-参考课程：&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/lWGdFeMsjzg?si=zmQMDz-2WF8gwkkg_&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Introduction to Machine Learning&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;网络编程&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%bd%91%e7%bb%9c%e7%bc%96%e7%a8%8b/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
-参考书目：An Introduction to Network Programming with Java, by Jan Graba, 3rd Edition&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;数字系统设计&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e7%b3%bb%e7%bb%9f%e8%ae%be%e8%ae%a1/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
-参考书目：Circuit design with VHDL by Pedroni, Volnei A&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        </item>
-        <item>
-        <title>Bayesian signal processing</title>
-        <link>http://localhost:1313/p/bayesian-signal-processing/</link>
-        <pubDate>Wed, 14 Aug 2024 20:00:00 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/bayesian-signal-processing/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/Bayesian_signal_processing/cover.png" alt="Featured image of post Bayesian signal processing" /&gt;&lt;h1 id=&#34;centerbayesian-signal-processingcenter&#34;&gt;&lt;center&gt;Bayesian signal processing&lt;/center&gt;
-&lt;/h1&gt;&lt;p&gt;该博客为张颢老师所讲的&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Rm421H7Dc?p=15&amp;amp;vd_source=6cb8982c017348075d81bfccb9a89ae5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;现代信号处理的贝叶斯信号处理部分&lt;/a&gt;的课程个人学习笔记,涵盖贝叶斯公式的含义,贝叶斯学派与频率学派的关系,贝叶斯统计模型的目标函数,蒙特卡洛采样和贝叶斯滤波的内容。&lt;/p&gt;
-&lt;h2 id=&#34;introduce-to-bayes-method&#34;&gt;Introduce to bayes method
-&lt;/h2&gt;&lt;h3 id=&#34;bayes-and-frequency&#34;&gt;Bayes and frequency
-&lt;/h3&gt;&lt;p&gt;使用贝叶斯公式并不意味着在使用贝叶斯方法,频率学派也会经常使用贝叶斯公式,早在贝叶斯之前,贝叶斯公式就已经在Laplce等数学家中非常娴熟的应用,贝叶斯方法在思想上面的含义要远远大于数学形式上的贝叶斯公式。&lt;/p&gt;
-&lt;p&gt;摘抄知乎上&lt;a class=&#34;link&#34; href=&#34;https://www.zhihu.com/question/20587681?rf=29467800&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Xiangyu Wang的回答&lt;/a&gt;：频率学派和贝叶斯学派最大的差别其实产生于对参数空间的认知上。所谓参数空间,就是你关心的那个参数可能的取值范围。频率学派（其实就是当年的Fisher）并不关心参数空间的所有细节,他们相信数据都是在这个空间里的“某个”参数值下产生的（虽然你不知道那个值是啥）,所以他们的方法论一开始就是从“哪个值最有可能是真实值”这个角度出发的。于是就有了最大似然（maximum likelihood）以及置信区间（confidence interval）这样的东西,你从名字就可以看出来他们关心的就是我有多大把握去圈出那个唯一的真实参数。而贝叶斯学派恰恰相反,他们关心参数空间里的每一个值,因为他们觉得我们又没有上帝视角,怎么可能知道哪个值是真的呢？所以参数空间里的每个值都有可能是真实模型使用的值,区别只是概率不同而已。于是他们才会引入先验分布（prior distribution）和后验分布（posterior distribution）这样的概念来设法找出参数空间上的每个值的概率。最好诠释这种差别的例子就是想象如果你的后验分布是双峰的,频率学派的方法会去选这两个峰当中较高的那一个对应的值作为他们的最好猜测,而贝叶斯学派则会同时报告这两个值,并给出对应的概率。&lt;/p&gt;
-&lt;p&gt;假如我们有一个统计模型$f(x,\theta)$去估计原始数据$x$的分布,频率学派认为$\theta$是固定的,尽管我们现在还没有办法得到,贝叶斯学派认为$\theta$是随机的,是服从一个概率分布的随机变量。&lt;/p&gt;
-&lt;h3 id=&#34;bayes-the-science-of-cognitive-law&#34;&gt;Bayes: The Science of cognitive law
-&lt;/h3&gt;&lt;p&gt;贝叶斯的观点是符合人脑的认知规律的,也是现代认知心理学的基础：在认识一件事物之前,我们会先对这个事物有一定的认知,在与事物接触的过程中,我们的认知会逐渐的发生变化,或加强我们的认知,或减弱我们的认知,我们的认知从而得到了进步,这与马原中所说的认知随着实践螺旋式上升也有异曲同工之妙。贝叶斯公式就是表述了这个认知的过程：
+Afshin Rostamizadeh,and Ameet Talwalkar&lt;br>
+                 2) Understanding Machine Learning:From Theory to Algorithms,by Cambridge University Press.&lt;br>
+参考课程：&lt;a class="link" href="https://youtu.be/lWGdFeMsjzg?si=zmQMDz-2WF8gwkkg_" target="_blank" rel="noopener"
+>Introduction to Machine Learning&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>网络编程&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%bd%91%e7%bb%9c%e7%bc%96%e7%a8%8b/note.pdf" >note&lt;/a>&lt;br>
+参考书目：An Introduction to Network Programming with Java, by Jan Graba, 3rd Edition&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>数字系统设计&lt;/p>
+&lt;p>课程笔记：&lt;a class="link" href="https://example.com/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e7%b3%bb%e7%bb%9f%e8%ae%be%e8%ae%a1/note.pdf" >note&lt;/a>&lt;br>
+参考书目：Circuit design with VHDL by Pedroni, Volnei A&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Bayesian signal processing</title><link>https://example.com/p/bayesian-signal-processing/</link><pubDate>Wed, 14 Aug 2024 20:00:00 +0800</pubDate><guid>https://example.com/p/bayesian-signal-processing/</guid><description>&lt;img src="https://example.com/post_file/Bayesian_signal_processing/cover.png" alt="Featured image of post Bayesian signal processing" />&lt;h1 id="centerbayesian-signal-processingcenter">&lt;center>Bayesian signal processing&lt;/center>
+&lt;/h1>&lt;p>该博客为张颢老师所讲的&lt;a class="link" href="https://www.bilibili.com/video/BV1Rm421H7Dc?p=15&amp;amp;vd_source=6cb8982c017348075d81bfccb9a89ae5" target="_blank" rel="noopener"
+>现代信号处理的贝叶斯信号处理部分&lt;/a>的课程个人学习笔记,涵盖贝叶斯公式的含义,贝叶斯学派与频率学派的关系,贝叶斯统计模型的目标函数,蒙特卡洛采样和贝叶斯滤波的内容。&lt;/p>
+&lt;h2 id="introduce-to-bayes-method">Introduce to bayes method
+&lt;/h2>&lt;h3 id="bayes-and-frequency">Bayes and frequency
+&lt;/h3>&lt;p>使用贝叶斯公式并不意味着在使用贝叶斯方法,频率学派也会经常使用贝叶斯公式,早在贝叶斯之前,贝叶斯公式就已经在Laplce等数学家中非常娴熟的应用,贝叶斯方法在思想上面的含义要远远大于数学形式上的贝叶斯公式。&lt;/p>
+&lt;p>摘抄知乎上&lt;a class="link" href="https://www.zhihu.com/question/20587681?rf=29467800" target="_blank" rel="noopener"
+>Xiangyu Wang的回答&lt;/a>：频率学派和贝叶斯学派最大的差别其实产生于对参数空间的认知上。所谓参数空间,就是你关心的那个参数可能的取值范围。频率学派（其实就是当年的Fisher）并不关心参数空间的所有细节,他们相信数据都是在这个空间里的“某个”参数值下产生的（虽然你不知道那个值是啥）,所以他们的方法论一开始就是从“哪个值最有可能是真实值”这个角度出发的。于是就有了最大似然（maximum likelihood）以及置信区间（confidence interval）这样的东西,你从名字就可以看出来他们关心的就是我有多大把握去圈出那个唯一的真实参数。而贝叶斯学派恰恰相反,他们关心参数空间里的每一个值,因为他们觉得我们又没有上帝视角,怎么可能知道哪个值是真的呢？所以参数空间里的每个值都有可能是真实模型使用的值,区别只是概率不同而已。于是他们才会引入先验分布（prior distribution）和后验分布（posterior distribution）这样的概念来设法找出参数空间上的每个值的概率。最好诠释这种差别的例子就是想象如果你的后验分布是双峰的,频率学派的方法会去选这两个峰当中较高的那一个对应的值作为他们的最好猜测,而贝叶斯学派则会同时报告这两个值,并给出对应的概率。&lt;/p>
+&lt;p>假如我们有一个统计模型$f(x,\theta)$去估计原始数据$x$的分布,频率学派认为$\theta$是固定的,尽管我们现在还没有办法得到,贝叶斯学派认为$\theta$是随机的,是服从一个概率分布的随机变量。&lt;/p>
+&lt;h3 id="bayes-the-science-of-cognitive-law">Bayes: The Science of cognitive law
+&lt;/h3>&lt;p>贝叶斯的观点是符合人脑的认知规律的,也是现代认知心理学的基础：在认识一件事物之前,我们会先对这个事物有一定的认知,在与事物接触的过程中,我们的认知会逐渐的发生变化,或加强我们的认知,或减弱我们的认知,我们的认知从而得到了进步,这与马原中所说的认知随着实践螺旋式上升也有异曲同工之妙。贝叶斯公式就是表述了这个认知的过程：
 $$
 \begin{equation}
 P(\theta \mid X)=\frac{P(X \mid \theta) P(\theta)}{P(X)}
 \end{equation}
 $$
-贝叶斯学派通过引入三个名词对贝叶斯公式进行解释：&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;名词&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;公式&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;先验分布(Prior)&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;$P(\theta)$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;似然(Likelihood)&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;$P(X \mid \theta)$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;后验分布(Postertor)&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;$P(\theta \mid X)$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;先验分布就是在接触事物数据之前我们已经有的认知,似然是在接触事物的过程中,在给定先验知识的条件下我们对数据的认知,后验分布是我们在数据的基础上对事物的认知,机器学习中的“Learning”这一概念,很大程度上就是贝叶斯方法中的使用后验分布去调整先验分布,当数据量足够大的时候,$P(\theta)$就越来越接近真实的概率模型,另外,分母$P(X)$经常被成为贝叶斯因子。&lt;/p&gt;
-&lt;p&gt;我们再来观察特殊的情况。如果数据与先验独立,即$X \perp \theta$,有$P(\theta \mid X)=P(\theta)$,即先验等于后验,也就是说在接触数据的过程中,我们并没有学到有用的信息。如果$P(\theta)=0$,我们的先验分布和后验分布会一直等于0,所以在很多机器学习算法中设置初始迭代解的时候,会避开零概率的设置。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Example: Naive Bayes&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;朴素贝叶斯是一种简单的机器学习分类器,分类任务就是在给定某些特征
+贝叶斯学派通过引入三个名词对贝叶斯公式进行解释：&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">名词&lt;/th>
+&lt;th style="text-align:center">公式&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">先验分布(Prior)&lt;/td>
+&lt;td style="text-align:center">$P(\theta)$&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">似然(Likelihood)&lt;/td>
+&lt;td style="text-align:center">$P(X \mid \theta)$&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">后验分布(Postertor)&lt;/td>
+&lt;td style="text-align:center">$P(\theta \mid X)$&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>先验分布就是在接触事物数据之前我们已经有的认知,似然是在接触事物的过程中,在给定先验知识的条件下我们对数据的认知,后验分布是我们在数据的基础上对事物的认知,机器学习中的“Learning”这一概念,很大程度上就是贝叶斯方法中的使用后验分布去调整先验分布,当数据量足够大的时候,$P(\theta)$就越来越接近真实的概率模型,另外,分母$P(X)$经常被成为贝叶斯因子。&lt;/p>
+&lt;p>我们再来观察特殊的情况。如果数据与先验独立,即$X \perp \theta$,有$P(\theta \mid X)=P(\theta)$,即先验等于后验,也就是说在接触数据的过程中,我们并没有学到有用的信息。如果$P(\theta)=0$,我们的先验分布和后验分布会一直等于0,所以在很多机器学习算法中设置初始迭代解的时候,会避开零概率的设置。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Example: Naive Bayes&lt;/strong>&lt;/p>
+&lt;p>朴素贝叶斯是一种简单的机器学习分类器,分类任务就是在给定某些特征
 $\lbrace F_i \rbrace_{i=1}^N$(Features)的条件下,判断某一事物的分类$C$(Catogories),即我们需要获得：$P(C \mid F_1:F_N)$,数据是给定条件,分类是随机变量,这就是贝叶斯方法中所说的后验分布,我们可以使用先验分布和似然来表示该后验分布：
 $$
 \begin{equation}
@@ -307,21 +336,21 @@ $$
 P(C \mid F_1:F_N)=\frac{\prod_{i=1}^N P(F_i \mid C) P(C)}{P(F_1:F_N)}
 \end{equation}
 $$
-分母可以通过统计样本得出,但是并不重要,因为所有的后验分布共享一个分母,当分类器判别样本时,都具有相同的权重。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Example:Use bayes to process Gaussian distribution&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;联想DDPM中求$q(x_{t-1} \mid x_t,x_0)$的过程,我们使用贝叶斯公式去计算似然和先验都为Gausssian分布的情况,即$\lbrace X_1,&amp;hellip;,X_N \rbrace \overset{\mathrm{iid}}{\sim}N(\mu,\sigma_x^2)$,$\mu\sim N(\mu_\theta,\sigma_\mu^2)$,已知先验分布和似然,去求后验分布,即&lt;/p&gt;
-&lt;div&gt;
+分母可以通过统计样本得出,但是并不重要,因为所有的后验分布共享一个分母,当分类器判别样本时,都具有相同的权重。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Example:Use bayes to process Gaussian distribution&lt;/strong>&lt;/p>
+&lt;p>联想DDPM中求$q(x_{t-1} \mid x_t,x_0)$的过程,我们使用贝叶斯公式去计算似然和先验都为Gausssian分布的情况,即$\lbrace X_1,&amp;hellip;,X_N \rbrace \overset{\mathrm{iid}}{\sim}N(\mu,\sigma_x^2)$,$\mu\sim N(\mu_\theta,\sigma_\mu^2)$,已知先验分布和似然,去求后验分布,即&lt;/p>
+&lt;div>
 $$
 \begin{equation}
 \begin{aligned}
 &amp; P\left(\mu \mid x_1: x_N\right)=\frac{P\left(x_1: x_N \mid \mu\right) P(\mu)}{P\left(x_1: x_N\right)} \\
-&amp; \propto  \frac{\exp \left\{-\frac{1}{2 \sigma_k^2} \sum_{k=1}^N\left(x_k-\mu_x\right)^2\right\} \exp \left\{-\frac{1}{2 \sigma_\mu^2}\left(\mu-\mu_\theta\right)^2\right\}}{\int_{-\infty}^{+\infty} \exp \left\{-\frac{1}{2 \sigma_x^2} \sum_{k=1}^N\left(x_k-\mu_x\right)^2-\frac{1}{2 \sigma_\mu^2}\left(\mu-\mu_\theta \right)^2\right\} d \mu} 
+&amp; \propto \frac{\exp \left\{-\frac{1}{2 \sigma_k^2} \sum_{k=1}^N\left(x_k-\mu_x\right)^2\right\} \exp \left\{-\frac{1}{2 \sigma_\mu^2}\left(\mu-\mu_\theta\right)^2\right\}}{\int_{-\infty}^{+\infty} \exp \left\{-\frac{1}{2 \sigma_x^2} \sum_{k=1}^N\left(x_k-\mu_x\right)^2-\frac{1}{2 \sigma_\mu^2}\left(\mu-\mu_\theta \right)^2\right\} d \mu}
 \end{aligned}
 \end{equation}
-$$&lt;/div&gt;
-&lt;p&gt;拿出分母中指数内的部分(其实也是分子部分)：&lt;/p&gt;
-&lt;div&gt;
+$$&lt;/div>
+&lt;p>拿出分母中指数内的部分(其实也是分子部分)：&lt;/p>
+&lt;div>
 $$
 \begin{equation}
 \begin{aligned}
@@ -331,14 +360,14 @@ $$
 = &amp; -\frac{1}{2}\left(\frac{n}{\sigma_x^2}+\frac{1}{\sigma_\mu^2}\right)\left(\mu-\left(\frac{\sum_{k=1}^N x_k}{\sigma_x^2}+\frac{\mu_\theta}{\sigma_\mu^2}\right)\right)^2+Q^{\prime}\left(x_1:x_N\right)
 \end{aligned}
 \end{equation}
-$$&lt;/div&gt;
+$$&lt;/div>
 余项$Q(x_1:x_N)$在分子与分母中都有,且与随机变量$\mu$无关,所以原式可以写做正比于分母也是Gaussian分布的形式：
 $$
 \begin{equation}
 \begin{aligned}
- &amp;P\left(\mu \mid x_1: x_N\right)\\
- &amp;\propto  \frac{\exp \left\{-\frac{1}{2 \sigma_k^2} \sum_{k=1}^N\left(x_k-\mu_x\right)^2\right\} \exp \left\{-\frac{1}{2 \sigma_\mu^2}\left(\mu-\mu_\theta\right)^2\right\}}{\int_{-\infty}^{+\infty} \exp \left\{-\frac{1}{2 \sigma_x^2} \sum_{k=1}^N\left(x_k-\mu_x\right)^2-\frac{1}{2 \sigma_\mu^2}\left(\mu-\mu_\theta \right)^2\right\} d \mu} \\
-&amp;\propto  \frac{\exp \left\{ -\frac{1}{2}\left(\frac{n}{\sigma_x^2}+\frac{1}{\sigma_\mu^2}\right)\left(\mu-\left(\frac{\sum_{k=1}^N x_k}{\sigma_x^2}+\frac{\mu_\theta}{\sigma_\mu^2}\right)\right)\mathbf{/}\left(\frac{n}{\sigma_x^2}+\frac{1}{\sigma_\mu^2} \right)^2\right\}}{\int_{-\infty}^{+\infty}\exp \left\{ -\frac{1}{2}\left(\frac{n}{\sigma_x^2}+\frac{1}{\sigma_\mu^2}\right)\left(\mu-\left(\frac{\sum_{k=1}^N x_k}{\sigma_x^2}+\frac{\mu_\theta}{\sigma_\mu^2}\right)\mathbf{/}\left(\frac{n}{\sigma_x^2}+\frac{1}{\sigma_\mu^2} \right)\right)^2\right\}d \mu} 
+&amp;P\left(\mu \mid x_1: x_N\right)\\
+&amp;\propto \frac{\exp \left\{-\frac{1}{2 \sigma_k^2} \sum_{k=1}^N\left(x_k-\mu_x\right)^2\right\} \exp \left\{-\frac{1}{2 \sigma_\mu^2}\left(\mu-\mu_\theta\right)^2\right\}}{\int_{-\infty}^{+\infty} \exp \left\{-\frac{1}{2 \sigma_x^2} \sum_{k=1}^N\left(x_k-\mu_x\right)^2-\frac{1}{2 \sigma_\mu^2}\left(\mu-\mu_\theta \right)^2\right\} d \mu} \\
+&amp;\propto \frac{\exp \left\{ -\frac{1}{2}\left(\frac{n}{\sigma_x^2}+\frac{1}{\sigma_\mu^2}\right)\left(\mu-\left(\frac{\sum_{k=1}^N x_k}{\sigma_x^2}+\frac{\mu_\theta}{\sigma_\mu^2}\right)\right)\mathbf{/}\left(\frac{n}{\sigma_x^2}+\frac{1}{\sigma_\mu^2} \right)^2\right\}}{\int_{-\infty}^{+\infty}\exp \left\{ -\frac{1}{2}\left(\frac{n}{\sigma_x^2}+\frac{1}{\sigma_\mu^2}\right)\left(\mu-\left(\frac{\sum_{k=1}^N x_k}{\sigma_x^2}+\frac{\mu_\theta}{\sigma_\mu^2}\right)\mathbf{/}\left(\frac{n}{\sigma_x^2}+\frac{1}{\sigma_\mu^2} \right)\right)^2\right\}d \mu}
 \end{aligned}
 \end{equation}
 $$
@@ -351,18 +380,18 @@ $$
 \mu =\left(\frac{\frac{n}{\sigma _x^2}}{\frac{n}{\sigma_x^2}+\frac{1}{\sigma_\mu^2}}\right) \bar{X}+\left(\frac{\frac{1}{\sigma_\mu^2}}{\frac{n}{\sigma_x^2}+\frac{1}{\sigma_\mu^2}}\right) \mu_\theta
 $$
 可见,后验分布可以当作某种似然与先验分布的线性凸组合,当$n$足够大时,数据的加权十分大,就可以忘记先验,当$\sigma_x$足够大时,数据的信任度很低,学习的权重会尽可能的减少,从而保持先验,其实这种似然和先验分布都是Guassian分布的情况下就是简化的线性高斯模型,可以有更统一的矩阵描述形式。
-&lt;hr&gt;
-&lt;h2 id=&#34;statistical-decision-theory&#34;&gt;Statistical decision theory
-&lt;/h2&gt;&lt;p&gt;贝叶斯方法的核心观点就是利用后验分布去学习统计模型$\hat{\theta}(x)$,去对先验分布进行优化,那么就需要我们定义一种度量$d(\hat{\theta}(x),\theta)$,从而通过最小化这种度量的方式完成先验分布的优化,$d(\hat{\theta}(x),\theta)$是随机的,所以我们希望消除他的随机性求平均距离,即我们的目标为&lt;/p&gt;
-&lt;div&gt;
+&lt;hr>
+&lt;h2 id="statistical-decision-theory">Statistical decision theory
+&lt;/h2>&lt;p>贝叶斯方法的核心观点就是利用后验分布去学习统计模型$\hat{\theta}(x)$,去对先验分布进行优化,那么就需要我们定义一种度量$d(\hat{\theta}(x),\theta)$,从而通过最小化这种度量的方式完成先验分布的优化,$d(\hat{\theta}(x),\theta)$是随机的,所以我们希望消除他的随机性求平均距离,即我们的目标为&lt;/p>
+&lt;div>
 $$
 \begin{equation}
-\hat{\theta}(x) = \underset{\hat{\theta}}{\arg \min }\mathbb{E}_{x,\theta}[d(\hat{\theta}(x),\theta) ] 
+\hat{\theta}(x) = \underset{\hat{\theta}}{\arg \min }\mathbb{E}_{x,\theta}[d(\hat{\theta}(x),\theta) ]
 \end{equation}
 $$
-&lt;/div&gt;
-&lt;p&gt;平均距离$\mathbb{E}_{x,\theta}[d(\hat{\theta}(x),\theta) ]$ 一般被成为风险(Risk),该目标函数也被称为风险极小化,频率学派和贝叶斯学派对该目标函数有不同方式的处理：&lt;/p&gt;
-&lt;div&gt;
+&lt;/div>
+&lt;p>平均距离$\mathbb{E}_{x,\theta}[d(\hat{\theta}(x),\theta) ]$ 一般被成为风险(Risk),该目标函数也被称为风险极小化,频率学派和贝叶斯学派对该目标函数有不同方式的处理：&lt;/p>
+&lt;div>
 $$
 \begin{equation}
 \begin{aligned}
@@ -372,17 +401,17 @@ E[d(\hat{\theta}(x), \theta)]&amp;=\iint d(\theta, \hat{\theta}(x)) P_{x, \theta
 \end{aligned}
 \end{equation}
 $$
-&lt;/div&gt;
-&lt;p&gt;可见,频率学派尽可能的削弱$\theta$的随机性,因为他们认为$\theta$是确定的（所以在频率学派中有极大化似然这种方法）,但是频率学派种所需要的似然往往是不可以直接计算的,因此有了经验风险极小化(Empirical Risk Minimization,ERM)理论,该理论一般将样本均值取代理论均值,即
+&lt;/div>
+&lt;p>可见,频率学派尽可能的削弱$\theta$的随机性,因为他们认为$\theta$是确定的（所以在频率学派中有极大化似然这种方法）,但是频率学派种所需要的似然往往是不可以直接计算的,因此有了经验风险极小化(Empirical Risk Minimization,ERM)理论,该理论一般将样本均值取代理论均值,即
 $$
 E[d(\hat{\theta}(x), \theta)]=\frac{1}{N}\sum_{k=1}^Nd(\theta_k, \hat{\theta}_k(x))
 $$
-贝叶斯学派则是尽可能削弱数据的随机性,认为已经发生的实验就是确定的,将问题的重心转化到后验分布的计算上,在后面我们会看到,使用贝叶斯方法处理统计模型的关键就是得到后验分布以及如何处理后验分布。&lt;/p&gt;
-&lt;h3 id=&#34;choice-of-measurement&#34;&gt;Choice of measurement
-&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;MSE&lt;/p&gt;
-&lt;p&gt;选择度量为均方误差,可以定义风险(忽略了数据的随机性)：
+贝叶斯学派则是尽可能削弱数据的随机性,认为已经发生的实验就是确定的,将问题的重心转化到后验分布的计算上,在后面我们会看到,使用贝叶斯方法处理统计模型的关键就是得到后验分布以及如何处理后验分布。&lt;/p>
+&lt;h3 id="choice-of-measurement">Choice of measurement
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>MSE&lt;/p>
+&lt;p>选择度量为均方误差,可以定义风险(忽略了数据的随机性)：
 $$
 \begin{equation}
 R(\theta, \hat{\theta})=\int(\theta-\hat{\theta})^2 P(\theta \mid x) d \theta
@@ -394,11 +423,11 @@ $$
 \hat{\theta}^*=\frac{\int \theta p(\theta \mid x) d \theta}{\int p(\theta \mid x) d \theta}=\int \theta p(\theta \mid x) d \theta=E[\theta \mid x]
 \end{equation}
 $$
-这与频率学派下的MMSE最优解不谋而合,都是均方误差的形式,但是各自的随机变量不同,由此可见,条件期望就是均方误差意义下的最优估计。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;MAE&lt;/p&gt;
-&lt;p&gt;平均绝对误差意义下,风险函数为
+这与频率学派下的MMSE最优解不谋而合,都是均方误差的形式,但是各自的随机变量不同,由此可见,条件期望就是均方误差意义下的最优估计。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>MAE&lt;/p>
+&lt;p>平均绝对误差意义下,风险函数为
 $$
 \begin{equation}
 R(\theta, \hat{\theta})=\int\mid \theta-\hat{\theta}\mid P(\theta \mid x) d \theta
@@ -414,48 +443,48 @@ $$
 $$
 \nabla_{\hat{\theta}} R(\theta, \hat{\theta})=\int_{-\infty}^{\hat{\theta}} p(\theta \mid x) d \theta-\int_{\hat{\theta}}^{+\infty} p(\theta \mid x) d \theta=0
 $$
-直观的观察这个式子,当风险函数的导数等于0时,$\hat{\theta}$就是平分后验分布概率密度函数面积的垂直于$\theta$轴的直线,也就是统计量中的中位数,即中位数是MAE意义下的最优估计。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;MAP&lt;/p&gt;
-&lt;p&gt;这里的MAP指极大化后验概率的意思,定义度量为：&lt;/p&gt;
-&lt;div&gt;
+直观的观察这个式子,当风险函数的导数等于0时,$\hat{\theta}$就是平分后验分布概率密度函数面积的垂直于$\theta$轴的直线,也就是统计量中的中位数,即中位数是MAE意义下的最优估计。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>MAP&lt;/p>
+&lt;p>这里的MAP指极大化后验概率的意思,定义度量为：&lt;/p>
+&lt;div>
 $$
- \begin{equation}
- d(\theta, \hat{\theta})=\left\{\begin{array}{l}
- 1,|\hat{\theta}-\theta|&gt;\delta \\
- 0,|\hat{\theta}-\theta| \leq \delta
- \end{array}\right.
- \end{equation}
- $$
- &lt;/div&gt;
-&lt;p&gt;其中,$\delta$是我们主观挑选的误差容忍数值,当$\delta$足够小时,风险函数可以写为：&lt;/p&gt;
- &lt;div&gt;
- $$
- \begin{equation}
- \begin{aligned}
- R(\theta, \hat{\theta}) &amp; =\int d(\theta, \hat{\theta}) p(\theta, x) d \theta \\
- &amp; =\int_{|\hat{\theta}-\theta|&gt;\delta} p(\theta \mid x) d \theta \\
- &amp; =1-\int_{|\hat{\theta}-\theta| \leqslant \delta} p(\theta \mid x) d \theta \\
- &amp; \approx 1-2 \delta p(\theta \mid x)
- \end{aligned}
- \end{equation}
- $$
- &lt;/div&gt;
- 那么,我们就可以等价的将最小化风险写为最大化后验概率,即
- $$
- \begin{equation}
- \underset{\hat{\theta}}{\arg \min }R(\theta,\hat{\theta})\iff\underset{\hat{\theta}}{\arg \max }p(\theta \mid x)
- \end{equation}
- $$
- 用统计量来表述的话就是最大化众数。
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Example:Use bayes to process Bernoulli distribution&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;假设我们有先验分布$\theta$,似然$X\sim B(n,\theta)$,目标计算$\theta$的后验分布以及在均方意义下的最优估计。&lt;/p&gt;
-&lt;p&gt;由Bayes公式,有&lt;/p&gt;
-&lt;div&gt;
+\begin{equation}
+d(\theta, \hat{\theta})=\left\{\begin{array}{l}
+1,|\hat{\theta}-\theta|>\delta \\
+0,|\hat{\theta}-\theta| \leq \delta
+\end{array}\right.
+\end{equation}
+$$
+&lt;/div>
+&lt;p>其中,$\delta$是我们主观挑选的误差容忍数值,当$\delta$足够小时,风险函数可以写为：&lt;/p>
+&lt;div>
+$$
+\begin{equation}
+\begin{aligned}
+R(\theta, \hat{\theta}) &amp; =\int d(\theta, \hat{\theta}) p(\theta, x) d \theta \\
+&amp; =\int_{|\hat{\theta}-\theta|>\delta} p(\theta \mid x) d \theta \\
+&amp; =1-\int_{|\hat{\theta}-\theta| \leqslant \delta} p(\theta \mid x) d \theta \\
+&amp; \approx 1-2 \delta p(\theta \mid x)
+\end{aligned}
+\end{equation}
+$$
+&lt;/div>
+那么,我们就可以等价的将最小化风险写为最大化后验概率,即
+$$
+\begin{equation}
+\underset{\hat{\theta}}{\arg \min }R(\theta,\hat{\theta})\iff\underset{\hat{\theta}}{\arg \max }p(\theta \mid x)
+\end{equation}
+$$
+用统计量来表述的话就是最大化众数。
+&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;p>&lt;strong>Example:Use bayes to process Bernoulli distribution&lt;/strong>&lt;/p>
+&lt;p>假设我们有先验分布$\theta$,似然$X\sim B(n,\theta)$,目标计算$\theta$的后验分布以及在均方意义下的最优估计。&lt;/p>
+&lt;p>由Bayes公式,有&lt;/p>
+&lt;div>
 $$
 \begin{equation}
 \begin{aligned}
@@ -464,48 +493,48 @@ P(\theta \mid x) &amp; =\frac{P(x \mid \theta) P(\theta)}{P(x)} \\
 \end{aligned}
 \end{equation}
 $$
-&lt;/div&gt;
-&lt;p&gt;接下来,我们考虑当先验分布服从标准均匀分布的情况下后验概率的计算,即计算
+&lt;/div>
+&lt;p>接下来,我们考虑当先验分布服从标准均匀分布的情况下后验概率的计算,即计算
 $$
 \begin{equation}
 P(\theta \mid x)=\frac{\theta^x(1-\theta)^{n-x}}{\int_0^1 \theta^x(1-\theta)^{n-x} d \theta}
 \end{equation}
 $$
-在计算后验概率之前,我们需要引入&lt;em&gt;Beta&lt;/em&gt;分布来辅助我们的贝叶斯因子的计算,&lt;em&gt;Beta&lt;/em&gt;分布的pdf为&lt;/p&gt;
-&lt;div&gt;
+在计算后验概率之前,我们需要引入&lt;em>Beta&lt;/em>分布来辅助我们的贝叶斯因子的计算,&lt;em>Beta&lt;/em>分布的pdf为&lt;/p>
+&lt;div>
 $$
 \begin{equation}
 \begin{aligned}
-f(x ; \alpha, \beta) 
+f(x ; \alpha, \beta)
 &amp; =\frac{x^{\alpha-1}(1-x)^{\beta-1}}{\int_0^1 u^{\alpha-1}(1-u)^{\beta-1} d u} \\
 &amp; =\frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha) \Gamma(\beta)} x^{\alpha-1}(1-x)^{\beta-1} \\
 &amp; =\frac{1}{\mathrm{~B}(\alpha, \beta)} x^{\alpha-1}(1-x)^{\beta-1}
 \end{aligned}
 \end{equation}
 $$
-&lt;/div&gt;
-&lt;p&gt;其中,$\alpha,\beta&amp;gt;0$,$\Gamma(x)$是Gamma函数,有性质
+&lt;/div>
+&lt;p>其中,$\alpha,\beta&amp;gt;0$,$\Gamma(x)$是Gamma函数,有性质
 $$
 \Gamma(x)=\int_0^{+\infty} t^{x-1} e^{-t} d t(x&amp;gt;0)=(x-1)!
 $$
-&lt;em&gt;Beta&lt;/em&gt;函数$B(\alpha, \beta)$的定义为$B(\alpha, \beta)=\int_0^1 t^{\alpha-1}(1-t)^{\beta-1} \mathbf{d} t$,现在我们来&lt;strong&gt;证明&lt;/strong&gt;$\mathrm{~B}(\alpha, \beta)=\frac{\Gamma(\alpha) \Gamma(\beta)}{\Gamma(\alpha+\beta)}$:&lt;/p&gt;
-&lt;p&gt;观察&lt;em&gt;Beta&lt;/em&gt;函数的定义,类似卷积的定义,注意到：&lt;/p&gt;
-&lt;div&gt;
+&lt;em>Beta&lt;/em>函数$B(\alpha, \beta)$的定义为$B(\alpha, \beta)=\int_0^1 t^{\alpha-1}(1-t)^{\beta-1} \mathbf{d} t$,现在我们来&lt;strong>证明&lt;/strong>$\mathrm{~B}(\alpha, \beta)=\frac{\Gamma(\alpha) \Gamma(\beta)}{\Gamma(\alpha+\beta)}$:&lt;/p>
+&lt;p>观察&lt;em>Beta&lt;/em>函数的定义,类似卷积的定义,注意到：&lt;/p>
+&lt;div>
 $$
 \begin{aligned}
 B(\alpha, \beta)&amp;=\int_0^1 t^{\alpha-1}(x-t)^{\beta-1} \mathbf{d} t\mid_{x=1}
 \\&amp;=f(x)*g(x)\mid_{x=1}
 \end{aligned}
 $$
-&lt;/div&gt;
-&lt;p&gt;在上述公式中,我们定义了两个幂函数$f(x): =x^{\alpha-1},g(x):=x^{\beta-1},$这两个幂函数的支撑集应该是[0,1],这样才能满足积分的上下限要求,现在对两个幂级数的卷积进行Laplce变换：&lt;/p&gt;
-&lt;div&gt;
+&lt;/div>
+&lt;p>在上述公式中,我们定义了两个幂函数$f(x): =x^{\alpha-1},g(x):=x^{\beta-1},$这两个幂函数的支撑集应该是[0,1],这样才能满足积分的上下限要求,现在对两个幂级数的卷积进行Laplce变换：&lt;/p>
+&lt;div>
 $$
 \mathcal{L}\left\{x^{\alpha-1} * x^{\beta-1}\right\}=\mathcal{L}\left\{x^{\alpha-1}\right\} \cdot \mathcal{L}\left\{x^{\beta-1}\right\}
 $$
-&lt;/div&gt;
-&lt;p&gt;而幂级数的Laplace变换可以和Gamma函数联系起来,即&lt;/p&gt;
-&lt;div&gt;
+&lt;/div>
+&lt;p>而幂级数的Laplace变换可以和Gamma函数联系起来,即&lt;/p>
+&lt;div>
 $$
 \begin{equation}
 \begin{aligned}
@@ -515,9 +544,9 @@ $$
 &amp;=\frac{\Gamma(a+1)}{s^{a+1}}
 \end{aligned}
 \end{equation}$$
-&lt;/div&gt;
-&lt;p&gt;继续我们上述的Laplace变换,有&lt;/p&gt;
-&lt;div&gt;
+&lt;/div>
+&lt;p>继续我们上述的Laplace变换,有&lt;/p>
+&lt;div>
 $$
 \begin{equation}
 \begin{aligned}
@@ -527,10 +556,10 @@ $$
 \end{aligned}
 \end{equation}
 $$
-&lt;/div&gt;
-&lt;p&gt;这时令$x=1$,便可以得到$\mathrm{~B}(\alpha, \beta)=\frac{\Gamma(\alpha) \Gamma(\beta)}{\Gamma(\alpha+\beta)}$,&lt;strong&gt;证毕&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;现在我们使用&lt;em&gt;Beta&lt;/em&gt;函数来计算后验分布,注意,如果令$\alpha = x+1,\beta = n-x+1$,后验分布的贝叶斯因子为$B(\alpha,\beta)=B(x+1,n-x+1)$,那么有&lt;/p&gt;
-&lt;div&gt;
+&lt;/div>
+&lt;p>这时令$x=1$,便可以得到$\mathrm{~B}(\alpha, \beta)=\frac{\Gamma(\alpha) \Gamma(\beta)}{\Gamma(\alpha+\beta)}$,&lt;strong>证毕&lt;/strong>。&lt;/p>
+&lt;p>现在我们使用&lt;em>Beta&lt;/em>函数来计算后验分布,注意,如果令$\alpha = x+1,\beta = n-x+1$,后验分布的贝叶斯因子为$B(\alpha,\beta)=B(x+1,n-x+1)$,那么有&lt;/p>
+&lt;div>
 $$
 \begin{equation}
 \begin{aligned}
@@ -540,15 +569,15 @@ $$
 \end{aligned}
 \end{equation}
 $$
-&lt;/div&gt;
-&lt;p&gt;则我们计算出来的后验分布最终形式为
+&lt;/div>
+&lt;p>则我们计算出来的后验分布最终形式为
 $$
 \begin{equation}
 P(\theta, x)=\frac{(n+1)!}{x!(n-x)!} \theta^x(1-\theta)^{n-x}
 \end{equation}
 $$
-可见该后验分布实际上是服从&lt;em&gt;Beta&lt;/em&gt;分布的。根据MSE意义下的最优估计,有&lt;/p&gt;
-&lt;div&gt;
+可见该后验分布实际上是服从&lt;em>Beta&lt;/em>分布的。根据MSE意义下的最优估计,有&lt;/p>
+&lt;div>
 $$
 \begin{equation}
 \begin{aligned}
@@ -560,17 +589,17 @@ E[\theta \mid x] &amp; =\int_0^1 \theta \frac{(n+1)!}{x!(n-x)!} \theta^x(1-\thet
 \end{aligned}
 \end{equation}
 $$
-&lt;/div&gt;
-&lt;p&gt;至此,我们求得了后验分布和MSE意义下的模型最优估计。
+&lt;/div>
+&lt;p>至此,我们求得了后验分布和MSE意义下的模型最优估计。
 如果再进一步的处理该条件期望,我们可以得到线型凸组合的形式：
 $$
 E[\theta \mid x]=\frac{n}{n+2}\frac{x}{n}+\frac{2}{n+2}\frac{1}{2}
 $$
-$\frac{x}{n}$反应了似然意义上的某种均值,$\frac{1}{2}$为先验分布的均值,这也显示了在伯努利实验的情况下,最优估计的过程是不断线性凸组合的过程。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Example:Conjugate prior&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在上个例子中,我们一开始假设先验分布服从标准均匀分布,但是我们根据伯努利的似然求出后验分布之后,发现后验分布并不服从标准均匀分布,而是服从&lt;em&gt;Beta&lt;/em&gt;分布,这说明我们的先验分布并没有反映事物的客观性质,在统计学中,如果我们的先验分布和后验分布的分布类型一致,我们就称该先验分布为共轭先验。&lt;/p&gt;
-&lt;p&gt;在一些比较简单的概率模型中,共轭先验是已知的并且可以提前制定的,例如当似然服从伯努利分布时,共轭先验为&lt;em&gt;Beta&lt;/em&gt;分布,但是更多的(绝大多数的)概率模型的共轭先验是难以得到的。我们沿用上一个例子的情景,令先验分布为&lt;em&gt;Beta&lt;/em&gt;分布,即
+$\frac{x}{n}$反应了似然意义上的某种均值,$\frac{1}{2}$为先验分布的均值,这也显示了在伯努利实验的情况下,最优估计的过程是不断线性凸组合的过程。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Example:Conjugate prior&lt;/strong>&lt;/p>
+&lt;p>在上个例子中,我们一开始假设先验分布服从标准均匀分布,但是我们根据伯努利的似然求出后验分布之后,发现后验分布并不服从标准均匀分布,而是服从&lt;em>Beta&lt;/em>分布,这说明我们的先验分布并没有反映事物的客观性质,在统计学中,如果我们的先验分布和后验分布的分布类型一致,我们就称该先验分布为共轭先验。&lt;/p>
+&lt;p>在一些比较简单的概率模型中,共轭先验是已知的并且可以提前制定的,例如当似然服从伯努利分布时,共轭先验为&lt;em>Beta&lt;/em>分布,但是更多的(绝大多数的)概率模型的共轭先验是难以得到的。我们沿用上一个例子的情景,令先验分布为&lt;em>Beta&lt;/em>分布,即
 $$
 P(\theta)=\frac{(a+b+1)!}{(a-1)!(b-1)!}\theta^{a-1}(1-\theta)^{b-1}
 $$
@@ -582,17 +611,17 @@ $$
 $$
 E[\theta \mid x]=\frac{a+b}{n+a+b}\frac{a}{a+b}+\frac{n}{n+a+b}\frac{x}{n}
 $$
-依然是某种实验中的均值与先验分布均值的线性凸组合,从我们在上一个章节中的Gauss分布似然到这个章节的伯努利分布似然,最后都得到了线性凸组合的学习形式,这可能并不是一种偶然,这些简单的例子给我们启发：在高维空间中,复杂分布的学习过程也可能是迭代的线性凸组合。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;sampling&#34;&gt;Sampling
-&lt;/h2&gt;&lt;p&gt;使用Bayes方法的核心在于后验分布的处理，但是后验分布的形式往往是极其复杂的，极大多数的后验分布都是难以去积分甚至不可积的，统计中常用的方法就是&lt;strong&gt;生成&lt;/strong&gt;符合后验分布的样本，从而利用样本代替解析表达的分布进行计算，这种生成样本的方法又被称作&lt;strong&gt;采样&lt;/strong&gt;。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;模拟&lt;/strong&gt;是指把某一现实的或抽象的系统的某种特征或部分状态， 用另一系统（称为模拟模型）来代替或近似。 为了解决某问题， 把它变成一个概率模型的求解问题， 然后产生符合模型的大量随机数， 对产生的随机数进行分析从而求解问题， 这种方法叫做&lt;strong&gt;随机模拟&lt;/strong&gt;方法， 又称为&lt;strong&gt;蒙特卡洛&lt;/strong&gt;(Monte Carlo)方法。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;inverse-distribution-function&#34;&gt;Inverse distribution function
-&lt;/h3&gt;&lt;p&gt;逆分布采样的描述很简单，目标生成随机变量$X\sim F(X)$的样本($F(x)$为累计分布函数)，只需要生成随机样本$Y\sim F^{-1}(U)$即可，$Y$即想要得到的分布，$U$为服从标准正态分布的随机变量。&lt;/p&gt;
-&lt;p&gt;这样来看，生成随机变量的样本的过程就很简单，第一步，生成均匀分布的样本(可以利用线性同余法等方法生成)，第二步，求得目标分布累积分布函数的逆，第三步，代入累积分布函数的逆求得目标样本。&lt;/p&gt;
-&lt;p&gt;现在简单的&lt;strong&gt;证明&lt;/strong&gt;一下随机变量$Y$与随机变量$X$服从同一个分布，求$Y$的累积分布函数：
+依然是某种实验中的均值与先验分布均值的线性凸组合,从我们在上一个章节中的Gauss分布似然到这个章节的伯努利分布似然,最后都得到了线性凸组合的学习形式,这可能并不是一种偶然,这些简单的例子给我们启发：在高维空间中,复杂分布的学习过程也可能是迭代的线性凸组合。&lt;/p>
+&lt;hr>
+&lt;h2 id="sampling">Sampling
+&lt;/h2>&lt;p>使用Bayes方法的核心在于后验分布的处理，但是后验分布的形式往往是极其复杂的，极大多数的后验分布都是难以去积分甚至不可积的，统计中常用的方法就是&lt;strong>生成&lt;/strong>符合后验分布的样本，从而利用样本代替解析表达的分布进行计算，这种生成样本的方法又被称作&lt;strong>采样&lt;/strong>。&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>模拟&lt;/strong>是指把某一现实的或抽象的系统的某种特征或部分状态， 用另一系统（称为模拟模型）来代替或近似。 为了解决某问题， 把它变成一个概率模型的求解问题， 然后产生符合模型的大量随机数， 对产生的随机数进行分析从而求解问题， 这种方法叫做&lt;strong>随机模拟&lt;/strong>方法， 又称为&lt;strong>蒙特卡洛&lt;/strong>(Monte Carlo)方法。&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="inverse-distribution-function">Inverse distribution function
+&lt;/h3>&lt;p>逆分布采样的描述很简单，目标生成随机变量$X\sim F(X)$的样本($F(x)$为累计分布函数)，只需要生成随机样本$Y\sim F^{-1}(U)$即可，$Y$即想要得到的分布，$U$为服从标准正态分布的随机变量。&lt;/p>
+&lt;p>这样来看，生成随机变量的样本的过程就很简单，第一步，生成均匀分布的样本(可以利用线性同余法等方法生成)，第二步，求得目标分布累积分布函数的逆，第三步，代入累积分布函数的逆求得目标样本。&lt;/p>
+&lt;p>现在简单的&lt;strong>证明&lt;/strong>一下随机变量$Y$与随机变量$X$服从同一个分布，求$Y$的累积分布函数：
 $$
 \begin{equation}
 \begin{aligned}
@@ -603,11 +632,11 @@ F_Y(y)&amp;amp; =P(y\leq Y)\
 \end{aligned}
 \end{equation}
 $$
-可见，$Y$的累积分布函数实际上就是$X$的累积分布函数，所以它们两个是同一个随机变量，如此，对于易于求得逆累积分布的随机变量，我们便可以通过这种方法求得符合该分布的样本，例如指数分布、泊松分布。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Example:Sampling for Gaussian Distribution&lt;/strong&gt;
-Guassian分布的逆分布函数并不好求，虽然我们可以通过中心极限定理生成Gaussian分布，但那种方法并不属于逆分布生成，Box-Muller算法是一种经典的Gaussian分布生成算法，使用了极坐标变换来处理Gaussian分布难以求逆的问题，接下来我们介绍这种方法。&lt;/p&gt;
-&lt;p&gt;假设我们目标求得两个独立同分布的标准高斯随机变量，$X_1,X_2\overset{\mathrm{iid}}{\sim} N(0,1)$，则它们的联合概率密度为
+可见，$Y$的累积分布函数实际上就是$X$的累积分布函数，所以它们两个是同一个随机变量，如此，对于易于求得逆累积分布的随机变量，我们便可以通过这种方法求得符合该分布的样本，例如指数分布、泊松分布。&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Example:Sampling for Gaussian Distribution&lt;/strong>
+Guassian分布的逆分布函数并不好求，虽然我们可以通过中心极限定理生成Gaussian分布，但那种方法并不属于逆分布生成，Box-Muller算法是一种经典的Gaussian分布生成算法，使用了极坐标变换来处理Gaussian分布难以求逆的问题，接下来我们介绍这种方法。&lt;/p>
+&lt;p>假设我们目标求得两个独立同分布的标准高斯随机变量，$X_1,X_2\overset{\mathrm{iid}}{\sim} N(0,1)$，则它们的联合概率密度为
 $$
 \begin{equation}
 \begin{aligned}
@@ -624,20 +653,15 @@ f_{X Y}(x, y) &amp;amp;=f_{XY}(\rho \cos\theta,\rho \sin\theta)\
 &amp;amp;=\frac{1}{2 \pi } \exp \left(-\frac{\rho^2}{2 }\right)\rho
 \end{aligned}
 \end{equation}
-$$&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;accept-reject-sampling&#34;&gt;Accept-reject sampling
-&lt;/h3&gt;&lt;h3 id=&#34;importance-sampling&#34;&gt;Importance sampling
-&lt;/h3&gt;&lt;h3 id=&#34;markov-chain-monte-carlomcmc&#34;&gt;Markov chain Monte Carlo(MCMC)
-&lt;/h3&gt;&lt;style&gt;
+$$&lt;/p>
+&lt;hr>
+&lt;h3 id="accept-reject-sampling">Accept-reject sampling
+&lt;/h3>&lt;h3 id="importance-sampling">Importance sampling
+&lt;/h3>&lt;h3 id="markov-chain-monte-carlomcmc">Markov chain Monte Carlo(MCMC)
+&lt;/h3>&lt;style>
 body {
-    font-family: &#39;微软雅黑&#39;, sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
-    --article-font-size: 3.5
-    line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
+font-family: '微软雅黑', sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
+--article-font-size: 3.5
+line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
 }
-&lt;/style&gt;
-</description>
-        </item>
-        
-    </channel>
-</rss>
+&lt;/style></description></item></channel></rss>
