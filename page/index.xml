@@ -1,12 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Haitong Lan</title><link>https://example.com/page/</link><description>Recent content in Pages on Haitong Lan</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Haitong's blog</copyright><lastBuildDate>Sat, 03 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml"/><item><title>About me</title><link>https://example.com/about-me/</link><pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate><guid>https://example.com/about-me/</guid><description>&lt;p>I&amp;rsquo;m a third year undergraduate student from &lt;a class="link" href="https://www.bupt.edu.cn/" target="_blank" rel="noopener"
->Beijing University of Posts and Telecommunications(BUPT)&lt;/a>. My research interest includes machine learning ,signal processing and sampling.&lt;/p>
-&lt;p>I am very fortunate to be a visiting student of &lt;a class="link" href="https://lsec.cc.ac.cn/~mjj/" target="_blank" rel="noopener"
->Prof. Junjie Ma&lt;/a> of &lt;a class="link" href="https://amss.cas.cn/sy/" target="_blank" rel="noopener"
->Academy of Mathematics and Systems Science(AMSS)&lt;/a>.&lt;/p>
-&lt;p>You can find my CV here: &lt;a class="link" href="jianli.pdf" >Haitong Lan&amp;rsquo;s Curriculum Vitae&lt;/a>.&lt;/p>
-&lt;p>&lt;strong>My contact information&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>QQ : 1517609268&lt;/li>
-&lt;li>Wechat &amp;amp; Phone: 15505405918&lt;/li>
-&lt;li>e-mail:lanhaitong@bupt.edu.cn&lt;/li>
-&lt;/ul></description></item><item><title>Archives</title><link>https://example.com/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://example.com/archives/</guid><description/></item><item><title>Links</title><link>https://example.com/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/links/</guid><description>&lt;p>The links below are some of my favorite sites and blogs, which serve as quick access points for me and recommendations for you.&lt;/p></description></item><item><title>Search</title><link>https://example.com/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/search/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Haitong Lan</title>
+        <link>http://localhost:1313/page/</link>
+        <description>Recent content in Pages on Haitong Lan</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Haitong&#39;s blog</copyright>
+        <lastBuildDate>Sat, 03 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About me</title>
+        <link>http://localhost:1313/about-me/</link>
+        <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/about-me/</guid>
+        <description>&lt;p&gt;I&amp;rsquo;m a third year undergraduate student from &lt;a class=&#34;link&#34; href=&#34;https://www.bupt.edu.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Beijing University of Posts and Telecommunications(BUPT)&lt;/a&gt;. My research interest includes machine learning ,signal processing and sampling.&lt;/p&gt;
+&lt;p&gt;I am very fortunate to be a visiting student of  &lt;a class=&#34;link&#34; href=&#34;https://lsec.cc.ac.cn/~mjj/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Prof. Junjie Ma&lt;/a&gt; of &lt;a class=&#34;link&#34; href=&#34;https://amss.cas.cn/sy/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Academy of Mathematics and Systems Science(AMSS)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can find my CV here: &lt;a class=&#34;link&#34; href=&#34;jianli.pdf&#34; &gt;Haitong Lan&amp;rsquo;s Curriculum Vitae&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;My contact information&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;QQ : 1517609268&lt;/li&gt;
+&lt;li&gt;Wechat &amp;amp; Phone: 15505405918&lt;/li&gt;
+&lt;li&gt;e-mail:lanhaitong@bupt.edu.cn&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>http://localhost:1313/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>http://localhost:1313/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/links/</guid>
+        <description>&lt;p&gt;The links below are some of my favorite sites and blogs, which serve as quick access points for me and recommendations for you.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>http://localhost:1313/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
