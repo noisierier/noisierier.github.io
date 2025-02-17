@@ -114,7 +114,12 @@
   <ol>
     <li><a href="#课程介绍">课程介绍</a></li>
     <li><a href="#第一章-行列式">第一章 行列式</a></li>
-    <li><a href="#第二章-矩阵">第二章 矩阵</a></li>
+    <li><a href="#第二章-矩阵">第二章 矩阵</a>
+      <ol>
+        <li><a href="#矩阵运算">矩阵运算</a></li>
+        <li><a href="#逆矩阵">逆矩阵</a></li>
+      </ol>
+    </li>
     <li><a href="#第三章-线性空间">第三章 线性空间</a></li>
     <li><a href="#第四章-线性映射">第四章 线性映射</a></li>
     <li><a href="#第五章-多项式">第五章 多项式</a></li>
@@ -203,7 +208,7 @@
 
 
                 <time class="article-time--reading">
-                    3 minute read
+                    4 minute read
                 </time>
             </div>
         
@@ -286,10 +291,10 @@ $\frac{1}{2} n!$ 个．</p>
 <p>$$
 \begin{aligned}
 |\boldsymbol{A}|=\sum_{1 \leq j_1&lt;j_2&lt;\cdots&lt;j_k \leq n} \boldsymbol{A}\left(\begin{array}{cccc}
-i_1 &amp; i_2 &amp; \cdots &amp; i_k;
+i_1 &amp; i_2 &amp; \cdots &amp; i_k\\
 j_1 &amp; j_2 &amp; \cdots &amp; j_k
 \end{array}\right) \widehat{\boldsymbol{A}}\left(\begin{array}{cccc}
-i_1 &amp; i_2 &amp; \cdots &amp; i_k ;
+i_1 &amp; i_2 &amp; \cdots &amp; i_k \\
 j_1 &amp; j_2 &amp; \cdots &amp; j_k
 \end{array}\right) .
 \end{aligned}
@@ -299,18 +304,18 @@ $$</p>
 \begin{aligned}
 |\boldsymbol{A}|=\sum_{1 \leq i_1&lt;i_2&lt;\cdots&lt;i_k \leq n} \boldsymbol{A}\left(
 \begin{array}{cccc}
-i_1 &amp; i_2 &amp; \cdots &amp; i_k ;
+i_1 &amp; i_2 &amp; \cdots &amp; i_k \\
 j_1 &amp; j_2 &amp; \cdots &amp; j_k
 \end{array}\right)
 \widehat{\boldsymbol{A}}\left(\begin{array}{cccc}
-i_1 &amp; i_2 &amp; \cdots &amp; i_k ;
+i_1 &amp; i_2 &amp; \cdots &amp; i_k \\
 j_1 &amp; j_2 &amp; \cdots &amp; j_k
 \end{array}\right) .
 \end{aligned}
 $$</p>
-<p><strong>注</strong> Laplace定理可以让我们以任意几行或者几列将行列式进行展开，在理论分析中有重要作用，
+<p><strong>注.</strong> Laplace定理可以让我们以任意几行或者几列将行列式进行展开，在理论分析中有重要作用，
 可以证明以下推论:</p>
-<p><strong>推论5</strong> 以分块的形式表示行列式，若$|A|$为分块上三角或分块下三角行列式，有</p>
+<p><strong>推论 5</strong> 以分块的形式表示行列式，若$|A|$为分块上三角或分块下三角行列式，有</p>
 <div>
 $$
 \begin{aligned}
@@ -326,7 +331,54 @@ C & D
 $$
 </div>
 <h2 id="第二章-矩阵">第二章 矩阵
-</h2><h2 id="第三章-线性空间">第三章 线性空间
+</h2><h3 id="矩阵运算">矩阵运算
+</h3><p>矩阵的加、减、数乘、相乘、转置，共轭，这里重点关注矩阵相乘。</p>
+<p><strong>定义 1(矩阵相乘)</strong> 设 $m\times k$ 矩阵 $A=(a_{ij})$，以及 $k\times n$ 矩阵 $B=(b_{ij})$，设 $C = AB$，则 $C$ 为 $m\times n$ 矩阵且：
+$$
+c_{ij} = \sum_{r=1}^k a_{ir} b_{rj}
+$$
+<br></p>
+<p><strong>注.</strong> 介绍矩阵相乘的一些性质和需要注意的点：</p>
+<ol>
+<li>矩阵相乘具有结合律、分配律的性质，但是不具有交换律。</li>
+<li>$cI_n$ 被称为纯量阵，有 $AcI_n=cA$.</li>
+<li>当 $AB=BA$时，可以使用正常数乘中性质，例如$(AB)^r = A^rB^r$.</li>
+<li>矩阵乘法不可交换，所以消去律一般不成立，即若 $AB=AC$,一般不可以推出 $B=C$,同样的，两个非零矩阵相乘可能为零矩阵。</li>
+<li>补充一点关于转置的性质：$(AB)^{&rsquo;} = B^{&rsquo;}A^{&rsquo;}$</li>
+</ol>
+<h3 id="逆矩阵">逆矩阵
+</h3><p><strong>定义 1(矩阵的逆).</strong> 设$A$为n阶方阵，若存在一个n阶方阵$B$,使得
+$$
+AB = BA = I_n
+$$
+则$B$为$A$的逆矩阵，记为$B=A^{-1}$,称有逆矩阵的方阵为非奇异阵或可逆矩阵。<br>
+<strong>性质.</strong> 假设以下提到的方阵都可逆且同阶数</p>
+<ol>
+<li>$(AB)^{-1} = B^{-1}A^{-1}$</li>
+<li>$(A^{&rsquo;})^{-1} = (A^{-1})^{&rsquo;}$</li>
+<li>消去律存在</li>
+<li>若A可逆，$AB=0$,则$B$为零矩阵。</li>
+</ol>
+<p><strong>引理 2</strong> 方阵$A$和其伴随阵 $A^{*}$ 有以下关系：
+$$
+AA^{*} = A^{*}A = |A|I_n
+$$</p>
+<p><strong>定理 3</strong> 若$|A|\neq 0$,则$A$为非奇异阵，且
+$$
+A^{-1} = \frac{1}{|A|}A^{*}
+$$</p>
+<p><strong>定理 4</strong> 若$A,B$都是n阶矩阵，则
+$$
+|AB| = |A||B|
+$$</p>
+<p><strong>一些推论</strong></p>
+<ol>
+<li>方阵可逆的充分必要条件为行列式不等于0.</li>
+<li>可逆方阵的乘积依然为可逆方阵，只要乘积中间有一个奇异阵，最后的矩阵为奇异阵。</li>
+<li>若$A$可逆，则$|A^{-1}| = |A|^{-1}$</li>
+<li>若$A,B$都为n阶方阵,$AB = I_n$可以推导出$BA = I_n$,反之亦然。</li>
+</ol>
+<h2 id="第三章-线性空间">第三章 线性空间
 </h2><h2 id="第四章-线性映射">第四章 线性映射
 </h2><h2 id="第五章-多项式">第五章 多项式
 </h2><h2 id="第六章-特征值">第六章 特征值
@@ -369,30 +421,31 @@ $$
 
 
     
-        <link 
-                rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
-            ><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
-                defer
-                >
-            </script><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
-                defer
-                >
-            </script>
-<script>
-    window.addEventListener("DOMContentLoaded", () => {
+        
+
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" 
+    integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" 
+    crossorigin="anonymous"
+/>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+    onload="
+    window.addEventListener('DOMContentLoaded', function() {
         renderMathInElement(document.body, {
             delimiters: [
-                { left: "$$", right: "$$", display: true },
-                { left: "$", right: "$", display: false },
-                { left: "\\(", right: "\\)", display: false },
-                { left: "\\[", right: "\\]", display: true }
-            ],
-            ignoredClasses: ["gist"]
-        });})
-</script>
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\$$', right: '\\\\$$', display: false},
+                {left: '\\$$', right: '\\\\$$', display: true}
+            ]
+        });
+    });
+"></script>
 
 
     

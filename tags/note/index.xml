@@ -26,8 +26,9 @@ body {
     &gt;统计学2&lt;/a&gt;;youtube课程：&lt;a class=&#34;link&#34; href=&#34;https://youtube.com/playlist?list=PLRklqGYqFmaLQlgeVi_tyKY12QjqS48N-&amp;amp;si=XVTZSHO2CrYsZoek&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;交大數理統計學&lt;/a&gt;，&lt;a class=&#34;link&#34; href=&#34;https://youtube.com/playlist?list=PLj6E8qlqmkFvneoIIsf3yPr_TVPy6qimA&amp;amp;si=obMWmZkBRTFQJYUo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;陳鄰安老師 - 高等統計學&lt;/a&gt;。&lt;/p&gt;
-&lt;h2 id=&#34;random-variables&#34;&gt;Random variables
-&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Define 1(random variable).&lt;/strong&gt; Let $(\Omega, \mathcal{F}, P)$ be a probability space and $(E, \mathcal{E})$ a measurable space. Then an $(E, \mathcal{E})$-valued random variable is a measurable function $X: \Omega \rightarrow E$. &lt;br&gt;
+&lt;h2 id=&#34;fundamentals-of-probability-theory&#34;&gt;Fundamentals of probability theory
+&lt;/h2&gt;&lt;h3 id=&#34;random-variable&#34;&gt;Random Variable
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Define 1(random variable).&lt;/strong&gt; Let $(\Omega, \mathcal{F}, P)$ be a probability space and $(E, \mathcal{E})$ a measurable space. Then an $(E, \mathcal{E})$-valued random variable is a measurable function $X: \Omega \rightarrow E$. &lt;br&gt;
 &lt;strong&gt;Remark.&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;随机变量是从样本空间到$\mathbb{R}$的映射，概率测度是从$\sigma$-域到$[0,1]$的映射，并且满足整个样本空间的测度等于1。在实际中我们一般不会考虑原来的样本空间，因为一般考虑由随机变量诱导出来的概率测度，它是由博雷尔集($\mathcal{B}$)到$\mathbb{R}$的映射。&lt;/li&gt;
@@ -39,6 +40,107 @@ body {
     F(x) = P(X(\omega) \leq x) = P(\{\omega\in\Omega:X(\omega)\in (-\infty,x]\})
     $$
    &lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Lemma 2.&lt;/strong&gt; 若$X$为r.v.,令g为$\mathbb{R}\rightarrow\mathbb{R}$的映射，则$Y=g(X)$同样为r.v.,且可以确定其分布。&lt;br&gt;
+&lt;strong&gt;Remark.&lt;/strong&gt;&lt;br&gt;
+两种求得$g(X)$的pdf的方法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;distribution method:&lt;/p&gt;
+&lt;p&gt;Suppose that X is a continuous r.v.. Let $Y=g(X)$
+The d.f(distribution function) of Y is&lt;/p&gt;
+&lt;p&gt;$$
+G(y)=P(Y \leq y)=P(g(X) \leq y)
+$$&lt;/p&gt;
+&lt;p&gt;If G is differentiable then the p.d.f. of $Y=g(X)$ is $g(y)=G^{\prime}(y)$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;mgf method :(moment generating function)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+  &lt;div&gt;
+  $$
+  \begin{aligned}
+    E\left[e^{t x}\right]= \begin{cases}\sum e^{t x} f(x) &amp; \text { (discrete) } \\ 
+  \int_{-\infty}^{\infty} e^{t x} f(x) d x &amp; \text { (continuous) }\end{cases}
+  \end{aligned}
+  $$
+  &lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Thm 3.&lt;/strong&gt; m.g.f. $M_x(t)$ and its distribution (p.d.f. or d.f.) forms a $1-1$ functions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thm 4.&lt;/strong&gt; $\quad M_X^{(k)}(0)=E\left[X^k\right], k=1,2, \cdots$&lt;/p&gt;
+&lt;h3 id=&#34;probability-distribution&#34;&gt;Probability distribution
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Def 1.&lt;/strong&gt; Gamma function $\Gamma(\alpha)=\int_0^{\infty} x^{\alpha-1} e^{-x} d x$&lt;br&gt;
+&lt;strong&gt;Properties:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\Gamma(\alpha)=(\alpha-1) \Gamma(\alpha-1)$, if $\alpha&amp;gt;1$&lt;/li&gt;
+&lt;li&gt;$\Gamma(1)=\int_0^{\infty} e^{-x} d x=1$&lt;/li&gt;
+&lt;li&gt;$\Gamma(n)=(n-1) \Gamma(n-1)=\cdots=(n-1)(n-2) \cdots 1 \cdot \Gamma(1)=(n-1)$ !&lt;/li&gt;
+&lt;li&gt;$\Gamma\left(\frac{1}{2}\right)=\sqrt{\pi}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Def 2.&lt;/strong&gt; We say that $X$ has a Gamma distribution if it has p.d.f&lt;/p&gt;
+&lt;p&gt;$$
+f(x)=\frac{1}{\Gamma(\alpha) \beta^\alpha} x^{\alpha-1} e^{-\frac{x}{\beta}}, x&amp;gt;0, \text { for some } \alpha&amp;gt;0, \beta&amp;gt;0
+$$&lt;/p&gt;
+&lt;p&gt;We denote by $X \sim \operatorname{Gamma}(\alpha, \beta)$.&lt;br&gt;
+&lt;strong&gt;Note.&lt;/strong&gt; If $X$ has Gamma distribution with $\beta=2$ and $\alpha=\frac{r}{2}$, we say that $X$ has a chi-square distribution with degrees of freedom r. The p.d.f is&lt;/p&gt;
+&lt;p&gt;$$
+f(x)=\frac{1}{\Gamma\left(\frac{r}{2}\right) 2^{\frac{r}{2}}} x^{\frac{r}{2}-1} e^{-\frac{x}{2}}, x&amp;gt;0
+$$&lt;/p&gt;
+&lt;p&gt;We denote by $X \sim \chi^2(r)$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ex 1.&lt;/strong&gt; If $X \sim \operatorname{Gamma}(\alpha, \beta)$, m.g.f of $X$ is&lt;/p&gt;
+&lt;div&gt;
+$$
+\begin{aligned}
+M_X(t) &amp; =E\left[e^{t X}\right]=\int_0^{\infty} e^{t x} \frac{1}{\Gamma(\alpha) \beta^\alpha} x^{\alpha-1} e^{-\frac{x}{\beta}} d x=\int_0^{\infty} \frac{1}{\Gamma(\alpha) \beta^\alpha} x^{\alpha-1} e^{-\frac{(1-\beta t) x}{\beta}} d x \\
+&amp; =(1-\beta t)^{-\alpha} \int_0^{\infty} \frac{1}{\Gamma(\alpha)\left(\frac{\beta}{1-\beta t}\right)^2} x^{\alpha-1} e^{-\frac{x}{1-\beta t}} d x \\
+&amp; =(1-\beta t)^{-\alpha}, t&lt;\frac{1}{\beta} \\
+&amp; \because \frac{\beta}{1-\beta t}&gt;0 \Rightarrow 1-\beta t&gt;0 \Rightarrow t&lt;\frac{1}{\beta} \\
+M_X^{\prime}(t) &amp; =\alpha(1-\beta t)^{-\alpha-1} \beta \\
+&amp; \Rightarrow \operatorname{Mean} \mu=E[X]=M_X^{\prime}(0)=\alpha \beta \\
+M_X^{\prime \prime}(t) &amp; =\alpha(\alpha+1)(1-\beta t)^{-\alpha-2} \beta^2 \\
+&amp; \Rightarrow E\left[X^2\right]=M_X^{\prime \prime}(0)=\alpha(\alpha+1) \beta^2 \\
+&amp; \Rightarrow \text { Variance } \sigma^2=M_X^{\prime \prime}(0)-\left(M_X^{\prime}(0)\right)^2=\alpha(\alpha+1) \beta^2-(\alpha \beta)^2=\alpha \beta^2
+\end{aligned}
+$$
+&lt;/div&gt;
+&lt;h3 id=&#34;random-voctor&#34;&gt;Random Voctor
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Definition 1.&lt;/strong&gt;  Suppose that the random variables $X$ and $Y$
+are defined to assume values in $\displaystyle I\subseteq \mathbb {R}$.
+We say that $n$ random variables $X_1, \ldots, X_n$ are i.i.d(Independent and identically distributed random variables).  If and only if&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$F_{X_1}(x)=F_{X_k}(x)$ , $\forall k \in{1, \ldots, n}$ and $\forall x \in I$&lt;/li&gt;
+&lt;li&gt;$F_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right)=F_{X_1}\left(x_1\right) \cdot \ldots \cdot F_{X_n}\left(x_n\right)$ , $\forall x_1, \ldots, x_n \in I$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;where $F_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right)=\mathrm{P}\left(X_1 \leq x_1 \wedge \ldots \wedge X_n \leq x_n\right)$ denotes the joint cumulative distribution function of $X_1, \ldots, X_n$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thm 2(Theory for change variables).&lt;/strong&gt;
+$$
+P\left(\left(\begin{array}{c}
+x_1 \
+\vdots \
+x_n
+\end{array}\right) \in A\right)=\int \cdots \int f_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right) d x_1 \cdots d x_n
+$$
+Let $y_1=g_1\left(x_1, \ldots, x_n\right), \cdots, y_n=g_n\left(x_1, \ldots, x_n\right)$ be a $1-1$ function with inverse $x_1=w_1\left(y_1, \ldots, y_n\right), \cdots, x_n=w_n\left(y_1, \ldots, y_n\right)$ and Jacobian
+$$
+J=\left|\begin{array}{ccr}
+\frac{\partial x_1}{\partial y_1} &amp;amp; \cdots &amp;amp; \frac{\partial x_1}{\partial y_n} \
+\vdots &amp;amp; &amp;amp; \vdots \
+\frac{\partial x_n}{\partial y_1} &amp;amp; \cdots &amp;amp; \frac{\partial x_n}{\partial y_n}
+\end{array}\right|
+$$
+Then
+$$
+\begin{aligned}
+&amp;amp; \int \cdots \int f_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right) d x_1 \cdots d x_n \
+&amp;amp; =\int \cdots \int f_{X_1, \ldots, X_n}\left(w_1\left(y_1, \ldots, y_n\right), \ldots, w_n\left(y_1, \ldots, y_n\right)\right)|J| d y_1 \cdots d y_n
+\end{aligned}
+$$
+Hence, joint p.d.f. of $Y_1, \cdots, Y_n$ is
+$$
+f_{Y_1, \ldots, Y_n}\left(y_1, \ldots, y_n\right)=f_{X_1, \ldots, X_n}\left(w_1, \ldots, w_n\right)|J|
+$$
+&lt;br&gt;
+&lt;strong&gt;Remark.&lt;/strong&gt; 可以用该方法构造从$n$个随机变量的联合分布到另外$n$个随机变量联合分布的映射(注意映射到的值域)，
+然后再通过积分的方式获得边缘联合分布。&lt;/p&gt;
 &lt;h2 id=&#34;statistical-inference---point-estimation&#34;&gt;Statistical Inference - Point Estimation
 &lt;/h2&gt;&lt;h2 id=&#34;continue-to-point-estimation-umvue&#34;&gt;Continue to Point Estimation-UMVUE
 &lt;/h2&gt;&lt;h2 id=&#34;confidence-interval&#34;&gt;Confidence Interval
@@ -142,7 +244,7 @@ j_1 &amp;amp; j_2 &amp;amp; \cdots &amp;amp; j_k
 $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注&lt;/strong&gt; Laplace定理可以让我们以任意几行或者几列将行列式进行展开，在理论分析中有重要作用，
 可以证明以下推论:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;推论5&lt;/strong&gt; 以分块的形式表示行列式，若$|A|$为分块上三角或分块下三角行列式，有&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推论 5&lt;/strong&gt; 以分块的形式表示行列式，若$|A|$为分块上三角或分块下三角行列式，有&lt;/p&gt;
 &lt;div&gt;
 $$
 \begin{aligned}
@@ -158,7 +260,16 @@ C &amp; D
 $$
 &lt;/div&gt;
 &lt;h2 id=&#34;第二章-矩阵&#34;&gt;第二章 矩阵
-&lt;/h2&gt;&lt;h2 id=&#34;第三章-线性空间&#34;&gt;第三章 线性空间
+&lt;/h2&gt;&lt;h3 id=&#34;矩阵运算&#34;&gt;矩阵运算
+&lt;/h3&gt;&lt;p&gt;矩阵的加、减、数乘、相乘、共轭，这里重点关注矩阵相乘。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定义 1(矩阵相乘)&lt;/strong&gt; 设 $m\times k $矩阵 $A=(a_{ij})&lt;em&gt;{m\times k}$, 以及 $k\times n$ 矩阵 $B=(b&lt;/em&gt;{ij})&lt;em&gt;{k\times n}$,设 $C = AB$,则 $C$为 $m\times n$矩阵且
+$$
+c&lt;/em&gt;{ij} = \sum_{r=1}^k a_{ir}b_{rj}
+$$
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;逆矩阵&#34;&gt;逆矩阵
+&lt;/h3&gt;&lt;h2 id=&#34;第三章-线性空间&#34;&gt;第三章 线性空间
 &lt;/h2&gt;&lt;h2 id=&#34;第四章-线性映射&#34;&gt;第四章 线性映射
 &lt;/h2&gt;&lt;h2 id=&#34;第五章-多项式&#34;&gt;第五章 多项式
 &lt;/h2&gt;&lt;h2 id=&#34;第六章-特征值&#34;&gt;第六章 特征值

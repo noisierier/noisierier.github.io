@@ -117,6 +117,7 @@
       <ol>
         <li><a href="#random-variable">Random Variable</a></li>
         <li><a href="#probability-distribution">Probability distribution</a></li>
+        <li><a href="#random-voctor">Random Voctor</a></li>
       </ol>
     </li>
     <li><a href="#statistical-inference---point-estimation">Statistical Inference - Point Estimation</a></li>
@@ -202,7 +203,7 @@
 
 
                 <time class="article-time--reading">
-                    2 minute read
+                    3 minute read
                 </time>
             </div>
         
@@ -306,6 +307,45 @@ M_X^{\prime \prime}(t) & =\alpha(\alpha+1)(1-\beta t)^{-\alpha-2} \beta^2 \\
 \end{aligned}
 $$
 </div>
+<h3 id="random-voctor">Random Voctor
+</h3><p><strong>Definition 1.</strong>  Suppose that the random variables $X$ and $Y$
+are defined to assume values in $\displaystyle I\subseteq \mathbb {R}$.
+We say that $n$ random variables $X_1, \ldots, X_n$ are i.i.d(Independent and identically distributed random variables).  If and only if</p>
+<ul>
+<li>$F_{X_1}(x)=F_{X_k}(x)$ , $\forall k \in{1, \ldots, n}$ and $\forall x \in I$</li>
+<li>$F_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right)=F_{X_1}\left(x_1\right) \cdot \ldots \cdot F_{X_n}\left(x_n\right)$ , $\forall x_1, \ldots, x_n \in I$</li>
+</ul>
+<p>where $F_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right)=\mathrm{P}\left(X_1 \leq x_1 \wedge \ldots \wedge X_n \leq x_n\right)$ denotes the joint cumulative distribution function of $X_1, \ldots, X_n$</p>
+<p><strong>Thm 2(Theory for change variables).</strong>
+$$
+P\left(\left(\begin{array}{c}
+x_1 \
+\vdots \
+x_n
+\end{array}\right) \in A\right)=\int \cdots \int f_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right) d x_1 \cdots d x_n
+$$
+Let $y_1=g_1\left(x_1, \ldots, x_n\right), \cdots, y_n=g_n\left(x_1, \ldots, x_n\right)$ be a $1-1$ function with inverse $x_1=w_1\left(y_1, \ldots, y_n\right), \cdots, x_n=w_n\left(y_1, \ldots, y_n\right)$ and Jacobian
+$$
+J=\left|\begin{array}{ccr}
+\frac{\partial x_1}{\partial y_1} &amp; \cdots &amp; \frac{\partial x_1}{\partial y_n} \
+\vdots &amp; &amp; \vdots \
+\frac{\partial x_n}{\partial y_1} &amp; \cdots &amp; \frac{\partial x_n}{\partial y_n}
+\end{array}\right|
+$$
+Then
+$$
+\begin{aligned}
+&amp; \int \cdots \int f_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right) d x_1 \cdots d x_n \
+&amp; =\int \cdots \int f_{X_1, \ldots, X_n}\left(w_1\left(y_1, \ldots, y_n\right), \ldots, w_n\left(y_1, \ldots, y_n\right)\right)|J| d y_1 \cdots d y_n
+\end{aligned}
+$$
+Hence, joint p.d.f. of $Y_1, \cdots, Y_n$ is
+$$
+f_{Y_1, \ldots, Y_n}\left(y_1, \ldots, y_n\right)=f_{X_1, \ldots, X_n}\left(w_1, \ldots, w_n\right)|J|
+$$
+<br>
+<strong>Remark.</strong> 可以用该方法构造从$n$个随机变量的联合分布到另外$n$个随机变量联合分布的映射(注意映射到的值域)，
+然后再通过积分的方式获得边缘联合分布。</p>
 <h2 id="statistical-inference---point-estimation">Statistical Inference - Point Estimation
 </h2><h2 id="continue-to-point-estimation-umvue">Continue to Point Estimation-UMVUE
 </h2><h2 id="confidence-interval">Confidence Interval
@@ -344,30 +384,31 @@ $$
 
 
     
-        <link 
-                rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
-            ><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
-                defer
-                >
-            </script><script 
-                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
-                defer
-                >
-            </script>
-<script>
-    window.addEventListener("DOMContentLoaded", () => {
+        
+
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" 
+    integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" 
+    crossorigin="anonymous"
+/>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+    onload="
+    window.addEventListener('DOMContentLoaded', function() {
         renderMathInElement(document.body, {
             delimiters: [
-                { left: "$$", right: "$$", display: true },
-                { left: "$", right: "$", display: false },
-                { left: "\\(", right: "\\)", display: false },
-                { left: "\\[", right: "\\]", display: true }
-            ],
-            ignoredClasses: ["gist"]
-        });})
-</script>
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\$$', right: '\\\\$$', display: false},
+                {left: '\\$$', right: '\\\\$$', display: true}
+            ]
+        });
+    });
+"></script>
 
 
     

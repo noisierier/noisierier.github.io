@@ -102,6 +102,45 @@ M_X^{\prime \prime}(t) &amp; =\alpha(\alpha+1)(1-\beta t)^{-\alpha-2} \beta^2 \\
 \end{aligned}
 $$
 &lt;/div&gt;
+&lt;h3 id=&#34;random-voctor&#34;&gt;Random Voctor
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Definition 1.&lt;/strong&gt;  Suppose that the random variables $X$ and $Y$
+are defined to assume values in $\displaystyle I\subseteq \mathbb {R}$.
+We say that $n$ random variables $X_1, \ldots, X_n$ are i.i.d(Independent and identically distributed random variables).  If and only if&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$F_{X_1}(x)=F_{X_k}(x)$ , $\forall k \in{1, \ldots, n}$ and $\forall x \in I$&lt;/li&gt;
+&lt;li&gt;$F_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right)=F_{X_1}\left(x_1\right) \cdot \ldots \cdot F_{X_n}\left(x_n\right)$ , $\forall x_1, \ldots, x_n \in I$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;where $F_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right)=\mathrm{P}\left(X_1 \leq x_1 \wedge \ldots \wedge X_n \leq x_n\right)$ denotes the joint cumulative distribution function of $X_1, \ldots, X_n$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thm 2(Theory for change variables).&lt;/strong&gt;
+$$
+P\left(\left(\begin{array}{c}
+x_1 \
+\vdots \
+x_n
+\end{array}\right) \in A\right)=\int \cdots \int f_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right) d x_1 \cdots d x_n
+$$
+Let $y_1=g_1\left(x_1, \ldots, x_n\right), \cdots, y_n=g_n\left(x_1, \ldots, x_n\right)$ be a $1-1$ function with inverse $x_1=w_1\left(y_1, \ldots, y_n\right), \cdots, x_n=w_n\left(y_1, \ldots, y_n\right)$ and Jacobian
+$$
+J=\left|\begin{array}{ccr}
+\frac{\partial x_1}{\partial y_1} &amp;amp; \cdots &amp;amp; \frac{\partial x_1}{\partial y_n} \
+\vdots &amp;amp; &amp;amp; \vdots \
+\frac{\partial x_n}{\partial y_1} &amp;amp; \cdots &amp;amp; \frac{\partial x_n}{\partial y_n}
+\end{array}\right|
+$$
+Then
+$$
+\begin{aligned}
+&amp;amp; \int \cdots \int f_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right) d x_1 \cdots d x_n \
+&amp;amp; =\int \cdots \int f_{X_1, \ldots, X_n}\left(w_1\left(y_1, \ldots, y_n\right), \ldots, w_n\left(y_1, \ldots, y_n\right)\right)|J| d y_1 \cdots d y_n
+\end{aligned}
+$$
+Hence, joint p.d.f. of $Y_1, \cdots, Y_n$ is
+$$
+f_{Y_1, \ldots, Y_n}\left(y_1, \ldots, y_n\right)=f_{X_1, \ldots, X_n}\left(w_1, \ldots, w_n\right)|J|
+$$
+&lt;br&gt;
+&lt;strong&gt;Remark.&lt;/strong&gt; 可以用该方法构造从$n$个随机变量的联合分布到另外$n$个随机变量联合分布的映射(注意映射到的值域)，
+然后再通过积分的方式获得边缘联合分布。&lt;/p&gt;
 &lt;h2 id=&#34;statistical-inference---point-estimation&#34;&gt;Statistical Inference - Point Estimation
 &lt;/h2&gt;&lt;h2 id=&#34;continue-to-point-estimation-umvue&#34;&gt;Continue to Point Estimation-UMVUE
 &lt;/h2&gt;&lt;h2 id=&#34;confidence-interval&#34;&gt;Confidence Interval
@@ -181,10 +220,10 @@ $\frac{1}{2} n!$ 个．&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
 |\boldsymbol{A}|=\sum_{1 \leq j_1&amp;lt;j_2&amp;lt;\cdots&amp;lt;j_k \leq n} \boldsymbol{A}\left(\begin{array}{cccc}
-i_1 &amp;amp; i_2 &amp;amp; \cdots &amp;amp; i_k;
+i_1 &amp;amp; i_2 &amp;amp; \cdots &amp;amp; i_k\\
 j_1 &amp;amp; j_2 &amp;amp; \cdots &amp;amp; j_k
 \end{array}\right) \widehat{\boldsymbol{A}}\left(\begin{array}{cccc}
-i_1 &amp;amp; i_2 &amp;amp; \cdots &amp;amp; i_k ;
+i_1 &amp;amp; i_2 &amp;amp; \cdots &amp;amp; i_k \\
 j_1 &amp;amp; j_2 &amp;amp; \cdots &amp;amp; j_k
 \end{array}\right) .
 \end{aligned}
@@ -194,18 +233,18 @@ $$&lt;/p&gt;
 \begin{aligned}
 |\boldsymbol{A}|=\sum_{1 \leq i_1&amp;lt;i_2&amp;lt;\cdots&amp;lt;i_k \leq n} \boldsymbol{A}\left(
 \begin{array}{cccc}
-i_1 &amp;amp; i_2 &amp;amp; \cdots &amp;amp; i_k ;
+i_1 &amp;amp; i_2 &amp;amp; \cdots &amp;amp; i_k \\
 j_1 &amp;amp; j_2 &amp;amp; \cdots &amp;amp; j_k
 \end{array}\right)
 \widehat{\boldsymbol{A}}\left(\begin{array}{cccc}
-i_1 &amp;amp; i_2 &amp;amp; \cdots &amp;amp; i_k ;
+i_1 &amp;amp; i_2 &amp;amp; \cdots &amp;amp; i_k \\
 j_1 &amp;amp; j_2 &amp;amp; \cdots &amp;amp; j_k
 \end{array}\right) .
 \end{aligned}
 $$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;注&lt;/strong&gt; Laplace定理可以让我们以任意几行或者几列将行列式进行展开，在理论分析中有重要作用，
+&lt;p&gt;&lt;strong&gt;注.&lt;/strong&gt; Laplace定理可以让我们以任意几行或者几列将行列式进行展开，在理论分析中有重要作用，
 可以证明以下推论:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;推论5&lt;/strong&gt; 以分块的形式表示行列式，若$|A|$为分块上三角或分块下三角行列式，有&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推论 5&lt;/strong&gt; 以分块的形式表示行列式，若$|A|$为分块上三角或分块下三角行列式，有&lt;/p&gt;
 &lt;div&gt;
 $$
 \begin{aligned}
@@ -221,7 +260,54 @@ C &amp; D
 $$
 &lt;/div&gt;
 &lt;h2 id=&#34;第二章-矩阵&#34;&gt;第二章 矩阵
-&lt;/h2&gt;&lt;h2 id=&#34;第三章-线性空间&#34;&gt;第三章 线性空间
+&lt;/h2&gt;&lt;h3 id=&#34;矩阵运算&#34;&gt;矩阵运算
+&lt;/h3&gt;&lt;p&gt;矩阵的加、减、数乘、相乘、转置，共轭，这里重点关注矩阵相乘。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定义 1(矩阵相乘)&lt;/strong&gt; 设 $m\times k$ 矩阵 $A=(a_{ij})$，以及 $k\times n$ 矩阵 $B=(b_{ij})$，设 $C = AB$，则 $C$ 为 $m\times n$ 矩阵且：
+$$
+c_{ij} = \sum_{r=1}^k a_{ir} b_{rj}
+$$
+&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注.&lt;/strong&gt; 介绍矩阵相乘的一些性质和需要注意的点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;矩阵相乘具有结合律、分配律的性质，但是不具有交换律。&lt;/li&gt;
+&lt;li&gt;$cI_n$ 被称为纯量阵，有 $AcI_n=cA$.&lt;/li&gt;
+&lt;li&gt;当 $AB=BA$时，可以使用正常数乘中性质，例如$(AB)^r = A^rB^r$.&lt;/li&gt;
+&lt;li&gt;矩阵乘法不可交换，所以消去律一般不成立，即若 $AB=AC$,一般不可以推出 $B=C$,同样的，两个非零矩阵相乘可能为零矩阵。&lt;/li&gt;
+&lt;li&gt;补充一点关于转置的性质：$(AB)^{&amp;rsquo;} = B^{&amp;rsquo;}A^{&amp;rsquo;}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;逆矩阵&#34;&gt;逆矩阵
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定义 1(矩阵的逆).&lt;/strong&gt; 设$A$为n阶方阵，若存在一个n阶方阵$B$,使得
+$$
+AB = BA = I_n
+$$
+则$B$为$A$的逆矩阵，记为$B=A^{-1}$,称有逆矩阵的方阵为非奇异阵或可逆矩阵。&lt;br&gt;
+&lt;strong&gt;性质.&lt;/strong&gt; 假设以下提到的方阵都可逆且同阶数&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$(AB)^{-1} = B^{-1}A^{-1}$&lt;/li&gt;
+&lt;li&gt;$(A^{&amp;rsquo;})^{-1} = (A^{-1})^{&amp;rsquo;}$&lt;/li&gt;
+&lt;li&gt;消去律存在&lt;/li&gt;
+&lt;li&gt;若A可逆，$AB=0$,则$B$为零矩阵。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;引理 2&lt;/strong&gt; 方阵$A$和其伴随阵 $A^{*}$ 有以下关系：
+$$
+AA^{*} = A^{*}A = |A|I_n
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 3&lt;/strong&gt; 若$|A|\neq 0$,则$A$为非奇异阵，且
+$$
+A^{-1} = \frac{1}{|A|}A^{*}
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 4&lt;/strong&gt; 若$A,B$都是n阶矩阵，则
+$$
+|AB| = |A||B|
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一些推论&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;方阵可逆的充分必要条件为行列式不等于0.&lt;/li&gt;
+&lt;li&gt;可逆方阵的乘积依然为可逆方阵，只要乘积中间有一个奇异阵，最后的矩阵为奇异阵。&lt;/li&gt;
+&lt;li&gt;若$A$可逆，则$|A^{-1}| = |A|^{-1}$&lt;/li&gt;
+&lt;li&gt;若$A,B$都为n阶方阵,$AB = I_n$可以推导出$BA = I_n$,反之亦然。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;第三章-线性空间&#34;&gt;第三章 线性空间
 &lt;/h2&gt;&lt;h2 id=&#34;第四章-线性映射&#34;&gt;第四章 线性映射
 &lt;/h2&gt;&lt;h2 id=&#34;第五章-多项式&#34;&gt;第五章 多项式
 &lt;/h2&gt;&lt;h2 id=&#34;第六章-特征值&#34;&gt;第六章 特征值
