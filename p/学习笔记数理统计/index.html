@@ -237,7 +237,7 @@ body {
 <strong>Remark.</strong></p>
 <ol>
 <li>随机变量是从样本空间到$\mathbb{R}$的映射，概率测度是从$\sigma$-域到$[0,1]$的映射，并且满足整个样本空间的测度等于1。在实际中我们一般不会考虑原来的样本空间，因为一般考虑由随机变量诱导出来的概率测度，它是由博雷尔集($\mathcal{B}$)到$\mathbb{R}$的映射。</li>
-<li>$\forall B\in \mathcal{B},X^{-1}(B)\in \mathcal{F},\text{where}  X^{-1}(B) = {\omega \in \Omega\mid X(\omega)\in B}$,which means that, for every subset $B \in \mathcal{E}$, its preimage is $\mathcal{F}$-measurable; $X^{-1}(B) \in \mathcal{F}$, where $X^{-1}(B)={\omega: X(\omega) \in B}$. This definition enables us to measure any subset $B \in \mathcal{E}$ in the target space by looking at its preimage, which by assumption is measurable.</li>
+<li>$\forall B\in \mathcal{B},X^{-1}(B)\in \mathcal{F},\text{where}  X^{-1}(B) = \{\omega \in \Omega\mid X(\omega)\in B\}$,which means that, for every subset $B \in \mathcal{E}$, its preimage is $\mathcal{F}$-measurable; $X^{-1}(B) \in \mathcal{F}$, where $X^{-1}(B)=\{\omega: X(\omega) \in B\}$. This definition enables us to measure any subset $B \in \mathcal{E}$ in the target space by looking at its preimage, which by assumption is measurable.</li>
 <li>由随机变量很容易定义<strong>累积分布函数(CDF)</strong>：</li>
 </ol>
    <div>
@@ -319,23 +319,23 @@ We say that $n$ random variables $X_1, \ldots, X_n$ are i.i.d(Independent and id
 <p><strong>Thm 2(Theory for change variables).</strong>
 $$
 P\left(\left(\begin{array}{c}
-x_1 \
-\vdots \
+x_1 \\
+\vdots \\
 x_n
 \end{array}\right) \in A\right)=\int \cdots \int f_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right) d x_1 \cdots d x_n
 $$
 Let $y_1=g_1\left(x_1, \ldots, x_n\right), \cdots, y_n=g_n\left(x_1, \ldots, x_n\right)$ be a $1-1$ function with inverse $x_1=w_1\left(y_1, \ldots, y_n\right), \cdots, x_n=w_n\left(y_1, \ldots, y_n\right)$ and Jacobian
 $$
 J=\left|\begin{array}{ccr}
-\frac{\partial x_1}{\partial y_1} &amp; \cdots &amp; \frac{\partial x_1}{\partial y_n} \
-\vdots &amp; &amp; \vdots \
+\frac{\partial x_1}{\partial y_1} &amp; \cdots &amp; \frac{\partial x_1}{\partial y_n} \\
+\vdots &amp; &amp; \vdots \\
 \frac{\partial x_n}{\partial y_1} &amp; \cdots &amp; \frac{\partial x_n}{\partial y_n}
 \end{array}\right|
 $$
 Then
 $$
 \begin{aligned}
-&amp; \int \cdots \int f_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right) d x_1 \cdots d x_n \
+&amp; \int \cdots \int f_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right) d x_1 \cdots d x_n \\
 &amp; =\int \cdots \int f_{X_1, \ldots, X_n}\left(w_1\left(y_1, \ldots, y_n\right), \ldots, w_n\left(y_1, \ldots, y_n\right)\right)|J| d y_1 \cdots d y_n
 \end{aligned}
 $$

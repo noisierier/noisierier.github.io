@@ -117,6 +117,7 @@
     <li><a href="#第二章-矩阵">第二章 矩阵</a>
       <ol>
         <li><a href="#矩阵运算">矩阵运算</a></li>
+        <li><a href="#矩阵的初等变换和初等矩阵">矩阵的初等变换和初等矩阵</a></li>
         <li><a href="#逆矩阵">逆矩阵</a></li>
       </ol>
     </li>
@@ -208,7 +209,7 @@
 
 
                 <time class="article-time--reading">
-                    4 minute read
+                    5 minute read
                 </time>
             </div>
         
@@ -316,20 +317,18 @@ $$</p>
 <p><strong>注.</strong> Laplace定理可以让我们以任意几行或者几列将行列式进行展开，在理论分析中有重要作用，
 可以证明以下推论:</p>
 <p><strong>推论 5</strong> 以分块的形式表示行列式，若$|A|$为分块上三角或分块下三角行列式，有</p>
-<div>
-$$
+<p>$$
 \begin{aligned}
-|A| & =\left|\begin{array}{ll}
-B & C \\
-0 & D
+|A| &amp; =\left|\begin{array}{ll}
+B &amp; C \\
+0 &amp; D
 \end{array}\right|=\left|\begin{array}{ll}
-B & 0 \\
-C & D
+B &amp; 0 \\
+C &amp; D
 \end{array}\right|
 =|B||D|
 \end{aligned}
-$$
-</div>
+$$</p>
 <h2 id="第二章-矩阵">第二章 矩阵
 </h2><h3 id="矩阵运算">矩阵运算
 </h3><p>矩阵的加、减、数乘、相乘、转置，共轭，这里重点关注矩阵相乘。</p>
@@ -346,6 +345,31 @@ $$
 <li>矩阵乘法不可交换，所以消去律一般不成立，即若 $AB=AC$,一般不可以推出 $B=C$,同样的，两个非零矩阵相乘可能为零矩阵。</li>
 <li>补充一点关于转置的性质：$(AB)^{&rsquo;} = B^{&rsquo;}A^{&rsquo;}$</li>
 </ol>
+<p>可以定义矩阵的行列式为一种从$M_n(\mathbb{R})$到$\mathbb{R}$的映射，这种映射本身具有一些<strong>性质</strong>：</p>
+<ol>
+<li>一般的，$|A|+|B|\neq|A+B|$</li>
+<li>$|cA| = c^n|A|$</li>
+<li>$|A||B| = |AB|$</li>
+<li>$|A^{&rsquo;}| = |A|$</li>
+<li>$|\bar{A}| = \bar{|A|}$</li>
+<li>$|A|^{-1} = |A^{-1}|$</li>
+<li>设$n$大于等于$2$，则$|A^{*}| = |A|^{n-1}$</li>
+</ol>
+<h3 id="矩阵的初等变换和初等矩阵">矩阵的初等变换和初等矩阵
+</h3><p>矩阵的行(列)互换，行(列)数乘一个非零常数，行(列)乘常数加到另外一行(列)上为矩阵的三种初等变换。</p>
+<p><strong>定义 1(相抵).</strong> 将一个矩阵$A$经过有限次初等变换后变成$B$,则称$A$和$B$是等价的，或者$A$和$B$相抵，记作$A~B$.</p>
+<p><strong>定理 2(相抵标准型).</strong> 任意 $m\times n$矩阵必然相抵于下列 $m\times n$矩阵
+$$
+\begin{aligned}
+\left(\begin{array}{ll}
+I_n &amp; 0 \\
+0 &amp; 0
+\end{array}\right)
+\end{aligned}
+$$
+该矩阵被称为原始矩阵的相抵标准型，与如何初等变换无关，这是矩阵自身的性质。</p>
+<p><strong>定理 3.</strong> 只使用初等行变换，矩阵最多可以简化为上阶梯型矩阵。</p>
+<p><strong>定理 4(初等矩阵).</strong> 对单位阵施以第一类，第二类，第三类初等<strong>变换后</strong>得到的矩阵分别称为第一类、第二类、第三类初等矩阵，分别记为 $P_{ij},P_i(c),T_{ij}(c)$.</p>
 <h3 id="逆矩阵">逆矩阵
 </h3><p><strong>定义 1(矩阵的逆).</strong> 设$A$为n阶方阵，若存在一个n阶方阵$B$,使得
 $$

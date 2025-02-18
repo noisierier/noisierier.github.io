@@ -32,7 +32,7 @@ body {
 &lt;strong&gt;Remark.&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;随机变量是从样本空间到$\mathbb{R}$的映射，概率测度是从$\sigma$-域到$[0,1]$的映射，并且满足整个样本空间的测度等于1。在实际中我们一般不会考虑原来的样本空间，因为一般考虑由随机变量诱导出来的概率测度，它是由博雷尔集($\mathcal{B}$)到$\mathbb{R}$的映射。&lt;/li&gt;
-&lt;li&gt;$\forall B\in \mathcal{B},X^{-1}(B)\in \mathcal{F},\text{where}  X^{-1}(B) = {\omega \in \Omega\mid X(\omega)\in B}$,which means that, for every subset $B \in \mathcal{E}$, its preimage is $\mathcal{F}$-measurable; $X^{-1}(B) \in \mathcal{F}$, where $X^{-1}(B)={\omega: X(\omega) \in B}$. This definition enables us to measure any subset $B \in \mathcal{E}$ in the target space by looking at its preimage, which by assumption is measurable.&lt;/li&gt;
+&lt;li&gt;$\forall B\in \mathcal{B},X^{-1}(B)\in \mathcal{F},\text{where}  X^{-1}(B) = \{\omega \in \Omega\mid X(\omega)\in B\}$,which means that, for every subset $B \in \mathcal{E}$, its preimage is $\mathcal{F}$-measurable; $X^{-1}(B) \in \mathcal{F}$, where $X^{-1}(B)=\{\omega: X(\omega) \in B\}$. This definition enables us to measure any subset $B \in \mathcal{E}$ in the target space by looking at its preimage, which by assumption is measurable.&lt;/li&gt;
 &lt;li&gt;由随机变量很容易定义&lt;strong&gt;累积分布函数(CDF)&lt;/strong&gt;：&lt;/li&gt;
 &lt;/ol&gt;
    &lt;div&gt;
@@ -114,23 +114,23 @@ We say that $n$ random variables $X_1, \ldots, X_n$ are i.i.d(Independent and id
 &lt;p&gt;&lt;strong&gt;Thm 2(Theory for change variables).&lt;/strong&gt;
 $$
 P\left(\left(\begin{array}{c}
-x_1 \
-\vdots \
+x_1 \\
+\vdots \\
 x_n
 \end{array}\right) \in A\right)=\int \cdots \int f_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right) d x_1 \cdots d x_n
 $$
 Let $y_1=g_1\left(x_1, \ldots, x_n\right), \cdots, y_n=g_n\left(x_1, \ldots, x_n\right)$ be a $1-1$ function with inverse $x_1=w_1\left(y_1, \ldots, y_n\right), \cdots, x_n=w_n\left(y_1, \ldots, y_n\right)$ and Jacobian
 $$
 J=\left|\begin{array}{ccr}
-\frac{\partial x_1}{\partial y_1} &amp;amp; \cdots &amp;amp; \frac{\partial x_1}{\partial y_n} \
-\vdots &amp;amp; &amp;amp; \vdots \
+\frac{\partial x_1}{\partial y_1} &amp;amp; \cdots &amp;amp; \frac{\partial x_1}{\partial y_n} \\
+\vdots &amp;amp; &amp;amp; \vdots \\
 \frac{\partial x_n}{\partial y_1} &amp;amp; \cdots &amp;amp; \frac{\partial x_n}{\partial y_n}
 \end{array}\right|
 $$
 Then
 $$
 \begin{aligned}
-&amp;amp; \int \cdots \int f_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right) d x_1 \cdots d x_n \
+&amp;amp; \int \cdots \int f_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right) d x_1 \cdots d x_n \\
 &amp;amp; =\int \cdots \int f_{X_1, \ldots, X_n}\left(w_1\left(y_1, \ldots, y_n\right), \ldots, w_n\left(y_1, \ldots, y_n\right)\right)|J| d y_1 \cdots d y_n
 \end{aligned}
 $$
@@ -245,20 +245,18 @@ $$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注.&lt;/strong&gt; Laplace定理可以让我们以任意几行或者几列将行列式进行展开，在理论分析中有重要作用，
 可以证明以下推论:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;推论 5&lt;/strong&gt; 以分块的形式表示行列式，若$|A|$为分块上三角或分块下三角行列式，有&lt;/p&gt;
-&lt;div&gt;
-$$
+&lt;p&gt;$$
 \begin{aligned}
-|A| &amp; =\left|\begin{array}{ll}
-B &amp; C \\
-0 &amp; D
+|A| &amp;amp; =\left|\begin{array}{ll}
+B &amp;amp; C \\
+0 &amp;amp; D
 \end{array}\right|=\left|\begin{array}{ll}
-B &amp; 0 \\
-C &amp; D
+B &amp;amp; 0 \\
+C &amp;amp; D
 \end{array}\right|
 =|B||D|
 \end{aligned}
-$$
-&lt;/div&gt;
+$$&lt;/p&gt;
 &lt;h2 id=&#34;第二章-矩阵&#34;&gt;第二章 矩阵
 &lt;/h2&gt;&lt;h3 id=&#34;矩阵运算&#34;&gt;矩阵运算
 &lt;/h3&gt;&lt;p&gt;矩阵的加、减、数乘、相乘、转置，共轭，这里重点关注矩阵相乘。&lt;/p&gt;
@@ -275,6 +273,31 @@ $$
 &lt;li&gt;矩阵乘法不可交换，所以消去律一般不成立，即若 $AB=AC$,一般不可以推出 $B=C$,同样的，两个非零矩阵相乘可能为零矩阵。&lt;/li&gt;
 &lt;li&gt;补充一点关于转置的性质：$(AB)^{&amp;rsquo;} = B^{&amp;rsquo;}A^{&amp;rsquo;}$&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;可以定义矩阵的行列式为一种从$M_n(\mathbb{R})$到$\mathbb{R}$的映射，这种映射本身具有一些&lt;strong&gt;性质&lt;/strong&gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一般的，$|A|+|B|\neq|A+B|$&lt;/li&gt;
+&lt;li&gt;$|cA| = c^n|A|$&lt;/li&gt;
+&lt;li&gt;$|A||B| = |AB|$&lt;/li&gt;
+&lt;li&gt;$|A^{&amp;rsquo;}| = |A|$&lt;/li&gt;
+&lt;li&gt;$|\bar{A}| = \bar{|A|}$&lt;/li&gt;
+&lt;li&gt;$|A|^{-1} = |A^{-1}|$&lt;/li&gt;
+&lt;li&gt;设$n$大于等于$2$，则$|A^{*}| = |A|^{n-1}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;矩阵的初等变换和初等矩阵&#34;&gt;矩阵的初等变换和初等矩阵
+&lt;/h3&gt;&lt;p&gt;矩阵的行(列)互换，行(列)数乘一个非零常数，行(列)乘常数加到另外一行(列)上为矩阵的三种初等变换。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定义 1(相抵).&lt;/strong&gt; 将一个矩阵$A$经过有限次初等变换后变成$B$,则称$A$和$B$是等价的，或者$A$和$B$相抵，记作$A~B$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 2(相抵标准型).&lt;/strong&gt; 任意 $m\times n$矩阵必然相抵于下列 $m\times n$矩阵
+$$
+\begin{aligned}
+\left(\begin{array}{ll}
+I_n &amp;amp; 0 \\
+0 &amp;amp; 0
+\end{array}\right)
+\end{aligned}
+$$
+该矩阵被称为原始矩阵的相抵标准型，与如何初等变换无关，这是矩阵自身的性质。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 3.&lt;/strong&gt; 只使用初等行变换，矩阵最多可以简化为上阶梯型矩阵。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 4(初等矩阵).&lt;/strong&gt; 对单位阵施以第一类，第二类，第三类初等&lt;strong&gt;变换后&lt;/strong&gt;得到的矩阵分别称为第一类、第二类、第三类初等矩阵，分别记为 $P_{ij},P_i(c),T_{ij}(c)$.&lt;/p&gt;
 &lt;h3 id=&#34;逆矩阵&#34;&gt;逆矩阵
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定义 1(矩阵的逆).&lt;/strong&gt; 设$A$为n阶方阵，若存在一个n阶方阵$B$,使得
 $$
