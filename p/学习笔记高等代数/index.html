@@ -117,7 +117,7 @@
     <li><a href="#第二章-矩阵">第二章 矩阵</a>
       <ol>
         <li><a href="#矩阵运算">矩阵运算</a></li>
-        <li><a href="#矩阵的初等变换和初等矩阵">矩阵的初等变换和初等矩阵</a></li>
+        <li><a href="#初等变换和初等矩阵">初等变换和初等矩阵</a></li>
         <li><a href="#逆矩阵">逆矩阵</a></li>
       </ol>
     </li>
@@ -209,7 +209,7 @@
 
 
                 <time class="article-time--reading">
-                    5 minute read
+                    7 minute read
                 </time>
             </div>
         
@@ -355,7 +355,7 @@ $$
 <li>$|A|^{-1} = |A^{-1}|$</li>
 <li>设$n$大于等于$2$，则$|A^{*}| = |A|^{n-1}$</li>
 </ol>
-<h3 id="矩阵的初等变换和初等矩阵">矩阵的初等变换和初等矩阵
+<h3 id="初等变换和初等矩阵">初等变换和初等矩阵
 </h3><p>矩阵的行(列)互换，行(列)数乘一个非零常数，行(列)乘常数加到另外一行(列)上为矩阵的三种初等变换。</p>
 <p><strong>定义 1(相抵).</strong> 将一个矩阵$A$经过有限次初等变换后变成$B$,则称$A$和$B$是等价的，或者$A$和$B$相抵，记作$A~B$.</p>
 <p><strong>定理 2(相抵标准型).</strong> 任意 $m\times n$矩阵必然相抵于下列 $m\times n$矩阵
@@ -370,6 +370,80 @@ $$
 该矩阵被称为原始矩阵的相抵标准型，与如何初等变换无关，这是矩阵自身的性质。</p>
 <p><strong>定理 3.</strong> 只使用初等行变换，矩阵最多可以简化为上阶梯型矩阵。</p>
 <p><strong>定理 4(初等矩阵).</strong> 对单位阵施以第一类，第二类，第三类初等<strong>变换后</strong>得到的矩阵分别称为第一类、第二类、第三类初等矩阵，分别记为 $P_{ij},P_i(c),T_{ij}(c)$.</p>
+<p><strong>定理 5.</strong> 初等行(列)变换等价于左(右)乘对应的初等矩阵，即</p>
+<ul>
+<li>初等行变换: $P_{ij}A,P_i(c)A,T_{ij}(c)A$</li>
+<li>初等列变换：$AP_{ij},AP_i(c),AT_{ji}(c)$</li>
+</ul>
+<p><strong>一些推论.</strong></p>
+<ol>
+<li>初等阵都是可逆矩阵，且其逆矩阵都为同类型的初等阵，有
+$$
+P_{ij}^{-1} = P_{ij},P_i(c)^{-1} = P_i(\frac{1}{c}),T_{ij}(c)^{-1} = T_{ij}(-c)
+$$</li>
+<li>$|P_{ij}| = -1,|P_i(c)| = c,T_{ij}(c) = 1$,对矩阵实施第三类初等变换，
+矩阵行列式的值不变。</li>
+<li>奇异(非奇异)矩阵经过初等变换后依然是奇异(非奇异)矩阵。</li>
+</ol>
+<p><strong>推论 6.</strong> 设 $m\times n$阶矩阵 $A$,存在$m$阶非奇异阵 $P$和 $n$阶非奇异阵 $Q$,可使得
+$A$ 变化为相抵标准型，即
+$$
+PAQ = \begin{aligned}
+\left(\begin{array}{ll}
+I_n &amp; 0 \\
+0 &amp; 0
+\end{array}\right)
+\end{aligned}
+$$</p>
+<p>有了初等变换的关系后，我们现在来判定初等变换符合什么类型的关系。</p>
+<p><strong>定义 6(等价关系).</strong> 若集合 $A$ 上的二元关系 $R$ 满足以下条件：</p>
+<ol>
+<li>自反性：$\forall x \in A, x R x$</li>
+<li>对称性：$\forall x, y \in A, x R y \Longrightarrow y R x$</li>
+<li>传递性：$\forall x, y, z \in A, \quad(x R y \wedge y R z) \Longrightarrow x R z$
+<br>
+则称 $R$ 是一个定义在 $A$ 上的等价关系。习惯上会把等价关系的符号由 $R$ 改写为 $\sim$ 。</li>
+</ol>
+<p><strong>定理 7.</strong> 相抵关系是一种等价关系。<br>
+<strong>注.</strong> 高等代数中会接触三种关系：相抵、相似和合同关系，都是等价关系。</p>
+<p><strong>应用 (求解逆矩阵).</strong> 可以通过构造
+$
+\left(\begin{array}{c:c}
+A&amp;I_n
+\end{array}\right)
+$
+然后再通过初等行变换得到
+$
+\left(\begin{array}{c:c}
+I_n&amp;A^{-1}
+\end{array}\right)
+$
+,或者构造
+$
+\left(\begin{array}{c}
+A \\
+\hdashline I_n \\
+\end{array}\right)
+$,
+然后通过初等列变换得到
+$
+\left(\begin{array}{c}
+I_n \\
+\hdashline A^{-1} \\
+\end{array}\right)
+$,总之，使得分块矩阵的变换统一，必须同时进行相同的变换。</p>
+<p><strong>注.</strong> 该方法同样可以用来求解线性方程组，假设 $AX = B$,则$X = A^{-1}B$,可以构造
+$
+\left(\begin{array}{c:c}
+A&amp;B
+\end{array}\right)
+$
+然后再通过初等行变换得到
+$
+\left(\begin{array}{c:c}
+I_n&amp;A^{-1}B
+\end{array}\right)
+$,对于$XA=B$,解$X = BA^{-1}$,则可以通过构造矩阵然后初等列变换求得。</p>
 <h3 id="逆矩阵">逆矩阵
 </h3><p><strong>定义 1(矩阵的逆).</strong> 设$A$为n阶方阵，若存在一个n阶方阵$B$,使得
 $$
@@ -383,24 +457,32 @@ $$
 <li>消去律存在</li>
 <li>若A可逆，$AB=0$,则$B$为零矩阵。</li>
 </ol>
-<p><strong>引理 2</strong> 方阵$A$和其伴随阵 $A^{*}$ 有以下关系：
+<p><strong>引理 2.</strong> 方阵$A$和其伴随阵 $A^{*}$ 有以下关系：
 $$
 AA^{*} = A^{*}A = |A|I_n
 $$</p>
-<p><strong>定理 3</strong> 若$|A|\neq 0$,则$A$为非奇异阵，且
+<p><strong>定理 3.</strong> 若$|A|\neq 0$,则$A$为非奇异阵，且
 $$
 A^{-1} = \frac{1}{|A|}A^{*}
 $$</p>
-<p><strong>定理 4</strong> 若$A,B$都是n阶矩阵，则
+<p><strong>定理 4.</strong> 若$A,B$都是n阶矩阵，则
 $$
 |AB| = |A||B|
 $$</p>
-<p><strong>一些推论</strong></p>
+<p><strong>一些推论.</strong></p>
 <ol>
 <li>方阵可逆的充分必要条件为行列式不等于0.</li>
 <li>可逆方阵的乘积依然为可逆方阵，只要乘积中间有一个奇异阵，最后的矩阵为奇异阵。</li>
 <li>若$A$可逆，则$|A^{-1}| = |A|^{-1}$</li>
 <li>若$A,B$都为n阶方阵,$AB = I_n$可以推导出$BA = I_n$,反之亦然。</li>
+</ol>
+<p>非奇异矩阵有一些很好的性质，我们将其归结于如下的定理：<br>
+<strong>定理 5.</strong> 对于$n$阶矩阵$A$,以下几种表述等价：</p>
+<ol>
+<li>$A$ 为非奇异矩阵。</li>
+<li>$A$ 的相抵标准型为 $I_n$。</li>
+<li>$A$ 可以只通过初等行变换或初等列变换变为 $I_n$。</li>
+<li>$A$ 可以分解为若干个初等矩阵的乘积。</li>
 </ol>
 <h2 id="第三章-线性空间">第三章 线性空间
 </h2><h2 id="第四章-线性映射">第四章 线性映射

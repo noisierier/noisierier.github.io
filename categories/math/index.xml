@@ -283,7 +283,7 @@ $$
 &lt;li&gt;$|A|^{-1} = |A^{-1}|$&lt;/li&gt;
 &lt;li&gt;设$n$大于等于$2$，则$|A^{*}| = |A|^{n-1}$&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;矩阵的初等变换和初等矩阵&#34;&gt;矩阵的初等变换和初等矩阵
+&lt;h3 id=&#34;初等变换和初等矩阵&#34;&gt;初等变换和初等矩阵
 &lt;/h3&gt;&lt;p&gt;矩阵的行(列)互换，行(列)数乘一个非零常数，行(列)乘常数加到另外一行(列)上为矩阵的三种初等变换。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;定义 1(相抵).&lt;/strong&gt; 将一个矩阵$A$经过有限次初等变换后变成$B$,则称$A$和$B$是等价的，或者$A$和$B$相抵，记作$A~B$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;定理 2(相抵标准型).&lt;/strong&gt; 任意 $m\times n$矩阵必然相抵于下列 $m\times n$矩阵
@@ -296,8 +296,13 @@ I_n &amp;amp; 0 \\
 \end{aligned}
 $$
 该矩阵被称为原始矩阵的相抵标准型，与如何初等变换无关，这是矩阵自身的性质。&lt;/p&gt;
-&lt;p&gt;**定理 3.**只使用初等行变换，矩阵最多可以简化为上阶梯型矩阵。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 3.&lt;/strong&gt; 只使用初等行变换，矩阵最多可以简化为上阶梯型矩阵。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;定理 4(初等矩阵).&lt;/strong&gt; 对单位阵施以第一类，第二类，第三类初等&lt;strong&gt;变换后&lt;/strong&gt;得到的矩阵分别称为第一类、第二类、第三类初等矩阵，分别记为 $P_{ij},P_i(c),T_{ij}(c)$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 5.&lt;/strong&gt; 初等行(列)变换等价于左(右)乘对应的初等矩阵，即&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;初等行变换:$P_{ij}A,P_i(c)A,T_{ij}(c)A$&lt;/li&gt;
+&lt;li&gt;初等列变换：$AP_{ij},AP_i(c),AT_{ji}(c)$&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;逆矩阵&#34;&gt;逆矩阵
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定义 1(矩阵的逆).&lt;/strong&gt; 设$A$为n阶方阵，若存在一个n阶方阵$B$,使得
 $$
