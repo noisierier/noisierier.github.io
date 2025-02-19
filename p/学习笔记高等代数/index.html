@@ -120,6 +120,7 @@
         <li><a href="#初等变换和初等矩阵">初等变换和初等矩阵</a></li>
         <li><a href="#逆矩阵">逆矩阵</a></li>
         <li><a href="#分块矩阵">分块矩阵</a></li>
+        <li><a href="#cauchy-binet-公式">Cauchy-Binet 公式</a></li>
       </ol>
     </li>
     <li><a href="#第三章-线性空间">第三章 线性空间</a></li>
@@ -210,7 +211,7 @@
 
 
                 <time class="article-time--reading">
-                    9 minute read
+                    10 minute read
                 </time>
             </div>
         
@@ -458,15 +459,25 @@ $$
 <li>消去律存在</li>
 <li>若A可逆，$AB=0$,则$B$为零矩阵。</li>
 </ol>
-<p><strong>引理 2.</strong> 方阵$A$和其伴随阵 $A^{*}$ 有以下关系：
+<p><strong>定义 2.</strong> 设 $\boldsymbol{A}$ 是 $n$ 阶方阵，$A_{i j}$ 是行列式 $|\boldsymbol{A}|$ 中第 $(i, j)$ 元素 $a_{i j}$ 的代数余子式，则称下列方阵为 $\boldsymbol{A}$ 的伴随阵：</p>
+<p>$$
+\left(\begin{array}{cccc}
+A_{11} &amp; A_{21} &amp; \cdots &amp; A_{n 1} \\
+A_{12} &amp; A_{22} &amp; \cdots &amp; A_{n 2} \\
+\vdots &amp; \vdots &amp; &amp; \vdots \\
+A_{1 n} &amp; A_{2 n} &amp; \cdots &amp; A_{n n}
+\end{array}\right) \quad
+$$
+$A$ 的伴随阵通常记为 $A^*$ ．</p>
+<p><strong>引理 3.</strong> 方阵$A$和其伴随阵 $A^{*}$ 有以下关系：
 $$
 AA^{*} = A^{*}A = |A|I_n
 $$</p>
-<p><strong>定理 3.</strong> 若$|A|\neq 0$,则$A$为非奇异阵，且
+<p><strong>定理 4.</strong> 若$|A|\neq 0$,则$A$为非奇异阵，且
 $$
 A^{-1} = \frac{1}{|A|}A^{*}
 $$</p>
-<p><strong>定理 4.</strong> 若$A,B$都是n阶矩阵，则
+<p><strong>定理 5.</strong> 若$A,B$都是n阶矩阵，则
 $$
 |AB| = |A||B|
 $$</p>
@@ -478,7 +489,7 @@ $$</p>
 <li>若$A,B$都为n阶方阵,$AB = I_n$可以推导出$BA = I_n$,反之亦然。</li>
 </ol>
 <p>非奇异矩阵有一些很好的性质，我们将其归结于如下的定理：<br>
-<strong>定理 5.</strong> 对于$n$阶矩阵$A$,以下几种表述等价：</p>
+<strong>定理 6.</strong> 对于$n$阶矩阵$A$,以下几种表述等价：</p>
 <ol>
 <li>$A$ 为非奇异矩阵。</li>
 <li>$A$ 的相抵标准型为 $I_n$。</li>
@@ -526,7 +537,7 @@ $$</p>
 <li>某个非奇异阵左乘$A$的某一个分块行，或者右乘某一个分块列。</li>
 <li>某个矩阵左乘$A$的某一分块行加到另一分块行上，或右乘某一分块列加到另一分块列上。</li>
 </ol>
-<p><strong>注.</strong> 分块初等变换是初等变换的推广，分块初等变换1可以看作初等变换1的复合，分块初等变换2可以看作初等变换2的复合，分块初等变换3可以看作初等变换3的复合，所以分块初等变换也满足初等变换具有的一些性质，也可以对分块单位矩阵进行分块初等变换定义分块初等矩阵，依然用 $P_{ij},P_i(M),T_{ij}(M)$ 表示。</p>
+<p><strong>注.</strong> 分块初等变换是初等变换的推广，分块初等变换1可以看作初等变换1的复合，分块初等变换2可以看作初等变换2、3的复合，分块初等变换3可以看作初等变换3的复合，所以分块初等变换也满足初等变换具有的一些性质，也可以对分块单位矩阵进行分块初等变换定义分块初等矩阵，依然用 $P_{ij},P_i(M),T_{ij}(M)$ 表示。</p>
 <p><strong>定理 4.</strong> 分块初等矩阵具有以下性质：</p>
 <ol>
 <li>分块初等阵都是可逆阵
@@ -574,6 +585,54 @@ $$
 $$
 这个等式称为行列式的降阶公式．因为当 $\boldsymbol{D}$ 和 $\boldsymbol{A}$ 的阶不等时，可以利用它把高阶行列式的计算化为低阶行列式的计算:如果我们要计算矩阵$M$的行列式，可以构造 $M = A-BD^{-1}C$,然后利用 $|M| = |A-BD^{-1}C| = |D|^{-1}|A|\left|D-C A^{-1} B\right|$得到 $M$ 的行列式。</p>
 <p><strong>注 2.</strong> 利用分块矩阵的三类初等变换，同样可以求分块矩阵的逆矩阵，或者求解线性方程组。</p>
+<h3 id="cauchy-binet-公式">Cauchy-Binet 公式
+</h3><p><strong>定理 1.</strong> 设 $\boldsymbol{A}=\left(a_{i j}\right)$ 是 $m \times n$ 矩阵， $\boldsymbol{B}=\left(b_{i j}\right)$ 是 $n \times m$ 矩阵，$r$ 是一个正整数且 $r \leq m$ ．
+（1）若 $r&gt;n$ ，则 $A B$ 的任意一个 $r$ 阶子式等于零；
+（2）若 $r \leq n$ ，则 $\boldsymbol{A} \boldsymbol{B}$ 的 $r$ 阶子式
+$$
+\begin{aligned}
+&amp;\boldsymbol{A} \boldsymbol{B}\left(\begin{array}{llll}
+i_1 &amp; i_2 &amp; \cdots &amp; i_r \\
+j_1 &amp; j_2 &amp; \cdots &amp; j_r
+\end{array}\right)\\
+&amp; =\sum_{1 \leq k_1&lt;k_2&lt;\cdots&lt;k_r \leq n} \boldsymbol{A}\left(\begin{array}{cccc}
+i_1 &amp; i_2 &amp; \cdots &amp; i_r \\
+k_1 &amp; k_2 &amp; \cdots &amp; k_r
+\end{array}\right) \boldsymbol{B}\left(\begin{array}{cccc}
+k_1 &amp; k_2 &amp; \cdots &amp; k_r \\
+j_1 &amp; j_2 &amp; \cdots &amp; j_r
+\end{array}\right) \text {. }
+\end{aligned}
+$$</p>
+<p><strong>注.</strong> 若 $r = m$,则$AB$的$r$阶子式就是 $|AB|$,$i,j$的顺序就是$1,2,\cdots,n$;若 $ r = 1 $,该公式表示矩阵乘法。</p>
+<p><strong>推论 2.</strong> 若 $A$ 为 $m\times n$,则 $AA^{&rsquo;}$的任意主子式都非负。<br>
+<strong>注.</strong> 若$r$阶子式的行指标和列指标相同，称该子式为主子式。</p>
+<p><strong>推论 3.</strong> 若 $AB$ 为 $n$ 阶方阵，则 $(AB)^{*} = B^{*}A^{*} $.</p>
+<p><strong>推论 4.</strong> $(AB)^{*} = B^{*}A^{*}$</p>
+<hr>
+<p><strong>对转置，求逆，伴随的一些总结</strong></p>
+<ol>
+<li>$(A^{-1})^{&rsquo;} = (A^{&rsquo;})^{-1},(A^{&rsquo;})^{*} = (A^{*})^{&rsquo;},(A^{-1})^{*} = (A^{*})^{-1}$,三种符号均可以交换顺序</li>
+<li>$(AB)^{*} = B^{*}A^{*},(AB)^{-1} = B^{-1}A^{-1},(AB)^{&rsquo;} = B^{&rsquo;}A^{&rsquo;}$，拆开括号后顺序相反各自运算</li>
+<li>$(A^{&rsquo;})^{&rsquo;} = A,(A^{-1})^{-1} = A$
+$
+(A^{*})^{*} =
+\left\{
+\begin{array}{lc}
+|A|^{n-2}A &amp;, n \geq3 \\
+A&amp;,n=2\\
+\end{array}
+\right.$,二次运算后不完全相同</li>
+<li>$(cA)^{&rsquo;} = cA^{&rsquo;},(cA)^{-1} = c^{-1}A^{-1},(cA)^{*} = c^{n-1}A^{*}$</li>
+<li>$AA^{*} = A^{*}A = |A|I_n,A^{-1}A = A^{-1}A = I_n,AA^{&rsquo;}$半正定</li>
+<li>$|A^{*}| = |A|^{n-1},|A^{&rsquo;}| = |A|,|A^{-1}| = |A|^{-1}$</li>
+</ol>
+<p><strong>补充.</strong> 相抵标准型有一些很好的性质，易于求伴随就是其中一项，令$A = P\begin{aligned}
+\left(\begin{array}{ll}
+I_r &amp; 0 \\
+0 &amp; 0
+\end{array}\right)
+\end{aligned}Q$是一种分析和证明的方法。</p>
 <h2 id="第三章-线性空间">第三章 线性空间
 </h2><h2 id="第四章-线性映射">第四章 线性映射
 </h2><h2 id="第五章-多项式">第五章 多项式
