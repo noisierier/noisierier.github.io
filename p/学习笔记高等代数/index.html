@@ -119,6 +119,7 @@
         <li><a href="#矩阵运算">矩阵运算</a></li>
         <li><a href="#初等变换和初等矩阵">初等变换和初等矩阵</a></li>
         <li><a href="#逆矩阵">逆矩阵</a></li>
+        <li><a href="#分块矩阵">分块矩阵</a></li>
       </ol>
     </li>
     <li><a href="#第三章-线性空间">第三章 线性空间</a></li>
@@ -209,7 +210,7 @@
 
 
                 <time class="article-time--reading">
-                    7 minute read
+                    9 minute read
                 </time>
             </div>
         
@@ -362,7 +363,7 @@ $$
 $$
 \begin{aligned}
 \left(\begin{array}{ll}
-I_n &amp; 0 \\
+I_r &amp; 0 \\
 0 &amp; 0
 \end{array}\right)
 \end{aligned}
@@ -390,7 +391,7 @@ $A$ 变化为相抵标准型，即
 $$
 PAQ = \begin{aligned}
 \left(\begin{array}{ll}
-I_n &amp; 0 \\
+I_r &amp; 0 \\
 0 &amp; 0
 \end{array}\right)
 \end{aligned}
@@ -484,6 +485,95 @@ $$</p>
 <li>$A$ 可以只通过初等行变换或初等列变换变为 $I_n$。</li>
 <li>$A$ 可以分解为若干个初等矩阵的乘积。</li>
 </ol>
+<h3 id="分块矩阵">分块矩阵
+</h3><p>分块矩阵是为了运算和分析更简便自然推广出的表示方法，一般表示为$A = (A_{ij})_{r\times s}$,$r\times s$表示分块成$r$分块行和$s$分块列，记$(m_1,m_2,\cdots,m_r)$为行分块方式，$(n_1,n_2,\cdots,n_r)$为列分块方式。</p>
+<p><strong>定义 1.</strong> 若分块矩阵$A,B$的行分块方式和列分块方式相同，且每个矩阵块相同，则分块矩阵$A,B$相等。</p>
+<p>关于分块矩阵的运算，和普通矩阵的运算方式大致相同，是普通矩阵运算的推广，以下列出需要注意的几点：</p>
+<ol>
+<li>分块矩阵相乘：$AB$，需要保证$A$的列分块方式和$B$的行分块方式相同。</li>
+<li>分块矩阵转置除了对换行列元素外，每个矩阵块也应该转置。</li>
+</ol>
+<p><strong>例.</strong> 设 $\boldsymbol{A}$ 是一个 $m \times n$ 矩阵， $\boldsymbol{B}$ 是一个 $n \times r$ 矩阵，可对 $\boldsymbol{B}$ 作列分块，即将 $B$ 的每个列向量分作一块，记为 $\boldsymbol{\beta}_j(j=1,2, \cdots, r)$ ，则
+$$
+\boldsymbol{B}=\left(\boldsymbol{\beta}_1, \boldsymbol{\beta}_2, \cdots, \boldsymbol{\beta}_r\right)
+$$
+又将 $A$ 看成是只分成一块的矩阵，则 $A B$ 可按分块矩阵相乘，且 $A B$ 的<strong>列分块</strong>为
+$$
+\boldsymbol{A} \boldsymbol{B}=\left(\boldsymbol{A} \boldsymbol{\beta}_1, \boldsymbol{A} \boldsymbol{\beta}_2, \cdots, \boldsymbol{A} \boldsymbol{\beta}_r\right)
+$$
+同样，可对 $\boldsymbol{A}$ 作行分块，即将 $\boldsymbol{A}$ 的每个行向量分作一块，记为 $\boldsymbol{\alpha}_i(i=1,2, \cdots, m)$ ，则
+$$
+A=\left(\begin{array}{c}
+\boldsymbol{\alpha}_1 \\
+\boldsymbol{\alpha}_2 \\
+\vdots \\
+\boldsymbol{\alpha}_m
+\end{array}\right)
+$$
+又将 $B$ 看成是只有一块的矩阵，则 $\boldsymbol{A B}$ 可按分块矩阵相乘，且 $\boldsymbol{A B}$ 的<strong>行分块</strong>为
+$$
+A B=\left(\begin{array}{c}
+\alpha_1 B \\
+\alpha_2 B \\
+\vdots \\
+\alpha_m B
+\end{array}\right)
+$$</p>
+<p><strong>推论 2.</strong> 若分块对角阵的每一个矩阵块都可逆，则分块对角矩阵可逆。</p>
+<p><strong>定义 3.</strong> 对于分块矩阵$A = (A_{ij})_{r\times s}$，可以定义三类分块初等变换：</p>
+<ol>
+<li>对换$A$的分块行（分块列）。</li>
+<li>某个非奇异阵左乘$A$的某一个分块行，或者右乘某一个分块列。</li>
+<li>某个矩阵左乘$A$的某一分块行加到另一分块行上，或右乘某一分块列加到另一分块列上。</li>
+</ol>
+<p><strong>注.</strong> 分块初等变换是初等变换的推广，分块初等变换1可以看作初等变换1的复合，分块初等变换2可以看作初等变换2的复合，分块初等变换3可以看作初等变换3的复合，所以分块初等变换也满足初等变换具有的一些性质，也可以对分块单位矩阵进行分块初等变换定义分块初等矩阵，依然用 $P_{ij},P_i(M),T_{ij}(M)$ 表示。</p>
+<p><strong>定理 4.</strong> 分块初等矩阵具有以下性质：</p>
+<ol>
+<li>分块初等阵都是可逆阵
+$$
+P_{ij}^{-1} = P_{ij}^{&rsquo;},P_i(M)^{-1} = P_i(M^{-1}),T_{ij}(M)^{-1} = T_{ij}(-M)
+$$</li>
+<li>$|P_{ij}| = (-1)^{l},l=m_i\cdot m_j+(m_i+m_j)\sum_{i&lt;r&lt;j}m_r$<br>
+$|P_i(M)| = |M|,T_{ij}(M) = 1$</li>
+<li>分块初等行(列)变换等价于左(右)乘对应的分块初等矩阵。
+<ul>
+<li>分块初等行变换: $P_{ij}A,P_i(M)A,T_{ij}(M)A$</li>
+<li>分块初等列变换：$AP_{ij}^{&rsquo;},AP_i(M),AT_{ji}(M)$</li>
+</ul>
+</li>
+</ol>
+<p><strong>注.</strong> 分块矩阵进行第三类分块初等变换，分块矩阵的行列式不变，我们可以用该方法简化分块行列式的计算。</p>
+<p><strong>定理 5.</strong> 若 $\boldsymbol{A}$ 是 $m$ 阶可逆阵， $\boldsymbol{D}$ 是 $n$ 阶矩阵， $\boldsymbol{B}$ 为 $m \times n$ 矩阵， $\boldsymbol{C}$ 为 $n \times m$ 矩阵，则
+$$
+\left|\begin{array}{ll}
+A &amp; B \\
+C &amp; D
+\end{array}\right|=|A|\left|D-C A^{-1} B\right|
+$$
+若 $\boldsymbol{D}$ 可逆（这时 $\boldsymbol{A}$ 不必假设可逆），则有
+$$
+\left|\begin{array}{ll}
+A &amp; B \\
+C &amp; D
+\end{array}\right|=\left|D | A-B D^{-1} C\right|
+$$
+<strong>证明</strong> 用第三类分块初等变换，以 $-\boldsymbol{C} \boldsymbol{A}^{-1}$ 左乘以第一分块行加到第二分块行上得到
+$$
+\left(\begin{array}{ll}
+A &amp; B \\
+C &amp; D
+\end{array}\right) \rightarrow\left(\begin{array}{cc}
+A &amp; B \\
+O &amp; D-C A^{-1} B
+\end{array}\right)
+$$
+第三类分块初等变换不改变行列式的值，由引理即得结论．另一结论类似可证．<strong>证毕。</strong></p>
+<p><strong>注 1.</strong> 当 $\boldsymbol{A}$ 和 $\boldsymbol{D}$ 都是可逆阵时，我们得到等式
+$$
+\left|D \right|\left| A-B D^{-1} C\right|=|A|\left|D-C A^{-1} B\right|
+$$
+这个等式称为行列式的降阶公式．因为当 $\boldsymbol{D}$ 和 $\boldsymbol{A}$ 的阶不等时，可以利用它把高阶行列式的计算化为低阶行列式的计算:如果我们要计算矩阵$M$的行列式，可以构造 $M = A-BD^{-1}C$,然后利用 $|M| = |A-BD^{-1}C| = |D|^{-1}|A|\left|D-C A^{-1} B\right|$得到 $M$ 的行列式。</p>
+<p><strong>注 2.</strong> 利用分块矩阵的三类初等变换，同样可以求分块矩阵的逆矩阵，或者求解线性方程组。</p>
 <h2 id="第三章-线性空间">第三章 线性空间
 </h2><h2 id="第四章-线性映射">第四章 线性映射
 </h2><h2 id="第五章-多项式">第五章 多项式
@@ -568,6 +658,25 @@ $$</p>
             
                 
 <article class="has-image">
+    <a href="/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/post_file/%e4%bf%a1%e6%81%af%e8%ae%ba/cover.png" loading="lazy" data-key="" data-hash="/post_file/信息论/cover.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">学习笔记|信息论</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
     <a href="/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/">
         
         
@@ -637,25 +746,6 @@ $$</p>
 
         <div class="article-details">
             <h2 class="article-title">My mathematical modeling</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/p/correlation-operation-and-random-signal-processing/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/post_file/Correlation_operation_and_random_signal_processing/cover.png" loading="lazy" data-key="" data-hash="/post_file/Correlation_operation_and_random_signal_processing/cover.png"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Correlation operation and random signal processing</h2>
         </div>
     </a>
 </article>

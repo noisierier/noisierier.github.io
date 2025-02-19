@@ -7,7 +7,34 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Sun, 26 Jan 2025 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 18 Feb 2025 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>学习笔记|信息论</title>
+        <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/</link>
+        <pubDate>Tue, 18 Feb 2025 00:21:05 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/%E4%BF%A1%E6%81%AF%E8%AE%BA/cover.png" alt="Featured image of post 学习笔记|信息论" /&gt;&lt;style&gt;
+body {
+    font-family: &#39;微软雅黑&#39;, sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
+    --article-font-size: 3.5
+    line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
+&lt;/h2&gt;&lt;p&gt;信息论（2019年春）台湾交通大学陈伯宁，哔哩哔哩视频：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV14N41197bN/?p=8&amp;amp;share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;信息论（2019年春）台湾交通大学陈伯宁&lt;/a&gt;,参考网站：&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/?course_page=all-course%2Fcollege-of-electrical-and-computer-engineering%2F%E6%B6%88%E6%81%AF%E7%90%86%E8%AB%96-information-theory-107%E5%AD%B8%E5%B9%B4%E5%BA%A6-%E9%9B%BB%E6%A9%9F%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%B3%BB-%E9%99%B3%E4%BC%AF%E5%AF%A7%E8%80%81%E5%B8%AB&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;消息理論&lt;/a&gt;,参考书籍：An Introduction to Single-User Information Theory。该课程将严格的证明香农三大定律，并进行拓展。&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h2&gt;&lt;h2 id=&#34;overview-on-suprema-and-limits&#34;&gt;Overview on Suprema and Limits
+&lt;/h2&gt;&lt;h2 id=&#34;overview-in-probability-and-random-processes&#34;&gt;Overview in Probability and Random Processes
+&lt;/h2&gt;&lt;h2 id=&#34;information-measures-for-discrete-systems&#34;&gt;Information Measures for Discrete Systems
+&lt;/h2&gt;&lt;h2 id=&#34;lossless-data-compression&#34;&gt;Lossless Data Compression
+&lt;/h2&gt;&lt;h2 id=&#34;data-transmission-and-channel-capacity&#34;&gt;Data Transmission and Channel Capacity
+&lt;/h2&gt;&lt;h2 id=&#34;differential-entropy-and-gaussian-channels&#34;&gt;Differential Entropy and Gaussian Channels
+&lt;/h2&gt;&lt;h2 id=&#34;lossy-data-compression-and-transmission&#34;&gt;Lossy Data Compression and Transmission
+&lt;/h2&gt;</description>
+        </item>
+        <item>
         <title>学习笔记|数理统计</title>
         <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</link>
         <pubDate>Sun, 26 Jan 2025 00:21:05 +0800</pubDate>
@@ -290,7 +317,7 @@ $$
 $$
 \begin{aligned}
 \left(\begin{array}{ll}
-I_n &amp;amp; 0 \\
+I_r &amp;amp; 0 \\
 0 &amp;amp; 0
 \end{array}\right)
 \end{aligned}
@@ -318,7 +345,7 @@ $A$ 变化为相抵标准型，即
 $$
 PAQ = \begin{aligned}
 \left(\begin{array}{ll}
-I_n &amp;amp; 0 \\
+I_r &amp;amp; 0 \\
 0 &amp;amp; 0
 \end{array}\right)
 \end{aligned}
@@ -412,6 +439,95 @@ $$&lt;/p&gt;
 &lt;li&gt;$A$ 可以只通过初等行变换或初等列变换变为 $I_n$。&lt;/li&gt;
 &lt;li&gt;$A$ 可以分解为若干个初等矩阵的乘积。&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h3 id=&#34;分块矩阵&#34;&gt;分块矩阵
+&lt;/h3&gt;&lt;p&gt;分块矩阵是为了运算和分析更简便自然推广出的表示方法，一般表示为$A = (A_{ij})_{r\times s}$,$r\times s$表示分块成$r$分块行和$s$分块列，记$(m_1,m_2,\cdots,m_r)$为行分块方式，$(n_1,n_2,\cdots,n_r)$为列分块方式。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定义 1.&lt;/strong&gt; 若分块矩阵$A,B$的行分块方式和列分块方式相同，且每个矩阵块相同，则分块矩阵$A,B$相等。&lt;/p&gt;
+&lt;p&gt;关于分块矩阵的运算，和普通矩阵的运算方式大致相同，是普通矩阵运算的推广，以下列出需要注意的几点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;分块矩阵相乘：$AB$，需要保证$A$的列分块方式和$B$的行分块方式相同。&lt;/li&gt;
+&lt;li&gt;分块矩阵转置除了对换行列元素外，每个矩阵块也应该转置。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;例.&lt;/strong&gt; 设 $\boldsymbol{A}$ 是一个 $m \times n$ 矩阵， $\boldsymbol{B}$ 是一个 $n \times r$ 矩阵，可对 $\boldsymbol{B}$ 作列分块，即将 $B$ 的每个列向量分作一块，记为 $\boldsymbol{\beta}_j(j=1,2, \cdots, r)$ ，则
+$$
+\boldsymbol{B}=\left(\boldsymbol{\beta}_1, \boldsymbol{\beta}_2, \cdots, \boldsymbol{\beta}_r\right)
+$$
+又将 $A$ 看成是只分成一块的矩阵，则 $A B$ 可按分块矩阵相乘，且 $A B$ 的&lt;strong&gt;列分块&lt;/strong&gt;为
+$$
+\boldsymbol{A} \boldsymbol{B}=\left(\boldsymbol{A} \boldsymbol{\beta}_1, \boldsymbol{A} \boldsymbol{\beta}_2, \cdots, \boldsymbol{A} \boldsymbol{\beta}_r\right)
+$$
+同样，可对 $\boldsymbol{A}$ 作行分块，即将 $\boldsymbol{A}$ 的每个行向量分作一块，记为 $\boldsymbol{\alpha}_i(i=1,2, \cdots, m)$ ，则
+$$
+A=\left(\begin{array}{c}
+\boldsymbol{\alpha}_1 \\
+\boldsymbol{\alpha}_2 \\
+\vdots \\
+\boldsymbol{\alpha}_m
+\end{array}\right)
+$$
+又将 $B$ 看成是只有一块的矩阵，则 $\boldsymbol{A B}$ 可按分块矩阵相乘，且 $\boldsymbol{A B}$ 的&lt;strong&gt;行分块&lt;/strong&gt;为
+$$
+A B=\left(\begin{array}{c}
+\alpha_1 B \\
+\alpha_2 B \\
+\vdots \\
+\alpha_m B
+\end{array}\right)
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推论 2.&lt;/strong&gt; 若分块对角阵的每一个矩阵块都可逆，则分块对角矩阵可逆。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定义 3.&lt;/strong&gt; 对于分块矩阵$A = (A_{ij})_{r\times s}$，可以定义三类分块初等变换：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;对换$A$的分块行（分块列）。&lt;/li&gt;
+&lt;li&gt;某个非奇异阵左乘$A$的某一个分块行，或者右乘某一个分块列。&lt;/li&gt;
+&lt;li&gt;某个矩阵左乘$A$的某一分块行加到另一分块行上，或右乘某一分块列加到另一分块列上。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;注.&lt;/strong&gt; 分块初等变换是初等变换的推广，分块初等变换1可以看作初等变换1的复合，分块初等变换2可以看作初等变换2的复合，分块初等变换3可以看作初等变换3的复合，所以分块初等变换也满足初等变换具有的一些性质，也可以对分块单位矩阵进行分块初等变换定义分块初等矩阵，依然用 $P_{ij},P_i(M),T_{ij}(M)$ 表示。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 4.&lt;/strong&gt; 分块初等矩阵具有以下性质：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;分块初等阵都是可逆阵
+$$
+P_{ij}^{-1} = P_{ij}^{&amp;rsquo;},P_i(M)^{-1} = P_i(M^{-1}),T_{ij}(M)^{-1} = T_{ij}(-M)
+$$&lt;/li&gt;
+&lt;li&gt;$|P_{ij}| = (-1)^{l},l=m_i\cdot m_j+(m_i+m_j)\sum_{i&amp;lt;r&amp;lt;j}m_r$&lt;br&gt;
+$|P_i(M)| = |M|,T_{ij}(M) = 1$&lt;/li&gt;
+&lt;li&gt;分块初等行(列)变换等价于左(右)乘对应的分块初等矩阵。
+&lt;ul&gt;
+&lt;li&gt;分块初等行变换: $P_{ij}A,P_i(M)A,T_{ij}(M)A$&lt;/li&gt;
+&lt;li&gt;分块初等列变换：$AP_{ij}^{&amp;rsquo;},AP_i(M),AT_{ji}(M)$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;注.&lt;/strong&gt; 分块矩阵进行第三类分块初等变换，分块矩阵的行列式不变，我们可以用该方法简化分块行列式的计算。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 5.&lt;/strong&gt; 若 $\boldsymbol{A}$ 是 $m$ 阶可逆阵， $\boldsymbol{D}$ 是 $n$ 阶矩阵， $\boldsymbol{B}$ 为 $m \times n$ 矩阵， $\boldsymbol{C}$ 为 $n \times m$ 矩阵，则
+$$
+\left|\begin{array}{ll}
+A &amp;amp; B \\
+C &amp;amp; D
+\end{array}\right|=|A|\left|D-C A^{-1} B\right|
+$$
+若 $\boldsymbol{D}$ 可逆（这时 $\boldsymbol{A}$ 不必假设可逆），则有
+$$
+\left|\begin{array}{ll}
+A &amp;amp; B \\
+C &amp;amp; D
+\end{array}\right|=\left|D | A-B D^{-1} C\right|
+$$
+&lt;strong&gt;证明&lt;/strong&gt; 用第三类分块初等变换，以 $-\boldsymbol{C} \boldsymbol{A}^{-1}$ 左乘以第一分块行加到第二分块行上得到
+$$
+\left(\begin{array}{ll}
+A &amp;amp; B \\
+C &amp;amp; D
+\end{array}\right) \rightarrow\left(\begin{array}{cc}
+A &amp;amp; B \\
+O &amp;amp; D-C A^{-1} B
+\end{array}\right)
+$$
+第三类分块初等变换不改变行列式的值，由引理即得结论．另一结论类似可证．&lt;strong&gt;证毕。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注 1.&lt;/strong&gt; 当 $\boldsymbol{A}$ 和 $\boldsymbol{D}$ 都是可逆阵时，我们得到等式
+$$
+\left|D \right|\left| A-B D^{-1} C\right|=|A|\left|D-C A^{-1} B\right|
+$$
+这个等式称为行列式的降阶公式．因为当 $\boldsymbol{D}$ 和 $\boldsymbol{A}$ 的阶不等时，可以利用它把高阶行列式的计算化为低阶行列式的计算:如果我们要计算矩阵$M$的行列式，可以构造 $M = A-BD^{-1}C$,然后利用 $|M| = |A-BD^{-1}C| = |D|^{-1}|A|\left|D-C A^{-1} B\right|$得到 $M$ 的行列式。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注 2.&lt;/strong&gt; 利用分块矩阵的三类初等变换，同样可以求分块矩阵的逆矩阵，或者求解线性方程组。&lt;/p&gt;
 &lt;h2 id=&#34;第三章-线性空间&#34;&gt;第三章 线性空间
 &lt;/h2&gt;&lt;h2 id=&#34;第四章-线性映射&#34;&gt;第四章 线性映射
 &lt;/h2&gt;&lt;h2 id=&#34;第五章-多项式&#34;&gt;第五章 多项式

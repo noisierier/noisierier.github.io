@@ -7,7 +7,34 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Sun, 26 Jan 2025 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 18 Feb 2025 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>学习笔记|信息论</title>
+        <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/</link>
+        <pubDate>Tue, 18 Feb 2025 00:21:05 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/%E4%BF%A1%E6%81%AF%E8%AE%BA/cover.png" alt="Featured image of post 学习笔记|信息论" /&gt;&lt;style&gt;
+body {
+    font-family: &#39;微软雅黑&#39;, sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
+    --article-font-size: 3.5
+    line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
+&lt;/h2&gt;&lt;p&gt;信息论（2019年春）台湾交通大学陈伯宁，哔哩哔哩视频：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV14N41197bN/?p=8&amp;amp;share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;信息论（2019年春）台湾交通大学陈伯宁&lt;/a&gt;,参考网站：&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/?course_page=all-course%2Fcollege-of-electrical-and-computer-engineering%2F%E6%B6%88%E6%81%AF%E7%90%86%E8%AB%96-information-theory-107%E5%AD%B8%E5%B9%B4%E5%BA%A6-%E9%9B%BB%E6%A9%9F%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%B3%BB-%E9%99%B3%E4%BC%AF%E5%AF%A7%E8%80%81%E5%B8%AB&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;消息理論&lt;/a&gt;,参考书籍：An Introduction to Single-User Information Theory。该课程将严格的证明香农三大定律，并进行拓展。&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h2&gt;&lt;h2 id=&#34;overview-on-suprema-and-limits&#34;&gt;Overview on Suprema and Limits
+&lt;/h2&gt;&lt;h2 id=&#34;overview-in-probability-and-random-processes&#34;&gt;Overview in Probability and Random Processes
+&lt;/h2&gt;&lt;h2 id=&#34;information-measures-for-discrete-systems&#34;&gt;Information Measures for Discrete Systems
+&lt;/h2&gt;&lt;h2 id=&#34;lossless-data-compression&#34;&gt;Lossless Data Compression
+&lt;/h2&gt;&lt;h2 id=&#34;data-transmission-and-channel-capacity&#34;&gt;Data Transmission and Channel Capacity
+&lt;/h2&gt;&lt;h2 id=&#34;differential-entropy-and-gaussian-channels&#34;&gt;Differential Entropy and Gaussian Channels
+&lt;/h2&gt;&lt;h2 id=&#34;lossy-data-compression-and-transmission&#34;&gt;Lossy Data Compression and Transmission
+&lt;/h2&gt;</description>
+        </item>
+        <item>
         <title>学习笔记|数理统计</title>
         <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</link>
         <pubDate>Sun, 26 Jan 2025 00:21:05 +0800</pubDate>
@@ -290,7 +317,7 @@ $$
 $$
 \begin{aligned}
 \left(\begin{array}{ll}
-I_n &amp;amp; 0 \\
+I_r &amp;amp; 0 \\
 0 &amp;amp; 0
 \end{array}\right)
 \end{aligned}
@@ -300,9 +327,78 @@ $$
 &lt;p&gt;&lt;strong&gt;定理 4(初等矩阵).&lt;/strong&gt; 对单位阵施以第一类，第二类，第三类初等&lt;strong&gt;变换后&lt;/strong&gt;得到的矩阵分别称为第一类、第二类、第三类初等矩阵，分别记为 $P_{ij},P_i(c),T_{ij}(c)$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;定理 5.&lt;/strong&gt; 初等行(列)变换等价于左(右)乘对应的初等矩阵，即&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;初等行变换:$P_{ij}A,P_i(c)A,T_{ij}(c)A$&lt;/li&gt;
+&lt;li&gt;初等行变换: $P_{ij}A,P_i(c)A,T_{ij}(c)A$&lt;/li&gt;
 &lt;li&gt;初等列变换：$AP_{ij},AP_i(c),AT_{ji}(c)$&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;一些推论.&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;初等阵都是可逆矩阵，且其逆矩阵都为同类型的初等阵，有
+$$
+P_{ij}^{-1} = P_{ij},P_i(c)^{-1} = P_i(\frac{1}{c}),T_{ij}(c)^{-1} = T_{ij}(-c)
+$$&lt;/li&gt;
+&lt;li&gt;$|P_{ij}| = -1,|P_i(c)| = c,T_{ij}(c) = 1$,对矩阵实施第三类初等变换，
+矩阵行列式的值不变。&lt;/li&gt;
+&lt;li&gt;奇异(非奇异)矩阵经过初等变换后依然是奇异(非奇异)矩阵。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;推论 6.&lt;/strong&gt; 设 $m\times n$阶矩阵 $A$,存在$m$阶非奇异阵 $P$和 $n$阶非奇异阵 $Q$,可使得
+$A$ 变化为相抵标准型，即
+$$
+PAQ = \begin{aligned}
+\left(\begin{array}{ll}
+I_r &amp;amp; 0 \\
+0 &amp;amp; 0
+\end{array}\right)
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;有了初等变换的关系后，我们现在来判定初等变换符合什么类型的关系。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定义 6(等价关系).&lt;/strong&gt; 若集合 $A$ 上的二元关系 $R$ 满足以下条件：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;自反性：$\forall x \in A, x R x$&lt;/li&gt;
+&lt;li&gt;对称性：$\forall x, y \in A, x R y \Longrightarrow y R x$&lt;/li&gt;
+&lt;li&gt;传递性：$\forall x, y, z \in A, \quad(x R y \wedge y R z) \Longrightarrow x R z$
+&lt;br&gt;
+则称 $R$ 是一个定义在 $A$ 上的等价关系。习惯上会把等价关系的符号由 $R$ 改写为 $\sim$ 。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;定理 7.&lt;/strong&gt; 相抵关系是一种等价关系。&lt;br&gt;
+&lt;strong&gt;注.&lt;/strong&gt; 高等代数中会接触三种关系：相抵、相似和合同关系，都是等价关系。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;应用 (求解逆矩阵).&lt;/strong&gt; 可以通过构造
+$
+\left(\begin{array}{c:c}
+A&amp;amp;I_n
+\end{array}\right)
+$
+然后再通过初等行变换得到
+$
+\left(\begin{array}{c:c}
+I_n&amp;amp;A^{-1}
+\end{array}\right)
+$
+,或者构造
+$
+\left(\begin{array}{c}
+A \\
+\hdashline I_n \\
+\end{array}\right)
+$,
+然后通过初等列变换得到
+$
+\left(\begin{array}{c}
+I_n \\
+\hdashline A^{-1} \\
+\end{array}\right)
+$,总之，使得分块矩阵的变换统一，必须同时进行相同的变换。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注.&lt;/strong&gt; 该方法同样可以用来求解线性方程组，假设 $AX = B$,则$X = A^{-1}B$,可以构造
+$
+\left(\begin{array}{c:c}
+A&amp;amp;B
+\end{array}\right)
+$
+然后再通过初等行变换得到
+$
+\left(\begin{array}{c:c}
+I_n&amp;amp;A^{-1}B
+\end{array}\right)
+$,对于$XA=B$,解$X = BA^{-1}$,则可以通过构造矩阵然后初等列变换求得。&lt;/p&gt;
 &lt;h3 id=&#34;逆矩阵&#34;&gt;逆矩阵
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定义 1(矩阵的逆).&lt;/strong&gt; 设$A$为n阶方阵，若存在一个n阶方阵$B$,使得
 $$
@@ -316,24 +412,32 @@ $$
 &lt;li&gt;消去律存在&lt;/li&gt;
 &lt;li&gt;若A可逆，$AB=0$,则$B$为零矩阵。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;引理 2&lt;/strong&gt; 方阵$A$和其伴随阵 $A^{*}$ 有以下关系：
+&lt;p&gt;&lt;strong&gt;引理 2.&lt;/strong&gt; 方阵$A$和其伴随阵 $A^{*}$ 有以下关系：
 $$
 AA^{*} = A^{*}A = |A|I_n
 $$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;定理 3&lt;/strong&gt; 若$|A|\neq 0$,则$A$为非奇异阵，且
+&lt;p&gt;&lt;strong&gt;定理 3.&lt;/strong&gt; 若$|A|\neq 0$,则$A$为非奇异阵，且
 $$
 A^{-1} = \frac{1}{|A|}A^{*}
 $$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;定理 4&lt;/strong&gt; 若$A,B$都是n阶矩阵，则
+&lt;p&gt;&lt;strong&gt;定理 4.&lt;/strong&gt; 若$A,B$都是n阶矩阵，则
 $$
 |AB| = |A||B|
 $$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;一些推论&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一些推论.&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;方阵可逆的充分必要条件为行列式不等于0.&lt;/li&gt;
 &lt;li&gt;可逆方阵的乘积依然为可逆方阵，只要乘积中间有一个奇异阵，最后的矩阵为奇异阵。&lt;/li&gt;
 &lt;li&gt;若$A$可逆，则$|A^{-1}| = |A|^{-1}$&lt;/li&gt;
 &lt;li&gt;若$A,B$都为n阶方阵,$AB = I_n$可以推导出$BA = I_n$,反之亦然。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;非奇异矩阵有一些很好的性质，我们将其归结于如下的定理：&lt;br&gt;
+&lt;strong&gt;定理 5.&lt;/strong&gt; 对于$n$阶矩阵$A$,以下几种表述等价：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$A$ 为非奇异矩阵。&lt;/li&gt;
+&lt;li&gt;$A$ 的相抵标准型为 $I_n$。&lt;/li&gt;
+&lt;li&gt;$A$ 可以只通过初等行变换或初等列变换变为 $I_n$。&lt;/li&gt;
+&lt;li&gt;$A$ 可以分解为若干个初等矩阵的乘积。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;第三章-线性空间&#34;&gt;第三章 线性空间
 &lt;/h2&gt;&lt;h2 id=&#34;第四章-线性映射&#34;&gt;第四章 线性映射

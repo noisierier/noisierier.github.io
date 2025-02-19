@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="BUPT&QMUL course study notes">
-<title>Course notes</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="台湾交通大学陈伯宁老师信息论课程笔记">
+<title>学习笔记|信息论</title>
 
-<link rel='canonical' href='http://localhost:1313/p/course-notes/'>
+<link rel='canonical' href='http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/'>
 
 <link rel="stylesheet" href="/scss/style.min.7538cc45ee81f670beeeca536fe4e5d6f55fdec40c5cf142451dfca2424303a5.css">
-<meta property='og:title' content="Course notes">
-<meta property='og:description' content="BUPT&QMUL course study notes">
-<meta property='og:url' content='http://localhost:1313/p/course-notes/'>
+<meta property='og:title' content="学习笔记|信息论">
+<meta property='og:description' content="台湾交通大学陈伯宁老师信息论课程笔记">
+<meta property='og:url' content='http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/'>
 <meta property='og:site_name' content='Haitong Lan'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Note' /><meta property='article:published_time' content='2025-01-11T00:21:05&#43;08:00'/><meta property='article:modified_time' content='2025-01-11T00:21:05&#43;08:00'/><meta property='og:image' content='http://localhost:1313/post_file/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/cover.png' />
-<meta name="twitter:title" content="Course notes">
-<meta name="twitter:description" content="BUPT&QMUL course study notes"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='http://localhost:1313/post_file/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/cover.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Note' /><meta property='article:published_time' content='2025-02-18T00:21:05&#43;08:00'/><meta property='article:modified_time' content='2025-02-18T00:21:05&#43;08:00'/><meta property='og:image' content='http://localhost:1313/post_file/%E4%BF%A1%E6%81%AF%E8%AE%BA/cover.png' />
+<meta name="twitter:title" content="学习笔记|信息论">
+<meta name="twitter:description" content="台湾交通大学陈伯宁老师信息论课程笔记"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:1313/post_file/%E4%BF%A1%E6%81%AF%E8%AE%BA/cover.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
   
@@ -112,9 +112,15 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#大一">大一</a></li>
-    <li><a href="#大二">大二</a></li>
-    <li><a href="#大三">大三</a></li>
+    <li><a href="#课程介绍">课程介绍</a></li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#overview-on-suprema-and-limits">Overview on Suprema and Limits</a></li>
+    <li><a href="#overview-in-probability-and-random-processes">Overview in Probability and Random Processes</a></li>
+    <li><a href="#information-measures-for-discrete-systems">Information Measures for Discrete Systems</a></li>
+    <li><a href="#lossless-data-compression">Lossless Data Compression</a></li>
+    <li><a href="#data-transmission-and-channel-capacity">Data Transmission and Channel Capacity</a></li>
+    <li><a href="#differential-entropy-and-gaussian-channels">Differential Entropy and Gaussian Channels</a></li>
+    <li><a href="#lossy-data-compression-and-transmission">Lossy Data Compression and Transmission</a></li>
   </ol>
 </nav>
         </div>
@@ -129,9 +135,9 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/course-notes/">
+            <a href="/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/">
                 
-                    <img src="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/cover.png" loading="lazy" alt="Featured image of post Course notes" />
+                    <img src="/post_file/%e4%bf%a1%e6%81%af%e8%ae%ba/cover.png" loading="lazy" alt="Featured image of post 学习笔记|信息论" />
                 
             </a>
         </div>
@@ -145,17 +151,21 @@
                 Note
             </a>
         
+            <a href="/categories/math/" >
+                Math
+            </a>
+        
     </header>
     
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/course-notes/">Course notes</a>
+            <a href="/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/">学习笔记|信息论</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            BUPT&amp;QMUL course study notes
+            台湾交通大学陈伯宁老师信息论课程笔记
         </h3>
         
     </div>
@@ -176,7 +186,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jan 11, 2025</time>
+                <time class="article-time--published">Feb 18, 2025</time>
             </div>
         
 
@@ -191,7 +201,7 @@
 
 
                 <time class="article-time--reading">
-                    3 minute read
+                    1 minute read
                 </time>
             </div>
         
@@ -206,145 +216,26 @@
     <section class="article-content">
     
     
-    <h1 id="centercourse-notescenter"><center>Course notes</center>
-</h1><p>这篇blog用于记录和整理北京邮电大学&amp;QMUL合办专业——电信工程及管理(Telecommunications engineering and management)专业学习笔记，以及一些课程教材推荐。</p>
-<h2 id="大一">大一
-</h2><ol>
-<li>
-<p>高等数学</p>
-<p>参考书目：1) Advanced Mathematics，By Jianhua Yuan,et al<br>
-                 2) Calculus, 13th Edition,by George B. Thomas, et al</p>
-</li>
-<li>
-<p>线性代数</p>
-<p>参考书目：1) linear algebra，by Wenbo Zhang,et al<br>
-                 2) Linear Algebra and its Applications,David C.Lay,et al</p>
-</li>
-<li>
-<p>大学物理</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e5%a4%a7%e5%ad%a6%e7%89%a9%e7%90%86/note.pdf" >note</a><br>
-参考书目：1) Physics for Scientists and Engineers with Modern
-Physics: D. C. Giancoli.<br>
-                 2) Berkeley Physics Course<br>
-                 3) 电磁学（第三版）,作者：贾起民、郑永令、陈暨耀<br>
-                 4) 新概念物理学教程 光学，作者：赵凯华</p>
-</li>
-<li>
-<p>电路分析</p>
-<p>参考书目：电路分析基础（第二版）（英文版）作者：王宏祥；James W. Nilsson, Susan A. Riedel</p>
-</li>
-<li>
-<p>C语言程序设计基础</p>
-</li>
-</ol>
-<h2 id="大二">大二
-</h2><ol>
-<li>
-<p>数字电路设计</p>
-<p>课程笔记:<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e7%94%b5%e8%b7%af%e8%ae%be%e8%ae%a1/note.pdf" >note</a>
-<br>
-参考书目:Digital Design: Principles and Practices, 5th edition by John F. Wakerly</p>
-</li>
-<li>
-<p>JAVA</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/JAVA/note.pdf" >note</a>
-<br>
-参考书目：Head First Java, 3rd Edition by Kathy Sierra, Bert Bates, Trisha Gee</p>
-</li>
-<li>
-<p>概率论与随机过程</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%a6%82%e7%8e%87%e8%ae%ba%e4%b8%8e%e9%9a%8f%e6%9c%ba%e8%bf%87%e7%a8%8b/note.pdf" >note</a><br>
-参考书目：概率论与随机过程,作者:周清 张丽华<br>
-参考课程：<a class="link" href="https://www.bilibili.com/video/BV1Rz42127xT/?share_source=copy_web&amp;vd_source=b6424cece237934105a841d3b575c671"  target="_blank" rel="noopener"
-    >随机过程 张颢 2024年春</a></p>
-</li>
-<li>
-<p>计算机网络</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%bd%91%e7%bb%9c/note.pdf" >note</a><br>
-参考书目：Computer Networking: A Top-Down Approach,Authors:PictureJames F. Kurose,PictureKeith W. Ross</p>
-</li>
-<li>
-<p>数字信号处理</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e4%bf%a1%e5%8f%b7%e5%a4%84%e7%90%86/note.pdf" >note</a><br>
-参考书目：Discrete Time Signal Processing by Alan V. Oppenheim and Ronald W. Schafer.<br>
-参考课程：<a class="link" href="https://www.bilibili.com/video/BV1vQ4y1p79b/?share_source=copy_web&amp;vd_source=b6424cece237934105a841d3b575c671"  target="_blank" rel="noopener"
-    >数字信号处理 张颢 2023年秋</a></p>
-</li>
-<li>
-<p>工程数学</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e5%b7%a5%e7%a8%8b%e6%95%b0%e5%ad%a6/note.pdf" >note</a><br>
-参考书目：Engineering Mathematics，By Xia Shi</p>
-</li>
-<li>
-<p>信号与系统</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e4%bf%a1%e5%8f%b7%e4%b8%8e%e7%b3%bb%e7%bb%9f/note.pdf" >note</a><br>
-参考书目：Signals and Systems 2nd Edition，by Alan Oppenheim , Alan Willsky , S. Nawab</p>
-</li>
-<li>
-<p>AI导论</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/AI%e5%af%bc%e8%ae%ba/note1.pdf" >note</a><br>
-强化学习基础：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/AI%e5%af%bc%e8%ae%ba/note2.pdf" >note</a><br>
-参考课程：1) <a class="link" href="https://www.bilibili.com/video/BV16Y4y1M7DX/?share_source=copy_web&amp;vd_source=b6424cece237934105a841d3b575c671"  target="_blank" rel="noopener"
-    >强化学习基础 （本科生课程） 北京邮电大学 鲁鹏</a><br>
-                 2) <a class="link" href="https://www.bilibili.com/video/BV18P4y1a7Fw/?share_source=copy_web&amp;vd_source=b6424cece237934105a841d3b575c671"  target="_blank" rel="noopener"
-    >机器视觉教学课程</a></p>
-</li>
-<li>
-<p>电子电路基础</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%94%b5%e5%ad%90%e7%94%b5%e8%b7%af%e5%9f%ba%e7%a1%80/note.pdf" >note</a><br>
-参考书目：1) 新概念模拟电路，作者：杨建国<br>
-                 2) 模拟电子技术基础（第五版）,作者：童诗白等</p>
-</li>
-<li>
-<p>数值计算方法</p>
-<p>参考书目：沈剑华,数值计算基础（第二版）</p>
-</li>
-<li>
-<p>数据结构</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84/note.pdf" >note</a><br>
-参考书目：数据结构，作者：严蔚敏</p>
-</li>
-<li>
-<p>企业管理</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e4%bc%81%e4%b8%9a%e7%ae%a1%e7%90%86/note.pdf" >note</a><br>
-参考视频：<a class="link" href="https://www.bilibili.com/video/BV1Dx411w7Xg/?share_source=copy_web&amp;vd_source=b6424cece237934105a841d3b575c671"  target="_blank" rel="noopener"
-    >【元首的愤怒】北邮国院大二企业管理期末考试</a></p>
-</li>
-</ol>
-<h2 id="大三">大三
-</h2><ol>
-<li>
-<p>通信原理</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e9%80%9a%e4%bf%a1%e5%8e%9f%e7%90%86/note.pdf" >note</a><br>
-参考书目： 1) 通信原理（第4版） 周炯磐 庞沁华 续大我 吴伟陵 杨鸿文<br>
-                   2) Fundamentals of Communication Systems.John G.Proakis;Masoud Salehi</p>
-</li>
-<li>
-<p>电磁场与电磁波</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%94%b5%e7%a3%81%e5%9c%ba%e4%b8%8e%e7%94%b5%e7%a3%81%e6%b3%a2/note.pdf" >note</a><br>
-参考书目：Electromagnetic Field Theory Fundamentals,Guru</p>
-</li>
-<li>
-<p>机器学习</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0/note.pdf" >note</a><br>
-参考书目：1) Foundations of Machine Learning,second edition,Mehryar Mohri,
-Afshin Rostamizadeh,and Ameet Talwalkar<br>
-                 2) Understanding Machine Learning:From Theory to Algorithms,by Cambridge University Press.<br>
-参考课程：<a class="link" href="https://youtu.be/lWGdFeMsjzg?si=zmQMDz-2WF8gwkkg_"  target="_blank" rel="noopener"
-    >Introduction to Machine Learning</a></p>
-</li>
-<li>
-<p>网络编程</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%bd%91%e7%bb%9c%e7%bc%96%e7%a8%8b/note.pdf" >note</a><br>
-参考书目：An Introduction to Network Programming with Java, by Jan Graba, 3rd Edition</p>
-</li>
-<li>
-<p>数字系统设计</p>
-<p>课程笔记：<a class="link" href="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e7%b3%bb%e7%bb%9f%e8%ae%be%e8%ae%a1/note.pdf" >note</a><br>
-参考书目：Circuit design with VHDL by Pedroni, Volnei A</p>
-</li>
-</ol>
-
+    <style>
+body {
+    font-family: '微软雅黑', sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
+    --article-font-size: 3.5
+    line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
+}
+</style>
+<h2 id="课程介绍">课程介绍
+</h2><p>信息论（2019年春）台湾交通大学陈伯宁，哔哩哔哩视频：<a class="link" href="https://www.bilibili.com/video/BV14N41197bN/?p=8&amp;share_source=copy_web&amp;vd_source=b6424cece237934105a841d3b575c671"  target="_blank" rel="noopener"
+    >信息论（2019年春）台湾交通大学陈伯宁</a>,参考网站：<a class="link" href="https://ocw.nycu.edu.tw/?course_page=all-course%2Fcollege-of-electrical-and-computer-engineering%2F%E6%B6%88%E6%81%AF%E7%90%86%E8%AB%96-information-theory-107%E5%AD%B8%E5%B9%B4%E5%BA%A6-%E9%9B%BB%E6%A9%9F%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%B3%BB-%E9%99%B3%E4%BC%AF%E5%AF%A7%E8%80%81%E5%B8%AB"  target="_blank" rel="noopener"
+    >消息理論</a>,参考书籍：An Introduction to Single-User Information Theory。该课程将严格的证明香农三大定律，并进行拓展。</p>
+<h2 id="introduction">Introduction
+</h2><h2 id="overview-on-suprema-and-limits">Overview on Suprema and Limits
+</h2><h2 id="overview-in-probability-and-random-processes">Overview in Probability and Random Processes
+</h2><h2 id="information-measures-for-discrete-systems">Information Measures for Discrete Systems
+</h2><h2 id="lossless-data-compression">Lossless Data Compression
+</h2><h2 id="data-transmission-and-channel-capacity">Data Transmission and Channel Capacity
+</h2><h2 id="differential-entropy-and-gaussian-channels">Differential Entropy and Gaussian Channels
+</h2><h2 id="lossy-data-compression-and-transmission">Lossy Data Compression and Transmission
+</h2>
 </section>
 
 
@@ -420,25 +311,6 @@ Afshin Rostamizadeh,and Ameet Talwalkar<br>
             
                 
 <article class="has-image">
-    <a href="/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/post_file/%e4%bf%a1%e6%81%af%e8%ae%ba/cover.png" loading="lazy" data-key="" data-hash="/post_file/信息论/cover.png"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">学习笔记|信息论</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
     <a href="/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/">
         
         
@@ -489,6 +361,44 @@ Afshin Rostamizadeh,and Ameet Talwalkar<br>
 
         <div class="article-details">
             <h2 class="article-title">Bayesian signal processing</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/course-notes/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/cover.png" loading="lazy" data-key="" data-hash="/post_file/课程笔记/cover.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Course notes</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/my-mathematical-modeling/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/post_file/My_mathematical_modeling/cover.png" loading="lazy" data-key="" data-hash="/post_file/My_mathematical_modeling/cover.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">My mathematical modeling</h2>
         </div>
     </a>
 </article>
