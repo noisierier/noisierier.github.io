@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/about-me/'>
 
-<link rel="stylesheet" href="/scss/style.min.7538cc45ee81f670beeeca536fe4e5d6f55fdec40c5cf142451dfca2424303a5.css">
+<link rel="stylesheet" href="/scss/style.min.3eaf6c5d73fa770c0f512f9b2a92adede0f0bc379ab0a6720ba6fb6666f3fd2a.css">
 <meta property='og:title' content="About me">
 <meta property='og:description' content="I&rsquo;m a third year undergraduate student from Beijing University of Posts and Telecommunications(BUPT). My research interest includes machine learning ,signal processing and sampling. I am very fortunate to be a visiting student of Prof. Junjie Ma of Academy of Mathematics and Systems Science(AMSS). You can find my CV here: Haitong Lan&rsquo;s Curriculum Vitae. My contact information QQ : 1517609268 Wechat &amp; Phone: 15505405918 e-mail:lanhaitong@bupt.edu.cn ">
 <meta property='og:url' content='http://localhost:1313/about-me/'>
@@ -528,6 +528,7 @@
 
 
 
+
 <script
     src="https://cdn.jsdelivr.net/gh/zhixuan2333/gh-blog@v0.1.0/js/nprogress.min.js"
     integrity="sha384-bHDlAEUFxsRI7JfULv3DTpL2IXbbgn4JHQJibgo5iiXSK6Iu8muwqHANhun74Cqg"
@@ -548,7 +549,66 @@
 </script>
 
 <script defer src="https://cn.vercount.one/js"></script>
+<style>
+    #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        z-index: 99;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-image: url(http://localhost:1313/icons/backTop.svg);
+    }
+</style>
 
+
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let openUl = document.querySelectorAll(".open");
+            if (openUl.length > 0) {
+              openUl.forEach((ul) => {
+                ul.classList.remove("open")
+              })
+            }
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
+</script>
 
 
 

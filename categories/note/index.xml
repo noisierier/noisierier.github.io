@@ -42,8 +42,8 @@ body {
         <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</guid>
         <description>&lt;img src="http://localhost:1313/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png" alt="Featured image of post 学习笔记|数理统计" /&gt;&lt;style&gt;
 body {
-    font-family: &#39;微软雅黑&#39;, sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
-    --article-font-size: 3.8
+    font-family: sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
+    --article-font-size: 18px
     line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
 }
 &lt;/style&gt;
@@ -412,15 +412,25 @@ $$
 &lt;li&gt;消去律存在&lt;/li&gt;
 &lt;li&gt;若A可逆，$AB=0$,则$B$为零矩阵。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;引理 2.&lt;/strong&gt; 方阵$A$和其伴随阵 $A^{*}$ 有以下关系：
+&lt;p&gt;&lt;strong&gt;定义 2.&lt;/strong&gt; 设 $\boldsymbol{A}$ 是 $n$ 阶方阵，$A_{i j}$ 是行列式 $|\boldsymbol{A}|$ 中第 $(i, j)$ 元素 $a_{i j}$ 的代数余子式，则称下列方阵为 $\boldsymbol{A}$ 的伴随阵：&lt;/p&gt;
+&lt;p&gt;$$
+\left(\begin{array}{cccc}
+A_{11} &amp;amp; A_{21} &amp;amp; \cdots &amp;amp; A_{n 1} \\
+A_{12} &amp;amp; A_{22} &amp;amp; \cdots &amp;amp; A_{n 2} \\
+\vdots &amp;amp; \vdots &amp;amp; &amp;amp; \vdots \\
+A_{1 n} &amp;amp; A_{2 n} &amp;amp; \cdots &amp;amp; A_{n n}
+\end{array}\right) \quad
+$$
+$A$ 的伴随阵通常记为 $A^*$ ．&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;引理 3.&lt;/strong&gt; 方阵$A$和其伴随阵 $A^{*}$ 有以下关系：
 $$
 AA^{*} = A^{*}A = |A|I_n
 $$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;定理 3.&lt;/strong&gt; 若$|A|\neq 0$,则$A$为非奇异阵，且
+&lt;p&gt;&lt;strong&gt;定理 4.&lt;/strong&gt; 若$|A|\neq 0$,则$A$为非奇异阵，且
 $$
 A^{-1} = \frac{1}{|A|}A^{*}
 $$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;定理 4.&lt;/strong&gt; 若$A,B$都是n阶矩阵，则
+&lt;p&gt;&lt;strong&gt;定理 5.&lt;/strong&gt; 若$A,B$都是n阶矩阵，则
 $$
 |AB| = |A||B|
 $$&lt;/p&gt;
@@ -432,7 +442,7 @@ $$&lt;/p&gt;
 &lt;li&gt;若$A,B$都为n阶方阵,$AB = I_n$可以推导出$BA = I_n$,反之亦然。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;非奇异矩阵有一些很好的性质，我们将其归结于如下的定理：&lt;br&gt;
-&lt;strong&gt;定理 5.&lt;/strong&gt; 对于$n$阶矩阵$A$,以下几种表述等价：&lt;/p&gt;
+&lt;strong&gt;定理 6.&lt;/strong&gt; 对于$n$阶矩阵$A$,以下几种表述等价：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$A$ 为非奇异矩阵。&lt;/li&gt;
 &lt;li&gt;$A$ 的相抵标准型为 $I_n$。&lt;/li&gt;
@@ -528,6 +538,54 @@ $$
 $$
 这个等式称为行列式的降阶公式．因为当 $\boldsymbol{D}$ 和 $\boldsymbol{A}$ 的阶不等时，可以利用它把高阶行列式的计算化为低阶行列式的计算:如果我们要计算矩阵$M$的行列式，可以构造 $M = A-BD^{-1}C$,然后利用 $|M| = |A-BD^{-1}C| = |D|^{-1}|A|\left|D-C A^{-1} B\right|$得到 $M$ 的行列式。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;注 2.&lt;/strong&gt; 利用分块矩阵的三类初等变换，同样可以求分块矩阵的逆矩阵，或者求解线性方程组。&lt;/p&gt;
+&lt;h3 id=&#34;cauchy-binet-公式&#34;&gt;Cauchy-Binet 公式
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定理 1.&lt;/strong&gt; 设 $\boldsymbol{A}=\left(a_{i j}\right)$ 是 $m \times n$ 矩阵， $\boldsymbol{B}=\left(b_{i j}\right)$ 是 $n \times m$ 矩阵，$r$ 是一个正整数且 $r \leq m$ ．
+（1）若 $r&amp;gt;n$ ，则 $A B$ 的任意一个 $r$ 阶子式等于零；
+（2）若 $r \leq n$ ，则 $\boldsymbol{A} \boldsymbol{B}$ 的 $r$ 阶子式
+$$
+\begin{aligned}
+&amp;amp;\boldsymbol{A} \boldsymbol{B}\left(\begin{array}{llll}
+i_1 &amp;amp; i_2 &amp;amp; \cdots &amp;amp; i_r \\
+j_1 &amp;amp; j_2 &amp;amp; \cdots &amp;amp; j_r
+\end{array}\right)\\
+&amp;amp; =\sum_{1 \leq k_1&amp;lt;k_2&amp;lt;\cdots&amp;lt;k_r \leq n} \boldsymbol{A}\left(\begin{array}{cccc}
+i_1 &amp;amp; i_2 &amp;amp; \cdots &amp;amp; i_r \\
+k_1 &amp;amp; k_2 &amp;amp; \cdots &amp;amp; k_r
+\end{array}\right) \boldsymbol{B}\left(\begin{array}{cccc}
+k_1 &amp;amp; k_2 &amp;amp; \cdots &amp;amp; k_r \\
+j_1 &amp;amp; j_2 &amp;amp; \cdots &amp;amp; j_r
+\end{array}\right) \text {. }
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注.&lt;/strong&gt; 若 $r = m$,则$AB$的$r$阶子式就是 $|AB|$,$i,j$的顺序就是$1,2,\cdots,n$;若 $ r = 1 $,该公式表示矩阵乘法。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推论 2.&lt;/strong&gt; 若 $A$ 为 $m\times n$,则 $AA^{&amp;rsquo;}$的任意主子式都非负。&lt;br&gt;
+&lt;strong&gt;注.&lt;/strong&gt; 若$r$阶子式的行指标和列指标相同，称该子式为主子式。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推论 3.&lt;/strong&gt; 若 $AB$ 为 $n$ 阶方阵，则 $(AB)^{*} = B^{*}A^{*} $.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;推论 4.&lt;/strong&gt; $(AB)^{*} = B^{*}A^{*}$&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;对转置，求逆，伴随的一些总结&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$(A^{-1})^{&amp;rsquo;} = (A^{&amp;rsquo;})^{-1},(A^{&amp;rsquo;})^{*} = (A^{*})^{&amp;rsquo;},(A^{-1})^{*} = (A^{*})^{-1}$,三种符号均可以交换顺序&lt;/li&gt;
+&lt;li&gt;$(AB)^{*} = B^{*}A^{*},(AB)^{-1} = B^{-1}A^{-1},(AB)^{&amp;rsquo;} = B^{&amp;rsquo;}A^{&amp;rsquo;}$，拆开括号后顺序相反各自运算&lt;/li&gt;
+&lt;li&gt;$(A^{&amp;rsquo;})^{&amp;rsquo;} = A,(A^{-1})^{-1} = A$
+$
+(A^{*})^{*} =
+\left\{
+\begin{array}{lc}
+|A|^{n-2}A &amp;amp;, n \geq3 \\
+A&amp;amp;,n=2\\
+\end{array}
+\right.$,二次运算后不完全相同&lt;/li&gt;
+&lt;li&gt;$(cA)^{&amp;rsquo;} = cA^{&amp;rsquo;},(cA)^{-1} = c^{-1}A^{-1},(cA)^{*} = c^{n-1}A^{*}$&lt;/li&gt;
+&lt;li&gt;$AA^{*} = A^{*}A = |A|I_n,A^{-1}A = A^{-1}A = I_n,AA^{&amp;rsquo;}$半正定&lt;/li&gt;
+&lt;li&gt;$|A^{*}| = |A|^{n-1},|A^{&amp;rsquo;}| = |A|,|A^{-1}| = |A|^{-1}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;补充.&lt;/strong&gt; 相抵标准型有一些很好的性质，易于求伴随就是其中一项，令$A = P\begin{aligned}
+\left(\begin{array}{ll}
+I_r &amp;amp; 0 \\
+0 &amp;amp; 0
+\end{array}\right)
+\end{aligned}Q$是一种分析和证明的方法。&lt;/p&gt;
 &lt;h2 id=&#34;第三章-线性空间&#34;&gt;第三章 线性空间
 &lt;/h2&gt;&lt;h2 id=&#34;第四章-线性映射&#34;&gt;第四章 线性映射
 &lt;/h2&gt;&lt;h2 id=&#34;第五章-多项式&#34;&gt;第五章 多项式

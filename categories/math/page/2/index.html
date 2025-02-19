@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/categories/math/'>
 
-<link rel="stylesheet" href="/scss/style.min.7538cc45ee81f670beeeca536fe4e5d6f55fdec40c5cf142451dfca2424303a5.css">
+<link rel="stylesheet" href="/scss/style.min.c8a7da749459cefce040cfa9259c583240dcf76771711416c18aef9d002050cc.css">
 <meta property='og:title' content="Category: Math - Haitong Lan">
 <meta property='og:description' content="Haitong Lan">
 <meta property='og:url' content='http://localhost:1313/categories/math/'>
@@ -468,6 +468,7 @@
 </script>
 
 
+
             </main>
         </div>
         <script 
@@ -487,6 +488,7 @@
         document.head.appendChild(customFont);
     }());
 </script>
+
 
 
 
@@ -511,7 +513,98 @@
 </script>
 
 <script defer src="https://cn.vercount.one/js"></script>
+<style>
+    #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        z-index: 99;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-image: url(http://localhost:1313/icons/backTop.svg);
+    }
+</style>
 
+<script>
+    
+
+    function initScrollTop() {
+        let rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) {
+            return;
+        }
+        
+        let btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = backToTop
+        rightSideBar.appendChild(btn)
+        
+        window.onscroll = function() {
+            
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+    }
+
+    
+
+    function backToTop(){
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+
+    initScrollTop();
+</script>
+
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+    function initTocHide() {
+        
+        let toc = document.querySelector(".widget--toc");
+        if (!toc) {
+            return;
+        }
+        
+        window.addEventListener('scroll', function() {
+            
+            let openUl = document.querySelectorAll(".open");
+            if (openUl.length > 0) {
+              openUl.forEach((ul) => {
+                ul.classList.remove("open")
+              })
+            }
+            
+            let currentLi = document.querySelector(".active-class");
+            if (!currentLi) {
+                return
+            }
+            
+            if (currentLi.children.length > 1) {
+                currentLi.children[1].classList.add("open")
+            }
+            
+            let ul = currentLi.parentElement;
+            do {
+                ul.classList.add("open");
+                ul = ul.parentElement.parentElement
+            } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
+        });
+    }
+    initTocHide()
+</script>
 
 
 
