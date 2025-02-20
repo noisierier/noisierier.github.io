@@ -13,14 +13,7 @@
         <pubDate>Tue, 18 Feb 2025 00:21:05 +0800</pubDate>
         
         <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/%E4%BF%A1%E6%81%AF%E8%AE%BA/cover.png" alt="Featured image of post 学习笔记|信息论" /&gt;&lt;style&gt;
-body {
-    font-family: &#39;微软雅黑&#39;, sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
-    --article-font-size: 3.5
-    line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
-}
-&lt;/style&gt;
-&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
+        <description>&lt;img src="http://localhost:1313/post_file/%E4%BF%A1%E6%81%AF%E8%AE%BA/cover.png" alt="Featured image of post 学习笔记|信息论" /&gt;&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
 &lt;/h2&gt;&lt;p&gt;信息论（2019年春）台湾交通大学陈伯宁，哔哩哔哩视频：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV14N41197bN/?p=8&amp;amp;share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;信息论（2019年春）台湾交通大学陈伯宁&lt;/a&gt;,参考网站：&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/?course_page=all-course%2Fcollege-of-electrical-and-computer-engineering%2F%E6%B6%88%E6%81%AF%E7%90%86%E8%AB%96-information-theory-107%E5%AD%B8%E5%B9%B4%E5%BA%A6-%E9%9B%BB%E6%A9%9F%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%B3%BB-%E9%99%B3%E4%BC%AF%E5%AF%A7%E8%80%81%E5%B8%AB&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;消息理論&lt;/a&gt;,参考书籍：An Introduction to Single-User Information Theory。该课程将严格的证明香农三大定律，并进行拓展。&lt;/p&gt;
@@ -40,14 +33,7 @@ body {
         <pubDate>Sun, 26 Jan 2025 00:21:05 +0800</pubDate>
         
         <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png" alt="Featured image of post 学习笔记|数理统计" /&gt;&lt;style&gt;
-body {
-    font-family: sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
-    --article-font-size: 18px
-    line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
-}
-&lt;/style&gt;
-&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
+        <description>&lt;img src="http://localhost:1313/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png" alt="Featured image of post 学习笔记|数理统计" /&gt;&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
 &lt;/h2&gt;&lt;p&gt;统计研究院陳鄰安老师数理统计，参考网站：&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/?post_type=course_page&amp;amp;p=25566&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;统计学1&lt;/a&gt;，&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/?post_type=course_page&amp;amp;p=25439&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;统计学2&lt;/a&gt;;youtube课程：&lt;a class=&#34;link&#34; href=&#34;https://youtube.com/playlist?list=PLRklqGYqFmaLQlgeVi_tyKY12QjqS48N-&amp;amp;si=XVTZSHO2CrYsZoek&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -72,7 +58,7 @@ body {
 两种求得$g(X)$的pdf的方法：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;distribution method:&lt;/p&gt;
+&lt;p&gt;Distribution method:&lt;/p&gt;
 &lt;p&gt;Suppose that X is a continuous r.v.. Let $Y=g(X)$
 The d.f(distribution function) of Y is&lt;/p&gt;
 &lt;p&gt;$$
@@ -179,13 +165,13 @@ $$
         <pubDate>Sun, 26 Jan 2025 00:21:05 +0800</pubDate>
         
         <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/cover.jpg" alt="Featured image of post 学习笔记|高等代数" /&gt;&lt;style&gt;
+        <description>&lt;img src="http://localhost:1313/post_file/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/cover.jpg" alt="Featured image of post 学习笔记|高等代数" /&gt;&lt;!-- &lt;style&gt;
 body {
     font-family: &#39;微软雅黑&#39;, sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
     --article-font-size: 3.5
     line-height: 1.6; /* 设置行间距为字体大小的1.6倍,提高可读性 */
 }
-&lt;/style&gt;
+&lt;/style&gt; --&gt;
 &lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
 &lt;/h2&gt;&lt;p&gt;谢启鸿老师高等代数学，参考网站：&lt;a class=&#34;link&#34; href=&#34;https://www.cnblogs.com/torsor&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;谢启鸿高等代数官方博客&lt;/a&gt;,b站课程：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1mJ411r7ZB/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

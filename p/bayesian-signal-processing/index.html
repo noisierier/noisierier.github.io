@@ -6,12 +6,12 @@
 
 <link rel='canonical' href='http://localhost:1313/p/bayesian-signal-processing/'>
 
-<link rel="stylesheet" href="/scss/style.min.c8a7da749459cefce040cfa9259c583240dcf76771711416c18aef9d002050cc.css">
+<link rel="stylesheet" href="/scss/style.min.3992df218c917ad7ef00e79bf94b2b168ae28760447801f38a3033814fd3f1b7.css">
 <meta property='og:title' content="Bayesian signal processing">
 <meta property='og:description' content="Bayes method, objective function and sampling.">
 <meta property='og:url' content='http://localhost:1313/p/bayesian-signal-processing/'>
 <meta property='og:site_name' content='Haitong Lan'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Signal processing' /><meta property='article:published_time' content='2024-08-14T20:00:00&#43;08:00'/><meta property='article:modified_time' content='2024-08-14T20:00:00&#43;08:00'/><meta property='og:image' content='http://localhost:1313/post_file/Bayesian_signal_processing/cover.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Signal processing' /><meta property='article:published_time' content='2024-08-14T20:00:00&#43;08:00'/><meta property='article:modified_time' content='2024-08-19T00:21:05&#43;08:00'/><meta property='og:image' content='http://localhost:1313/post_file/Bayesian_signal_processing/cover.png' />
 <meta name="twitter:title" content="Bayesian signal processing">
 <meta name="twitter:description" content="Bayes method, objective function and sampling."><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='http://localhost:1313/post_file/Bayesian_signal_processing/cover.png' />
@@ -19,32 +19,23 @@
 
   
 
-<style>
-     
-    :root {
-        --article-font-family: "Times New Roman", var(--base-font-family);
-        --article-font-size: 20px;  
-    }
 
-    p {
-        font-family: var(--article-font-family);
-        font-size: var(--article-font-size);
+<style>
+    :root {
+        --article-font-family: "Noto Serif", var(--base-font-family);
     }
 </style>
-
-<script>
-    (function () {
-        const customFont = document.createElement('link');
-        customFont.href = "https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap";
-        
-        customFont.type = "text/css";
-        customFont.rel = "stylesheet";
-
-        document.head.appendChild(customFont);
-    })();
+<script>  
+		(function () {
+		    const customFont = document.createElement('link');
+		    customFont.href = "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap";
+		
+		    customFont.type = "text/css";
+		    customFont.rel = "stylesheet";
+		
+		    document.head.appendChild(customFont);
+		}());
 </script>
-
-
 
         <script defer src="https://cloud.umami.is/script.js" data-website-id="c5a3be3e-ab5c-4ee5-a8e7-ac2f1a3501a1"></script>
     </head>
@@ -636,7 +627,19 @@ body {
 
         <span>Licensed under CC BY-NC-SA 4.0</span>
     </section>
-    </footer>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            Last updated on Aug 19, 2024 00:21 CST
+        </span>
+    </section></footer>
 
 <footer class="article-footer">
     <section>
@@ -817,7 +820,6 @@ body {
 </script>
 
 
-
     
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
@@ -954,38 +956,6 @@ body {
     }
 </style>
 
-<script>
-    
-
-    function initScrollTop() {
-        let rightSideBar = document.querySelector(".right-sidebar");
-        if (!rightSideBar) {
-            return;
-        }
-        
-        let btn = document.createElement("div");
-        btn.id = "backTopBtn";
-        btn.onclick = backToTop
-        rightSideBar.appendChild(btn)
-        
-        window.onscroll = function() {
-            
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                btn.style.display = "block";
-            } else {
-                btn.style.display = "none";
-            }
-        };
-    }
-
-    
-
-    function backToTop(){
-        window.scrollTo({ top: 0, behavior: "smooth" })
-    }
-
-    initScrollTop();
-</script>
 
 <style>
     #TableOfContents > ul, ol {

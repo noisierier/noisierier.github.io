@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/search/'>
 
-<link rel="stylesheet" href="/scss/style.min.3eaf6c5d73fa770c0f512f9b2a92adede0f0bc379ab0a6720ba6fb6666f3fd2a.css">
+<link rel="stylesheet" href="/scss/style.min.3992df218c917ad7ef00e79bf94b2b168ae28760447801f38a3033814fd3f1b7.css">
 <meta property='og:title' content="Search">
 <meta property='og:description' content="">
 <meta property='og:url' content='http://localhost:1313/search/'>
@@ -18,32 +18,23 @@
 
   
 
-<style>
-     
-    :root {
-        --article-font-family: "Times New Roman", var(--base-font-family);
-        --article-font-size: 20px;  
-    }
 
-    p {
-        font-family: var(--article-font-family);
-        font-size: var(--article-font-size);
+<style>
+    :root {
+        --article-font-family: "Noto Serif", var(--base-font-family);
     }
 </style>
-
-<script>
-    (function () {
-        const customFont = document.createElement('link');
-        customFont.href = "https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap";
-        
-        customFont.type = "text/css";
-        customFont.rel = "stylesheet";
-
-        document.head.appendChild(customFont);
-    })();
+<script>  
+		(function () {
+		    const customFont = document.createElement('link');
+		    customFont.href = "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap";
+		
+		    customFont.type = "text/css";
+		    customFont.rel = "stylesheet";
+		
+		    document.head.appendChild(customFont);
+		}());
 </script>
-
-
 <link rel="preload" href="/search/index.json" as="fetch" crossorigin="anonymous">
         <script defer src="https://cloud.umami.is/script.js" data-website-id="c5a3be3e-ab5c-4ee5-a8e7-ac2f1a3501a1"></script>
     </head>

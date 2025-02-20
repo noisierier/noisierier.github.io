@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/categories/'>
 
-<link rel="stylesheet" href="/scss/style.min.c8a7da749459cefce040cfa9259c583240dcf76771711416c18aef9d002050cc.css">
+<link rel="stylesheet" href="/scss/style.min.fe5b0e7d776ff1e68e2a82718f992dfef9042dc7ef4cb29823a150f2d2bbb2c1.css">
 <meta property='og:title' content="Categories">
 <meta property='og:description' content="Haitong Lan">
 <meta property='og:url' content='http://localhost:1313/categories/'>
@@ -18,32 +18,23 @@
 
   
 
-<style>
-     
-    :root {
-        --article-font-family: "Times New Roman", var(--base-font-family);
-        --article-font-size: 20px;  
-    }
 
-    p {
-        font-family: var(--article-font-family);
-        font-size: var(--article-font-size);
+<style>
+    :root {
+        --article-font-family: "Noto Serif", var(--base-font-family);
     }
 </style>
-
-<script>
-    (function () {
-        const customFont = document.createElement('link');
-        customFont.href = "https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap";
-        
-        customFont.type = "text/css";
-        customFont.rel = "stylesheet";
-
-        document.head.appendChild(customFont);
-    })();
+<script>  
+		(function () {
+		    const customFont = document.createElement('link');
+		    customFont.href = "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap";
+		
+		    customFont.type = "text/css";
+		    customFont.rel = "stylesheet";
+		
+		    document.head.appendChild(customFont);
+		}());
 </script>
-
-
 
         <script defer src="https://cloud.umami.is/script.js" data-website-id="c5a3be3e-ab5c-4ee5-a8e7-ac2f1a3501a1"></script>
     </head>
@@ -480,7 +471,6 @@
 </script>
 
 
-
             </main>
         </div>
         <script 
@@ -538,38 +528,6 @@
     }
 </style>
 
-<script>
-    
-
-    function initScrollTop() {
-        let rightSideBar = document.querySelector(".right-sidebar");
-        if (!rightSideBar) {
-            return;
-        }
-        
-        let btn = document.createElement("div");
-        btn.id = "backTopBtn";
-        btn.onclick = backToTop
-        rightSideBar.appendChild(btn)
-        
-        window.onscroll = function() {
-            
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                btn.style.display = "block";
-            } else {
-                btn.style.display = "none";
-            }
-        };
-    }
-
-    
-
-    function backToTop(){
-        window.scrollTo({ top: 0, behavior: "smooth" })
-    }
-
-    initScrollTop();
-</script>
 
 <style>
     #TableOfContents > ul, ol {
