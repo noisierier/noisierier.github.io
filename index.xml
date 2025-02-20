@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Haitong Lan</title>
-        <link>http://localhost:1313/</link>
+        <link>http://localhost:57367/</link>
         <description>Recent content on Haitong Lan</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Tue, 18 Feb 2025 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 18 Feb 2025 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:57367/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>学习笔记|信息论</title>
-        <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/</link>
+        <link>http://localhost:57367/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/</link>
         <pubDate>Tue, 18 Feb 2025 00:21:05 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/%E4%BF%A1%E6%81%AF%E8%AE%BA/cover.png" alt="Featured image of post 学习笔记|信息论" /&gt;&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
+        <guid>http://localhost:57367/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/</guid>
+        <description>&lt;img src="http://localhost:57367/post_file/%E4%BF%A1%E6%81%AF%E8%AE%BA/cover.png" alt="Featured image of post 学习笔记|信息论" /&gt;&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
 &lt;/h2&gt;&lt;p&gt;信息论（2019年春）台湾交通大学陈伯宁，哔哩哔哩视频：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV14N41197bN/?p=8&amp;amp;share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;信息论（2019年春）台湾交通大学陈伯宁&lt;/a&gt;,参考网站：&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/?course_page=all-course%2Fcollege-of-electrical-and-computer-engineering%2F%E6%B6%88%E6%81%AF%E7%90%86%E8%AB%96-information-theory-107%E5%AD%B8%E5%B9%B4%E5%BA%A6-%E9%9B%BB%E6%A9%9F%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%B3%BB-%E9%99%B3%E4%BC%AF%E5%AF%A7%E8%80%81%E5%B8%AB&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;消息理論&lt;/a&gt;,参考书籍：An Introduction to Single-User Information Theory。该课程将严格的证明香农三大定律，并进行拓展。&lt;/p&gt;
@@ -29,11 +29,11 @@
         </item>
         <item>
         <title>学习笔记|数理统计</title>
-        <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</link>
+        <link>http://localhost:57367/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</link>
         <pubDate>Sun, 26 Jan 2025 00:21:05 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png" alt="Featured image of post 学习笔记|数理统计" /&gt;&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
+        <guid>http://localhost:57367/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</guid>
+        <description>&lt;img src="http://localhost:57367/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png" alt="Featured image of post 学习笔记|数理统计" /&gt;&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
 &lt;/h2&gt;&lt;p&gt;统计研究院陳鄰安老师数理统计，参考网站：&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/?post_type=course_page&amp;amp;p=25566&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;统计学1&lt;/a&gt;，&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/?post_type=course_page&amp;amp;p=25439&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;统计学2&lt;/a&gt;;youtube课程：&lt;a class=&#34;link&#34; href=&#34;https://youtube.com/playlist?list=PLRklqGYqFmaLQlgeVi_tyKY12QjqS48N-&amp;amp;si=XVTZSHO2CrYsZoek&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -161,11 +161,11 @@ $$
         </item>
         <item>
         <title>学习笔记|高等代数</title>
-        <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/</link>
+        <link>http://localhost:57367/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/</link>
         <pubDate>Sun, 26 Jan 2025 00:21:05 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/cover.jpg" alt="Featured image of post 学习笔记|高等代数" /&gt;&lt;!-- &lt;style&gt;
+        <guid>http://localhost:57367/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/</guid>
+        <description>&lt;img src="http://localhost:57367/post_file/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/cover.jpg" alt="Featured image of post 学习笔记|高等代数" /&gt;&lt;!-- &lt;style&gt;
 body {
     font-family: &#39;微软雅黑&#39;, sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
     --article-font-size: 3.5
@@ -573,7 +573,74 @@ I_r &amp;amp; 0 \\
 \end{array}\right)
 \end{aligned}Q$是一种分析和证明的方法。&lt;/p&gt;
 &lt;h2 id=&#34;第三章-线性空间&#34;&gt;第三章 线性空间
-&lt;/h2&gt;&lt;h2 id=&#34;第四章-线性映射&#34;&gt;第四章 线性映射
+&lt;/h2&gt;&lt;h3 id=&#34;数域线性空间以及线性关系&#34;&gt;数域、线性空间以及线性关系
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定义 1(数域，数环).&lt;/strong&gt; 设 $\mathbb{K}$ 是复数集 $\mathbb{C}$ 的子集，且至少有两个不同的元素(等价定义：至少含有1和0)，如果 $\mathbb{K}$ 中任意两个数的加减乘除运算依然属于 $\mathbb{K}$，则 $\mathbb{K}$ 被称为一个数域，如果 $\mathbb{K}$ 对加减乘三个运算封闭，则 $\mathbb{K}$ 被称为一个数环，所以数域也是数环。&lt;br&gt;
+&lt;strong&gt;注.&lt;/strong&gt; $\mathbb{Z\subseteq Q\subseteq R\subseteq C} $,即整数属于有理数属于实数属于复数，有理数、实数、复数都是数域，整数是数环。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 2.&lt;/strong&gt; 任何一个数域都包含有理数域 $\mathbb{Q}$,即有理数域是最小的数域。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定义 3(线性空间).&lt;/strong&gt; 设 $\mathbb{K}$ 是一个数域，$V$ 是一个集合.在 $V$ 上定义了一个加法＂+ ＂：
+$V\times V\rightarrow V$,
+即对 $V$ 中任意两个元素 $\alpha, \beta$ ，总存在 $V$ 中唯一的元素 $\gamma$ 与之对应，记为 $\gamma=$ $\alpha+\beta$ ．在数域 $\mathbb{K}$ 与 $V$ 之间定义了一种运算，称为数乘&amp;quot;$\cdot$&amp;quot;: $\mathbb{K} \times V \rightarrow V $ ，即对 $\mathbb{K}$ 中任一数 $k$ 及 $V$中任一元素 $\boldsymbol{\alpha}$ ，在 $V$ 中总有唯一的元素 $\delta$ 与之对应，记为 $\delta=k \boldsymbol{\alpha}$ ．若上述加法及数乘满足下列运算规则：&lt;br&gt;
+（1）加法交换律：$\alpha+\beta=\beta+\alpha$ ； &lt;br&gt;
+（2）加法结合律：$(\boldsymbol{\alpha}+\boldsymbol{\beta})+\boldsymbol{\gamma}=\boldsymbol{\alpha}+(\boldsymbol{\beta}+\boldsymbol{\gamma})$ ；&lt;br&gt;
+（3）在 $V$ 中存在一个元素 0 ，对于 $V$ 中任一元素 $\alpha$ ，都有 $\alpha+0=\alpha$ ；&lt;br&gt;
+（4）对于 $V$ 中每个元素 $\alpha$ ，存在元素 $\boldsymbol{\beta}$ ，使 $\alpha+\beta=0$ ；&lt;br&gt;
+（5） $1 \cdot \alpha=\alpha$ ；&lt;br&gt;
+（6）$k(\boldsymbol{\alpha}+\boldsymbol{\beta})=k \boldsymbol{\alpha}+k \boldsymbol{\beta}$ ；&lt;br&gt;
+（7）$(k+l) \boldsymbol{\alpha}=k \boldsymbol{\alpha}+l \boldsymbol{\alpha}$ ；&lt;br&gt;
+（8）$k(l \boldsymbol{\alpha})=(k l) \boldsymbol{\alpha}$ ，&lt;br&gt;
+其中 $\boldsymbol{\alpha}, \boldsymbol{\beta}, \boldsymbol{\gamma}$ 是 $V$ 中任意的元素，$k, l$ 是 $\mathbb{K}$ 中任意的数，则集合 $V$ 称为数域 $\mathbb{K}$ 上的线性空间或向量空间，$\mathbb{K}$被称为线性空间$V$的基域。$V$ 中的元素称为向量 $V$ 中适合（3）的元素 0 称为零向量．对 $V$ 中的元素 $\alpha$ ，适合 $\alpha+\beta=0$ 的元素 $\beta$ 称为 $\alpha$ 的负向量，记为 $-\alpha$ ．&lt;br&gt;
+&lt;strong&gt;注 1.&lt;/strong&gt; 在实际问题中，我们经常会碰到满足上述八条性质的集合，例如信号处理中使用的信号空间，并且有必要将其抽象成线性空间，来研究其统一性质，对于抽象的线性空间，向量只是该集合的一个元素，没有任何其它附加的含义。&lt;br&gt;
+&lt;strong&gt;注 2.&lt;/strong&gt; 数域 $\mathbb{K}$ 上的 $n$ 维行向量（列向量）集合被称为 $\mathbb{K}$ 上的线性空间，经常将其记为 $\mathbb{K}_n(\mathbb{K}^n)$。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;命题 4.&lt;/strong&gt; 现在说明一些线性空间的基本性质：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;零向量唯一。&lt;/li&gt;
+&lt;li&gt;负向量唯一。&lt;/li&gt;
+&lt;li&gt;加法满足消去律：等式两边可以同时减去一个数并且保证等式成立。&lt;/li&gt;
+&lt;li&gt;$-\alpha = (-1)\alpha$&lt;/li&gt;
+&lt;li&gt;若 $k\alpha = 0$,则 $k = 0$ 或 $\alpha = 0$。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;问题.&lt;/strong&gt; 考虑线性方程组问题：$Ax = \beta$,$A\in M_{m\times n}(\mathbb{K})$。&lt;br&gt;
+可以将 $A$ 写为列分块的方式进行计算：
+$$
+Ax =\left(\alpha_1,\alpha_2,\cdots,\alpha_n \right)\left(\begin{array}{c}
+x_1  \\
+x_2  \\
+\vdots \\
+x_n
+\end{array}\right) = \sum_{i = 1}^{n} x_i\alpha_i  = \beta
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定义 5.&lt;/strong&gt; $V$ 是 $\mathbb{K}$ 上的线性空间(以后简记为$V_\mathbb{K}$)，向量 $\alpha_1,\alpha_2,\cdots,\alpha_n,\beta\in V$,若存在 $\mathbb{K}$ 中的 $n$ 个数 $k_1,k_2\cdots k_n$,s.t.&lt;br&gt;
+$$
+\sum_{i = 1}^{n} k_i\alpha_i  = \beta
+$$
+则称 $\beta$  为 $\alpha_1,\alpha_2,\cdots,\alpha_n$ 的线性组合或者 $\beta$可以由 $\alpha_1,\alpha_2,\cdots,\alpha_n$ 线性表示。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定义 6.&lt;/strong&gt; 设 $V$ 是数域 $\mathbb{K}$ 上的线性空间， $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \cdots, \boldsymbol{\alpha}_n$ 是 $V$ 中的 $n$ 个向量，若存在 $\mathbb{K}$ 中不全为零的 $n$ 个数 $k_1, k_2, \cdots, k_n$ ，使
+$$
+k_1 \boldsymbol{\alpha}_1+k_2 \boldsymbol{\alpha}_2+\cdots+k_n \boldsymbol{\alpha}_n=\mathbf{0}
+$$
+则称 $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \cdots, \boldsymbol{\alpha}_n$ 线性相关．反之，若不存在 $\mathbb{K}$ 中不全为零的数 $k_1, k_2, \cdots, k_n$ ，使上式成立，则称 $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \cdots, \boldsymbol{\alpha}_n$ 线性无关或线性独立．&lt;br&gt;
+&lt;strong&gt;注.&lt;/strong&gt; 线性相关性的存在与否极大程度上依赖于线性空间的基域，如果基域发生变化。线性相关性可能会发生变化，线性无关也有等价定义：使其线性组合为0的系数全为0.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 7.&lt;/strong&gt; 若 $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \cdots, \boldsymbol{\alpha}_m$  是一组线性相关的向量，则任一包含这组向量的向量组必线性相关，又若 $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \cdots, \boldsymbol{\alpha}_m$ 是一组线性无关的向量，则从这一组向量中任意取出一组向量必线性无关。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 8.&lt;/strong&gt; 设 $\alpha_1, \alpha_2, \cdots, \alpha_m$ 是线性空间 $V$ 中的向量，则 $\alpha_1, \alpha_2, \cdots, \alpha_m$线性相关的充分必要条件是其中至少有一个向量可以表示为其余向量的线性组合．&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 9（线性表示唯一的条件）.&lt;/strong&gt; 设 $\alpha_1, \alpha_2, \cdots, \alpha_m, \beta$ 是线性空间 $V$ 中的向量．已知 $\beta$ 可表示为 $\alpha_1, \alpha_2, \cdots, \alpha_m$ 的线性组合，即
+$$
+\boldsymbol{\beta}=k_1 \boldsymbol{\alpha}_1+k_2 \boldsymbol{\alpha}_2+\cdots+k_m \boldsymbol{\alpha}_m
+$$
+则表示唯一的充分必要条件是向量 $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \cdots, \boldsymbol{\alpha}_m$ 线性无关．&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;线性相关的几何意义及思考&lt;/strong&gt;&lt;br&gt;
+对于二维欧氏空间 $\mathbb{R}^2$,存在向量 $OA = (a_1,a_2),OB = (b_1,b_2)$,若二者线性相关，则 $OAB$共线;若线性无关，则 $OAB$ 构成一个非退化的三角形，面积为$\frac{1}{2}\left|\begin{array}{ll}
+a_1 &amp;amp; a_2 \\
+b_1 &amp;amp; b_2
+\end{array}\right|$,该行列式不为0.&lt;br&gt;
+对于三维欧氏空间 $\mathbb{R}^3$,存在向量 $OA = (a_1,a_2,a_3),OB = (b_1,b_2,b_3),OC = (c_1,c_2,c_2)$,若三者线性相关，则 $OABC$四点共面;若线性无关，则 $OABC$ 构成一个非退化的四面体，体积为$\frac{1}{6}\left|\begin{array}{lll}
+a_1 &amp;amp; a_2 &amp;amp;a_3\\
+b_1 &amp;amp; b_2 &amp;amp;b_3\\
+c_1&amp;amp;c_2&amp;amp;c_3
+\end{array}\right|$,该行列式不为0.&lt;br&gt;
+$\cdots$&lt;br&gt;
+以此类推，$n$ 维欧氏空间的向量组线性无关的条件是否为行列式不等零？&lt;/p&gt;
+&lt;h2 id=&#34;第四章-线性映射&#34;&gt;第四章 线性映射
 &lt;/h2&gt;&lt;h2 id=&#34;第五章-多项式&#34;&gt;第五章 多项式
 &lt;/h2&gt;&lt;h2 id=&#34;第六章-特征值&#34;&gt;第六章 特征值
 &lt;/h2&gt;&lt;h2 id=&#34;第七章-相似标准型&#34;&gt;第七章 相似标准型
@@ -584,11 +651,11 @@ I_r &amp;amp; 0 \\
         </item>
         <item>
         <title>Course notes</title>
-        <link>http://localhost:1313/p/course-notes/</link>
+        <link>http://localhost:57367/p/course-notes/</link>
         <pubDate>Sat, 11 Jan 2025 00:21:05 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/course-notes/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/cover.png" alt="Featured image of post Course notes" /&gt;&lt;h1 id=&#34;centercourse-notescenter&#34;&gt;&lt;center&gt;Course notes&lt;/center&gt;
+        <guid>http://localhost:57367/p/course-notes/</guid>
+        <description>&lt;img src="http://localhost:57367/post_file/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/cover.png" alt="Featured image of post Course notes" /&gt;&lt;h1 id=&#34;centercourse-notescenter&#34;&gt;&lt;center&gt;Course notes&lt;/center&gt;
 &lt;/h1&gt;&lt;p&gt;这篇blog用于记录和整理北京邮电大学&amp;amp;QMUL合办专业——电信工程及管理(Telecommunications engineering and management)专业学习笔记，以及一些课程教材推荐。&lt;/p&gt;
 &lt;h2 id=&#34;大一&#34;&gt;大一
 &lt;/h2&gt;&lt;ol&gt;
@@ -604,7 +671,7 @@ I_r &amp;amp; 0 \\
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;大学物理&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e5%a4%a7%e5%ad%a6%e7%89%a9%e7%90%86/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e5%a4%a7%e5%ad%a6%e7%89%a9%e7%90%86/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考书目：1) Physics for Scientists and Engineers with Modern
 Physics: D. C. Giancoli.&lt;br&gt;
                  2) Berkeley Physics Course&lt;br&gt;
@@ -623,49 +690,49 @@ Physics: D. C. Giancoli.&lt;br&gt;
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;数字电路设计&lt;/p&gt;
-&lt;p&gt;课程笔记:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e7%94%b5%e8%b7%af%e8%ae%be%e8%ae%a1/note.pdf&#34; &gt;note&lt;/a&gt;
+&lt;p&gt;课程笔记:&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e7%94%b5%e8%b7%af%e8%ae%be%e8%ae%a1/note.pdf&#34; &gt;note&lt;/a&gt;
 &lt;br&gt;
 参考书目:Digital Design: Principles and Practices, 5th edition by John F. Wakerly&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;JAVA&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/JAVA/note.pdf&#34; &gt;note&lt;/a&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/JAVA/note.pdf&#34; &gt;note&lt;/a&gt;
 &lt;br&gt;
 参考书目：Head First Java, 3rd Edition by Kathy Sierra, Bert Bates, Trisha Gee&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;概率论与随机过程&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%a6%82%e7%8e%87%e8%ae%ba%e4%b8%8e%e9%9a%8f%e6%9c%ba%e8%bf%87%e7%a8%8b/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%a6%82%e7%8e%87%e8%ae%ba%e4%b8%8e%e9%9a%8f%e6%9c%ba%e8%bf%87%e7%a8%8b/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考书目：概率论与随机过程,作者:周清 张丽华&lt;br&gt;
 参考课程：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Rz42127xT/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;随机过程 张颢 2024年春&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;计算机网络&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%bd%91%e7%bb%9c/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%bd%91%e7%bb%9c/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考书目：Computer Networking: A Top-Down Approach,Authors:PictureJames F. Kurose,PictureKeith W. Ross&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;数字信号处理&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e4%bf%a1%e5%8f%b7%e5%a4%84%e7%90%86/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e4%bf%a1%e5%8f%b7%e5%a4%84%e7%90%86/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考书目：Discrete Time Signal Processing by Alan V. Oppenheim and Ronald W. Schafer.&lt;br&gt;
 参考课程：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1vQ4y1p79b/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;数字信号处理 张颢 2023年秋&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;工程数学&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e5%b7%a5%e7%a8%8b%e6%95%b0%e5%ad%a6/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e5%b7%a5%e7%a8%8b%e6%95%b0%e5%ad%a6/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考书目：Engineering Mathematics，By Xia Shi&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;信号与系统&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e4%bf%a1%e5%8f%b7%e4%b8%8e%e7%b3%bb%e7%bb%9f/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e4%bf%a1%e5%8f%b7%e4%b8%8e%e7%b3%bb%e7%bb%9f/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考书目：Signals and Systems 2nd Edition，by Alan Oppenheim , Alan Willsky , S. Nawab&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;AI导论&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/AI%e5%af%bc%e8%ae%ba/note1.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
-强化学习基础：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/AI%e5%af%bc%e8%ae%ba/note2.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/AI%e5%af%bc%e8%ae%ba/note1.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+强化学习基础：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/AI%e5%af%bc%e8%ae%ba/note2.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考课程：1) &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV16Y4y1M7DX/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;强化学习基础 （本科生课程） 北京邮电大学 鲁鹏&lt;/a&gt;&lt;br&gt;
                  2) &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV18P4y1a7Fw/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -673,7 +740,7 @@ Physics: D. C. Giancoli.&lt;br&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;电子电路基础&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%94%b5%e5%ad%90%e7%94%b5%e8%b7%af%e5%9f%ba%e7%a1%80/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%94%b5%e5%ad%90%e7%94%b5%e8%b7%af%e5%9f%ba%e7%a1%80/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考书目：1) 新概念模拟电路，作者：杨建国&lt;br&gt;
                  2) 模拟电子技术基础（第五版）,作者：童诗白等&lt;/p&gt;
 &lt;/li&gt;
@@ -683,12 +750,12 @@ Physics: D. C. Giancoli.&lt;br&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;数据结构&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考书目：数据结构，作者：严蔚敏&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;企业管理&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e4%bc%81%e4%b8%9a%e7%ae%a1%e7%90%86/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e4%bc%81%e4%b8%9a%e7%ae%a1%e7%90%86/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考视频：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Dx411w7Xg/?share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;【元首的愤怒】北邮国院大二企业管理期末考试&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -697,18 +764,18 @@ Physics: D. C. Giancoli.&lt;br&gt;
 &lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;通信原理&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e9%80%9a%e4%bf%a1%e5%8e%9f%e7%90%86/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e9%80%9a%e4%bf%a1%e5%8e%9f%e7%90%86/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考书目： 1) 通信原理（第4版） 周炯磐 庞沁华 续大我 吴伟陵 杨鸿文&lt;br&gt;
                    2) Fundamentals of Communication Systems.John G.Proakis;Masoud Salehi&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;电磁场与电磁波&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%94%b5%e7%a3%81%e5%9c%ba%e4%b8%8e%e7%94%b5%e7%a3%81%e6%b3%a2/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%94%b5%e7%a3%81%e5%9c%ba%e4%b8%8e%e7%94%b5%e7%a3%81%e6%b3%a2/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考书目：Electromagnetic Field Theory Fundamentals,Guru&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;机器学习&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考书目：1) Foundations of Machine Learning,second edition,Mehryar Mohri,
 Afshin Rostamizadeh,and Ameet Talwalkar&lt;br&gt;
                  2) Understanding Machine Learning:From Theory to Algorithms,by Cambridge University Press.&lt;br&gt;
@@ -717,12 +784,12 @@ Afshin Rostamizadeh,and Ameet Talwalkar&lt;br&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;网络编程&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%bd%91%e7%bb%9c%e7%bc%96%e7%a8%8b/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e7%bd%91%e7%bb%9c%e7%bc%96%e7%a8%8b/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考书目：An Introduction to Network Programming with Java, by Jan Graba, 3rd Edition&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;数字系统设计&lt;/p&gt;
-&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e7%b3%bb%e7%bb%9f%e8%ae%be%e8%ae%a1/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e7%b3%bb%e7%bb%9f%e8%ae%be%e8%ae%a1/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考书目：Circuit design with VHDL by Pedroni, Volnei A&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -730,47 +797,47 @@ Afshin Rostamizadeh,and Ameet Talwalkar&lt;br&gt;
         </item>
         <item>
         <title>Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions</title>
-        <link>http://localhost:1313/p/sampling-is-as-easy-as-learning-the-score-theory-for-diffusion-models-with-minimal-data-assumptions/</link>
+        <link>http://localhost:57367/p/sampling-is-as-easy-as-learning-the-score-theory-for-diffusion-models-with-minimal-data-assumptions/</link>
         <pubDate>Mon, 02 Dec 2024 16:50:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/sampling-is-as-easy-as-learning-the-score-theory-for-diffusion-models-with-minimal-data-assumptions/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/sampling_theory/cover.png" alt="Featured image of post Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions" /&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on December 2.The article &lt;em&gt;Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions&lt;/em&gt; was shared at the group meeting, see the pdf of this slide:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/sampling_theory/Diffusion.pdf&#34; &gt;Slide&lt;/a&gt;.&lt;/p&gt;
+        <guid>http://localhost:57367/p/sampling-is-as-easy-as-learning-the-score-theory-for-diffusion-models-with-minimal-data-assumptions/</guid>
+        <description>&lt;img src="http://localhost:57367/post_file/sampling_theory/cover.png" alt="Featured image of post Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions" /&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on December 2.The article &lt;em&gt;Sampling is as easy as learning the score: theory for diffusion models with minimal data assumptions&lt;/em&gt; was shared at the group meeting, see the pdf of this slide:&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/sampling_theory/Diffusion.pdf&#34; &gt;Slide&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Score-Based Variational Inference for Inverse Problems</title>
-        <link>http://localhost:1313/p/score-based-variational-inference-for-inverse-problems/</link>
+        <link>http://localhost:57367/p/score-based-variational-inference-for-inverse-problems/</link>
         <pubDate>Thu, 19 Sep 2024 20:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/score-based-variational-inference-for-inverse-problems/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/Score-Based_Variational_Inference_for_Inverse_Problems/cover.png" alt="Featured image of post Score-Based Variational Inference for Inverse Problems" /&gt;&lt;h1 id=&#34;centerscore-based-variational-inference-for-inverse-problemscenter&#34;&gt;&lt;center&gt;Score-Based Variational Inference for Inverse Problems&lt;/center&gt;
+        <guid>http://localhost:57367/p/score-based-variational-inference-for-inverse-problems/</guid>
+        <description>&lt;img src="http://localhost:57367/post_file/Score-Based_Variational_Inference_for_Inverse_Problems/cover.png" alt="Featured image of post Score-Based Variational Inference for Inverse Problems" /&gt;&lt;h1 id=&#34;centerscore-based-variational-inference-for-inverse-problemscenter&#34;&gt;&lt;center&gt;Score-Based Variational Inference for Inverse Problems&lt;/center&gt;
 &lt;/h1&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on September 1.The article &lt;em&gt;Score-Based Variational Inference for Inverse Problems&lt;/em&gt; was shared at the group meeting,
-see the pdf of this tutorial:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/Score-Based_Variational_Inference_for_Inverse_Problems/Score_VI_for_Inverse_problem.pdf&#34; &gt;Score-Based Variational Inference for Inverse Problems&lt;/a&gt;.&lt;/p&gt;
+see the pdf of this tutorial:&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/Score-Based_Variational_Inference_for_Inverse_Problems/Score_VI_for_Inverse_problem.pdf&#34; &gt;Score-Based Variational Inference for Inverse Problems&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>My mathematical modeling</title>
-        <link>http://localhost:1313/p/my-mathematical-modeling/</link>
+        <link>http://localhost:57367/p/my-mathematical-modeling/</link>
         <pubDate>Sat, 17 Aug 2024 00:21:05 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/my-mathematical-modeling/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/My_mathematical_modeling/cover.png" alt="Featured image of post My mathematical modeling" /&gt;&lt;h1 id=&#34;centermy-mathematical-modelingcenter&#34;&gt;&lt;center&gt;My mathematical modeling&lt;/center&gt;
+        <guid>http://localhost:57367/p/my-mathematical-modeling/</guid>
+        <description>&lt;img src="http://localhost:57367/post_file/My_mathematical_modeling/cover.png" alt="Featured image of post My mathematical modeling" /&gt;&lt;h1 id=&#34;centermy-mathematical-modelingcenter&#34;&gt;&lt;center&gt;My mathematical modeling&lt;/center&gt;
 &lt;/h1&gt;&lt;p&gt;这篇blog用于记录和整理我参加过的数学建模比赛以及论文。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;2024年美国大学生数学竞赛(D题)，五大湖水位控制：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/My_mathematical_modeling/%e7%be%8e%e8%b5%9b.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
-&lt;li&gt;2024年全国大学生统计建模竞赛，山火预测与调控：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/My_mathematical_modeling/%e7%bb%9f%e8%ae%a1%e5%bb%ba%e6%a8%a1.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
-&lt;li&gt;2024年北京邮电大学数学建模训练营选拔，定日镜场优化：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/My_mathematical_modeling/%e5%ae%9a%e6%97%a5%e9%95%9c%e5%9c%ba.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
-&lt;li&gt;2024年全国大学生数学竞赛(B题)，生产过程中的决策问题:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/My_mathematical_modeling/%e5%9b%bd%e8%b5%9b.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;2024年美国大学生数学竞赛(D题)，五大湖水位控制：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/My_mathematical_modeling/%e7%be%8e%e8%b5%9b.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;2024年全国大学生统计建模竞赛，山火预测与调控：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/My_mathematical_modeling/%e7%bb%9f%e8%ae%a1%e5%bb%ba%e6%a8%a1.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;2024年北京邮电大学数学建模训练营选拔，定日镜场优化：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/My_mathematical_modeling/%e5%ae%9a%e6%97%a5%e9%95%9c%e5%9c%ba.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;2024年全国大学生数学竞赛(B题)，生产过程中的决策问题:&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/My_mathematical_modeling/%e5%9b%bd%e8%b5%9b.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
 &lt;/ol&gt;
 </description>
         </item>
         <item>
         <title>Bayesian signal processing</title>
-        <link>http://localhost:1313/p/bayesian-signal-processing/</link>
+        <link>http://localhost:57367/p/bayesian-signal-processing/</link>
         <pubDate>Wed, 14 Aug 2024 20:00:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/bayesian-signal-processing/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/Bayesian_signal_processing/cover.png" alt="Featured image of post Bayesian signal processing" /&gt;&lt;h1 id=&#34;centerbayesian-signal-processingcenter&#34;&gt;&lt;center&gt;Bayesian signal processing&lt;/center&gt;
+        <guid>http://localhost:57367/p/bayesian-signal-processing/</guid>
+        <description>&lt;img src="http://localhost:57367/post_file/Bayesian_signal_processing/cover.png" alt="Featured image of post Bayesian signal processing" /&gt;&lt;h1 id=&#34;centerbayesian-signal-processingcenter&#34;&gt;&lt;center&gt;Bayesian signal processing&lt;/center&gt;
 &lt;/h1&gt;&lt;p&gt;该博客为张颢老师所讲的&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Rm421H7Dc?p=15&amp;amp;vd_source=6cb8982c017348075d81bfccb9a89ae5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;现代信号处理的贝叶斯信号处理部分&lt;/a&gt;的课程个人学习笔记,涵盖贝叶斯公式的含义,贝叶斯学派与频率学派的关系,贝叶斯统计模型的目标函数,蒙特卡洛采样和贝叶斯滤波的内容。&lt;/p&gt;
 &lt;h2 id=&#34;introduce-to-bayes-method&#34;&gt;Introduce to bayes method
@@ -1159,42 +1226,42 @@ body {
         </item>
         <item>
         <title>Correlation operation and random signal processing</title>
-        <link>http://localhost:1313/p/correlation-operation-and-random-signal-processing/</link>
+        <link>http://localhost:57367/p/correlation-operation-and-random-signal-processing/</link>
         <pubDate>Wed, 07 Aug 2024 23:30:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/correlation-operation-and-random-signal-processing/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/Correlation_operation_and_random_signal_processing/cover.png" alt="Featured image of post Correlation operation and random signal processing" /&gt;&lt;h1 id=&#34;centercorrelation-operation-and-random-signal-processingcenter&#34;&gt;&lt;center&gt;Correlation operation and random signal processing&lt;/center&gt;
-&lt;/h1&gt;&lt;p&gt;My midterm paper on &lt;em&gt;probability theory and stochastic processes&lt;/em&gt;. This paper describes the concept of &lt;strong&gt;correlation operation&lt;/strong&gt;, mainly introduces the application of correlation operation in &lt;strong&gt;random signal processing&lt;/strong&gt;, including stationary random signal, blind source separation, template matching filter. You can read my course papers in this link:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/Correlation_operation_and_random_signal_processing/paper.pdf&#34; &gt;Correlation operation and random signal processing&lt;/a&gt;.&lt;/p&gt;
+        <guid>http://localhost:57367/p/correlation-operation-and-random-signal-processing/</guid>
+        <description>&lt;img src="http://localhost:57367/post_file/Correlation_operation_and_random_signal_processing/cover.png" alt="Featured image of post Correlation operation and random signal processing" /&gt;&lt;h1 id=&#34;centercorrelation-operation-and-random-signal-processingcenter&#34;&gt;&lt;center&gt;Correlation operation and random signal processing&lt;/center&gt;
+&lt;/h1&gt;&lt;p&gt;My midterm paper on &lt;em&gt;probability theory and stochastic processes&lt;/em&gt;. This paper describes the concept of &lt;strong&gt;correlation operation&lt;/strong&gt;, mainly introduces the application of correlation operation in &lt;strong&gt;random signal processing&lt;/strong&gt;, including stationary random signal, blind source separation, template matching filter. You can read my course papers in this link:&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/Correlation_operation_and_random_signal_processing/paper.pdf&#34; &gt;Correlation operation and random signal processing&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>A non-uniform node finite difference algorithm</title>
-        <link>http://localhost:1313/p/a-non-uniform-node-finite-difference-algorithm/</link>
+        <link>http://localhost:57367/p/a-non-uniform-node-finite-difference-algorithm/</link>
         <pubDate>Wed, 07 Aug 2024 00:22:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/a-non-uniform-node-finite-difference-algorithm/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/non_uni_ode/cover1.png" alt="Featured image of post A non-uniform node finite difference algorithm" /&gt;&lt;h1 id=&#34;centera-non-uniform-node-finite-difference-algorithmcenter&#34;&gt;&lt;center&gt;A non-uniform node finite difference algorithm&lt;/center&gt;
-&lt;/h1&gt;&lt;p&gt;Final design of &lt;em&gt;calculation method&lt;/em&gt; course in the first semester of sophomore year. Based on the finite difference method , I proposed an ODE algorithm of &lt;strong&gt;non-uniform finite difference&lt;/strong&gt; , and verified by &lt;em&gt;Matlab&lt;/em&gt; simulation, the accuracy of the solution is improved by &lt;em&gt;10%&lt;/em&gt; . You can find this course paper in this pdf : &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/non_uni_ode/odepaper.pdf&#34; &gt;A non-uniform node finite difference algorithm&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In addition , I made an academic poster for a simulated academic conference in the college.You can find in this pdf : &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/non_uni_ode/Poster.pdf&#34; &gt;Poster&lt;/a&gt;.&lt;/p&gt;
+        <guid>http://localhost:57367/p/a-non-uniform-node-finite-difference-algorithm/</guid>
+        <description>&lt;img src="http://localhost:57367/post_file/non_uni_ode/cover1.png" alt="Featured image of post A non-uniform node finite difference algorithm" /&gt;&lt;h1 id=&#34;centera-non-uniform-node-finite-difference-algorithmcenter&#34;&gt;&lt;center&gt;A non-uniform node finite difference algorithm&lt;/center&gt;
+&lt;/h1&gt;&lt;p&gt;Final design of &lt;em&gt;calculation method&lt;/em&gt; course in the first semester of sophomore year. Based on the finite difference method , I proposed an ODE algorithm of &lt;strong&gt;non-uniform finite difference&lt;/strong&gt; , and verified by &lt;em&gt;Matlab&lt;/em&gt; simulation, the accuracy of the solution is improved by &lt;em&gt;10%&lt;/em&gt; . You can find this course paper in this pdf : &lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/non_uni_ode/odepaper.pdf&#34; &gt;A non-uniform node finite difference algorithm&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In addition , I made an academic poster for a simulated academic conference in the college.You can find in this pdf : &lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/non_uni_ode/Poster.pdf&#34; &gt;Poster&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>SMLD and SDE for diffusion model</title>
-        <link>http://localhost:1313/p/smld-and-sde-for-diffusion-model/</link>
+        <link>http://localhost:57367/p/smld-and-sde-for-diffusion-model/</link>
         <pubDate>Tue, 06 Aug 2024 16:50:00 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/smld-and-sde-for-diffusion-model/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/SMLD_and_SDE/cover1.png" alt="Featured image of post SMLD and SDE for diffusion model" /&gt;&lt;h1 id=&#34;centersmld-and-sde-for-diffusion-modelcenter&#34;&gt;&lt;center&gt;SMLD and SDE for diffusion model&lt;/center&gt;
-&lt;/h1&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on August 1 . I summarized two articles about diffusion model by Song Yang:&lt;em&gt;SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS&lt;/em&gt; and &lt;em&gt;Generative Modeling by Estimating Gradients of the Data Distribution&lt;/em&gt; . For detailed information, see the pdf of this tutorial:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/SMLD_and_SDE/tutorial.pdf&#34; &gt;SMLD and SDE&lt;/a&gt;.&lt;/p&gt;
+        <guid>http://localhost:57367/p/smld-and-sde-for-diffusion-model/</guid>
+        <description>&lt;img src="http://localhost:57367/post_file/SMLD_and_SDE/cover1.png" alt="Featured image of post SMLD and SDE for diffusion model" /&gt;&lt;h1 id=&#34;centersmld-and-sde-for-diffusion-modelcenter&#34;&gt;&lt;center&gt;SMLD and SDE for diffusion model&lt;/center&gt;
+&lt;/h1&gt;&lt;p&gt;Lab&amp;rsquo;s group meeting on August 1 . I summarized two articles about diffusion model by Song Yang:&lt;em&gt;SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS&lt;/em&gt; and &lt;em&gt;Generative Modeling by Estimating Gradients of the Data Distribution&lt;/em&gt; . For detailed information, see the pdf of this tutorial:&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/SMLD_and_SDE/tutorial.pdf&#34; &gt;SMLD and SDE&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Tutorial of Markdown</title>
-        <link>http://localhost:1313/p/tutorial-of-markdown/</link>
+        <link>http://localhost:57367/p/tutorial-of-markdown/</link>
         <pubDate>Mon, 05 Aug 2024 12:14:10 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/tutorial-of-markdown/</guid>
-        <description>&lt;img src="http://localhost:1313/post_file/Markdown/cover.png" alt="Featured image of post Tutorial of Markdown" /&gt;&lt;h1 id=&#34;centertutorial-of-markdowncenter&#34;&gt;&lt;center&gt;Tutorial of Markdown&lt;/center&gt;
+        <guid>http://localhost:57367/p/tutorial-of-markdown/</guid>
+        <description>&lt;img src="http://localhost:57367/post_file/Markdown/cover.png" alt="Featured image of post Tutorial of Markdown" /&gt;&lt;h1 id=&#34;centertutorial-of-markdowncenter&#34;&gt;&lt;center&gt;Tutorial of Markdown&lt;/center&gt;
 &lt;/h1&gt;&lt;h3 id=&#34;basic-grammar&#34;&gt;Basic grammar
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;引用&lt;/p&gt;
@@ -1354,10 +1421,10 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>About me</title>
-        <link>http://localhost:1313/about-me/</link>
+        <link>http://localhost:57367/about-me/</link>
         <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/about-me/</guid>
+        <guid>http://localhost:57367/about-me/</guid>
         <description>&lt;p&gt;I&amp;rsquo;m a third year undergraduate student from &lt;a class=&#34;link&#34; href=&#34;https://www.bupt.edu.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Beijing University of Posts and Telecommunications(BUPT)&lt;/a&gt;. My research interest includes machine learning ,signal processing and sampling.&lt;/p&gt;
 &lt;p&gt;I am very fortunate to be a visiting student of  &lt;a class=&#34;link&#34; href=&#34;https://lsec.cc.ac.cn/~mjj/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1374,35 +1441,35 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>Archives</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>http://localhost:57367/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>http://localhost:57367/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>http://localhost:1313/links/</link>
+        <link>http://localhost:57367/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/links/</guid>
+        <guid>http://localhost:57367/links/</guid>
         <description>&lt;p&gt;The links below are some of my favorite sites and blogs, which serve as quick access points for me and recommendations for you.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Search</title>
-        <link>http://localhost:1313/search/</link>
+        <link>http://localhost:57367/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/search/</guid>
+        <guid>http://localhost:57367/search/</guid>
         <description></description>
         </item>
         <item>
         <title>Testtag</title>
-        <link>http://localhost:1313/tags/testtag/</link>
+        <link>http://localhost:57367/tags/testtag/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/tags/testtag/</guid>
+        <guid>http://localhost:57367/tags/testtag/</guid>
         <description></description>
         </item>
         
