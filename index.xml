@@ -174,7 +174,7 @@ $$
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Def 1(随机样本).&lt;/strong&gt; If a sequence of r.v.&amp;rsquo;s $X_1,\cdots,X_n$ are i.i.d.,then they are called a &lt;strong&gt;random sample&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Def 2(统计量和参数).&lt;/strong&gt; Any function $g(X_1,\cdots,X_n)$ of a random sample $X_1,\cdots,X_n$ which is
 not dependent on a parameter $\theta$ is called a &lt;strong&gt;statistic&lt;/strong&gt;.&lt;br&gt;
-&lt;strong&gt;Note.&lt;/strong&gt; If $X$ is a random sample with p.d.f. $f(x;\theta)$, where $\theta$ is an unknown constant, then $\theta$ is called &lt;strong&gt;parameter&lt;/strong&gt;.统计量是已知的东西(从样本中直接获得)，参数是未知的，也是需要估计的。&lt;/p&gt;
+&lt;strong&gt;Note.&lt;/strong&gt; If $X$ is a random sample with p.d.f. $f(x;\theta)$, where $\theta$ is an unknown constant, then $\theta$ is called &lt;strong&gt;parameter&lt;/strong&gt;.&lt;strong&gt;统计量是一个可观察的随机变量&lt;/strong&gt;，这是它与统计参数的直接区别 ，统计参数包含一个不可观察的随机变量从而可以描述统计总体。 统计参数必须要在整体数据都可被观察的时候才能计算，例如，一个完美的人口普查。&lt;/p&gt;
 &lt;p&gt;为了介绍 &lt;strong&gt;Thm 8&lt;/strong&gt;,我们介绍以下定义和定理作为铺垫，这些定理同样是很实用的定理。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Lemma 2(独立的等价判定).&lt;/strong&gt; $X_1$ and $X_2$ are independent if and only if
 $$
@@ -213,8 +213,101 @@ $$&lt;/li&gt;
 即
 $$M_{\bar{X}}(t)M_{X_1-\bar{X},\ldots,X_n-\bar{X}}(t_1,\ldots,t_n) = M_{\bar{X},X_1-\bar{X},\ldots,X_n-\bar{X}}(t,t_1,\ldots,t_n)$$.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Problem in statistics&lt;/strong&gt;:&lt;br&gt;
+A random variables $X$ with p.d.f. of the form $f(x, \theta)$ where function $f$ is known but parameter $\theta$ is unknown. We want to gain knowledge about $\theta$.&lt;br&gt;
+What we have for inference:&lt;br&gt;
+There is a random sample $X_1, \ldots, X_n$ from $f(x, \theta)$.
+$$
+\text { Statistical inferences }\left\{\begin{array}{l}
+\text { Estimation }\left\{\begin{array}{l}
+\text { Point estimation: } \hat{\theta}=\hat{\theta}\left(X_1, \ldots, X_n\right) \\
+\text { Interval estimation: } \\
+\text { Find statistics } T_1=t_1\left(X_1, \ldots, X_n\right), T_2=t_2\left(X_1, \ldots, X_n\right) \\
+\text { such that } 1-\alpha=P\left(T_1 \leq \theta \leq T_2\right)
+\end{array}\right. \\
+\text { Hypothesis testing: } H_0: \theta=\theta_0 \text { or } H_0: \theta \geq \theta_0 . \\
+\text { Want to find a rule to decide if we accept or reject } H_0 .
+\end{array}\right.
+$$&lt;/p&gt;
 &lt;h2 id=&#34;statistical-inference---point-estimation&#34;&gt;Statistical Inference - Point Estimation
-&lt;/h2&gt;&lt;h2 id=&#34;continue-to-point-estimation-umvue&#34;&gt;Continue to Point Estimation-UMVUE
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Def 1（估计量）.&lt;/strong&gt; We call a statistic $\hat{\theta}=\hat{\theta}\left(X_1, \ldots, X_n\right)$ an &lt;strong&gt;estimator&lt;/strong&gt; of parameter $\theta$ if it is used to estimate $\theta$. If $X_1=x_1, \ldots, X_n=x_n$ are observed, then $\hat{\theta}=\hat{\theta}\left(x_1, \ldots, x_n\right)$ is called an &lt;strong&gt;estimate&lt;/strong&gt; of $\theta$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Def 2(无偏估计).&lt;/strong&gt; We call an estimator $\theta$ unbiased for $\theta$ if it satisfies
+$$
+\begin{gathered}
+E_\theta\left(\hat{\theta}\left(X_1, \ldots, X_n\right)\right)=\theta, \forall \theta \\
+\mathrm{E}_\theta\left(\hat{\theta}\left(X_1, \ldots, X_n\right)\right)=\left\{\begin{array}{l}
+\int_{-\infty}^{\infty} \cdots \int_{-\infty}^{\infty} \hat{\theta}\left(x_1, \ldots, x_n\right) f\left(x_1, \ldots, x_n, \theta\right) d x_1 \cdots d x_n \\
+\int_{-\infty}^{\infty} \theta^* f_{\hat{\theta}}\left(\theta^*\right) d \theta^* \text { where } \hat{\theta}=\hat{\theta}\left(X_1, \ldots, X_n\right) \text { is a r.v. with pdf } f_{\hat{\theta}}\left(\theta^*\right)
+\end{array}\right.
+\end{gathered}
+$$&lt;br&gt;
+&lt;strong&gt;Remark.&lt;/strong&gt; $\bar{X}$ 和 $S^2$ 都是无偏估计量。&lt;/p&gt;
+&lt;p&gt;既然是点估计，我们有必要选择一种度量来衡量点估计是否准确(不可以选择概率作为度量，因为对于连续分布来说，统计量等于任意一点的概率为0，没有意义)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Def 3（依概率收敛）.&lt;/strong&gt; We say that $X_n$ converges to $X$,(a r.v. or a constant) in probability if for $\epsilon&amp;gt;0$,
+$$
+P\left(\left|X_n-X\right|&amp;gt;\epsilon\right) \longrightarrow 0, \text { as } n \longrightarrow \infty
+$$
+In this case, we denote $X_n \xrightarrow{P} X$.&lt;br&gt;
+&lt;strong&gt;Remark.&lt;/strong&gt; 该定理的意思是，$\{\omega\in\Omega:|X_n(\omega)-X(\omega)|&amp;lt;\epsilon\}$这个事件的概率测度收敛到1.不加证明的说明一个定理:对于连续函数 $g$,若$X_n \xrightarrow{P} X$，则$g(X_n) \xrightarrow{P} g(X)$.&lt;/p&gt;
+&lt;p&gt;下面引入两种容易判断随机变量依概率收敛的定理，在引入定理之前，回顾一下集中不等式。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thm 4（马尔可夫不等式）.&lt;/strong&gt; If $X$ is a nonnegative random variable and $a&amp;gt;0$, then the probability that $X$ is at least $a$ is at most the expectation of $X$ divided by a:
+$$
+\mathrm{P}(X \geq a) \leq \frac{\mathrm{E}(X)}{a}
+$$
+When $\mathrm{E}(X)&amp;gt;0$, we can take $a=\tilde{a} \cdot \mathrm{E}(X)$ for $\tilde{a}&amp;gt;0$ to rewrite the previous inequality as
+$$
+\mathrm{P}(X \geq \tilde{a} \cdot \mathrm{E}(X)) \leq \frac{1}{\tilde{a}}
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thm 5(判断依概率收敛).&lt;/strong&gt;
+If $E\left(X_n\right)=a$ or $E\left(X_n\right) \longrightarrow a$ and $\operatorname{Var}\left(X_n\right) \longrightarrow 0$ when $n\rightarrow\infty$, then $X_n \xrightarrow{P} a$.&lt;br&gt;
+&lt;strong&gt;Proof.&lt;/strong&gt;
+$$
+\begin{aligned}
+\mathrm{E}\left[\left(X_n-a\right)^2\right] &amp;amp; =\mathrm{E}\left[\left(X_n-\mathrm{E}\left(X_n\right)+\mathrm{E}\left(X_n\right)-a\right)^2\right] \\
+&amp;amp; =\mathrm{E}\left[\left(X_n-\mathrm{E}\left(X_n\right)\right)^2\right]+\mathrm{E}\left[\left(\mathrm{E}\left(X_n\right)-a\right)^2\right]+2 \mathrm{E}\left[\left(X_n-\mathrm{E}\left(X_n\right)\right)\left(\mathrm{E}\left(X_n\right)-a\right)\right] \\
+&amp;amp; =\operatorname{Var}\left(X_n\right)+\mathrm{E}\left(\left(X_n\right)-a\right)^2
+\end{aligned}
+$$
+By Chebyshev&amp;rsquo;s Inequality(可以由马尔可夫不等式得到) :
+$$
+P\left(\left|X_n-X\right| \geq \epsilon\right) \leq \frac{\mathrm{E}\left(X_n-X\right)^2}{\epsilon^2} \\
+\text { or } P\left(\left|X_n-\mu\right| \geq k \sigma\right) \leq \frac{1}{k^2}
+$$
+For $\epsilon&amp;gt;0$,
+$$
+\begin{aligned}
+&amp;amp; 0 \leq P\left(\left|X_n-a\right|&amp;gt;\epsilon\right)=P\left(\left(X_n-a\right)^2&amp;gt;\epsilon^2\right) \\
+&amp;amp; \leq \frac{\mathrm{E}\left(X_n-a\right)^2}{\epsilon^2}=\frac{\operatorname{Var}\left(X_n\right)+\left(\mathrm{E}\left(X_n\right)-a\right)^2}{\epsilon^2} \longrightarrow 0 \text { as } n \longrightarrow \infty . (\text{条件})\\
+&amp;amp; \Rightarrow P\left(\left|X_n-a\right|&amp;gt;\epsilon\right) \longrightarrow 0, \text { as } n \longrightarrow \infty . \Rightarrow X_n \xrightarrow{P} a .
+\end{aligned}
+$$
+&lt;strong&gt;Q.E.D.&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Remark.&lt;/strong&gt; 上述定理中 $X_n$ 是统计量，我们同样可以用 $\hat{\theta}$ 将其表达，通过该定理，可以容易的判断统计量是否依概率收敛于参数。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thm 6(Weak Law of Large Numbers,WLLN).&lt;/strong&gt; If $X_1, \ldots, X_n$ is a random sample with mean $\mu$ and finite variance $\sigma^2$, then $\bar{X} \xrightarrow{P} \mu$.&lt;br&gt;
+&lt;strong&gt;Proof.&lt;/strong&gt;
+$$
+\mathrm{E}(\bar{X})=\mu, \operatorname{Var}(\bar{X})=\frac{\sigma^2}{n} \longrightarrow 0 \text { as } n \longrightarrow \infty . \Rightarrow \bar{X} \xrightarrow{P} \mu
+$$
+&lt;strong&gt;Q.E.D.&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Remark.&lt;/strong&gt; 上述定理中的 $X_1, \ldots, X_n$同样可以写为 $X_1^k, \ldots, X_n^k$,则可以得到，若 $Var(X^k)$ 有限，则 $\bar{X^k} \xrightarrow{P} \mathbb{E}X^k$.&lt;/p&gt;
+&lt;p&gt;对于满足依概率收敛的统计量，有以下定义：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Def 7(一致估计量).&lt;/strong&gt; We sat that $\hat{\theta}$ is a consistent estimator of $\theta$ if $\hat{\theta} \xrightarrow{P} \theta$ .&lt;br&gt;
+&lt;strong&gt;Remark.&lt;/strong&gt; $\bar{X}和S^2$分别是 $\mu$ 和 $\sigma^2$一致估计量.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Def 8(Moments):&lt;/strong&gt; Let $X$ be a random variable having a p.d.f. $f(x, \theta)$, the &lt;strong&gt;population $k_{t h}$ moment&lt;/strong&gt; is defined by
+$$
+\mathrm{E}_\theta\left(X^k\right)= \begin{cases}\sum_{\text {all } x} x^k f(x, \theta) &amp;amp; , \text { discrete } \\ \int_{-\infty}^{\infty} x^k f(x, \theta) d x &amp;amp; , \text { continuous }\end{cases}
+$$
+The &lt;strong&gt;sample $k_{t h}$ moment&lt;/strong&gt; is defined by $\frac{1}{n} \sum_{i=1}^n X_i{ }^k$.&lt;br&gt;
+&lt;strong&gt;Remark.&lt;/strong&gt; 假设方差有限，样本原点矩是原点矩的无偏估计量和一致性估计量 (WLLN)。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Method 1:矩估计，Method of Moments, MoM&lt;/strong&gt;&lt;br&gt;
+使用样本矩估计原点矩，然后反解出参数 $\theta$ 作为 $\hat{\theta}$。&lt;br&gt;
+If $\theta=\left(\theta_1, \ldots, \theta_k\right)$ is $k$-variate, the method of moment estimator $\left(\hat{\theta_1}, \ldots, \hat{\theta_k}\right)$ solves $\theta_1, \ldots, \theta_k$ for
+$$
+\frac{1}{n} \sum_{i=1}^n X_i{ }^j=E_{\theta_1, \ldots, \theta_k}\left(X^j\right), j=1, \ldots, k
+$$
+&lt;strong&gt;Remark.&lt;/strong&gt; 矩估计方法可以保证估计量相对于k阶原点矩是无偏且一致的，但无法保证中心矩的无偏性和一致性。&lt;/p&gt;
+&lt;h2 id=&#34;continue-to-point-estimation-umvue&#34;&gt;Continue to Point Estimation-UMVUE
 &lt;/h2&gt;&lt;h2 id=&#34;confidence-interval&#34;&gt;Confidence Interval
 &lt;/h2&gt;</description>
         </item>
@@ -850,6 +943,19 @@ Afshin Rostamizadeh,and Ameet Talwalkar&lt;br&gt;
 &lt;p&gt;数字系统设计&lt;/p&gt;
 &lt;p&gt;课程笔记：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/%e8%af%be%e7%a8%8b%e7%ac%94%e8%ae%b0/%e6%95%b0%e5%ad%97%e7%b3%bb%e7%bb%9f%e8%ae%be%e8%ae%a1/note.pdf&#34; &gt;note&lt;/a&gt;&lt;br&gt;
 参考书目：Circuit design with VHDL by Pedroni, Volnei A&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;微波工程&lt;/p&gt;
+&lt;p&gt;参考书目：Microwave  Engineering,by David M. Pozar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;微处理器系统设计&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;软件工程&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;产品开发与营销&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </description>

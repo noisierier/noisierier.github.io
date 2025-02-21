@@ -53,35 +53,51 @@
     F(x) = P(X(\omega) \leq x) = P(\{\omega\in\Omega:X(\omega)\in (-\infty,x]\})
     $$
    &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Lemma 2.&lt;/strong&gt; 若$X$为r.v.,令g为$\mathbb{R}\rightarrow\mathbb{R}$的映射，则$Y=g(X)$同样为r.v.,且可以确定其分布。&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Def 2(m.g.f.).&lt;/strong&gt; Let $X$ be a random variable with CDF $F_X$. The moment generating function (mgf) of $X$ (or $F_X$ ), denoted by $M_X(t)$, is
+$$
+M_X(t)=\mathrm{E}\left[e^{t X}\right]
+$$
+provided this expectation exists for $t$ in some open neighborhood of 0 .
+That is, there is an $h&amp;gt;0$ such that for all $t$ in $-h&amp;lt;t&amp;lt;h,
+\mathrm{E}\left[e^{t X}\right]$ exists. If the expectation does
+not exist in an open neighborhood of 0 , we say that the moment
+generating function does not exist.
+&lt;br&gt;
+In other words, the moment-generating function of $X$ is the expectation of the random variable $e^{t X}$. More generally, when $\mathbf{X}=\left(X_1, \ldots, X_n\right)^{\mathrm{T}}$, an $n$-dimensional random vector, and $\mathbf{t}$ is a fixed vector, one uses $\mathbf{t} \cdot \mathbf{X}=\mathbf{t}^{\mathrm{T}} \mathbf{X}$ instead of $t X$ :
+$$
+M_{\mathbf{X}}(\mathbf{t}):=\mathrm{E}\left(e^{\mathbf{t}^{\mathrm{T}} \mathbf{X}}\right)
+$$
+$M_X(0)$ always exists and is equal to 1 .
+&lt;br&gt;
+&lt;strong&gt;Note.&lt;/strong&gt; 几种常见分布的m.g.f:
+$$
+\begin{cases}X \sim N\left(\mu, \sigma^2\right) &amp;amp; , M_x(t)=e^{\mu t+\frac{\sigma^2}{2} t^2}, \forall t \in R \\ X \sim \operatorname{Gamma}(\alpha, \beta) &amp;amp; , M_x(t)=(1-\beta t)^{-\alpha}, t&amp;lt;\frac{1}{\beta} \\ X \sim b(n, p) &amp;amp; , M_x(t)=\left(1-p+p e^t\right)^n, \forall t \in R \\ X \sim \operatorname{Poisson}(\lambda) &amp;amp; , M_x(t)=e^{\lambda\left(e^t-1\right)}, \forall t \in R\end{cases}
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lemma 3.&lt;/strong&gt; 若$X$为r.v.,令g为$\mathbb{R}\rightarrow\mathbb{R}$的映射，则$Y=g(X)$同样为r.v.,且可以确定其分布。&lt;br&gt;
 &lt;strong&gt;Remark.&lt;/strong&gt;&lt;br&gt;
 两种求得$g(X)$的pdf的方法：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Distribution method:&lt;/p&gt;
 &lt;p&gt;Suppose that X is a continuous r.v.. Let $Y=g(X)$
-The d.f(distribution function) of Y is&lt;/p&gt;
-&lt;p&gt;$$
+The d.f(distribution function) of Y is
+$$
 G(y)=P(Y \leq y)=P(g(X) \leq y)
-$$&lt;/p&gt;
-&lt;p&gt;If G is differentiable then the p.d.f. of $Y=g(X)$ is $g(y)=G^{\prime}(y)$.&lt;/p&gt;
+$$
+If G is differentiable then the p.d.f. of $Y=g(X)$ is $g(y)=G^{\prime}(y)$.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;mgf method :(moment generating function)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;$$
+&lt;p&gt;mgf method :(moment generating function)
+$$
 \begin{aligned}
 E\left[e^{t x}\right]= \begin{cases}\sum e^{t x} f(x) &amp;amp; \text { (discrete) } \\
 \int_{-\infty}^{\infty} e^{t x} f(x) d x &amp;amp; \text { (continuous) }\end{cases}
 \end{aligned}
 $$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Thm 3.&lt;/strong&gt; m.g.f. $M_x(t)$ and its distribution (p.d.f. or d.f.) forms a $1-1$ functions.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Thm 4.&lt;/strong&gt; $\quad M_X^{(k)}(0)=E\left[X^k\right], k=1,2, \cdots$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note.&lt;/strong&gt; 几种常见分布的m.g.f:
-$$
-\begin{cases}X \sim N\left(\mu, \sigma^2\right) &amp;amp; , M_x(t)=e^{\mu t+\frac{\sigma^2}{2} t^2}, \forall t \in R \\ X \sim \operatorname{Gamma}(\alpha, \beta) &amp;amp; , M_x(t)=(1-\beta t)^{-\alpha}, t&amp;lt;\frac{1}{\beta} \\ X \sim b(n, p) &amp;amp; , M_x(t)=\left(1-p+p e^t\right)^n, \forall t \in R \\ X \sim \operatorname{Poisson}(\lambda) &amp;amp; , M_x(t)=e^{\lambda\left(e^t-1\right)}, \forall t \in R\end{cases}
-$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Thm 4.&lt;/strong&gt; m.g.f. $M_x(t)$ and its distribution (p.d.f. or d.f.) forms a $1-1$ functions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thm 5.&lt;/strong&gt; $\quad M_X^{(k)}(0)=E\left[X^k\right], k=1,2, \cdots$&lt;/p&gt;
 &lt;h3 id=&#34;probability-distribution&#34;&gt;Probability distribution
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Def 1.&lt;/strong&gt; Gamma function $\Gamma(\alpha)=\int_0^{\infty} x^{\alpha-1} e^{-x} d x$&lt;br&gt;
 &lt;strong&gt;Properties:&lt;/strong&gt;&lt;/p&gt;
@@ -91,16 +107,16 @@ $$&lt;/p&gt;
 &lt;li&gt;$\Gamma(n)=(n-1) \Gamma(n-1)=\cdots=(n-1)(n-2) \cdots 1 \cdot \Gamma(1)=(n-1)$ !&lt;/li&gt;
 &lt;li&gt;$\Gamma\left(\frac{1}{2}\right)=\sqrt{\pi}$&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Def 2.&lt;/strong&gt; We say that $X$ has a Gamma distribution if it has p.d.f&lt;/p&gt;
-&lt;p&gt;$$
+&lt;p&gt;&lt;strong&gt;Def 2.&lt;/strong&gt; We say that $X$ has a Gamma distribution if it has p.d.f
+$$
 f(x)=\frac{1}{\Gamma(\alpha) \beta^\alpha} x^{\alpha-1} e^{-\frac{x}{\beta}}, x&amp;gt;0, \text { for some } \alpha&amp;gt;0, \beta&amp;gt;0
-$$&lt;/p&gt;
-&lt;p&gt;We denote by $X \sim \operatorname{Gamma}(\alpha, \beta)$.&lt;br&gt;
-&lt;strong&gt;Note.&lt;/strong&gt; If $X$ has Gamma distribution with $\beta=2$ and $\alpha=\frac{r}{2}$, we say that $X$ has a chi-square distribution with degrees of freedom r. The p.d.f is&lt;/p&gt;
-&lt;p&gt;$$
+$$
+We denote by $X \sim \operatorname{Gamma}(\alpha, \beta)$.&lt;br&gt;
+&lt;strong&gt;Note.&lt;/strong&gt; If $X$ has Gamma distribution with $\beta=2$ and $\alpha=\frac{r}{2}$, we say that $X$ has a chi-square distribution with degrees of freedom r. The p.d.f is
+$$
 f(x)=\frac{1}{\Gamma\left(\frac{r}{2}\right) 2^{\frac{r}{2}}} x^{\frac{r}{2}-1} e^{-\frac{x}{2}}, x&amp;gt;0
-$$&lt;/p&gt;
-&lt;p&gt;We denote by $X \sim \chi^2(r)$.&lt;/p&gt;
+$$
+We denote by $X \sim \chi^2(r)$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ex 1.&lt;/strong&gt; If $X \sim \operatorname{Gamma}(\alpha, \beta)$, m.g.f of $X$ is&lt;/p&gt;
 &lt;p&gt;$$
 \begin{aligned}
@@ -154,16 +170,17 @@ $$
 &lt;br&gt;
 &lt;strong&gt;Remark.&lt;/strong&gt; 可以用该方法构造从$n$个随机变量的联合分布到另外$n$个随机变量联合分布的映射(注意映射到的值域)，
 然后再通过积分的方式获得边缘联合分布。&lt;/p&gt;
-&lt;h3 id=&#34;统计基础&#34;&gt;统计基础
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Def 1.&lt;/strong&gt; If a sequence of r.v.&amp;rsquo;s $X_1,\cdots,X_n$ are i.i.d.,then they are called a &lt;strong&gt;random sample&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Def 2.&lt;/strong&gt; Any function $g(X_1,\cdots,X_n)$ of a random sample $X_1,\cdots,X_n$ which is
+&lt;h3 id=&#34;statistical-basis&#34;&gt;Statistical basis
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Def 1(随机样本).&lt;/strong&gt; If a sequence of r.v.&amp;rsquo;s $X_1,\cdots,X_n$ are i.i.d.,then they are called a &lt;strong&gt;random sample&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Def 2(统计量和参数).&lt;/strong&gt; Any function $g(X_1,\cdots,X_n)$ of a random sample $X_1,\cdots,X_n$ which is
 not dependent on a parameter $\theta$ is called a &lt;strong&gt;statistic&lt;/strong&gt;.&lt;br&gt;
-&lt;strong&gt;Note.&lt;/strong&gt; If $X$ is a random sample with p.d.f. $f(x;\theta)$, where $\theta$ is an unknown constant, then $\theta$ is called &lt;strong&gt;parameter&lt;/strong&gt;.统计量是已知的东西(从样本中直接获得)，参数是未知的，也是需要估计的。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Lemma 2.&lt;/strong&gt; $X_1$ and $X_2$ are independent if and only if
+&lt;strong&gt;Note.&lt;/strong&gt; If $X$ is a random sample with p.d.f. $f(x;\theta)$, where $\theta$ is an unknown constant, then $\theta$ is called &lt;strong&gt;parameter&lt;/strong&gt;.&lt;strong&gt;统计量是一个可观察的随机变量&lt;/strong&gt;，这是它与统计参数的直接区别 ，统计参数包含一个不可观察的随机变量从而可以描述统计总体。 统计参数必须要在整体数据都可被观察的时候才能计算，例如，一个完美的人口普查。&lt;/p&gt;
+&lt;p&gt;为了介绍 &lt;strong&gt;Thm 8&lt;/strong&gt;,我们介绍以下定义和定理作为铺垫，这些定理同样是很实用的定理。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lemma 2(独立的等价判定).&lt;/strong&gt; $X_1$ and $X_2$ are independent if and only if
 $$
 M_{X_1, X_2}\left(t_1, t_2\right)=M_{X_1}\left(t_1\right) M_{X_2}\left(t_2\right), \forall t_1, t_2 .
 $$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thm 3.&lt;/strong&gt; 关于独立的两个定理：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;If $\left(X_1, \ldots, X_n\right)$ and $\left(Y_1, \ldots, Y_m\right)$ are independent（that is:$f(X_1, \ldots, X_n,Y_1, \ldots, Y_m) = f(X_1, \ldots, X_n)f(Y_1, \ldots, Y_m)$）, then $g\left(X_1, \ldots, X_n\right)$ and $h\left(Y_1, \ldots, Y_m\right)$ are also independent.&lt;/li&gt;
 &lt;li&gt;If $X, Y$ are independent, then
@@ -171,8 +188,51 @@ $$
 \mathrm{E}[g(X) h(Y)]=\mathrm{E}[g(X)] \mathrm{E}[h(Y)]
 $$&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Thm 4.&lt;/strong&gt; Joint m.g.f. $M_{X,Y}(0,t) = M_Y(t)$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thm 5.&lt;/strong&gt; $X \sim \chi^2(r_1)$,$Y \sim \chi^2(r_2)$,if $X\perp Y$,then $X+Y\sim \chi^2(r_1+r_2)$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thm 6.&lt;/strong&gt; $Z\sim N(0,1)$,then $Z^2\sim \chi^2(1)$.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Def 7(样本均值，样本方差).&lt;/strong&gt; 一组随机样本 $X_1,\ldots,X_n$,样本均值为
+$\bar{X} = \frac{1}{n}\sum_{i=1}^{n} X_i$，样本方差为
+$S^2 = \frac{1}{n-1}\sum_{i=1}^{n}(X_i-\bar{X})^2$.二者都是统计量。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thm 8.&lt;/strong&gt; If $\left(X_1, \ldots, X_n\right)$ is a random sample from $N\left(\mu, \sigma^2\right)$, then&lt;br&gt;
+(a) $\bar{X} \sim N\left(\mu, \frac{\sigma^2}{n}\right)$&lt;br&gt;
+(b) $\bar{X}$ and $S^2$ are independent.&lt;br&gt;
+(c) $\frac{(n-1) S^2}{\sigma^2} \sim \chi^2(n-1)$
+&lt;br&gt;
+&lt;strong&gt;Remark.&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;样本均值不等于均值，样本均值的期望才等于均值，注意区分以下两者的关系。
+$$
+\begin{cases}
+\sum_i \left( \frac{X_i-\mu}{\sigma}\right)^2\sim\chi^2(n) \\
+\frac{(n-1) S^2}{\sigma^2} = \sum_i \left( \frac{X_i-\bar{X}}{\sigma}\right)^2 \sim \chi^2(n-1)
+\end{cases}
+$$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Thm 8&lt;/strong&gt; 的(b)是十分难得的，因为二者都可以看作 $X_i$ 的函数，而存在独立性，
+归根结底是因为 $\bar{X}$ 和 $\left(X_1-\bar{X},\ldots,X_n-\bar{X}\right)$ 独立，
+即
+$$M_{\bar{X}}(t)M_{X_1-\bar{X},\ldots,X_n-\bar{X}}(t_1,\ldots,t_n) = M_{\bar{X},X_1-\bar{X},\ldots,X_n-\bar{X}}(t,t_1,\ldots,t_n)$$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Problem in statistics&lt;/strong&gt;:&lt;br&gt;
+A random variables $X$ with p.d.f. of the form $f(x, \theta)$ where function $f$ is known but parameter $\theta$ is unknown. We want to gain knowledge about $\theta$.&lt;br&gt;
+What we have for inference:&lt;br&gt;
+There is a random sample $X_1, \ldots, X_n$ from $f(x, \theta)$.
+$$
+\text { Statistical inferences }\left{\begin{array}{l}
+\text { Estimation }\left{\begin{array}{l}
+\text { Point estimation: } \hat{\theta}=\hat{\theta}\left(X_1, \ldots, X_n\right) \
+\text { Interval estimation: } \
+\text { Find statistics } T_1=t_1\left(X_1, \ldots, X_n\right), T_2=t_2\left(X_1, \ldots, X_n\right) \
+\text { such that } 1-\alpha=P\left(T_1 \leq \theta \leq T_2\right)
+\end{array}\right. \
+\text { Hypothesis testing: } H_0: \theta=\theta_0 \text { or } H_0: \theta \geq \theta_0 . \
+\text { Want to find a rule to decide if we accept or reject } H_0 .
+\end{array}\right.
+$$&lt;/p&gt;
 &lt;h2 id=&#34;statistical-inference---point-estimation&#34;&gt;Statistical Inference - Point Estimation
-&lt;/h2&gt;&lt;h2 id=&#34;continue-to-point-estimation-umvue&#34;&gt;Continue to Point Estimation-UMVUE
+&lt;/h2&gt;&lt;p&gt;Def. We call a statistic $\hat{\theta}=\hat{\theta}\left(X_1, \ldots, X_n\right)$ an estimator of parameter $\theta$ if it is used to estimate $\theta$. If $X_1=x_1, \ldots, X_n=x_n$ are observed, then $\hat{\theta}=\hat{\theta}\left(x_1, \ldots, x_n\right)$ is called an estimate of $\theta$.&lt;/p&gt;
+&lt;h2 id=&#34;continue-to-point-estimation-umvue&#34;&gt;Continue to Point Estimation-UMVUE
 &lt;/h2&gt;&lt;h2 id=&#34;confidence-interval&#34;&gt;Confidence Interval
 &lt;/h2&gt;</description>
         </item>

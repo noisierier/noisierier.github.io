@@ -11,7 +11,7 @@
 <meta property='og:description' content="台湾交通大学陳鄰安老师统计学课程笔记">
 <meta property='og:url' content='http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/'>
 <meta property='og:site_name' content='Haitong Lan'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Note' /><meta property='article:published_time' content='2025-01-26T00:21:05&#43;08:00'/><meta property='article:modified_time' content='2025-02-21T00:09:05&#43;08:00'/><meta property='og:image' content='http://localhost:1313/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Note' /><meta property='article:published_time' content='2025-01-26T00:21:05&#43;08:00'/><meta property='article:modified_time' content='2025-02-21T00:22:05&#43;08:00'/><meta property='og:image' content='http://localhost:1313/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png' />
 <meta name="twitter:title" content="学习笔记|数理统计">
 <meta name="twitter:description" content="台湾交通大学陳鄰安老师统计学课程笔记"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='http://localhost:1313/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png' />
@@ -195,7 +195,7 @@
 
 
                 <time class="article-time--reading">
-                    4 minute read
+                    7 minute read
                 </time>
             </div>
         
@@ -351,7 +351,7 @@ $$
 </h3><p><strong>Def 1(随机样本).</strong> If a sequence of r.v.&rsquo;s $X_1,\cdots,X_n$ are i.i.d.,then they are called a <strong>random sample</strong>.</p>
 <p><strong>Def 2(统计量和参数).</strong> Any function $g(X_1,\cdots,X_n)$ of a random sample $X_1,\cdots,X_n$ which is
 not dependent on a parameter $\theta$ is called a <strong>statistic</strong>.<br>
-<strong>Note.</strong> If $X$ is a random sample with p.d.f. $f(x;\theta)$, where $\theta$ is an unknown constant, then $\theta$ is called <strong>parameter</strong>.统计量是已知的东西(从样本中直接获得)，参数是未知的，也是需要估计的。</p>
+<strong>Note.</strong> If $X$ is a random sample with p.d.f. $f(x;\theta)$, where $\theta$ is an unknown constant, then $\theta$ is called <strong>parameter</strong>.<strong>统计量是一个可观察的随机变量</strong>，这是它与统计参数的直接区别 ，统计参数包含一个不可观察的随机变量从而可以描述统计总体。 统计参数必须要在整体数据都可被观察的时候才能计算，例如，一个完美的人口普查。</p>
 <p>为了介绍 <strong>Thm 8</strong>,我们介绍以下定义和定理作为铺垫，这些定理同样是很实用的定理。</p>
 <p><strong>Lemma 2(独立的等价判定).</strong> $X_1$ and $X_2$ are independent if and only if
 $$
@@ -390,8 +390,101 @@ $$</li>
 即
 $$M_{\bar{X}}(t)M_{X_1-\bar{X},\ldots,X_n-\bar{X}}(t_1,\ldots,t_n) = M_{\bar{X},X_1-\bar{X},\ldots,X_n-\bar{X}}(t,t_1,\ldots,t_n)$$.</li>
 </ol>
+<hr>
+<p><strong>Problem in statistics</strong>:<br>
+A random variables $X$ with p.d.f. of the form $f(x, \theta)$ where function $f$ is known but parameter $\theta$ is unknown. We want to gain knowledge about $\theta$.<br>
+What we have for inference:<br>
+There is a random sample $X_1, \ldots, X_n$ from $f(x, \theta)$.
+$$
+\text { Statistical inferences }\left\{\begin{array}{l}
+\text { Estimation }\left\{\begin{array}{l}
+\text { Point estimation: } \hat{\theta}=\hat{\theta}\left(X_1, \ldots, X_n\right) \\
+\text { Interval estimation: } \\
+\text { Find statistics } T_1=t_1\left(X_1, \ldots, X_n\right), T_2=t_2\left(X_1, \ldots, X_n\right) \\
+\text { such that } 1-\alpha=P\left(T_1 \leq \theta \leq T_2\right)
+\end{array}\right. \\
+\text { Hypothesis testing: } H_0: \theta=\theta_0 \text { or } H_0: \theta \geq \theta_0 . \\
+\text { Want to find a rule to decide if we accept or reject } H_0 .
+\end{array}\right.
+$$</p>
 <h2 id="statistical-inference---point-estimation">Statistical Inference - Point Estimation
-</h2><h2 id="continue-to-point-estimation-umvue">Continue to Point Estimation-UMVUE
+</h2><p><strong>Def 1（估计量）.</strong> We call a statistic $\hat{\theta}=\hat{\theta}\left(X_1, \ldots, X_n\right)$ an <strong>estimator</strong> of parameter $\theta$ if it is used to estimate $\theta$. If $X_1=x_1, \ldots, X_n=x_n$ are observed, then $\hat{\theta}=\hat{\theta}\left(x_1, \ldots, x_n\right)$ is called an <strong>estimate</strong> of $\theta$.</p>
+<p><strong>Def 2(无偏估计).</strong> We call an estimator $\theta$ unbiased for $\theta$ if it satisfies
+$$
+\begin{gathered}
+E_\theta\left(\hat{\theta}\left(X_1, \ldots, X_n\right)\right)=\theta, \forall \theta \\
+\mathrm{E}_\theta\left(\hat{\theta}\left(X_1, \ldots, X_n\right)\right)=\left\{\begin{array}{l}
+\int_{-\infty}^{\infty} \cdots \int_{-\infty}^{\infty} \hat{\theta}\left(x_1, \ldots, x_n\right) f\left(x_1, \ldots, x_n, \theta\right) d x_1 \cdots d x_n \\
+\int_{-\infty}^{\infty} \theta^* f_{\hat{\theta}}\left(\theta^*\right) d \theta^* \text { where } \hat{\theta}=\hat{\theta}\left(X_1, \ldots, X_n\right) \text { is a r.v. with pdf } f_{\hat{\theta}}\left(\theta^*\right)
+\end{array}\right.
+\end{gathered}
+$$<br>
+<strong>Remark.</strong> $\bar{X}$ 和 $S^2$ 都是无偏估计量。</p>
+<p>既然是点估计，我们有必要选择一种度量来衡量点估计是否准确(不可以选择概率作为度量，因为对于连续分布来说，统计量等于任意一点的概率为0，没有意义)。</p>
+<p><strong>Def 3（依概率收敛）.</strong> We say that $X_n$ converges to $X$,(a r.v. or a constant) in probability if for $\epsilon&gt;0$,
+$$
+P\left(\left|X_n-X\right|&gt;\epsilon\right) \longrightarrow 0, \text { as } n \longrightarrow \infty
+$$
+In this case, we denote $X_n \xrightarrow{P} X$.<br>
+<strong>Remark.</strong> 该定理的意思是，$\{\omega\in\Omega:|X_n(\omega)-X(\omega)|&lt;\epsilon\}$这个事件的概率测度收敛到1.不加证明的说明一个定理:对于连续函数 $g$,若$X_n \xrightarrow{P} X$，则$g(X_n) \xrightarrow{P} g(X)$.</p>
+<p>下面引入两种容易判断随机变量依概率收敛的定理，在引入定理之前，回顾一下集中不等式。</p>
+<p><strong>Thm 4（马尔可夫不等式）.</strong> If $X$ is a nonnegative random variable and $a&gt;0$, then the probability that $X$ is at least $a$ is at most the expectation of $X$ divided by a:
+$$
+\mathrm{P}(X \geq a) \leq \frac{\mathrm{E}(X)}{a}
+$$
+When $\mathrm{E}(X)&gt;0$, we can take $a=\tilde{a} \cdot \mathrm{E}(X)$ for $\tilde{a}&gt;0$ to rewrite the previous inequality as
+$$
+\mathrm{P}(X \geq \tilde{a} \cdot \mathrm{E}(X)) \leq \frac{1}{\tilde{a}}
+$$</p>
+<p><strong>Thm 5(判断依概率收敛).</strong>
+If $E\left(X_n\right)=a$ or $E\left(X_n\right) \longrightarrow a$ and $\operatorname{Var}\left(X_n\right) \longrightarrow 0$ when $n\rightarrow\infty$, then $X_n \xrightarrow{P} a$.<br>
+<strong>Proof.</strong>
+$$
+\begin{aligned}
+\mathrm{E}\left[\left(X_n-a\right)^2\right] &amp; =\mathrm{E}\left[\left(X_n-\mathrm{E}\left(X_n\right)+\mathrm{E}\left(X_n\right)-a\right)^2\right] \\
+&amp; =\mathrm{E}\left[\left(X_n-\mathrm{E}\left(X_n\right)\right)^2\right]+\mathrm{E}\left[\left(\mathrm{E}\left(X_n\right)-a\right)^2\right]+2 \mathrm{E}\left[\left(X_n-\mathrm{E}\left(X_n\right)\right)\left(\mathrm{E}\left(X_n\right)-a\right)\right] \\
+&amp; =\operatorname{Var}\left(X_n\right)+\mathrm{E}\left(\left(X_n\right)-a\right)^2
+\end{aligned}
+$$
+By Chebyshev&rsquo;s Inequality(可以由马尔可夫不等式得到) :
+$$
+P\left(\left|X_n-X\right| \geq \epsilon\right) \leq \frac{\mathrm{E}\left(X_n-X\right)^2}{\epsilon^2} \\
+\text { or } P\left(\left|X_n-\mu\right| \geq k \sigma\right) \leq \frac{1}{k^2}
+$$
+For $\epsilon&gt;0$,
+$$
+\begin{aligned}
+&amp; 0 \leq P\left(\left|X_n-a\right|&gt;\epsilon\right)=P\left(\left(X_n-a\right)^2&gt;\epsilon^2\right) \\
+&amp; \leq \frac{\mathrm{E}\left(X_n-a\right)^2}{\epsilon^2}=\frac{\operatorname{Var}\left(X_n\right)+\left(\mathrm{E}\left(X_n\right)-a\right)^2}{\epsilon^2} \longrightarrow 0 \text { as } n \longrightarrow \infty . (\text{条件})\\
+&amp; \Rightarrow P\left(\left|X_n-a\right|&gt;\epsilon\right) \longrightarrow 0, \text { as } n \longrightarrow \infty . \Rightarrow X_n \xrightarrow{P} a .
+\end{aligned}
+$$
+<strong>Q.E.D.</strong><br>
+<strong>Remark.</strong> 上述定理中 $X_n$ 是统计量，我们同样可以用 $\hat{\theta}$ 将其表达，通过该定理，可以容易的判断统计量是否依概率收敛于参数。</p>
+<p><strong>Thm 6(Weak Law of Large Numbers,WLLN).</strong> If $X_1, \ldots, X_n$ is a random sample with mean $\mu$ and finite variance $\sigma^2$, then $\bar{X} \xrightarrow{P} \mu$.<br>
+<strong>Proof.</strong>
+$$
+\mathrm{E}(\bar{X})=\mu, \operatorname{Var}(\bar{X})=\frac{\sigma^2}{n} \longrightarrow 0 \text { as } n \longrightarrow \infty . \Rightarrow \bar{X} \xrightarrow{P} \mu
+$$
+<strong>Q.E.D.</strong><br>
+<strong>Remark.</strong> 上述定理中的 $X_1, \ldots, X_n$同样可以写为 $X_1^k, \ldots, X_n^k$,则可以得到，若 $Var(X^k)$ 有限，则 $\bar{X^k} \xrightarrow{P} \mathbb{E}X^k$.</p>
+<p>对于满足依概率收敛的统计量，有以下定义：</p>
+<p><strong>Def 7(一致估计量).</strong> We sat that $\hat{\theta}$ is a consistent estimator of $\theta$ if $\hat{\theta} \xrightarrow{P} \theta$ .<br>
+<strong>Remark.</strong> $\bar{X}和S^2$分别是 $\mu$ 和 $\sigma^2$一致估计量.</p>
+<p><strong>Def 8(Moments):</strong> Let $X$ be a random variable having a p.d.f. $f(x, \theta)$, the <strong>population $k_{t h}$ moment</strong> is defined by
+$$
+\mathrm{E}_\theta\left(X^k\right)= \begin{cases}\sum_{\text {all } x} x^k f(x, \theta) &amp; , \text { discrete } \\ \int_{-\infty}^{\infty} x^k f(x, \theta) d x &amp; , \text { continuous }\end{cases}
+$$
+The <strong>sample $k_{t h}$ moment</strong> is defined by $\frac{1}{n} \sum_{i=1}^n X_i{ }^k$.<br>
+<strong>Remark.</strong> 假设方差有限，样本原点矩是原点矩的无偏估计量和一致性估计量 (WLLN)。</p>
+<p><strong>Method 1:矩估计，Method of Moments, MoM</strong><br>
+使用样本矩估计原点矩，然后反解出参数 $\theta$ 作为 $\hat{\theta}$。<br>
+If $\theta=\left(\theta_1, \ldots, \theta_k\right)$ is $k$-variate, the method of moment estimator $\left(\hat{\theta_1}, \ldots, \hat{\theta_k}\right)$ solves $\theta_1, \ldots, \theta_k$ for
+$$
+\frac{1}{n} \sum_{i=1}^n X_i{ }^j=E_{\theta_1, \ldots, \theta_k}\left(X^j\right), j=1, \ldots, k
+$$
+<strong>Remark.</strong> 矩估计方法可以保证估计量相对于k阶原点矩是无偏且一致的，但无法保证中心矩的无偏性和一致性。</p>
+<h2 id="continue-to-point-estimation-umvue">Continue to Point Estimation-UMVUE
 </h2><h2 id="confidence-interval">Confidence Interval
 </h2>
 </section>
@@ -428,7 +521,7 @@ $$M_{\bar{X}}(t)M_{X_1-\bar{X},\ldots,X_n-\bar{X}}(t_1,\ldots,t_n) = M_{\bar{X},
 
 
         <span>
-            Last updated on Feb 21, 2025 00:09 CST
+            Last updated on Feb 21, 2025 00:22 CST
         </span>
     </section></footer>
 
