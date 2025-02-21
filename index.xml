@@ -69,7 +69,7 @@ M_{\mathbf{X}}(\mathbf{t}):=\mathrm{E}\left(e^{\mathbf{t}^{\mathrm{T}} \mathbf{X
 $$
 $M_X(0)$ always exists and is equal to 1 .
 &lt;br&gt;
-&lt;strong&gt;Note.&lt;/strong&gt; 几种常见分布的m.g.f:
+&lt;strong&gt;Note.&lt;/strong&gt; 几种常见分布的 m.g.f:
 $$
 \begin{cases}X \sim N\left(\mu, \sigma^2\right) &amp;amp; , M_x(t)=e^{\mu t+\frac{\sigma^2}{2} t^2}, \forall t \in R \\ X \sim \operatorname{Gamma}(\alpha, \beta) &amp;amp; , M_x(t)=(1-\beta t)^{-\alpha}, t&amp;lt;\frac{1}{\beta} \\ X \sim b(n, p) &amp;amp; , M_x(t)=\left(1-p+p e^t\right)^n, \forall t \in R \\ X \sim \operatorname{Poisson}(\lambda) &amp;amp; , M_x(t)=e^{\lambda\left(e^t-1\right)}, \forall t \in R\end{cases}
 $$&lt;/p&gt;
@@ -950,14 +950,18 @@ Afshin Rostamizadeh,and Ameet Talwalkar&lt;br&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;微处理器系统设计&lt;/p&gt;
+&lt;p&gt;参考书目：课堂讲义&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;软件工程&lt;/p&gt;
+&lt;p&gt;参考书目：课堂讲义&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;产品开发与营销&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;参考书目：课堂讲义
+&lt;/code&gt;&lt;/pre&gt;
 </description>
         </item>
         <item>
