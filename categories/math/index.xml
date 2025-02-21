@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Math on Haitong Lan</title>
-        <link>http://localhost:57367/categories/math/</link>
+        <link>http://localhost:1313/categories/math/</link>
         <description>Recent content in Math on Haitong Lan</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Tue, 18 Feb 2025 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:57367/categories/math/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 18 Feb 2025 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/math/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>学习笔记|信息论</title>
-        <link>http://localhost:57367/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/</link>
+        <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/</link>
         <pubDate>Tue, 18 Feb 2025 00:21:05 +0800</pubDate>
         
-        <guid>http://localhost:57367/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/</guid>
-        <description>&lt;img src="http://localhost:57367/post_file/%E4%BF%A1%E6%81%AF%E8%AE%BA/cover.png" alt="Featured image of post 学习笔记|信息论" /&gt;&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
+        <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%BF%A1%E6%81%AF%E8%AE%BA/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/%E4%BF%A1%E6%81%AF%E8%AE%BA/cover.png" alt="Featured image of post 学习笔记|信息论" /&gt;&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
 &lt;/h2&gt;&lt;p&gt;信息论（2019年春）台湾交通大学陈伯宁，哔哩哔哩视频：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV14N41197bN/?p=8&amp;amp;share_source=copy_web&amp;amp;vd_source=b6424cece237934105a841d3b575c671&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;信息论（2019年春）台湾交通大学陈伯宁&lt;/a&gt;,参考网站：&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/?course_page=all-course%2Fcollege-of-electrical-and-computer-engineering%2F%E6%B6%88%E6%81%AF%E7%90%86%E8%AB%96-information-theory-107%E5%AD%B8%E5%B9%B4%E5%BA%A6-%E9%9B%BB%E6%A9%9F%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%B3%BB-%E9%99%B3%E4%BC%AF%E5%AF%A7%E8%80%81%E5%B8%AB&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;消息理論&lt;/a&gt;,参考书籍：An Introduction to Single-User Information Theory。该课程将严格的证明香农三大定律，并进行拓展。&lt;/p&gt;
@@ -29,11 +29,11 @@
         </item>
         <item>
         <title>学习笔记|数理统计</title>
-        <link>http://localhost:57367/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</link>
+        <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</link>
         <pubDate>Sun, 26 Jan 2025 00:21:05 +0800</pubDate>
         
-        <guid>http://localhost:57367/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</guid>
-        <description>&lt;img src="http://localhost:57367/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png" alt="Featured image of post 学习笔记|数理统计" /&gt;&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
+        <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png" alt="Featured image of post 学习笔记|数理统计" /&gt;&lt;h2 id=&#34;课程介绍&#34;&gt;课程介绍
 &lt;/h2&gt;&lt;p&gt;统计研究院陳鄰安老师数理统计，参考网站：&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/?post_type=course_page&amp;amp;p=25566&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;统计学1&lt;/a&gt;，&lt;a class=&#34;link&#34; href=&#34;https://ocw.nycu.edu.tw/?post_type=course_page&amp;amp;p=25439&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;统计学2&lt;/a&gt;;youtube课程：&lt;a class=&#34;link&#34; href=&#34;https://youtube.com/playlist?list=PLRklqGYqFmaLQlgeVi_tyKY12QjqS48N-&amp;amp;si=XVTZSHO2CrYsZoek&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -70,16 +70,18 @@ $$&lt;/p&gt;
 &lt;p&gt;mgf method :(moment generating function)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-  &lt;div&gt;
-  $$
-  \begin{aligned}
-    E\left[e^{t x}\right]= \begin{cases}\sum e^{t x} f(x) &amp; \text { (discrete) } \\ 
-  \int_{-\infty}^{\infty} e^{t x} f(x) d x &amp; \text { (continuous) }\end{cases}
-  \end{aligned}
-  $$
-  &lt;/div&gt;
+&lt;p&gt;$$
+\begin{aligned}
+E\left[e^{t x}\right]= \begin{cases}\sum e^{t x} f(x) &amp;amp; \text { (discrete) } \\
+\int_{-\infty}^{\infty} e^{t x} f(x) d x &amp;amp; \text { (continuous) }\end{cases}
+\end{aligned}
+$$&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Thm 3.&lt;/strong&gt; m.g.f. $M_x(t)$ and its distribution (p.d.f. or d.f.) forms a $1-1$ functions.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Thm 4.&lt;/strong&gt; $\quad M_X^{(k)}(0)=E\left[X^k\right], k=1,2, \cdots$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note.&lt;/strong&gt; 几种常见分布的m.g.f:
+$$
+\begin{cases}X \sim N\left(\mu, \sigma^2\right) &amp;amp; , M_x(t)=e^{\mu t+\frac{\sigma^2}{2} t^2}, \forall t \in R \\ X \sim \operatorname{Gamma}(\alpha, \beta) &amp;amp; , M_x(t)=(1-\beta t)^{-\alpha}, t&amp;lt;\frac{1}{\beta} \\ X \sim b(n, p) &amp;amp; , M_x(t)=\left(1-p+p e^t\right)^n, \forall t \in R \\ X \sim \operatorname{Poisson}(\lambda) &amp;amp; , M_x(t)=e^{\lambda\left(e^t-1\right)}, \forall t \in R\end{cases}
+$$&lt;/p&gt;
 &lt;h3 id=&#34;probability-distribution&#34;&gt;Probability distribution
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Def 1.&lt;/strong&gt; Gamma function $\Gamma(\alpha)=\int_0^{\infty} x^{\alpha-1} e^{-x} d x$&lt;br&gt;
 &lt;strong&gt;Properties:&lt;/strong&gt;&lt;/p&gt;
@@ -100,25 +102,23 @@ f(x)=\frac{1}{\Gamma\left(\frac{r}{2}\right) 2^{\frac{r}{2}}} x^{\frac{r}{2}-1} 
 $$&lt;/p&gt;
 &lt;p&gt;We denote by $X \sim \chi^2(r)$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ex 1.&lt;/strong&gt; If $X \sim \operatorname{Gamma}(\alpha, \beta)$, m.g.f of $X$ is&lt;/p&gt;
-&lt;div&gt;
-$$
+&lt;p&gt;$$
 \begin{aligned}
-M_X(t) &amp; =E\left[e^{t X}\right]=\int_0^{\infty} e^{t x} \frac{1}{\Gamma(\alpha) \beta^\alpha} x^{\alpha-1} e^{-\frac{x}{\beta}} d x=\int_0^{\infty} \frac{1}{\Gamma(\alpha) \beta^\alpha} x^{\alpha-1} e^{-\frac{(1-\beta t) x}{\beta}} d x \\
-&amp; =(1-\beta t)^{-\alpha} \int_0^{\infty} \frac{1}{\Gamma(\alpha)\left(\frac{\beta}{1-\beta t}\right)^2} x^{\alpha-1} e^{-\frac{x}{1-\beta t}} d x \\
-&amp; =(1-\beta t)^{-\alpha}, t&lt;\frac{1}{\beta} \\
-&amp; \because \frac{\beta}{1-\beta t}&gt;0 \Rightarrow 1-\beta t&gt;0 \Rightarrow t&lt;\frac{1}{\beta} \\
-M_X^{\prime}(t) &amp; =\alpha(1-\beta t)^{-\alpha-1} \beta \\
-&amp; \Rightarrow \operatorname{Mean} \mu=E[X]=M_X^{\prime}(0)=\alpha \beta \\
-M_X^{\prime \prime}(t) &amp; =\alpha(\alpha+1)(1-\beta t)^{-\alpha-2} \beta^2 \\
-&amp; \Rightarrow E\left[X^2\right]=M_X^{\prime \prime}(0)=\alpha(\alpha+1) \beta^2 \\
-&amp; \Rightarrow \text { Variance } \sigma^2=M_X^{\prime \prime}(0)-\left(M_X^{\prime}(0)\right)^2=\alpha(\alpha+1) \beta^2-(\alpha \beta)^2=\alpha \beta^2
+M_X(t) &amp;amp; =E\left[e^{t X}\right]=\int_0^{\infty} e^{t x} \frac{1}{\Gamma(\alpha) \beta^\alpha} x^{\alpha-1} e^{-\frac{x}{\beta}} d x=\int_0^{\infty} \frac{1}{\Gamma(\alpha) \beta^\alpha} x^{\alpha-1} e^{-\frac{(1-\beta t) x}{\beta}} d x \\
+&amp;amp; =(1-\beta t)^{-\alpha} \int_0^{\infty} \frac{1}{\Gamma(\alpha)\left(\frac{\beta}{1-\beta t}\right)^2} x^{\alpha-1} e^{-\frac{x}{1-\beta t}} d x \\
+&amp;amp; =(1-\beta t)^{-\alpha}, t&amp;lt;\frac{1}{\beta} \\
+&amp;amp; \because \frac{\beta}{1-\beta t}&amp;gt;0 \Rightarrow 1-\beta t&amp;gt;0 \Rightarrow t&amp;lt;\frac{1}{\beta} \\
+M_X^{\prime}(t) &amp;amp; =\alpha(1-\beta t)^{-\alpha-1} \beta \\
+&amp;amp; \Rightarrow \operatorname{Mean} \mu=E[X]=M_X^{\prime}(0)=\alpha \beta \\
+M_X^{\prime \prime}(t) &amp;amp; =\alpha(\alpha+1)(1-\beta t)^{-\alpha-2} \beta^2 \\
+&amp;amp; \Rightarrow E\left[X^2\right]=M_X^{\prime \prime}(0)=\alpha(\alpha+1) \beta^2 \\
+&amp;amp; \Rightarrow \text { Variance } \sigma^2=M_X^{\prime \prime}(0)-\left(M_X^{\prime}(0)\right)^2=\alpha(\alpha+1) \beta^2-(\alpha \beta)^2=\alpha \beta^2
 \end{aligned}
-$$
-&lt;/div&gt;
+$$&lt;/p&gt;
 &lt;h3 id=&#34;random-voctor&#34;&gt;Random Voctor
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Definition 1.&lt;/strong&gt;  Suppose that the random variables $X$ and $Y$
 are defined to assume values in $\displaystyle I\subseteq \mathbb {R}$.
-We say that $n$ random variables $X_1, \ldots, X_n$ are i.i.d(Independent and identically distributed random variables).  If and only if&lt;/p&gt;
+We say that $n$ random variables $X_1, \ldots, X_n$ are &lt;strong&gt;i.i.d(Independent and identically distributed random variables)&lt;/strong&gt;.  If and only if&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$F_{X_1}(x)=F_{X_k}(x)$ , $\forall k \in{1, \ldots, n}$ and $\forall x \in I$&lt;/li&gt;
 &lt;li&gt;$F_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right)=F_{X_1}\left(x_1\right) \cdot \ldots \cdot F_{X_n}\left(x_n\right)$ , $\forall x_1, \ldots, x_n \in I$&lt;/li&gt;
@@ -132,7 +132,7 @@ x_1 \\
 x_n
 \end{array}\right) \in A\right)=\int \cdots \int f_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right) d x_1 \cdots d x_n
 $$
-Let $y_1=g_1\left(x_1, \ldots, x_n\right), \cdots, y_n=g_n\left(x_1, \ldots, x_n\right)$ be a $1-1$ function with inverse $x_1=w_1\left(y_1, \ldots, y_n\right), \cdots, x_n=w_n\left(y_1, \ldots, y_n\right)$ and Jacobian
+Let $y_1=g_1\left(x_1, \ldots, x_n\right), \cdots, y_n=g_n\left(x_1, \ldots, x_n\right)$ be a $1-1$ function with inverse $x_1=w_1\left(y_1, \ldots, y_n\right), \cdots, x_n=w_n\left(y_1, \ldots, y_n\right)$ and &lt;strong&gt;Jacobian&lt;/strong&gt;
 $$
 J=\left|\begin{array}{ccr}
 \frac{\partial x_1}{\partial y_1} &amp;amp; \cdots &amp;amp; \frac{\partial x_1}{\partial y_n} \\
@@ -154,6 +154,23 @@ $$
 &lt;br&gt;
 &lt;strong&gt;Remark.&lt;/strong&gt; 可以用该方法构造从$n$个随机变量的联合分布到另外$n$个随机变量联合分布的映射(注意映射到的值域)，
 然后再通过积分的方式获得边缘联合分布。&lt;/p&gt;
+&lt;h3 id=&#34;统计基础&#34;&gt;统计基础
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Def 1.&lt;/strong&gt; If a sequence of r.v.&amp;rsquo;s $X_1,\cdots,X_n$ are i.i.d.,then they are called a &lt;strong&gt;random sample&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Def 2.&lt;/strong&gt; Any function $g(X_1,\cdots,X_n)$ of a random sample $X_1,\cdots,X_n$ which is
+not dependent on a parameter $\theta$ is called a &lt;strong&gt;statistic&lt;/strong&gt;.&lt;br&gt;
+&lt;strong&gt;Note.&lt;/strong&gt; If $X$ is a random sample with p.d.f. $f(x;\theta)$, where $\theta$ is an unknown constant, then $\theta$ is called &lt;strong&gt;parameter&lt;/strong&gt;.统计量是已知的东西(从样本中直接获得)，参数是未知的，也是需要估计的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lemma 2.&lt;/strong&gt; $X_1$ and $X_2$ are independent if and only if
+$$
+M_{X_1, X_2}\left(t_1, t_2\right)=M_{X_1}\left(t_1\right) M_{X_2}\left(t_2\right), \forall t_1, t_2 .
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note.&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If $\left(X_1, \ldots, X_n\right)$ and $\left(Y_1, \ldots, Y_m\right)$ are independent（that is:$f(X_1, \ldots, X_n,Y_1, \ldots, Y_m) = f(X_1, \ldots, X_n)f(Y_1, \ldots, Y_m)$）, then $g\left(X_1, \ldots, X_n\right)$ and $h\left(Y_1, \ldots, Y_m\right)$ are also independent.&lt;/li&gt;
+&lt;li&gt;If $X, Y$ are independent, then
+$$
+\mathrm{E}[g(X) h(Y)]=\mathrm{E}[g(X)] \mathrm{E}[h(Y)]
+$$&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2 id=&#34;statistical-inference---point-estimation&#34;&gt;Statistical Inference - Point Estimation
 &lt;/h2&gt;&lt;h2 id=&#34;continue-to-point-estimation-umvue&#34;&gt;Continue to Point Estimation-UMVUE
 &lt;/h2&gt;&lt;h2 id=&#34;confidence-interval&#34;&gt;Confidence Interval
@@ -161,11 +178,11 @@ $$
         </item>
         <item>
         <title>学习笔记|高等代数</title>
-        <link>http://localhost:57367/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/</link>
+        <link>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/</link>
         <pubDate>Sun, 26 Jan 2025 00:21:05 +0800</pubDate>
         
-        <guid>http://localhost:57367/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/</guid>
-        <description>&lt;img src="http://localhost:57367/post_file/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/cover.jpg" alt="Featured image of post 学习笔记|高等代数" /&gt;&lt;!-- &lt;style&gt;
+        <guid>http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/cover.jpg" alt="Featured image of post 学习笔记|高等代数" /&gt;&lt;!-- &lt;style&gt;
 body {
     font-family: &#39;微软雅黑&#39;, sans-serif; /* 使用微软雅黑作为首选字体,如果不可用则回退到无衬线字体 */
     --article-font-size: 3.5
@@ -573,7 +590,74 @@ I_r &amp;amp; 0 \\
 \end{array}\right)
 \end{aligned}Q$是一种分析和证明的方法。&lt;/p&gt;
 &lt;h2 id=&#34;第三章-线性空间&#34;&gt;第三章 线性空间
-&lt;/h2&gt;&lt;h2 id=&#34;第四章-线性映射&#34;&gt;第四章 线性映射
+&lt;/h2&gt;&lt;h3 id=&#34;数域线性空间以及线性关系&#34;&gt;数域、线性空间以及线性关系
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定义 1(数域，数环).&lt;/strong&gt; 设 $\mathbb{K}$ 是复数集 $\mathbb{C}$ 的子集，且至少有两个不同的元素(等价定义：至少含有1和0)，如果 $\mathbb{K}$ 中任意两个数的加减乘除运算依然属于 $\mathbb{K}$，则 $\mathbb{K}$ 被称为一个数域，如果 $\mathbb{K}$ 对加减乘三个运算封闭，则 $\mathbb{K}$ 被称为一个数环，所以数域也是数环。&lt;br&gt;
+&lt;strong&gt;注.&lt;/strong&gt; $\mathbb{Z\subseteq Q\subseteq R\subseteq C} $,即整数属于有理数属于实数属于复数，有理数、实数、复数都是数域，整数是数环。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 2.&lt;/strong&gt; 任何一个数域都包含有理数域 $\mathbb{Q}$,即有理数域是最小的数域。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定义 3(线性空间).&lt;/strong&gt; 设 $\mathbb{K}$ 是一个数域，$V$ 是一个集合.在 $V$ 上定义了一个加法＂+ ＂：
+$V\times V\rightarrow V$,
+即对 $V$ 中任意两个元素 $\alpha, \beta$ ，总存在 $V$ 中唯一的元素 $\gamma$ 与之对应，记为 $\gamma=$ $\alpha+\beta$ ．在数域 $\mathbb{K}$ 与 $V$ 之间定义了一种运算，称为数乘&amp;quot;$\cdot$&amp;quot;: $\mathbb{K} \times V \rightarrow V $ ，即对 $\mathbb{K}$ 中任一数 $k$ 及 $V$中任一元素 $\boldsymbol{\alpha}$ ，在 $V$ 中总有唯一的元素 $\delta$ 与之对应，记为 $\delta=k \boldsymbol{\alpha}$ ．若上述加法及数乘满足下列运算规则：&lt;br&gt;
+（1）加法交换律：$\alpha+\beta=\beta+\alpha$ ； &lt;br&gt;
+（2）加法结合律：$(\boldsymbol{\alpha}+\boldsymbol{\beta})+\boldsymbol{\gamma}=\boldsymbol{\alpha}+(\boldsymbol{\beta}+\boldsymbol{\gamma})$ ；&lt;br&gt;
+（3）在 $V$ 中存在一个元素 0 ，对于 $V$ 中任一元素 $\alpha$ ，都有 $\alpha+0=\alpha$ ；&lt;br&gt;
+（4）对于 $V$ 中每个元素 $\alpha$ ，存在元素 $\boldsymbol{\beta}$ ，使 $\alpha+\beta=0$ ；&lt;br&gt;
+（5） $1 \cdot \alpha=\alpha$ ；&lt;br&gt;
+（6）$k(\boldsymbol{\alpha}+\boldsymbol{\beta})=k \boldsymbol{\alpha}+k \boldsymbol{\beta}$ ；&lt;br&gt;
+（7）$(k+l) \boldsymbol{\alpha}=k \boldsymbol{\alpha}+l \boldsymbol{\alpha}$ ；&lt;br&gt;
+（8）$k(l \boldsymbol{\alpha})=(k l) \boldsymbol{\alpha}$ ，&lt;br&gt;
+其中 $\boldsymbol{\alpha}, \boldsymbol{\beta}, \boldsymbol{\gamma}$ 是 $V$ 中任意的元素，$k, l$ 是 $\mathbb{K}$ 中任意的数，则集合 $V$ 称为数域 $\mathbb{K}$ 上的线性空间或向量空间，$\mathbb{K}$被称为线性空间$V$的基域。$V$ 中的元素称为向量 $V$ 中适合（3）的元素 0 称为零向量．对 $V$ 中的元素 $\alpha$ ，适合 $\alpha+\beta=0$ 的元素 $\beta$ 称为 $\alpha$ 的负向量，记为 $-\alpha$ ．&lt;br&gt;
+&lt;strong&gt;注 1.&lt;/strong&gt; 在实际问题中，我们经常会碰到满足上述八条性质的集合，例如信号处理中使用的信号空间，并且有必要将其抽象成线性空间，来研究其统一性质，对于抽象的线性空间，向量只是该集合的一个元素，没有任何其它附加的含义。&lt;br&gt;
+&lt;strong&gt;注 2.&lt;/strong&gt; 数域 $\mathbb{K}$ 上的 $n$ 维行向量（列向量）集合被称为 $\mathbb{K}$ 上的线性空间，经常将其记为 $\mathbb{K}_n(\mathbb{K}^n)$。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;命题 4.&lt;/strong&gt; 现在说明一些线性空间的基本性质：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;零向量唯一。&lt;/li&gt;
+&lt;li&gt;负向量唯一。&lt;/li&gt;
+&lt;li&gt;加法满足消去律：等式两边可以同时减去一个数并且保证等式成立。&lt;/li&gt;
+&lt;li&gt;$-\alpha = (-1)\alpha$&lt;/li&gt;
+&lt;li&gt;若 $k\alpha = 0$,则 $k = 0$ 或 $\alpha = 0$。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;问题.&lt;/strong&gt; 考虑线性方程组问题：$Ax = \beta$,$A\in M_{m\times n}(\mathbb{K})$。&lt;br&gt;
+可以将 $A$ 写为列分块的方式进行计算：
+$$
+Ax =\left(\alpha_1,\alpha_2,\cdots,\alpha_n \right)\left(\begin{array}{c}
+x_1  \\
+x_2  \\
+\vdots \\
+x_n
+\end{array}\right) = \sum_{i = 1}^{n} x_i\alpha_i  = \beta
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定义 5.&lt;/strong&gt; $V$ 是 $\mathbb{K}$ 上的线性空间(以后简记为$V_\mathbb{K}$)，向量 $\alpha_1,\alpha_2,\cdots,\alpha_n,\beta\in V$,若存在 $\mathbb{K}$ 中的 $n$ 个数 $k_1,k_2\cdots k_n$,s.t.&lt;br&gt;
+$$
+\sum_{i = 1}^{n} k_i\alpha_i  = \beta
+$$
+则称 $\beta$  为 $\alpha_1,\alpha_2,\cdots,\alpha_n$ 的线性组合或者 $\beta$可以由 $\alpha_1,\alpha_2,\cdots,\alpha_n$ 线性表示。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定义 6.&lt;/strong&gt; 设 $V$ 是数域 $\mathbb{K}$ 上的线性空间， $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \cdots, \boldsymbol{\alpha}_n$ 是 $V$ 中的 $n$ 个向量，若存在 $\mathbb{K}$ 中不全为零的 $n$ 个数 $k_1, k_2, \cdots, k_n$ ，使
+$$
+k_1 \boldsymbol{\alpha}_1+k_2 \boldsymbol{\alpha}_2+\cdots+k_n \boldsymbol{\alpha}_n=\mathbf{0}
+$$
+则称 $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \cdots, \boldsymbol{\alpha}_n$ 线性相关．反之，若不存在 $\mathbb{K}$ 中不全为零的数 $k_1, k_2, \cdots, k_n$ ，使上式成立，则称 $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \cdots, \boldsymbol{\alpha}_n$ 线性无关或线性独立．&lt;br&gt;
+&lt;strong&gt;注.&lt;/strong&gt; 线性相关性的存在与否极大程度上依赖于线性空间的基域，如果基域发生变化。线性相关性可能会发生变化，线性无关也有等价定义：使其线性组合为0的系数全为0.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 7.&lt;/strong&gt; 若 $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \cdots, \boldsymbol{\alpha}_m$  是一组线性相关的向量，则任一包含这组向量的向量组必线性相关，又若 $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \cdots, \boldsymbol{\alpha}_m$ 是一组线性无关的向量，则从这一组向量中任意取出一组向量必线性无关。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 8.&lt;/strong&gt; 设 $\alpha_1, \alpha_2, \cdots, \alpha_m$ 是线性空间 $V$ 中的向量，则 $\alpha_1, \alpha_2, \cdots, \alpha_m$线性相关的充分必要条件是其中至少有一个向量可以表示为其余向量的线性组合．&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;定理 9（线性表示唯一的条件）.&lt;/strong&gt; 设 $\alpha_1, \alpha_2, \cdots, \alpha_m, \beta$ 是线性空间 $V$ 中的向量．已知 $\beta$ 可表示为 $\alpha_1, \alpha_2, \cdots, \alpha_m$ 的线性组合，即
+$$
+\boldsymbol{\beta}=k_1 \boldsymbol{\alpha}_1+k_2 \boldsymbol{\alpha}_2+\cdots+k_m \boldsymbol{\alpha}_m
+$$
+则表示唯一的充分必要条件是向量 $\boldsymbol{\alpha}_1, \boldsymbol{\alpha}_2, \cdots, \boldsymbol{\alpha}_m$ 线性无关．&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;线性相关的几何意义及思考&lt;/strong&gt;&lt;br&gt;
+对于二维欧氏空间 $\mathbb{R}^2$,存在向量 $OA = (a_1,a_2),OB = (b_1,b_2)$,若二者线性相关，则 $OAB$共线;若线性无关，则 $OAB$ 构成一个非退化的三角形，面积为$\frac{1}{2}\left|\begin{array}{ll}
+a_1 &amp;amp; a_2 \\
+b_1 &amp;amp; b_2
+\end{array}\right|$,该行列式不为0.&lt;br&gt;
+对于三维欧氏空间 $\mathbb{R}^3$,存在向量 $OA = (a_1,a_2,a_3),OB = (b_1,b_2,b_3),OC = (c_1,c_2,c_2)$,若三者线性相关，则 $OABC$四点共面;若线性无关，则 $OABC$ 构成一个非退化的四面体，体积为$\frac{1}{6}\left|\begin{array}{lll}
+a_1 &amp;amp; a_2 &amp;amp;a_3\\
+b_1 &amp;amp; b_2 &amp;amp;b_3\\
+c_1&amp;amp;c_2&amp;amp;c_3
+\end{array}\right|$,该行列式不为0.&lt;br&gt;
+$\cdots$&lt;br&gt;
+以此类推，$n$ 维欧氏空间的向量组线性无关的条件是否为行列式不等零？&lt;/p&gt;
+&lt;h2 id=&#34;第四章-线性映射&#34;&gt;第四章 线性映射
 &lt;/h2&gt;&lt;h2 id=&#34;第五章-多项式&#34;&gt;第五章 多项式
 &lt;/h2&gt;&lt;h2 id=&#34;第六章-特征值&#34;&gt;第六章 特征值
 &lt;/h2&gt;&lt;h2 id=&#34;第七章-相似标准型&#34;&gt;第七章 相似标准型
@@ -584,27 +668,27 @@ I_r &amp;amp; 0 \\
         </item>
         <item>
         <title>My mathematical modeling</title>
-        <link>http://localhost:57367/p/my-mathematical-modeling/</link>
+        <link>http://localhost:1313/p/my-mathematical-modeling/</link>
         <pubDate>Sat, 17 Aug 2024 00:21:05 +0800</pubDate>
         
-        <guid>http://localhost:57367/p/my-mathematical-modeling/</guid>
-        <description>&lt;img src="http://localhost:57367/post_file/My_mathematical_modeling/cover.png" alt="Featured image of post My mathematical modeling" /&gt;&lt;h1 id=&#34;centermy-mathematical-modelingcenter&#34;&gt;&lt;center&gt;My mathematical modeling&lt;/center&gt;
+        <guid>http://localhost:1313/p/my-mathematical-modeling/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/My_mathematical_modeling/cover.png" alt="Featured image of post My mathematical modeling" /&gt;&lt;h1 id=&#34;centermy-mathematical-modelingcenter&#34;&gt;&lt;center&gt;My mathematical modeling&lt;/center&gt;
 &lt;/h1&gt;&lt;p&gt;这篇blog用于记录和整理我参加过的数学建模比赛以及论文。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;2024年美国大学生数学竞赛(D题)，五大湖水位控制：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/My_mathematical_modeling/%e7%be%8e%e8%b5%9b.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
-&lt;li&gt;2024年全国大学生统计建模竞赛，山火预测与调控：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/My_mathematical_modeling/%e7%bb%9f%e8%ae%a1%e5%bb%ba%e6%a8%a1.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
-&lt;li&gt;2024年北京邮电大学数学建模训练营选拔，定日镜场优化：&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/My_mathematical_modeling/%e5%ae%9a%e6%97%a5%e9%95%9c%e5%9c%ba.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
-&lt;li&gt;2024年全国大学生数学竞赛(B题)，生产过程中的决策问题:&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/My_mathematical_modeling/%e5%9b%bd%e8%b5%9b.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;2024年美国大学生数学竞赛(D题)，五大湖水位控制：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/My_mathematical_modeling/%e7%be%8e%e8%b5%9b.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;2024年全国大学生统计建模竞赛，山火预测与调控：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/My_mathematical_modeling/%e7%bb%9f%e8%ae%a1%e5%bb%ba%e6%a8%a1.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;2024年北京邮电大学数学建模训练营选拔，定日镜场优化：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/My_mathematical_modeling/%e5%ae%9a%e6%97%a5%e9%95%9c%e5%9c%ba.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;2024年全国大学生数学竞赛(B题)，生产过程中的决策问题:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/My_mathematical_modeling/%e5%9b%bd%e8%b5%9b.pdf&#34; &gt;PDF&lt;/a&gt;。&lt;/li&gt;
 &lt;/ol&gt;
 </description>
         </item>
         <item>
         <title>Bayesian signal processing</title>
-        <link>http://localhost:57367/p/bayesian-signal-processing/</link>
+        <link>http://localhost:1313/p/bayesian-signal-processing/</link>
         <pubDate>Wed, 14 Aug 2024 20:00:00 +0800</pubDate>
         
-        <guid>http://localhost:57367/p/bayesian-signal-processing/</guid>
-        <description>&lt;img src="http://localhost:57367/post_file/Bayesian_signal_processing/cover.png" alt="Featured image of post Bayesian signal processing" /&gt;&lt;h1 id=&#34;centerbayesian-signal-processingcenter&#34;&gt;&lt;center&gt;Bayesian signal processing&lt;/center&gt;
+        <guid>http://localhost:1313/p/bayesian-signal-processing/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/Bayesian_signal_processing/cover.png" alt="Featured image of post Bayesian signal processing" /&gt;&lt;h1 id=&#34;centerbayesian-signal-processingcenter&#34;&gt;&lt;center&gt;Bayesian signal processing&lt;/center&gt;
 &lt;/h1&gt;&lt;p&gt;该博客为张颢老师所讲的&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Rm421H7Dc?p=15&amp;amp;vd_source=6cb8982c017348075d81bfccb9a89ae5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;现代信号处理的贝叶斯信号处理部分&lt;/a&gt;的课程个人学习笔记,涵盖贝叶斯公式的含义,贝叶斯学派与频率学派的关系,贝叶斯统计模型的目标函数,蒙特卡洛采样和贝叶斯滤波的内容。&lt;/p&gt;
 &lt;h2 id=&#34;introduce-to-bayes-method&#34;&gt;Introduce to bayes method
@@ -993,23 +1077,23 @@ body {
         </item>
         <item>
         <title>Correlation operation and random signal processing</title>
-        <link>http://localhost:57367/p/correlation-operation-and-random-signal-processing/</link>
+        <link>http://localhost:1313/p/correlation-operation-and-random-signal-processing/</link>
         <pubDate>Wed, 07 Aug 2024 23:30:00 +0800</pubDate>
         
-        <guid>http://localhost:57367/p/correlation-operation-and-random-signal-processing/</guid>
-        <description>&lt;img src="http://localhost:57367/post_file/Correlation_operation_and_random_signal_processing/cover.png" alt="Featured image of post Correlation operation and random signal processing" /&gt;&lt;h1 id=&#34;centercorrelation-operation-and-random-signal-processingcenter&#34;&gt;&lt;center&gt;Correlation operation and random signal processing&lt;/center&gt;
-&lt;/h1&gt;&lt;p&gt;My midterm paper on &lt;em&gt;probability theory and stochastic processes&lt;/em&gt;. This paper describes the concept of &lt;strong&gt;correlation operation&lt;/strong&gt;, mainly introduces the application of correlation operation in &lt;strong&gt;random signal processing&lt;/strong&gt;, including stationary random signal, blind source separation, template matching filter. You can read my course papers in this link:&lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/Correlation_operation_and_random_signal_processing/paper.pdf&#34; &gt;Correlation operation and random signal processing&lt;/a&gt;.&lt;/p&gt;
+        <guid>http://localhost:1313/p/correlation-operation-and-random-signal-processing/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/Correlation_operation_and_random_signal_processing/cover.png" alt="Featured image of post Correlation operation and random signal processing" /&gt;&lt;h1 id=&#34;centercorrelation-operation-and-random-signal-processingcenter&#34;&gt;&lt;center&gt;Correlation operation and random signal processing&lt;/center&gt;
+&lt;/h1&gt;&lt;p&gt;My midterm paper on &lt;em&gt;probability theory and stochastic processes&lt;/em&gt;. This paper describes the concept of &lt;strong&gt;correlation operation&lt;/strong&gt;, mainly introduces the application of correlation operation in &lt;strong&gt;random signal processing&lt;/strong&gt;, including stationary random signal, blind source separation, template matching filter. You can read my course papers in this link:&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/Correlation_operation_and_random_signal_processing/paper.pdf&#34; &gt;Correlation operation and random signal processing&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>A non-uniform node finite difference algorithm</title>
-        <link>http://localhost:57367/p/a-non-uniform-node-finite-difference-algorithm/</link>
+        <link>http://localhost:1313/p/a-non-uniform-node-finite-difference-algorithm/</link>
         <pubDate>Wed, 07 Aug 2024 00:22:00 +0800</pubDate>
         
-        <guid>http://localhost:57367/p/a-non-uniform-node-finite-difference-algorithm/</guid>
-        <description>&lt;img src="http://localhost:57367/post_file/non_uni_ode/cover1.png" alt="Featured image of post A non-uniform node finite difference algorithm" /&gt;&lt;h1 id=&#34;centera-non-uniform-node-finite-difference-algorithmcenter&#34;&gt;&lt;center&gt;A non-uniform node finite difference algorithm&lt;/center&gt;
-&lt;/h1&gt;&lt;p&gt;Final design of &lt;em&gt;calculation method&lt;/em&gt; course in the first semester of sophomore year. Based on the finite difference method , I proposed an ODE algorithm of &lt;strong&gt;non-uniform finite difference&lt;/strong&gt; , and verified by &lt;em&gt;Matlab&lt;/em&gt; simulation, the accuracy of the solution is improved by &lt;em&gt;10%&lt;/em&gt; . You can find this course paper in this pdf : &lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/non_uni_ode/odepaper.pdf&#34; &gt;A non-uniform node finite difference algorithm&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In addition , I made an academic poster for a simulated academic conference in the college.You can find in this pdf : &lt;a class=&#34;link&#34; href=&#34;http://localhost:57367/post_file/non_uni_ode/Poster.pdf&#34; &gt;Poster&lt;/a&gt;.&lt;/p&gt;
+        <guid>http://localhost:1313/p/a-non-uniform-node-finite-difference-algorithm/</guid>
+        <description>&lt;img src="http://localhost:1313/post_file/non_uni_ode/cover1.png" alt="Featured image of post A non-uniform node finite difference algorithm" /&gt;&lt;h1 id=&#34;centera-non-uniform-node-finite-difference-algorithmcenter&#34;&gt;&lt;center&gt;A non-uniform node finite difference algorithm&lt;/center&gt;
+&lt;/h1&gt;&lt;p&gt;Final design of &lt;em&gt;calculation method&lt;/em&gt; course in the first semester of sophomore year. Based on the finite difference method , I proposed an ODE algorithm of &lt;strong&gt;non-uniform finite difference&lt;/strong&gt; , and verified by &lt;em&gt;Matlab&lt;/em&gt; simulation, the accuracy of the solution is improved by &lt;em&gt;10%&lt;/em&gt; . You can find this course paper in this pdf : &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/non_uni_ode/odepaper.pdf&#34; &gt;A non-uniform node finite difference algorithm&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In addition , I made an academic poster for a simulated academic conference in the college.You can find in this pdf : &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post_file/non_uni_ode/Poster.pdf&#34; &gt;Poster&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         

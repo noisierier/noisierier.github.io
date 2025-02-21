@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Haitong Lan</title>
-        <link>http://localhost:57367/categories/</link>
+        <link>http://localhost:1313/categories/</link>
         <description>Recent content in Categories on Haitong Lan</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Haitong&#39;s blog</copyright>
-        <lastBuildDate>Tue, 18 Feb 2025 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:57367/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 18 Feb 2025 00:21:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Math</title>
-        <link>http://localhost:57367/categories/math/</link>
+        <link>http://localhost:1313/categories/math/</link>
         <pubDate>Tue, 18 Feb 2025 00:21:05 +0800</pubDate>
         
-        <guid>http://localhost:57367/categories/math/</guid>
+        <guid>http://localhost:1313/categories/math/</guid>
         <description></description>
         </item>
         <item>
         <title>Note</title>
-        <link>http://localhost:57367/categories/note/</link>
+        <link>http://localhost:1313/categories/note/</link>
         <pubDate>Tue, 18 Feb 2025 00:21:05 +0800</pubDate>
         
-        <guid>http://localhost:57367/categories/note/</guid>
+        <guid>http://localhost:1313/categories/note/</guid>
         <description></description>
         </item>
         <item>
         <title>Machine Learning</title>
-        <link>http://localhost:57367/categories/machine-learning/</link>
+        <link>http://localhost:1313/categories/machine-learning/</link>
         <pubDate>Mon, 02 Dec 2024 16:50:00 +0800</pubDate>
         
-        <guid>http://localhost:57367/categories/machine-learning/</guid>
+        <guid>http://localhost:1313/categories/machine-learning/</guid>
         <description></description>
         </item>
         <item>
         <title>Tutorial</title>
-        <link>http://localhost:57367/categories/tutorial/</link>
+        <link>http://localhost:1313/categories/tutorial/</link>
         <pubDate>Mon, 02 Dec 2024 16:50:00 +0800</pubDate>
         
-        <guid>http://localhost:57367/categories/tutorial/</guid>
+        <guid>http://localhost:1313/categories/tutorial/</guid>
         <description></description>
         </item>
         

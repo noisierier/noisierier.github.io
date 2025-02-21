@@ -11,7 +11,7 @@
 <meta property='og:description' content="台湾交通大学陳鄰安老师统计学课程笔记">
 <meta property='og:url' content='http://localhost:1313/p/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/'>
 <meta property='og:site_name' content='Haitong Lan'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Note' /><meta property='article:published_time' content='2025-01-26T00:21:05&#43;08:00'/><meta property='article:modified_time' content='2025-02-19T00:21:05&#43;08:00'/><meta property='og:image' content='http://localhost:1313/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Note' /><meta property='article:published_time' content='2025-01-26T00:21:05&#43;08:00'/><meta property='article:modified_time' content='2025-02-21T00:09:05&#43;08:00'/><meta property='og:image' content='http://localhost:1313/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png' />
 <meta name="twitter:title" content="学习笔记|数理统计">
 <meta name="twitter:description" content="台湾交通大学陳鄰安老师统计学课程笔记"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='http://localhost:1313/post_file/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/cover.png' />
@@ -109,6 +109,7 @@
         <li><a href="#random-variable">Random Variable</a></li>
         <li><a href="#probability-distribution">Probability distribution</a></li>
         <li><a href="#random-voctor">Random Voctor</a></li>
+        <li><a href="#statistical-basis">Statistical basis</a></li>
       </ol>
     </li>
     <li><a href="#statistical-inference---point-estimation">Statistical Inference - Point Estimation</a></li>
@@ -194,7 +195,7 @@
 
 
                 <time class="article-time--reading">
-                    3 minute read
+                    4 minute read
                 </time>
             </div>
         
@@ -229,33 +230,51 @@
     F(x) = P(X(\omega) \leq x) = P(\{\omega\in\Omega:X(\omega)\in (-\infty,x]\})
     $$
    </div>
-<p><strong>Lemma 2.</strong> 若$X$为r.v.,令g为$\mathbb{R}\rightarrow\mathbb{R}$的映射，则$Y=g(X)$同样为r.v.,且可以确定其分布。<br>
+<p><strong>Def 2(m.g.f.).</strong> Let $X$ be a random variable with CDF $F_X$. The moment generating function (mgf) of $X$ (or $F_X$ ), denoted by $M_X(t)$, is
+$$
+M_X(t)=\mathrm{E}\left[e^{t X}\right]
+$$
+provided this expectation exists for $t$ in some open neighborhood of 0 .
+That is, there is an $h&gt;0$ such that for all $t$ in $-h&lt;t&lt;h,
+\mathrm{E}\left[e^{t X}\right]$ exists. If the expectation does
+not exist in an open neighborhood of 0 , we say that the moment
+generating function does not exist.
+<br>
+In other words, the moment-generating function of $X$ is the expectation of the random variable $e^{t X}$. More generally, when $\mathbf{X}=\left(X_1, \ldots, X_n\right)^{\mathrm{T}}$, an $n$-dimensional random vector, and $\mathbf{t}$ is a fixed vector, one uses $\mathbf{t} \cdot \mathbf{X}=\mathbf{t}^{\mathrm{T}} \mathbf{X}$ instead of $t X$ :
+$$
+M_{\mathbf{X}}(\mathbf{t}):=\mathrm{E}\left(e^{\mathbf{t}^{\mathrm{T}} \mathbf{X}}\right)
+$$
+$M_X(0)$ always exists and is equal to 1 .
+<br>
+<strong>Note.</strong> 几种常见分布的m.g.f:
+$$
+\begin{cases}X \sim N\left(\mu, \sigma^2\right) &amp; , M_x(t)=e^{\mu t+\frac{\sigma^2}{2} t^2}, \forall t \in R \\ X \sim \operatorname{Gamma}(\alpha, \beta) &amp; , M_x(t)=(1-\beta t)^{-\alpha}, t&lt;\frac{1}{\beta} \\ X \sim b(n, p) &amp; , M_x(t)=\left(1-p+p e^t\right)^n, \forall t \in R \\ X \sim \operatorname{Poisson}(\lambda) &amp; , M_x(t)=e^{\lambda\left(e^t-1\right)}, \forall t \in R\end{cases}
+$$</p>
+<p><strong>Lemma 3.</strong> 若$X$为r.v.,令g为$\mathbb{R}\rightarrow\mathbb{R}$的映射，则$Y=g(X)$同样为r.v.,且可以确定其分布。<br>
 <strong>Remark.</strong><br>
 两种求得$g(X)$的pdf的方法：</p>
 <ul>
 <li>
 <p>Distribution method:</p>
 <p>Suppose that X is a continuous r.v.. Let $Y=g(X)$
-The d.f(distribution function) of Y is</p>
-<p>$$
+The d.f(distribution function) of Y is
+$$
 G(y)=P(Y \leq y)=P(g(X) \leq y)
-$$</p>
-<p>If G is differentiable then the p.d.f. of $Y=g(X)$ is $g(y)=G^{\prime}(y)$.</p>
+$$
+If G is differentiable then the p.d.f. of $Y=g(X)$ is $g(y)=G^{\prime}(y)$.</p>
 </li>
 <li>
-<p>mgf method :(moment generating function)</p>
+<p>mgf method :(moment generating function)
+$$
+\begin{aligned}
+E\left[e^{t x}\right]= \begin{cases}\sum e^{t x} f(x) &amp; \text { (discrete) } \\
+\int_{-\infty}^{\infty} e^{t x} f(x) d x &amp; \text { (continuous) }\end{cases}
+\end{aligned}
+$$</p>
 </li>
 </ul>
-  <div>
-  $$
-  \begin{aligned}
-    E\left[e^{t x}\right]= \begin{cases}\sum e^{t x} f(x) & \text { (discrete) } \\ 
-  \int_{-\infty}^{\infty} e^{t x} f(x) d x & \text { (continuous) }\end{cases}
-  \end{aligned}
-  $$
-  </div>
-<p><strong>Thm 3.</strong> m.g.f. $M_x(t)$ and its distribution (p.d.f. or d.f.) forms a $1-1$ functions.</p>
-<p><strong>Thm 4.</strong> $\quad M_X^{(k)}(0)=E\left[X^k\right], k=1,2, \cdots$</p>
+<p><strong>Thm 4.</strong> m.g.f. $M_x(t)$ and its distribution (p.d.f. or d.f.) forms a $1-1$ functions.</p>
+<p><strong>Thm 5.</strong> $\quad M_X^{(k)}(0)=E\left[X^k\right], k=1,2, \cdots$</p>
 <h3 id="probability-distribution">Probability distribution
 </h3><p><strong>Def 1.</strong> Gamma function $\Gamma(\alpha)=\int_0^{\infty} x^{\alpha-1} e^{-x} d x$<br>
 <strong>Properties:</strong></p>
@@ -265,36 +284,34 @@ $$</p>
 <li>$\Gamma(n)=(n-1) \Gamma(n-1)=\cdots=(n-1)(n-2) \cdots 1 \cdot \Gamma(1)=(n-1)$ !</li>
 <li>$\Gamma\left(\frac{1}{2}\right)=\sqrt{\pi}$</li>
 </ol>
-<p><strong>Def 2.</strong> We say that $X$ has a Gamma distribution if it has p.d.f</p>
-<p>$$
+<p><strong>Def 2.</strong> We say that $X$ has a Gamma distribution if it has p.d.f
+$$
 f(x)=\frac{1}{\Gamma(\alpha) \beta^\alpha} x^{\alpha-1} e^{-\frac{x}{\beta}}, x&gt;0, \text { for some } \alpha&gt;0, \beta&gt;0
-$$</p>
-<p>We denote by $X \sim \operatorname{Gamma}(\alpha, \beta)$.<br>
-<strong>Note.</strong> If $X$ has Gamma distribution with $\beta=2$ and $\alpha=\frac{r}{2}$, we say that $X$ has a chi-square distribution with degrees of freedom r. The p.d.f is</p>
-<p>$$
+$$
+We denote by $X \sim \operatorname{Gamma}(\alpha, \beta)$.<br>
+<strong>Note.</strong> If $X$ has Gamma distribution with $\beta=2$ and $\alpha=\frac{r}{2}$, we say that $X$ has a chi-square distribution with degrees of freedom r. The p.d.f is
+$$
 f(x)=\frac{1}{\Gamma\left(\frac{r}{2}\right) 2^{\frac{r}{2}}} x^{\frac{r}{2}-1} e^{-\frac{x}{2}}, x&gt;0
-$$</p>
-<p>We denote by $X \sim \chi^2(r)$.</p>
+$$
+We denote by $X \sim \chi^2(r)$.</p>
 <p><strong>Ex 1.</strong> If $X \sim \operatorname{Gamma}(\alpha, \beta)$, m.g.f of $X$ is</p>
-<div>
-$$
+<p>$$
 \begin{aligned}
-M_X(t) & =E\left[e^{t X}\right]=\int_0^{\infty} e^{t x} \frac{1}{\Gamma(\alpha) \beta^\alpha} x^{\alpha-1} e^{-\frac{x}{\beta}} d x=\int_0^{\infty} \frac{1}{\Gamma(\alpha) \beta^\alpha} x^{\alpha-1} e^{-\frac{(1-\beta t) x}{\beta}} d x \\
-& =(1-\beta t)^{-\alpha} \int_0^{\infty} \frac{1}{\Gamma(\alpha)\left(\frac{\beta}{1-\beta t}\right)^2} x^{\alpha-1} e^{-\frac{x}{1-\beta t}} d x \\
-& =(1-\beta t)^{-\alpha}, t<\frac{1}{\beta} \\
-& \because \frac{\beta}{1-\beta t}>0 \Rightarrow 1-\beta t>0 \Rightarrow t<\frac{1}{\beta} \\
-M_X^{\prime}(t) & =\alpha(1-\beta t)^{-\alpha-1} \beta \\
-& \Rightarrow \operatorname{Mean} \mu=E[X]=M_X^{\prime}(0)=\alpha \beta \\
-M_X^{\prime \prime}(t) & =\alpha(\alpha+1)(1-\beta t)^{-\alpha-2} \beta^2 \\
-& \Rightarrow E\left[X^2\right]=M_X^{\prime \prime}(0)=\alpha(\alpha+1) \beta^2 \\
-& \Rightarrow \text { Variance } \sigma^2=M_X^{\prime \prime}(0)-\left(M_X^{\prime}(0)\right)^2=\alpha(\alpha+1) \beta^2-(\alpha \beta)^2=\alpha \beta^2
+M_X(t) &amp; =E\left[e^{t X}\right]=\int_0^{\infty} e^{t x} \frac{1}{\Gamma(\alpha) \beta^\alpha} x^{\alpha-1} e^{-\frac{x}{\beta}} d x=\int_0^{\infty} \frac{1}{\Gamma(\alpha) \beta^\alpha} x^{\alpha-1} e^{-\frac{(1-\beta t) x}{\beta}} d x \\
+&amp; =(1-\beta t)^{-\alpha} \int_0^{\infty} \frac{1}{\Gamma(\alpha)\left(\frac{\beta}{1-\beta t}\right)^2} x^{\alpha-1} e^{-\frac{x}{1-\beta t}} d x \\
+&amp; =(1-\beta t)^{-\alpha}, t&lt;\frac{1}{\beta} \\
+&amp; \because \frac{\beta}{1-\beta t}&gt;0 \Rightarrow 1-\beta t&gt;0 \Rightarrow t&lt;\frac{1}{\beta} \\
+M_X^{\prime}(t) &amp; =\alpha(1-\beta t)^{-\alpha-1} \beta \\
+&amp; \Rightarrow \operatorname{Mean} \mu=E[X]=M_X^{\prime}(0)=\alpha \beta \\
+M_X^{\prime \prime}(t) &amp; =\alpha(\alpha+1)(1-\beta t)^{-\alpha-2} \beta^2 \\
+&amp; \Rightarrow E\left[X^2\right]=M_X^{\prime \prime}(0)=\alpha(\alpha+1) \beta^2 \\
+&amp; \Rightarrow \text { Variance } \sigma^2=M_X^{\prime \prime}(0)-\left(M_X^{\prime}(0)\right)^2=\alpha(\alpha+1) \beta^2-(\alpha \beta)^2=\alpha \beta^2
 \end{aligned}
-$$
-</div>
+$$</p>
 <h3 id="random-voctor">Random Voctor
 </h3><p><strong>Definition 1.</strong>  Suppose that the random variables $X$ and $Y$
 are defined to assume values in $\displaystyle I\subseteq \mathbb {R}$.
-We say that $n$ random variables $X_1, \ldots, X_n$ are i.i.d(Independent and identically distributed random variables).  If and only if</p>
+We say that $n$ random variables $X_1, \ldots, X_n$ are <strong>i.i.d(Independent and identically distributed random variables)</strong>.  If and only if</p>
 <ul>
 <li>$F_{X_1}(x)=F_{X_k}(x)$ , $\forall k \in{1, \ldots, n}$ and $\forall x \in I$</li>
 <li>$F_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right)=F_{X_1}\left(x_1\right) \cdot \ldots \cdot F_{X_n}\left(x_n\right)$ , $\forall x_1, \ldots, x_n \in I$</li>
@@ -308,7 +325,7 @@ x_1 \\
 x_n
 \end{array}\right) \in A\right)=\int \cdots \int f_{X_1, \ldots, X_n}\left(x_1, \ldots, x_n\right) d x_1 \cdots d x_n
 $$
-Let $y_1=g_1\left(x_1, \ldots, x_n\right), \cdots, y_n=g_n\left(x_1, \ldots, x_n\right)$ be a $1-1$ function with inverse $x_1=w_1\left(y_1, \ldots, y_n\right), \cdots, x_n=w_n\left(y_1, \ldots, y_n\right)$ and Jacobian
+Let $y_1=g_1\left(x_1, \ldots, x_n\right), \cdots, y_n=g_n\left(x_1, \ldots, x_n\right)$ be a $1-1$ function with inverse $x_1=w_1\left(y_1, \ldots, y_n\right), \cdots, x_n=w_n\left(y_1, \ldots, y_n\right)$ and <strong>Jacobian</strong>
 $$
 J=\left|\begin{array}{ccr}
 \frac{\partial x_1}{\partial y_1} &amp; \cdots &amp; \frac{\partial x_1}{\partial y_n} \\
@@ -330,6 +347,49 @@ $$
 <br>
 <strong>Remark.</strong> 可以用该方法构造从$n$个随机变量的联合分布到另外$n$个随机变量联合分布的映射(注意映射到的值域)，
 然后再通过积分的方式获得边缘联合分布。</p>
+<h3 id="statistical-basis">Statistical basis
+</h3><p><strong>Def 1(随机样本).</strong> If a sequence of r.v.&rsquo;s $X_1,\cdots,X_n$ are i.i.d.,then they are called a <strong>random sample</strong>.</p>
+<p><strong>Def 2(统计量和参数).</strong> Any function $g(X_1,\cdots,X_n)$ of a random sample $X_1,\cdots,X_n$ which is
+not dependent on a parameter $\theta$ is called a <strong>statistic</strong>.<br>
+<strong>Note.</strong> If $X$ is a random sample with p.d.f. $f(x;\theta)$, where $\theta$ is an unknown constant, then $\theta$ is called <strong>parameter</strong>.统计量是已知的东西(从样本中直接获得)，参数是未知的，也是需要估计的。</p>
+<p>为了介绍 <strong>Thm 8</strong>,我们介绍以下定义和定理作为铺垫，这些定理同样是很实用的定理。</p>
+<p><strong>Lemma 2(独立的等价判定).</strong> $X_1$ and $X_2$ are independent if and only if
+$$
+M_{X_1, X_2}\left(t_1, t_2\right)=M_{X_1}\left(t_1\right) M_{X_2}\left(t_2\right), \forall t_1, t_2 .
+$$</p>
+<p><strong>Thm 3.</strong> 关于独立的两个定理：</p>
+<ol>
+<li>If $\left(X_1, \ldots, X_n\right)$ and $\left(Y_1, \ldots, Y_m\right)$ are independent（that is:$f(X_1, \ldots, X_n,Y_1, \ldots, Y_m) = f(X_1, \ldots, X_n)f(Y_1, \ldots, Y_m)$）, then $g\left(X_1, \ldots, X_n\right)$ and $h\left(Y_1, \ldots, Y_m\right)$ are also independent.</li>
+<li>If $X, Y$ are independent, then
+$$
+\mathrm{E}[g(X) h(Y)]=\mathrm{E}[g(X)] \mathrm{E}[h(Y)]
+$$</li>
+</ol>
+<p><strong>Thm 4.</strong> Joint m.g.f. $M_{X,Y}(0,t) = M_Y(t)$.</p>
+<p><strong>Thm 5.</strong> $X \sim \chi^2(r_1)$,$Y \sim \chi^2(r_2)$,if $X\perp Y$,then $X+Y\sim \chi^2(r_1+r_2)$.</p>
+<p><strong>Thm 6.</strong> $Z\sim N(0,1)$,then $Z^2\sim \chi^2(1)$.</p>
+<p><strong>Def 7(样本均值，样本方差).</strong> 一组随机样本 $X_1,\ldots,X_n$,样本均值为
+$\bar{X} = \frac{1}{n}\sum_{i=1}^{n} X_i$，样本方差为
+$S^2 = \frac{1}{n-1}\sum_{i=1}^{n}(X_i-\bar{X})^2$.二者都是统计量。</p>
+<p><strong>Thm 8.</strong> If $\left(X_1, \ldots, X_n\right)$ is a random sample from $N\left(\mu, \sigma^2\right)$, then<br>
+(a) $\bar{X} \sim N\left(\mu, \frac{\sigma^2}{n}\right)$<br>
+(b) $\bar{X}$ and $S^2$ are independent.<br>
+(c) $\frac{(n-1) S^2}{\sigma^2} \sim \chi^2(n-1)$
+<br>
+<strong>Remark.</strong></p>
+<ol>
+<li>样本均值不等于均值，样本均值的期望才等于均值，注意区分以下两者的关系。
+$$
+\begin{cases}
+\sum_i \left( \frac{X_i-\mu}{\sigma}\right)^2\sim\chi^2(n) \\
+\frac{(n-1) S^2}{\sigma^2} = \sum_i \left( \frac{X_i-\bar{X}}{\sigma}\right)^2 \sim \chi^2(n-1)
+\end{cases}
+$$</li>
+<li><strong>Thm 8</strong> 的(b)是十分难得的，因为二者都可以看作 $X_i$ 的函数，而存在独立性，
+归根结底是因为 $\bar{X}$ 和 $\left(X_1-\bar{X},\ldots,X_n-\bar{X}\right)$ 独立，
+即
+$$M_{\bar{X}}(t)M_{X_1-\bar{X},\ldots,X_n-\bar{X}}(t_1,\ldots,t_n) = M_{\bar{X},X_1-\bar{X},\ldots,X_n-\bar{X}}(t,t_1,\ldots,t_n)$$.</li>
+</ol>
 <h2 id="statistical-inference---point-estimation">Statistical Inference - Point Estimation
 </h2><h2 id="continue-to-point-estimation-umvue">Continue to Point Estimation-UMVUE
 </h2><h2 id="confidence-interval">Confidence Interval
@@ -368,7 +428,7 @@ $$
 
 
         <span>
-            Last updated on Feb 19, 2025 00:21 CST
+            Last updated on Feb 21, 2025 00:09 CST
         </span>
     </section></footer>
 
