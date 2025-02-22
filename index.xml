@@ -231,7 +231,8 @@ $$
 \end{array}\right.
 $$&lt;/p&gt;
 &lt;h2 id=&#34;statistical-inference---point-estimation&#34;&gt;Statistical Inference - Point Estimation
-&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Def 1（估计量）.&lt;/strong&gt; We call a statistic $\hat{\theta}=\hat{\theta}\left(X_1, \ldots, X_n\right)$ an &lt;strong&gt;estimator&lt;/strong&gt; of parameter $\theta$ if it is used to estimate $\theta$. If $X_1=x_1, \ldots, X_n=x_n$ are observed, then $\hat{\theta}=\hat{\theta}\left(x_1, \ldots, x_n\right)$ is called an &lt;strong&gt;estimate&lt;/strong&gt; of $\theta$.&lt;/p&gt;
+&lt;/h2&gt;&lt;h3 id=&#34;unbiased-and-consistent&#34;&gt;Unbiased and consistent
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Def 1（估计量）.&lt;/strong&gt; We call a statistic $\hat{\theta}=\hat{\theta}\left(X_1, \ldots, X_n\right)$ an &lt;strong&gt;estimator&lt;/strong&gt; of parameter $\theta$ if it is used to estimate $\theta$. If $X_1=x_1, \ldots, X_n=x_n$ are observed, then $\hat{\theta}=\hat{\theta}\left(x_1, \ldots, x_n\right)$ is called an &lt;strong&gt;estimate&lt;/strong&gt; of $\theta$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Def 2(无偏估计).&lt;/strong&gt; We call an estimator $\theta$ unbiased for $\theta$ if it satisfies
 $$
 \begin{gathered}
@@ -300,13 +301,50 @@ $$
 $$
 The &lt;strong&gt;sample $k_{t h}$ moment&lt;/strong&gt; is defined by $\frac{1}{n} \sum_{i=1}^n X_i{ }^k$.&lt;br&gt;
 &lt;strong&gt;Remark.&lt;/strong&gt; 假设方差有限，样本原点矩是原点矩的无偏估计量和一致性估计量 (WLLN)。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Method 1:矩估计，Method of Moments, MoM&lt;/strong&gt;&lt;br&gt;
+&lt;h3 id=&#34;point-estimation-method&#34;&gt;Point estimation method
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Method 1:矩估计，Method of Moments, MoM&lt;/strong&gt;&lt;br&gt;
 使用样本矩估计原点矩，然后反解出参数 $\theta$ 作为 $\hat{\theta}$。&lt;br&gt;
 If $\theta=\left(\theta_1, \ldots, \theta_k\right)$ is $k$-variate, the method of moment estimator $\left(\hat{\theta_1}, \ldots, \hat{\theta_k}\right)$ solves $\theta_1, \ldots, \theta_k$ for
 $$
 \frac{1}{n} \sum_{i=1}^n X_i{ }^j=E_{\theta_1, \ldots, \theta_k}\left(X^j\right), j=1, \ldots, k
 $$
 &lt;strong&gt;Remark.&lt;/strong&gt; 矩估计方法可以保证估计量相对于k阶原点矩是无偏且一致的，但无法保证中心矩的无偏性和一致性。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Method 2:,最大似然估计，Maximum Likelihood Estimator&lt;/strong&gt;&lt;br&gt;
+Let $X_1, \ldots, X_n$ be a random sample with p.d.f. $f(x, \theta)$.
+The joint p.d.f. of $X_1, \ldots, X_n$ is
+$$
+f\left(x_1, \ldots, x_n, \theta\right)=\prod_{i=1}^n f\left(x_i, \theta\right), x_i \in R, i=1, \ldots, n
+$$
+Let $\Theta$ be the space of possible values of $\theta$. We call $\Theta$ the parameter space.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Def 1(似然函数).&lt;/strong&gt; The likelihood function of a random sample is defined as its joint p.d.f. as
+$$
+L(\theta)=L\left(\theta, x_1, \ldots, x_n\right)=f\left(x_1, \ldots, x_n, \theta\right), \theta \in \Theta
+$$
+which is considered as a function of $\theta$.
+&lt;strong&gt;Remark.&lt;/strong&gt; 这里穿插一点贝叶斯学派和频率学派不同的一点，频率学派认为 $\theta$ 是一个确定的数值，尽管难以得到，但是这个数值是确定的，而分布一般写成 $F(X_1,\cdots,X_N,\theta)$,这是为了强调 $\theta$ 作为函数的参数这一点，但是按照严格的概率论写法，括号内应为随机变量；贝叶斯学派认为 $\theta$ 本身就是服从一定分布的随机变量，一般将似然函数写为 $L(\theta) = f(X_1,X_2,\cdots,X_n\mid \theta)$,写法的不同反应了对参数空间认知的根本差异。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Def 2(似然估计量).&lt;/strong&gt; Let $\hat{\theta}=\hat{\theta}\left(X_1, \ldots, X_n\right)$ be any value of $\theta$ that &lt;strong&gt;maximizes&lt;/strong&gt; $L\left(\theta, X_1, \ldots, X_n\right)$. Then we call $\hat{\theta}=\hat{\theta}\left(X_1, \ldots, X_n\right)$ the &lt;strong&gt;maximum likelihood estimator (m.l.e)&lt;/strong&gt; of $\theta$. When $X_1=x_1, \ldots, X_n=x_n$ is observed, we call $\hat{\theta}=\hat{\theta}\left(x_1, \ldots, x_n\right)$ the maximum likelihood estimate of $\theta$.&lt;br&gt;
+&lt;strong&gt;Remark.&lt;/strong&gt; 即似然估计量为
+$$
+\hat{\theta} = \argmax_{\theta\in\Theta}L(\theta)
+$$
+理解最大似然估计有很多种方法，一种最直观的方法就是使得当前采样事件发生概率最大的参数就是最大似然估计量需要估计的参数，可以证明，最大似然估计量可以等价表示为(或者具有如下性质)
+$$
+\hat{\theta} =\argmin_{\theta\in\Theta} D_{k L}\left(f_\theta(x) \| f_{\hat{\theta}}(x)\right)
+$$
+其中,$f_\theta(x) $ 和 $f_{\hat{\theta}}(x)$ 分别表示真实分布和估计分布。&lt;/p&gt;
+&lt;p&gt;在给出具体例子之前，我们引入顺序统计量的概念和一个定理：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Def 3(Order statistics).&lt;/strong&gt; Let $\left(X_1, \ldots, X_n\right)$ be a random sample with d.f. F and p.d.f. f.
+Let $\left(Y_1, \ldots, Y_n\right)$ be a permutation $\left(X_1, \ldots, X_n\right)$ such that $Y_1 \leq Y_2 \leq \cdots Y_n$. Then we call $\left(Y_1, \ldots, Y_n\right)$ the order statistic of $\left(X_1, \ldots, X_n\right)$ where $Y_1$ is the first (smallest) order statistic, $Y_2$ is the second order statistic,&amp;hellip;, $Y_n$ is the largest order statistic.&lt;br&gt;
+&lt;strong&gt;Remark.&lt;/strong&gt; $Y_1 = \min\{X_1, \ldots, X_n\}$,$Y_n = \max\{X_1, \ldots, X_n\}$;顺序统计量一般不相互独立，也不同分布。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thm 4(两个顺序统计量的pdf).&lt;/strong&gt; Let $\left(X_1, \ldots, X_n\right)$ be a random sample from a &amp;ldquo;continuous distribution&amp;rdquo; with p.d.f. $f(x)$ and d.f $F(x)$. Then the p.d.f. of $Y_n=\max \left\{X_1, \ldots, X_n\right\}$ is
+$$
+g_n(y)=n(F(y))^{n-1} f(y)
+$$
+and the p.d.f. of $Y_1=\min \left\{X_1, \ldots, X_n\right\}$ is
+$$
+g_1(y)=n(1-F(y))^{n-1} f(y)
+$$&lt;/p&gt;
 &lt;h2 id=&#34;continue-to-point-estimation-umvue&#34;&gt;Continue to Point Estimation-UMVUE
 &lt;/h2&gt;&lt;h2 id=&#34;confidence-interval&#34;&gt;Confidence Interval
 &lt;/h2&gt;</description>
